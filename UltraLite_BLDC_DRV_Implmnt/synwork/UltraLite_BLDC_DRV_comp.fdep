@@ -1,0 +1,15 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\thipo\\OneDrive\\Documents\\DevTLHX\\FPGA\\icecube_project\\UltraLite_BLDC_DRV\\UltraLite_BLDC_DRV_Implmnt\\synwork\\UltraLite_BLDC_DRV_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\thipo\\OneDrive\\Documents\\DevTLHX\\FPGA\\icecube_project\\UltraLite_BLDC_DRV\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1650424169
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1650424171
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1650424172
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1650424172
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1650424172
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1650424172
+#CUR:"C:\\Users\\thipo\\OneDrive\\Documents\\DevTLHX\\FPGA\\icecube_project\\UltraLite_BLDC_DRV\\top.v":1650268443
+0			"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work top 0

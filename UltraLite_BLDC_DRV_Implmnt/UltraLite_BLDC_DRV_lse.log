@@ -1,0 +1,189 @@
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Apr 20 14:32:49 2022
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f UltraLite_BLDC_DRV_lse.prj 
+
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is SWG16.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : SWG16
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+The -top option is not used.
+Target frequency = 48.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = binary
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV (searchpath added)
+Verilog design file = top.v
+-sdc option: SDC file input not used.
+WARNING - synthesis: Setting top as the top-level module. To specify the top-level module explicitly, use the -top option.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file top.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(79): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(88): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(98): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(108): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(118): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(170): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(179): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(189): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(199): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(209): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
+Top module name (Verilog): top
+INFO - synthesis: top.v(5): compiling module top. VERI-1018
+WARNING - synthesis: top.v(184): using initial value of drvpat since it is never assigned. VERI-1220
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4021): compiling module SB_HFOSC. VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4121): compiling module SB_RGBA_DRV(RGB0_CURRENT="0b000111",RGB1_CURRENT="0b000111",RGB2_CURRENT="0b000111"). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b101001). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b01). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4234): compiling module SB_I2C_FIFO(I2C_SLAVE_ADDR="0b1000001"). VERI-1018
+WARNING - synthesis: top.v(191): expression size 32 truncated to fit in target size 11. VERI-1209
+WARNING - synthesis: top.v(201): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: top.v(206): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(326): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(374): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(109): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(118): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(170): input port FIFORST is not connected on this instance. VDB-1013
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top.
+WARNING - synthesis: top.v(389): Register hard_SBCSi_145 is stuck at One. VDB-5014
+WARNING - synthesis: top.v(109): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(118): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(170): input port FIFORST is not connected on this instance. VDB-1013
+
+
+
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB0.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB1.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB2.
+WARNING - synthesis: Skipping pad insertion on io_i2c_sda due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_R due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_G due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_B due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on io_i2c_scl due to black_box_pad_pin attribute.
+WARNING - synthesis: top.v(389): Register hard_SBDATi_i9 is stuck at Zero. VDB-5013
+Applying 48.000000 MHz constraint to all clocks
+
+Writing scf file : UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+
+Results of NGD DRC are available in top_drc.log.
+
+################### Begin Area Report (top)######################
+Number of register bits => 71 of 1000 (7 % )
+SB_CARRY => 17
+SB_DFF => 20
+SB_DFFE => 26
+SB_DFFESR => 13
+SB_DFFSR => 12
+SB_GB => 1
+SB_HFOSC => 1
+SB_I2C_FIFO => 1
+SB_IO_OD => 2
+SB_LUT4 => 131
+SB_RGBA_DRV => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : sysclk, loads : 71
+  Net : n2981, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : i2c_steps_3, loads : 26
+  Net : i2c_steps_1, loads : 24
+  Net : i2c_steps_2, loads : 23
+  Net : i2c_steps_0, loads : 23
+  Net : hard0_SBACKo, loads : 16
+  Net : n953, loads : 11
+  Net : motor_on, loads : 8
+  Net : n1779, loads : 8
+  Net : n1778, loads : 8
+  Net : n1831, loads : 8
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 20.833333 -name    |             |             |
+clk0 [get_nets sysclk]                  |   48.000 MHz|   53.223 MHz|    12  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 37.176  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.453  secs
+--------------------------------------------------------------

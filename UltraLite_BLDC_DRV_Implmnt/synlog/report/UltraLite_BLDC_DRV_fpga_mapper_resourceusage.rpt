@@ -1,0 +1,22 @@
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40ul1kswg16
+Cell usage:
+SB_DFF          8 uses
+SB_DFFE         10 uses
+SB_HFOSC        1 use
+SB_I2C_FIFO     1 use
+SB_IO_OD        2 uses
+SB_RGBA_DRV     1 use
+SB_LUT4         30 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   18 (1%)
+
+@S |Mapping Summary:
+Total  LUTs: 30 (2%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 30 = 30 
+

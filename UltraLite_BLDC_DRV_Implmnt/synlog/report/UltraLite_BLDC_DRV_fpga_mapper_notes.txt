@@ -1,0 +1,11 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"c:\users\thipo\onedrive\documents\devtlhx\fpga\icecube_project\ultralite_bldc_drv\top.v":233:0:233:5|Removing sequential instance i2c_steps[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\thipo\onedrive\documents\devtlhx\fpga\icecube_project\ultralite_bldc_drv\top.v":187:0:187:5|Removing sequential instance PWM_B (in view: work.top(verilog)) because it does not drive other instances.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\UltraLite_BLDC_DRV.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

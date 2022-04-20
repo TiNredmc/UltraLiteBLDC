@@ -1,0 +1,20 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4020:7:4020:14|Synthesizing module SB_HFOSC in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4120:7:4120:17|Synthesizing module SB_RGBA_DRV in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4073:7:4073:14|Synthesizing module SB_IO_OD in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4233:7:4233:17|Synthesizing module SB_I2C_FIFO in library work.
+@N: CG364 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":5:7:5:9|Synthesizing module top in library work.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":255:16:255:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":273:16:273:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":291:16:291:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":310:17:310:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":333:16:333:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":353:17:353:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":379:16:379:24|Removing redundant assignment.
+@N: CL189 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Register bit hard_SBCSi is always 1.
+@N: CL201 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Trying to extract state machine for register i2c_steps.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+

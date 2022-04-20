@@ -1,0 +1,112 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:31:51
+
+* File Generated:     Apr 20 2022 14:33:44
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40UL1K
+    Package:       SWG16
+
+Design statistics:
+------------------
+    FFs:                  71
+    LUTs:                 157
+    RAMs:                 0
+    IOBs:                 0
+    GBs:                  1
+    PLLs:                 0
+    Warm Boots:           0
+    I2C_FIFOs:            1
+    HFOSCs:               1
+    LFOSCs:               0
+    RGBA_DRVs:            1
+    IR400_DRVs:           0
+    IR500_DRVs:           0
+    BARCODE_DRVs:         0
+    LEDDA_IPs:            0
+    IR_IPs:               0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 157/1248
+        Combinational Logic Cells: 86       out of   1248      6.89103%
+        Sequential Logic Cells:    71       out of   1248      5.6891%
+        Logic Tiles:               28       out of   156       17.9487%
+    Registers: 
+        Logic Registers:           71       out of   1248      5.6891%
+        IO Registers:              0        out of   240       0
+    Block RAMs:                    0        out of   14        0%
+    Warm Boots:                    0        out of   1         0%
+    I2C_FIFOs:                     1        out of   2         50%
+    HFOSCs:                        1        out of   1         100%
+    LFOSCs:                        0        out of   1         0%
+    RGBA_DRVs:                     1        out of   1         100%
+    IR400_DRVs:                    0        out of   1         0%
+    IR500_DRVs:                    0        out of   1         0%
+    BARCODE_DRVs:                  0        out of   1         0%
+    LEDDA_IPs:                     0        out of   1         0%
+    IR_IPs:                        0        out of   1         0%
+    Pins:
+        Input Pins:                1        out of   10        10%
+        Output Pins:               0        out of   10        0%
+        InOut Pins:                1        out of   10        10%
+    Global Buffers:                1        out of   8         12.5%
+    PLLs:                          0        out of   0       
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 0        out of   0         0%
+    Bank 1: 0        out of   0         0%
+    Bank 0: 2        out of   5         40%
+    Bank 2: 0        out of   5         0%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                                Signal Name 
+    ----------  ---------  -----------  -------  -------  -----------                                                ----------- 
+    A1          Input      SB_LVCMOS    No       0        Simple Input (Open-drain IO)                               io_i2c_scl  
+
+    Inoutput Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                                Signal Name 
+    ----------  ---------  -----------  -------  -------  -----------                                                ----------- 
+    A2          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable (Open-drain IO)  io_i2c_sda  
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name
+    -------------  -------  ---------  ------  -----------
+    5              2                   71      sysclk  
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 3 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile     1049 out of  28951      3.62336%
+                          Span 4       99 out of   6784      1.45932%
+                         Span 12       27 out of   1456      1.8544%
+                  Global network        2 out of      8      25%
+      Vertical Inter-LUT Connect       39 out of   1092      3.57143%
+

@@ -1,0 +1,18 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  71 of 1000 (7.100%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        17          100.0
+                             SB_DFF        20          100.0
+                            SB_DFFE        26          100.0
+                          SB_DFFESR        13          100.0
+                           SB_DFFSR        12          100.0
+                              SB_GB         1          100.0
+                           SB_HFOSC         1          100.0
+                        SB_I2C_FIFO         1          100.0
+                           SB_IO_OD         2          100.0
+                            SB_LUT4       131          100.0
+                        SB_RGBA_DRV         1          100.0
+                              TOTAL       225

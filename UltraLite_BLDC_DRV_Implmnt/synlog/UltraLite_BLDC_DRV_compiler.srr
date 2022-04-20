@@ -1,0 +1,110 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4020:7:4020:14|Synthesizing module SB_HFOSC in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4120:7:4120:17|Synthesizing module SB_RGBA_DRV in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4073:7:4073:14|Synthesizing module SB_IO_OD in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4233:7:4233:17|Synthesizing module SB_I2C_FIFO in library work.
+
+@N: CG364 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":5:7:5:9|Synthesizing module top in library work.
+
+@W: CG532 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":173:0:173:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":255:16:255:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":273:16:273:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":291:16:291:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":310:17:310:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":333:16:333:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":353:17:353:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":379:16:379:24|Removing redundant assignment.
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":104:2:104:9|Input LATCHINPUTVALUE on instance sbio_sda is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":104:2:104:9|Input CLOCKENABLE on instance sbio_sda is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":104:2:104:9|Input INPUTCLK on instance sbio_sda is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":104:2:104:9|Input OUTPUTCLK on instance sbio_sda is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":104:2:104:9|Input DOUT1 on instance sbio_sda is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":113:2:113:9|Input LATCHINPUTVALUE on instance sbio_scl is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":113:2:113:9|Input CLOCKENABLE on instance sbio_scl is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":113:2:113:9|Input INPUTCLK on instance sbio_scl is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":113:2:113:9|Input OUTPUTCLK on instance sbio_scl is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":113:2:113:9|Input OUTPUTENABLE on instance sbio_scl is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":113:2:113:9|Input DOUT1 on instance sbio_scl is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":113:2:113:9|Input DOUT0 on instance sbio_scl is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG1273 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":114:16:114:25|An input port (port io_i2c_scl) is the target of an assignment - please check if this is intentional
+@W: CG781 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":122:2:122:6|Input FIFORST on instance I2C_1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG133 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":34:9:34:14|Object drvpat_0_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":34:9:34:14|Object drvpat_1_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":34:9:34:14|Object drvpat_2_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":34:9:34:14|Object drvpat_3_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":34:9:34:14|Object drvpat_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":34:9:34:14|Object drvpat_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":34:9:34:14|Object drvpat_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":34:9:34:14|Some of the address location in the memory "drvpat" are not assigned.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning unused register i2c_dmrd[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Removing unused bit 7 of i2c_stat[7:0]. Either assign all bits or reduce the width of the signal.
+@W: CL271 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning unused bits 5 to 3 of i2c_stat[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning unused bits 1 to 0 of i2c_stat[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":122:2:122:6|Pruning unused register i2c_cmd_2_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":187:0:187:5|Pruning unused register drv_cnt[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":392:0:392:5|Pruning unused register PWM_duty[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":122:2:122:6|Pruning unused register i2c_cmd_0_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":122:2:122:6|Pruning unused register i2c_cmd_1_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning unused register i2c_cmd_cnt[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":392:0:392:5|Pruning unused register cmd_decoded. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":187:0:187:5|Pruning unused register drv_clk_counter[10:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":392:0:392:5|Pruning unused register motor_on. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":187:0:187:5|Pruning unused register PWM_cnt[7:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Register bit hard_SBCSi is always 1.
+@N: CL201 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Trying to extract state machine for register i2c_steps.
+@W: CL279 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning register bits 9 to 8 of hard_SBDATi[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning register bits 6 to 5 of hard_SBDATi[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning register bit 3 of hard_SBDATi[9:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning register bit 1 of hard_SBDATi[9:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL257 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Register bit 0 always 0, optimizing ...
+@W: CL169 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":233:0:233:5|Pruning unused register hard_SBDATi[0]. Make sure that there are no unused intermediate registers.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 20 14:31:35 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 20 14:31:35 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 20 14:31:35 2022
+
+###########################################################]
