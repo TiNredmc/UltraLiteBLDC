@@ -91,7 +91,8 @@ reg [7:0]i2c_cmd[2:0];
 reg [2:0]i2c_cmd_cnt;
 reg cmd_decoded = 0;
 
-reg motor_on;// Turn motor on or off via command.
+reg motor_on = 0;// Turn motor on or off via command.
+reg motor_dir = 0;// Motor direction. 0 - Clockwise 1 - Counterclockwise.
 
 // iCEcube 2 seems to not quite happy with using assign and Hi-z with UL1K
 // So SB_IO_OD primitive is required.
@@ -203,10 +204,18 @@ if(drv_clk_counter < 750) begin
 		PWM_cnt <= 0;
 		
 	if(PWM_cnt < PWM_duty) begin 	
+	
+	if(motor_dir == 1) begin
 		drv_cnt <= drv_cnt + 1;
 		if(drv_cnt == 6)
 			drv_cnt <= 1;
-				
+	end
+	else begin
+		drv_cnt <= drv_cnt - 1;
+		if(drv_cnt == 1)
+			drv_cnt <= 6;
+	end
+	
 		{PWM_R, PWM_G, PWM_B} <= drvpat[drv_cnt];
 	end
 	
@@ -395,7 +404,7 @@ always@(posedge sysclk)begin
 		cmd_decoded <= 0;
 	
 	case(i2c_cmd[0])	
-	'h10: begin// Set PWM command
+	'h10: begin// Set PWM command - Default at power on is 0.
 		PWM_duty <= i2c_cmd[1];
 		if(cmd_decoded == 0)
 			cmd_decoded <= 1;
@@ -409,8 +418,22 @@ always@(posedge sysclk)begin
 			
 	end
 	
-	'h02: begin// Motor off.
+	'h02: begin// Motor off. - Default at power on.
 		motor_on <= 1;
+		if(cmd_decoded == 0)
+			cmd_decoded <= 1;
+			
+	end
+	
+	'h0A : begin// Motor spin Clockwise - Default at power on.
+		motor_dir <= 0;
+		if(cmd_decoded == 0)
+			cmd_decoded <= 1;
+			
+	end 
+	
+	'h0B : begin// Motor spin Counterclockwise.
+		motor_dir <= 1;
 		if(cmd_decoded == 0)
 			cmd_decoded <= 1;
 			
