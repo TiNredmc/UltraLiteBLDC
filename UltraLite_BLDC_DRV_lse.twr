@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 Lattice Synthesis Timing Report, Version  
-Wed Apr 20 14:32:50 2022
+Wed Apr 20 15:21:42 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -19,7 +19,7 @@ Report level:    verbose report, limited to 3 items per constraint
 
 ================================================================================
 Constraint: create_clock -period 20.833333 -name clk0 [get_nets sysclk]
-            1138 items scored, 0 timing errors detected.
+            1216 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
@@ -27,43 +27,43 @@ Passed:  The following path meets requirements by 2.044ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         SB_DFFSR   C              drv_clk_counter_526__i0  (from sysclk +)
-   Destination:    SB_DFFSR   D              drv_clk_counter_526__i10  (to sysclk +)
+   Source:         SB_DFFSR   C              drv_clk_counter_602__i0  (from sysclk +)
+   Destination:    SB_DFFSR   D              drv_clk_counter_602__i10  (to sysclk +)
 
    Delay:                  18.656ns  (26.0% logic, 74.0% route), 12 logic levels.
 
  Constraint Details:
 
-     18.656ns data_path drv_clk_counter_526__i0 to drv_clk_counter_526__i10 meets
+     18.656ns data_path drv_clk_counter_602__i0 to drv_clk_counter_602__i10 meets
      20.833ns delay constraint less
       0.133ns L_S requirement (totaling 20.700ns) by 2.044ns
 
- Path Details: drv_clk_counter_526__i0 to drv_clk_counter_526__i10
+ Path Details: drv_clk_counter_602__i0 to drv_clk_counter_602__i10
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367              C to Q              drv_clk_counter_526__i0 (from sysclk)
+L_CO        ---     0.367              C to Q              drv_clk_counter_602__i0 (from sysclk)
 Route         3   e 1.339                                  drv_clk_counter[0]
-LUT4        ---     0.408             I1 to CO             drv_clk_counter_526_add_4_2
-Route         2   e 1.158                                  n2521
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_3
-Route         2   e 1.158                                  n2522
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_4
-Route         2   e 1.158                                  n2523
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_5
-Route         2   e 1.158                                  n2524
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_6
-Route         2   e 1.158                                  n2525
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_7
-Route         2   e 1.158                                  n2526
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_8
-Route         2   e 1.158                                  n2527
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_9
-Route         2   e 1.158                                  n2528
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_10
-Route         2   e 1.158                                  n2529
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_11
-Route         1   e 1.020                                  n2530
-LUT4        ---     0.408             I3 to O              drv_clk_counter_526_add_4_12_lut
+LUT4        ---     0.408             I1 to CO             drv_clk_counter_602_add_4_2
+Route         2   e 1.158                                  n2947
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_3
+Route         2   e 1.158                                  n2948
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_4
+Route         2   e 1.158                                  n2949
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_5
+Route         2   e 1.158                                  n2950
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_6
+Route         2   e 1.158                                  n2951
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_7
+Route         2   e 1.158                                  n2952
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_8
+Route         2   e 1.158                                  n2953
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_9
+Route         2   e 1.158                                  n2954
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_10
+Route         2   e 1.158                                  n2955
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_11
+Route         1   e 1.020                                  n2956
+LUT4        ---     0.408             I3 to O              drv_clk_counter_602_add_4_12_lut
 Route         1   e 1.020                                  n50
                   --------
                    18.656  (26.0% logic, 74.0% route), 12 logic levels.
@@ -73,41 +73,41 @@ Passed:  The following path meets requirements by 3.472ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         SB_DFFSR   C              drv_clk_counter_526__i0  (from sysclk +)
-   Destination:    SB_DFFSR   D              drv_clk_counter_526__i9  (to sysclk +)
+   Source:         SB_DFFSR   C              drv_clk_counter_602__i0  (from sysclk +)
+   Destination:    SB_DFFSR   D              drv_clk_counter_602__i9  (to sysclk +)
 
    Delay:                  17.228ns  (25.8% logic, 74.2% route), 11 logic levels.
 
  Constraint Details:
 
-     17.228ns data_path drv_clk_counter_526__i0 to drv_clk_counter_526__i9 meets
+     17.228ns data_path drv_clk_counter_602__i0 to drv_clk_counter_602__i9 meets
      20.833ns delay constraint less
       0.133ns L_S requirement (totaling 20.700ns) by 3.472ns
 
- Path Details: drv_clk_counter_526__i0 to drv_clk_counter_526__i9
+ Path Details: drv_clk_counter_602__i0 to drv_clk_counter_602__i9
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367              C to Q              drv_clk_counter_526__i0 (from sysclk)
+L_CO        ---     0.367              C to Q              drv_clk_counter_602__i0 (from sysclk)
 Route         3   e 1.339                                  drv_clk_counter[0]
-LUT4        ---     0.408             I1 to CO             drv_clk_counter_526_add_4_2
-Route         2   e 1.158                                  n2521
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_3
-Route         2   e 1.158                                  n2522
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_4
-Route         2   e 1.158                                  n2523
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_5
-Route         2   e 1.158                                  n2524
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_6
-Route         2   e 1.158                                  n2525
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_7
-Route         2   e 1.158                                  n2526
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_8
-Route         2   e 1.158                                  n2527
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_9
-Route         2   e 1.158                                  n2528
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_10
-Route         2   e 1.158                                  n2529
-LUT4        ---     0.408             I3 to O              drv_clk_counter_526_add_4_11_lut
+LUT4        ---     0.408             I1 to CO             drv_clk_counter_602_add_4_2
+Route         2   e 1.158                                  n2947
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_3
+Route         2   e 1.158                                  n2948
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_4
+Route         2   e 1.158                                  n2949
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_5
+Route         2   e 1.158                                  n2950
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_6
+Route         2   e 1.158                                  n2951
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_7
+Route         2   e 1.158                                  n2952
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_8
+Route         2   e 1.158                                  n2953
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_9
+Route         2   e 1.158                                  n2954
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_10
+Route         2   e 1.158                                  n2955
+LUT4        ---     0.408             I3 to O              drv_clk_counter_602_add_4_11_lut
 Route         1   e 1.020                                  n51
                   --------
                    17.228  (25.8% logic, 74.2% route), 11 logic levels.
@@ -117,41 +117,41 @@ Passed:  The following path meets requirements by 3.552ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         SB_DFFSR   C              drv_clk_counter_526__i1  (from sysclk +)
-   Destination:    SB_DFFSR   D              drv_clk_counter_526__i10  (to sysclk +)
+   Source:         SB_DFFSR   C              drv_clk_counter_602__i1  (from sysclk +)
+   Destination:    SB_DFFSR   D              drv_clk_counter_602__i10  (to sysclk +)
 
    Delay:                  17.148ns  (25.9% logic, 74.1% route), 11 logic levels.
 
  Constraint Details:
 
-     17.148ns data_path drv_clk_counter_526__i1 to drv_clk_counter_526__i10 meets
+     17.148ns data_path drv_clk_counter_602__i1 to drv_clk_counter_602__i10 meets
      20.833ns delay constraint less
       0.133ns L_S requirement (totaling 20.700ns) by 3.552ns
 
- Path Details: drv_clk_counter_526__i1 to drv_clk_counter_526__i10
+ Path Details: drv_clk_counter_602__i1 to drv_clk_counter_602__i10
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367              C to Q              drv_clk_counter_526__i1 (from sysclk)
+L_CO        ---     0.367              C to Q              drv_clk_counter_602__i1 (from sysclk)
 Route         4   e 1.397                                  drv_clk_counter[1]
-LUT4        ---     0.408             I1 to CO             drv_clk_counter_526_add_4_3
-Route         2   e 1.158                                  n2522
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_4
-Route         2   e 1.158                                  n2523
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_5
-Route         2   e 1.158                                  n2524
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_6
-Route         2   e 1.158                                  n2525
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_7
-Route         2   e 1.158                                  n2526
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_8
-Route         2   e 1.158                                  n2527
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_9
-Route         2   e 1.158                                  n2528
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_10
-Route         2   e 1.158                                  n2529
-LUT4        ---     0.408             CI to CO             drv_clk_counter_526_add_4_11
-Route         1   e 1.020                                  n2530
-LUT4        ---     0.408             I3 to O              drv_clk_counter_526_add_4_12_lut
+LUT4        ---     0.408             I1 to CO             drv_clk_counter_602_add_4_3
+Route         2   e 1.158                                  n2948
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_4
+Route         2   e 1.158                                  n2949
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_5
+Route         2   e 1.158                                  n2950
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_6
+Route         2   e 1.158                                  n2951
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_7
+Route         2   e 1.158                                  n2952
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_8
+Route         2   e 1.158                                  n2953
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_9
+Route         2   e 1.158                                  n2954
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_10
+Route         2   e 1.158                                  n2955
+LUT4        ---     0.408             CI to CO             drv_clk_counter_602_add_4_11
+Route         1   e 1.020                                  n2956
+LUT4        ---     0.408             I3 to O              drv_clk_counter_602_add_4_12_lut
 Route         1   e 1.020                                  n50
                   --------
                    17.148  (25.9% logic, 74.1% route), 11 logic levels.
@@ -180,8 +180,8 @@ Timing summary:
 
 Timing errors: 0  Score: 0
 
-Constraints cover  1362 paths, 217 nets, and 607 connections (92.1% coverage)
+Constraints cover  1454 paths, 225 nets, and 637 connections (92.7% coverage)
 
 
-Peak memory: 38965248 bytes, TRCE: 0 bytes, DLYMAN: 0 bytes
+Peak memory: 39227392 bytes, TRCE: 1179648 bytes, DLYMAN: 106496 bytes
 CPU_TIME_REPORT: 0 secs 

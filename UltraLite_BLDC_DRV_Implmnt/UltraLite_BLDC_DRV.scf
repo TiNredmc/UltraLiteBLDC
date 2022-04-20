@@ -1,2 +1,2 @@
  create_clock -period 20.833 -waveform {0.000 10.417} -name {top|sysclk} [ get_nets sysclk ]
-create_clock -period  20.833300 -name n2981 [ get_nets n2981] 
+create_clock -period  20.833300 -name n3456 [ get_nets n3456] 

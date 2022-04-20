@@ -1,0 +1,2137 @@
+2:53:28 PM
+C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "UltraLite_BLDC_DRV_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Apr 20 15:08:45 2022
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f UltraLite_BLDC_DRV_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is SWG16.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : SWG16
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+The -top option is not used.
+Target frequency = 48.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = binary
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV (searchpath added)
+Verilog design file = top.v
+-sdc option: SDC file input not used.
+WARNING - synthesis: Setting top as the top-level module. To specify the top-level module explicitly, use the -top option.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file top.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(79): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(88): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(98): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(108): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(118): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(170): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(179): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(189): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(199): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(209): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
+Top module name (Verilog): top
+INFO - synthesis: top.v(5): compiling module top. VERI-1018
+WARNING - synthesis: top.v(184): using initial value of drvpat since it is never assigned. VERI-1220
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4021): compiling module SB_HFOSC. VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4121): compiling module SB_RGBA_DRV(RGB0_CURRENT="0b000111",RGB1_CURRENT="0b000111",RGB2_CURRENT="0b000111"). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b101001). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b01). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4234): compiling module SB_I2C_FIFO(I2C_SLAVE_ADDR="0b1000001"). VERI-1018
+WARNING - synthesis: top.v(191): expression size 32 truncated to fit in target size 11. VERI-1209
+WARNING - synthesis: top.v(201): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: top.v(206): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(326): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(374): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(109): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(118): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(170): input port FIFORST is not connected on this instance. VDB-1013
+Last elaborated design is top()
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top.
+WARNING - synthesis: top.v(389): Register hard_SBCSi_145 is stuck at One. VDB-5014
+WARNING - synthesis: top.v(109): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(118): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(170): input port FIFORST is not connected on this instance. VDB-1013
+
+
+
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB0.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB1.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB2.
+WARNING - synthesis: Skipping pad insertion on io_i2c_sda due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_R due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_G due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_B due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on io_i2c_scl due to black_box_pad_pin attribute.
+WARNING - synthesis: top.v(389): Register hard_SBDATi_i9 is stuck at Zero. VDB-5013
+Applying 48.000000 MHz constraint to all clocks
+
+Writing scf file : UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+
+Results of NGD DRC are available in top_drc.log.
+
+################### Begin Area Report (top)######################
+Number of register bits => 71 of 1000 (7 % )
+SB_CARRY => 17
+SB_DFF => 20
+SB_DFFE => 26
+SB_DFFESR => 13
+SB_DFFSR => 12
+SB_GB => 1
+SB_HFOSC => 1
+SB_I2C_FIFO => 1
+SB_IO_OD => 2
+SB_LUT4 => 131
+SB_RGBA_DRV => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : sysclk, loads : 71
+  Net : n2981, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : i2c_steps_3, loads : 26
+  Net : i2c_steps_1, loads : 24
+  Net : i2c_steps_2, loads : 23
+  Net : i2c_steps_0, loads : 23
+  Net : hard0_SBACKo, loads : 16
+  Net : n953, loads : 11
+  Net : motor_on, loads : 8
+  Net : n1779, loads : 8
+  Net : n1778, loads : 8
+  Net : n1831, loads : 8
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 20.833333 -name    |             |             |
+clk0 [get_nets sysclk]                  |   48.000 MHz|   53.223 MHz|    12  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 37.145  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.453  secs
+--------------------------------------------------------------
+Current Implementation UltraLite_BLDC_DRV_Implmnt its sbt path: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 0 seconds
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf " "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist" "-pSWG16" -c --devicename iCE40UL1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf...
+start to read sdc/scf file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+sdc_reader OK C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+Warning: property SDA_OUTPUT_DELAYED doesn't exist at instance I2C_1. default value (0) is added.
+Warning: Invalid SB_I2C_FIFO parameter name: "SCL_INPUT_FILTERED" SB_I2C_FIFO parameter "SCL_INPUT_FILTERED" is ignored(SB_I2C_FIFO I2C_1)
+Stored edif netlist at C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top...
+
+write Timing Constraint to C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: top
+
+EDF Parser run-time: 1 (sec)
+edif parser succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --package SWG16 --deviceMarketName iCE40UL1K --sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" --effort_level std --out-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top --outdir C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev --package SWG16 --deviceMarketName iCE40UL1K --sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib --effort_level std --out-sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:55:52
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev
+Package              - SWG16
+Design database      - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top
+SDC file             - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top/BFPGA_DESIGN_ep
+mDsnStats.mNumSBIOODs : 1
+mDsnStats.mNumSBIOODs : 2
+I2065: Reading device file : C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	131
+    Number of DFFs      	:	71
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	0
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2CFIFOs      	:	1
+    Number of SBIOODs     	:	2
+    Number of LEDDAIPs     	:	0
+    Number of RGBADRVs     	:	1
+    Number of IR400DRVs     	:	0
+    Number of IR500DRVs     	:	0
+    Number of BARCODEDRVs     	:	0
+    Number of IRIPs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	1
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	24
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	1
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	25
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_n2981_THRU_LUT4_0_LC_155", in the clock network. Converting the timing arc to positive-unate
+
+Design Statistics after Packing
+    Number of LUTs      	:	157
+    Number of DFFs      	:	71
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	54
+        LUT, DFF and CARRY	:	17
+    Combinational LogicCells
+        Only LUT         	:	86
+        CARRY Only       	:	0
+        LUT with CARRY   	:	0
+    LogicCells                  :	157/1248
+    PLBs                        :	24/156
+    BRAMs                       :	0/14
+    IOs and GBIOs               :	0/5
+    PLLs                        :	0/0
+    I2CFIFOs                    :	1/2
+    SBIOODs                     :	2/5
+    RGBADRVs                    :	1/1
+    IR400DRVs                   :	0/1
+    IR500DRVs                   :	0/1
+    BARCODEDRVs                 :	0/1
+    IRIPs                       :	0/1
+    LEDDAIPs                    :	0/1
+    LFOSCs                      :	0/1
+    HFOSCs                      :	1/1
+
+
+I2088: Phase 3, elapsed time : 0.4 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.5 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 13.3 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	157
+    Number of DFFs      	:	71
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	0
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2CFIFOs      	:	1
+    Number of SBIOODs     	:	2
+    Number of LEDDAIPs     	:	0
+    Number of RGBADRVs     	:	1
+    Number of IR400DRVs     	:	0
+    Number of IR500DRVs     	:	0
+    Number of BARCODEDRVs     	:	0
+    Number of IRIPs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	1
+
+Device Utilization Summary
+    LogicCells                  :	157/1248
+    PLBs                        :	28/156
+    BRAMs                       :	0/14
+    IOs and GBIOs               :	0/5
+    PLLs                        :	0/0
+    I2CFIFOs                    :	1/2
+    SBIOODs                     :	2/5
+    RGBADRVs                    :	1/1
+    IR400DRVs                   :	0/1
+    IR500DRVs                   :	0/1
+    BARCODEDRVs                 :	0/1
+    IRIPs                       :	0/1
+    LEDDAIPs                    :	0/1
+    LFOSCs                      :	0/1
+    HFOSCs                      :	1/1
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 4
+Clock: I2C_1/SCLO | Frequency: N/A | Target: 0.40 MHz
+Clock: n2981 | Frequency: N/A | Target: 48.01 MHz
+Clock: osc/CLKHF | Frequency: N/A | Target: 48.00 MHz
+Clock: top|sysclk | Frequency: 86.97 MHz | Target: 48.01 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 14.7 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer" --DRC_only  --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40UL1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 461
+used logic cells: 157
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 0 (sec)
+packer succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer" --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40UL1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 461
+used logic cells: 157
+Translating sdc file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc...
+Translated sdc file is C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc
+Packer succeeded
+
+Packer run-time: 0 (sec)
+packer succeed.
+
+
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --outdir "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\router" --sdf_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc --outdir C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\router --sdf_file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:44:15
+
+I1203: Reading Design top
+Read design time: 0
+I1202: Reading Architecture of device iCE40UL1K
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Read device time: 2
+I1209: Started routing
+I1223: Total Nets : 199 
+I1212: Iteration  1 :    28 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 0
+I1206: Completed routing
+I1204: Writing Design top
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 2 seconds
+router succeed.
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\netlister.exe" --verilog "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v" --vhdl "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd" --lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --view rt --device "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --splitio  --in-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --out-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:18:39
+
+Generating Verilog & VHDL netlist files ...
+Writing C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v
+Writing C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 2 (sec)
+netlist succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" --sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc" --sdf-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --report-file "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\timer\top_timing.rpt" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --timing-summary
+starting timerrunning timerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib --sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc --sdf-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --report-file C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\timer\top_timing.rpt --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:41:47
+
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Timer run-time: 1 seconds
+timer succeed.
+timer succeeded.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\bitmap.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --design "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --device_name iCE40UL1K --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:17:40
+
+Bit Stream File Size: 246856 (241K 72 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 0 (sec)
+bitmap succeed.
+C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "UltraLite_BLDC_DRV_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Apr 20 15:17:06 2022
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f UltraLite_BLDC_DRV_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is SWG16.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : SWG16
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+The -top option is not used.
+Target frequency = 48.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = binary
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV (searchpath added)
+Verilog design file = top.v
+-sdc option: SDC file input not used.
+ERROR - synthesis: top.v(427): syntax error near ). VERI-1137
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "UltraLite_BLDC_DRV_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Apr 20 15:17:19 2022
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f UltraLite_BLDC_DRV_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is SWG16.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : SWG16
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+The -top option is not used.
+Target frequency = 48.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = binary
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV (searchpath added)
+Verilog design file = top.v
+-sdc option: SDC file input not used.
+WARNING - synthesis: Setting top as the top-level module. To specify the top-level module explicitly, use the -top option.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file top.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(79): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(88): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(98): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(108): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(118): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(170): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(179): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(189): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(199): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(209): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
+Top module name (Verilog): top
+INFO - synthesis: top.v(5): compiling module top. VERI-1018
+WARNING - synthesis: top.v(185): using initial value of drvpat since it is never assigned. VERI-1220
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4021): compiling module SB_HFOSC. VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4121): compiling module SB_RGBA_DRV(RGB0_CURRENT="0b000111",RGB1_CURRENT="0b000111",RGB2_CURRENT="0b000111"). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b101001). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b01). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4234): compiling module SB_I2C_FIFO(I2C_SLAVE_ADDR="0b1000001"). VERI-1018
+WARNING - synthesis: top.v(192): expression size 32 truncated to fit in target size 11. VERI-1209
+WARNING - synthesis: top.v(202): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: top.v(207): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(327): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(375): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(110): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(119): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(171): input port FIFORST is not connected on this instance. VDB-1013
+Last elaborated design is top()
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top.
+WARNING - synthesis: top.v(390): Register hard_SBCSi_154 is stuck at One. VDB-5014
+WARNING - synthesis: top.v(110): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(119): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(171): input port FIFORST is not connected on this instance. VDB-1013
+
+
+
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB0.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB1.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB2.
+WARNING - synthesis: Skipping pad insertion on io_i2c_sda due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_R due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_G due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_B due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on io_i2c_scl due to black_box_pad_pin attribute.
+WARNING - synthesis: top.v(390): Register hard_SBDATi_i9 is stuck at Zero. VDB-5013
+Applying 48.000000 MHz constraint to all clocks
+
+Writing scf file : UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+
+Results of NGD DRC are available in top_drc.log.
+
+################### Begin Area Report (top)######################
+Number of register bits => 71 of 1000 (7 % )
+SB_CARRY => 17
+SB_DFF => 20
+SB_DFFE => 26
+SB_DFFESR => 13
+SB_DFFSR => 12
+SB_GB => 1
+SB_HFOSC => 1
+SB_I2C_FIFO => 1
+SB_IO_OD => 2
+SB_LUT4 => 133
+SB_RGBA_DRV => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : sysclk, loads : 71
+  Net : n3285, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : i2c_steps_0, loads : 26
+  Net : i2c_steps_3, loads : 25
+  Net : i2c_steps_2, loads : 22
+  Net : i2c_steps_1, loads : 18
+  Net : hard0_SBACKo, loads : 17
+  Net : n963, loads : 11
+  Net : motor_on, loads : 9
+  Net : n1822, loads : 8
+  Net : n1821, loads : 8
+  Net : n2354, loads : 8
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 20.833333 -name    |             |             |
+clk0 [get_nets sysclk]                  |   48.000 MHz|   53.223 MHz|    12  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 37.563  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.453  secs
+--------------------------------------------------------------
+Current Implementation UltraLite_BLDC_DRV_Implmnt its sbt path: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 0 seconds
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf " "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist" "-pSWG16" -c --devicename iCE40UL1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf...
+start to read sdc/scf file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+sdc_reader OK C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+Warning: property SDA_OUTPUT_DELAYED doesn't exist at instance I2C_1. default value (0) is added.
+Warning: Invalid SB_I2C_FIFO parameter name: "SCL_INPUT_FILTERED" SB_I2C_FIFO parameter "SCL_INPUT_FILTERED" is ignored(SB_I2C_FIFO I2C_1)
+Stored edif netlist at C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top...
+
+write Timing Constraint to C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: top
+
+EDF Parser run-time: 0 (sec)
+edif parser succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --package SWG16 --deviceMarketName iCE40UL1K --sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" --effort_level std --out-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top --outdir C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev --package SWG16 --deviceMarketName iCE40UL1K --sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib --effort_level std --out-sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:55:52
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev
+Package              - SWG16
+Design database      - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top
+SDC file             - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top/BFPGA_DESIGN_ep
+mDsnStats.mNumSBIOODs : 1
+mDsnStats.mNumSBIOODs : 2
+I2065: Reading device file : C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	133
+    Number of DFFs      	:	71
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	0
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2CFIFOs      	:	1
+    Number of SBIOODs     	:	2
+    Number of LEDDAIPs     	:	0
+    Number of RGBADRVs     	:	1
+    Number of IR400DRVs     	:	0
+    Number of IR500DRVs     	:	0
+    Number of BARCODEDRVs     	:	0
+    Number of IRIPs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	1
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	24
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	1
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	25
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_n3285_THRU_LUT4_0_LC_157", in the clock network. Converting the timing arc to positive-unate
+
+Design Statistics after Packing
+    Number of LUTs      	:	159
+    Number of DFFs      	:	71
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	54
+        LUT, DFF and CARRY	:	17
+    Combinational LogicCells
+        Only LUT         	:	88
+        CARRY Only       	:	0
+        LUT with CARRY   	:	0
+    LogicCells                  :	159/1248
+    PLBs                        :	22/156
+    BRAMs                       :	0/14
+    IOs and GBIOs               :	0/5
+    PLLs                        :	0/0
+    I2CFIFOs                    :	1/2
+    SBIOODs                     :	2/5
+    RGBADRVs                    :	1/1
+    IR400DRVs                   :	0/1
+    IR500DRVs                   :	0/1
+    BARCODEDRVs                 :	0/1
+    IRIPs                       :	0/1
+    LEDDAIPs                    :	0/1
+    LFOSCs                      :	0/1
+    HFOSCs                      :	1/1
+
+
+I2088: Phase 3, elapsed time : 0.4 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.5 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 13.3 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	159
+    Number of DFFs      	:	71
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	0
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2CFIFOs      	:	1
+    Number of SBIOODs     	:	2
+    Number of LEDDAIPs     	:	0
+    Number of RGBADRVs     	:	1
+    Number of IR400DRVs     	:	0
+    Number of IR500DRVs     	:	0
+    Number of BARCODEDRVs     	:	0
+    Number of IRIPs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	1
+
+Device Utilization Summary
+    LogicCells                  :	159/1248
+    PLBs                        :	31/156
+    BRAMs                       :	0/14
+    IOs and GBIOs               :	0/5
+    PLLs                        :	0/0
+    I2CFIFOs                    :	1/2
+    SBIOODs                     :	2/5
+    RGBADRVs                    :	1/1
+    IR400DRVs                   :	0/1
+    IR500DRVs                   :	0/1
+    BARCODEDRVs                 :	0/1
+    IRIPs                       :	0/1
+    LEDDAIPs                    :	0/1
+    LFOSCs                      :	0/1
+    HFOSCs                      :	1/1
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 4
+Clock: I2C_1/SCLO | Frequency: N/A | Target: 0.40 MHz
+Clock: n3285 | Frequency: N/A | Target: 48.01 MHz
+Clock: osc/CLKHF | Frequency: N/A | Target: 48.00 MHz
+Clock: top|sysclk | Frequency: 84.66 MHz | Target: 48.01 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 14.6 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer" --DRC_only  --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40UL1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 505
+used logic cells: 159
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 0 (sec)
+packer succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer" --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40UL1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 505
+used logic cells: 159
+Translating sdc file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc...
+Translated sdc file is C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc
+Packer succeeded
+
+Packer run-time: 1 (sec)
+packer succeed.
+
+
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --outdir "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\router" --sdf_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc --outdir C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\router --sdf_file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:44:15
+
+I1203: Reading Design top
+Read design time: 0
+I1202: Reading Architecture of device iCE40UL1K
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Read device time: 2
+I1209: Started routing
+I1223: Total Nets : 206 
+I1212: Iteration  1 :    35 unrouted : 0 seconds
+I1212: Iteration  2 :     9 unrouted : 0 seconds
+I1212: Iteration  3 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 0
+I1206: Completed routing
+I1204: Writing Design top
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 2 seconds
+router succeed.
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\netlister.exe" --verilog "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v" --vhdl "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd" --lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --view rt --device "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --splitio  --in-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --out-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:18:39
+
+Generating Verilog & VHDL netlist files ...
+Writing C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v
+Writing C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 1 (sec)
+netlist succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" --sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc" --sdf-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --report-file "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\timer\top_timing.rpt" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --timing-summary
+starting timerrunning timerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib --sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc --sdf-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --report-file C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\timer\top_timing.rpt --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:41:47
+
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Timer run-time: 2 seconds
+timer succeed.
+timer succeeded.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\bitmap.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --design "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --device_name iCE40UL1K --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:17:40
+
+Bit Stream File Size: 246856 (241K 72 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 0 (sec)
+bitmap succeed.
+C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "UltraLite_BLDC_DRV_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Apr 20 15:20:58 2022
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f UltraLite_BLDC_DRV_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is SWG16.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : SWG16
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+The -top option is not used.
+Target frequency = 48.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = binary
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV (searchpath added)
+Verilog design file = top.v
+-sdc option: SDC file input not used.
+WARNING - synthesis: Setting top as the top-level module. To specify the top-level module explicitly, use the -top option.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file top.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(79): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(88): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(98): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(108): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(118): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(170): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(179): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(189): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(199): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(209): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
+Top module name (Verilog): top
+INFO - synthesis: top.v(5): compiling module top. VERI-1018
+WARNING - synthesis: top.v(185): using initial value of drvpat since it is never assigned. VERI-1220
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4021): compiling module SB_HFOSC. VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4121): compiling module SB_RGBA_DRV(RGB0_CURRENT="0b000111",RGB1_CURRENT="0b000111",RGB2_CURRENT="0b000111"). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b101001). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b01). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4234): compiling module SB_I2C_FIFO(I2C_SLAVE_ADDR="0b1000001"). VERI-1018
+WARNING - synthesis: top.v(192): expression size 32 truncated to fit in target size 11. VERI-1209
+WARNING - synthesis: top.v(202): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: top.v(209): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(214): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(335): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(383): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(110): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(119): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(171): input port FIFORST is not connected on this instance. VDB-1013
+Last elaborated design is top()
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top.
+WARNING - synthesis: top.v(398): Register hard_SBCSi_159 is stuck at One. VDB-5014
+WARNING - synthesis: top.v(110): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(119): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(171): input port FIFORST is not connected on this instance. VDB-1013
+
+
+
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB0.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB1.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB2.
+WARNING - synthesis: Skipping pad insertion on io_i2c_sda due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_R due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_G due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_B due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on io_i2c_scl due to black_box_pad_pin attribute.
+WARNING - synthesis: top.v(398): Register hard_SBDATi_i0 is stuck at Zero. VDB-5013
+Applying 48.000000 MHz constraint to all clocks
+
+Writing scf file : UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+
+Results of NGD DRC are available in top_drc.log.
+
+################### Begin Area Report (top)######################
+Number of register bits => 72 of 1000 (7 % )
+SB_CARRY => 17
+SB_DFF => 19
+SB_DFFE => 28
+SB_DFFESR => 13
+SB_DFFSR => 12
+SB_GB => 1
+SB_HFOSC => 1
+SB_I2C_FIFO => 1
+SB_IO_OD => 2
+SB_LUT4 => 138
+SB_RGBA_DRV => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : sysclk, loads : 72
+  Net : n3197, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : i2c_steps_3, loads : 28
+  Net : i2c_steps_1, loads : 24
+  Net : i2c_steps_2, loads : 22
+  Net : i2c_steps_0, loads : 17
+  Net : hard0_SBACKo, loads : 14
+  Net : n985, loads : 11
+  Net : drv_cnt_2, loads : 8
+  Net : motor_on, loads : 8
+  Net : n2074, loads : 8
+  Net : n1913, loads : 8
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 20.833333 -name    |             |             |
+clk0 [get_nets sysclk]                  |   48.000 MHz|   53.223 MHz|    12  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 37.508  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.438  secs
+--------------------------------------------------------------
+Current Implementation UltraLite_BLDC_DRV_Implmnt its sbt path: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 0 seconds
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf " "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist" "-pSWG16" -c --devicename iCE40UL1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf...
+start to read sdc/scf file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+sdc_reader OK C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+Warning: property SDA_OUTPUT_DELAYED doesn't exist at instance I2C_1. default value (0) is added.
+Warning: Invalid SB_I2C_FIFO parameter name: "SCL_INPUT_FILTERED" SB_I2C_FIFO parameter "SCL_INPUT_FILTERED" is ignored(SB_I2C_FIFO I2C_1)
+Stored edif netlist at C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top...
+
+write Timing Constraint to C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: top
+
+EDF Parser run-time: 1 (sec)
+edif parser succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --package SWG16 --deviceMarketName iCE40UL1K --sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" --effort_level std --out-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top --outdir C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev --package SWG16 --deviceMarketName iCE40UL1K --sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib --effort_level std --out-sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:55:52
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev
+Package              - SWG16
+Design database      - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top
+SDC file             - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top/BFPGA_DESIGN_ep
+mDsnStats.mNumSBIOODs : 1
+mDsnStats.mNumSBIOODs : 2
+I2065: Reading device file : C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	138
+    Number of DFFs      	:	72
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	0
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2CFIFOs      	:	1
+    Number of SBIOODs     	:	2
+    Number of LEDDAIPs     	:	0
+    Number of RGBADRVs     	:	1
+    Number of IR400DRVs     	:	0
+    Number of IR500DRVs     	:	0
+    Number of BARCODEDRVs     	:	0
+    Number of IRIPs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	1
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	24
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	1
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	25
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+
+Design Statistics after Packing
+    Number of LUTs      	:	164
+    Number of DFFs      	:	72
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	55
+        LUT, DFF and CARRY	:	17
+    Combinational LogicCells
+        Only LUT         	:	92
+        CARRY Only       	:	0
+        LUT with CARRY   	:	0
+    LogicCells                  :	164/1248
+    PLBs                        :	24/156
+    BRAMs                       :	0/14
+    IOs and GBIOs               :	0/5
+    PLLs                        :	0/0
+    I2CFIFOs                    :	1/2
+    SBIOODs                     :	2/5
+    RGBADRVs                    :	1/1
+    IR400DRVs                   :	0/1
+    IR500DRVs                   :	0/1
+    BARCODEDRVs                 :	0/1
+    IRIPs                       :	0/1
+    LEDDAIPs                    :	0/1
+    LFOSCs                      :	0/1
+    HFOSCs                      :	1/1
+
+
+I2088: Phase 3, elapsed time : 0.4 (sec)
+
+Phase 4
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_n3197_THRU_LUT4_0_LC_162", in the clock network. Converting the timing arc to positive-unate
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.5 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 12.3 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	164
+    Number of DFFs      	:	72
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	0
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2CFIFOs      	:	1
+    Number of SBIOODs     	:	2
+    Number of LEDDAIPs     	:	0
+    Number of RGBADRVs     	:	1
+    Number of IR400DRVs     	:	0
+    Number of IR500DRVs     	:	0
+    Number of BARCODEDRVs     	:	0
+    Number of IRIPs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	1
+
+Device Utilization Summary
+    LogicCells                  :	164/1248
+    PLBs                        :	33/156
+    BRAMs                       :	0/14
+    IOs and GBIOs               :	0/5
+    PLLs                        :	0/0
+    I2CFIFOs                    :	1/2
+    SBIOODs                     :	2/5
+    RGBADRVs                    :	1/1
+    IR400DRVs                   :	0/1
+    IR500DRVs                   :	0/1
+    BARCODEDRVs                 :	0/1
+    IRIPs                       :	0/1
+    LEDDAIPs                    :	0/1
+    LFOSCs                      :	0/1
+    HFOSCs                      :	1/1
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 4
+Clock: I2C_1/SCLO | Frequency: N/A | Target: 0.40 MHz
+Clock: n3197 | Frequency: N/A | Target: 48.01 MHz
+Clock: osc/CLKHF | Frequency: N/A | Target: 48.00 MHz
+Clock: top|sysclk | Frequency: 74.03 MHz | Target: 48.01 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 13.6 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer" --DRC_only  --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40UL1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 518
+used logic cells: 164
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 0 (sec)
+packer succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer" --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40UL1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 518
+used logic cells: 164
+Translating sdc file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc...
+Translated sdc file is C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc
+Packer succeeded
+
+Packer run-time: 0 (sec)
+packer succeed.
+
+
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --outdir "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\router" --sdf_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc --outdir C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\router --sdf_file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:44:15
+
+I1203: Reading Design top
+Read design time: 0
+I1202: Reading Architecture of device iCE40UL1K
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Read device time: 2
+I1209: Started routing
+I1223: Total Nets : 204 
+I1212: Iteration  1 :    30 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 1 seconds
+I1215: Routing is successful
+Routing time: 1
+I1206: Completed routing
+I1204: Writing Design top
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 3 seconds
+router succeed.
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\netlister.exe" --verilog "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v" --vhdl "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd" --lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --view rt --device "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --splitio  --in-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --out-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:18:39
+
+Generating Verilog & VHDL netlist files ...
+Writing C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v
+Writing C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 1 (sec)
+netlist succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" --sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc" --sdf-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --report-file "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\timer\top_timing.rpt" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --timing-summary
+starting timerrunning timerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib --sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc --sdf-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --report-file C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\timer\top_timing.rpt --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:41:47
+
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Timer run-time: 2 seconds
+timer succeed.
+timer succeeded.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\bitmap.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --design "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --device_name iCE40UL1K --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:17:40
+
+Bit Stream File Size: 246856 (241K 72 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 1 (sec)
+bitmap succeed.
+C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "UltraLite_BLDC_DRV_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Apr 20 15:21:42 2022
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f UltraLite_BLDC_DRV_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is SWG16.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : SWG16
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+The -top option is not used.
+Target frequency = 48.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = binary
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV (searchpath added)
+Verilog design file = top.v
+-sdc option: SDC file input not used.
+WARNING - synthesis: Setting top as the top-level module. To specify the top-level module explicitly, use the -top option.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file top.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(79): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(88): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(98): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(108): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(118): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(170): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(179): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(189): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(199): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(209): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
+Top module name (Verilog): top
+INFO - synthesis: top.v(5): compiling module top. VERI-1018
+WARNING - synthesis: top.v(185): using initial value of drvpat since it is never assigned. VERI-1220
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4021): compiling module SB_HFOSC. VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4121): compiling module SB_RGBA_DRV(RGB0_CURRENT="0b000111",RGB1_CURRENT="0b000111",RGB2_CURRENT="0b000111"). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b101001). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4074): compiling module SB_IO_OD(PIN_TYPE=6'b01). VERI-1018
+INFO - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(4234): compiling module SB_I2C_FIFO(I2C_SLAVE_ADDR="0b1000001"). VERI-1018
+WARNING - synthesis: top.v(192): expression size 32 truncated to fit in target size 11. VERI-1209
+WARNING - synthesis: top.v(202): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: top.v(209): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(214): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(335): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(383): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: top.v(110): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(119): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(171): input port FIFORST is not connected on this instance. VDB-1013
+Last elaborated design is top()
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top.
+WARNING - synthesis: top.v(398): Register hard_SBCSi_159 is stuck at One. VDB-5014
+WARNING - synthesis: top.v(110): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(119): input port LATCHINPUTVALUE is not connected on this instance. VDB-1013
+WARNING - synthesis: top.v(171): input port FIFORST is not connected on this instance. VDB-1013
+
+
+
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB0.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB1.
+WARNING - synthesis: Cell SB_RGBA_DRV already has the black_box_pad_pin attribute on RGB2.
+WARNING - synthesis: Skipping pad insertion on io_i2c_sda due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_R due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_G due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on LED_B due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on io_i2c_scl due to black_box_pad_pin attribute.
+WARNING - synthesis: top.v(398): Register hard_SBDATi_i0 is stuck at Zero. VDB-5013
+Applying 48.000000 MHz constraint to all clocks
+
+Writing scf file : UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+
+Results of NGD DRC are available in top_drc.log.
+
+################### Begin Area Report (top)######################
+Number of register bits => 72 of 1000 (7 % )
+SB_CARRY => 17
+SB_DFF => 19
+SB_DFFE => 28
+SB_DFFESR => 13
+SB_DFFSR => 12
+SB_GB => 1
+SB_HFOSC => 1
+SB_I2C_FIFO => 1
+SB_IO_OD => 2
+SB_LUT4 => 138
+SB_RGBA_DRV => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : sysclk, loads : 72
+  Net : n3456, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : i2c_steps_3, loads : 28
+  Net : i2c_steps_1, loads : 24
+  Net : i2c_steps_2, loads : 22
+  Net : i2c_steps_0, loads : 17
+  Net : hard0_SBACKo, loads : 14
+  Net : n985, loads : 11
+  Net : drv_cnt_0, loads : 10
+  Net : drv_cnt_2, loads : 9
+  Net : n1914, loads : 9
+  Net : n3430, loads : 9
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 20.833333 -name    |             |             |
+clk0 [get_nets sysclk]                  |   48.000 MHz|   53.223 MHz|    12  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 37.441  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.484  secs
+--------------------------------------------------------------
+Current Implementation UltraLite_BLDC_DRV_Implmnt its sbt path: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 0 seconds
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf " "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist" "-pSWG16" -c --devicename iCE40UL1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.edf...
+start to read sdc/scf file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+sdc_reader OK C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/UltraLite_BLDC_DRV.scf
+Warning: property SDA_OUTPUT_DELAYED doesn't exist at instance I2C_1. default value (0) is added.
+Warning: Invalid SB_I2C_FIFO parameter name: "SCL_INPUT_FILTERED" SB_I2C_FIFO parameter "SCL_INPUT_FILTERED" is ignored(SB_I2C_FIFO I2C_1)
+Stored edif netlist at C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top...
+
+write Timing Constraint to C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: top
+
+EDF Parser run-time: 0 (sec)
+edif parser succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --package SWG16 --deviceMarketName iCE40UL1K --sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" --effort_level std --out-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top --outdir C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev --package SWG16 --deviceMarketName iCE40UL1K --sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib --effort_level std --out-sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:55:52
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev
+Package              - SWG16
+Design database      - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top
+SDC file             - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top/BFPGA_DESIGN_ep
+mDsnStats.mNumSBIOODs : 1
+mDsnStats.mNumSBIOODs : 2
+I2065: Reading device file : C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	138
+    Number of DFFs      	:	72
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	0
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2CFIFOs      	:	1
+    Number of SBIOODs     	:	2
+    Number of LEDDAIPs     	:	0
+    Number of RGBADRVs     	:	1
+    Number of IR400DRVs     	:	0
+    Number of IR500DRVs     	:	0
+    Number of BARCODEDRVs     	:	0
+    Number of IRIPs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	1
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	24
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	1
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	25
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Warning-1034: Found non-unate timing arc, from pin "in3" to pin "lcout" of instance "GB_BUFFER_n3456_THRU_LUT4_0_LC_162", in the clock network. Converting the timing arc to positive-unate
+
+Design Statistics after Packing
+    Number of LUTs      	:	164
+    Number of DFFs      	:	72
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	55
+        LUT, DFF and CARRY	:	17
+    Combinational LogicCells
+        Only LUT         	:	92
+        CARRY Only       	:	0
+        LUT with CARRY   	:	0
+    LogicCells                  :	164/1248
+    PLBs                        :	24/156
+    BRAMs                       :	0/14
+    IOs and GBIOs               :	0/5
+    PLLs                        :	0/0
+    I2CFIFOs                    :	1/2
+    SBIOODs                     :	2/5
+    RGBADRVs                    :	1/1
+    IR400DRVs                   :	0/1
+    IR500DRVs                   :	0/1
+    BARCODEDRVs                 :	0/1
+    IRIPs                       :	0/1
+    LEDDAIPs                    :	0/1
+    LFOSCs                      :	0/1
+    HFOSCs                      :	1/1
+
+
+I2088: Phase 3, elapsed time : 0.5 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.6 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 13.9 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	164
+    Number of DFFs      	:	72
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	17
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	0
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+    Number of I2CFIFOs      	:	1
+    Number of SBIOODs     	:	2
+    Number of LEDDAIPs     	:	0
+    Number of RGBADRVs     	:	1
+    Number of IR400DRVs     	:	0
+    Number of IR500DRVs     	:	0
+    Number of BARCODEDRVs     	:	0
+    Number of IRIPs     	:	0
+    Number of LFOSCs     	:	0
+    Number of HFOSCs     	:	1
+
+Device Utilization Summary
+    LogicCells                  :	164/1248
+    PLBs                        :	31/156
+    BRAMs                       :	0/14
+    IOs and GBIOs               :	0/5
+    PLLs                        :	0/0
+    I2CFIFOs                    :	1/2
+    SBIOODs                     :	2/5
+    RGBADRVs                    :	1/1
+    IR400DRVs                   :	0/1
+    IR500DRVs                   :	0/1
+    BARCODEDRVs                 :	0/1
+    IRIPs                       :	0/1
+    LEDDAIPs                    :	0/1
+    LFOSCs                      :	0/1
+    HFOSCs                      :	1/1
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 4
+Clock: I2C_1/SCLO | Frequency: N/A | Target: 0.40 MHz
+Clock: n3456 | Frequency: N/A | Target: 48.01 MHz
+Clock: osc/CLKHF | Frequency: N/A | Target: 48.00 MHz
+Clock: top|sysclk | Frequency: 62.97 MHz | Target: 48.01 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 15.4 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer" --DRC_only  --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40UL1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 504
+used logic cells: 164
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 0 (sec)
+packer succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer" --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40UL1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 504
+used logic cells: 164
+Translating sdc file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\placer\top_pl.sdc...
+Translated sdc file is C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc
+Packer succeeded
+
+Packer run-time: 1 (sec)
+packer succeed.
+
+
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --outdir "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\router" --sdf_file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc --outdir C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\router --sdf_file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:44:15
+
+I1203: Reading Design top
+Read design time: 0
+I1202: Reading Architecture of device iCE40UL1K
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Read device time: 1
+I1209: Started routing
+I1223: Total Nets : 209 
+I1212: Iteration  1 :    31 unrouted : 0 seconds
+I1212: Iteration  2 :     6 unrouted : 0 seconds
+I1212: Iteration  3 :     2 unrouted : 0 seconds
+I1212: Iteration  4 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 1
+I1206: Completed routing
+I1204: Writing Design top
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 2 seconds
+router succeed.
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\netlister.exe" --verilog "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v" --vhdl "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd" --lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --view rt --device "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --splitio  --in-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\packer\top_pk.sdc" --out-sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:18:39
+
+Generating Verilog & VHDL netlist files ...
+Writing C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v
+Writing C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 2 (sec)
+netlist succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib" --sdc-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc" --sdf-file "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --report-file "C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\timer\top_timing.rpt" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --timing-summary
+starting timerrunning timerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40BT1K.lib --sdc-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\netlister\top_sbt.sdc --sdf-file C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --report-file C:\Users\thipo\OneDrive\Documents\DevTLHX\FPGA\icecube_project\UltraLite_BLDC_DRV\UltraLite_BLDC_DRV_Implmnt\sbt\outputs\timer\top_timing.rpt --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:41:47
+
+Warning-1411: No clock is reaching the reference clock pin 'CLKI' of  instance 'I2C_1'. So, no gen clock will be inferred at output of this instance
+Info-1409: Inferred clock at I2C_1/SCLO
+Info-1409: Inferred clock at osc/CLKHF
+SDC-Info-1101: Duty cycle not specified for clock. Assuming 50 percent dutycycle.
+Timer run-time: 1 seconds
+timer succeed.
+timer succeeded.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\bitmap.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40T01.dev" --design "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\netlist\oadb-top" --device_name iCE40UL1K --package SWG16 --outdir "C:/Users/thipo/OneDrive/Documents/DevTLHX/FPGA/icecube_project/UltraLite_BLDC_DRV/UltraLite_BLDC_DRV_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:17:40
+
+Bit Stream File Size: 246856 (241K 72 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 0 (sec)
+bitmap succeed.

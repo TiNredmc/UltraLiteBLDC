@@ -1,181 +1,188 @@
-ble_pack PWM_cnt__i0_LC_18 {PWM_cnt__i0, add_188_2, add_188_2_lut}
-ble_pack PWM_cnt__i1_LC_19 {PWM_cnt__i1, add_188_3, add_188_3_lut}
-ble_pack PWM_cnt__i2_LC_20 {PWM_cnt__i2, add_188_4, add_188_4_lut}
-ble_pack PWM_cnt__i3_LC_21 {PWM_cnt__i3, add_188_5, add_188_5_lut}
-ble_pack PWM_cnt__i4_LC_22 {PWM_cnt__i4, add_188_6, add_188_6_lut}
-ble_pack PWM_cnt__i5_LC_23 {PWM_cnt__i5, add_188_7, add_188_7_lut}
-ble_pack PWM_cnt__i6_LC_24 {PWM_cnt__i6, add_188_8, add_188_8_lut}
-ble_pack PWM_cnt__i7_LC_25 {PWM_cnt__i7, add_188_9_lut}
-clb_pack PLB_0 {PWM_cnt__i0_LC_18, PWM_cnt__i1_LC_19, PWM_cnt__i2_LC_20, PWM_cnt__i3_LC_21, PWM_cnt__i4_LC_22, PWM_cnt__i5_LC_23, PWM_cnt__i6_LC_24, PWM_cnt__i7_LC_25}
-ble_pack drv_clk_counter_526__i0_LC_29 {drv_clk_counter_526__i0, drv_clk_counter_526_add_4_2, drv_clk_counter_526_add_4_2_lut}
-ble_pack drv_clk_counter_526__i1_LC_30 {drv_clk_counter_526__i1, drv_clk_counter_526_add_4_3, drv_clk_counter_526_add_4_3_lut}
-ble_pack drv_clk_counter_526__i2_LC_31 {drv_clk_counter_526__i2, drv_clk_counter_526_add_4_4, drv_clk_counter_526_add_4_4_lut}
-ble_pack drv_clk_counter_526__i3_LC_32 {drv_clk_counter_526__i3, drv_clk_counter_526_add_4_5, drv_clk_counter_526_add_4_5_lut}
-ble_pack drv_clk_counter_526__i4_LC_33 {drv_clk_counter_526__i4, drv_clk_counter_526_add_4_6, drv_clk_counter_526_add_4_6_lut}
-ble_pack drv_clk_counter_526__i5_LC_34 {drv_clk_counter_526__i5, drv_clk_counter_526_add_4_7, drv_clk_counter_526_add_4_7_lut}
-ble_pack drv_clk_counter_526__i6_LC_35 {drv_clk_counter_526__i6, drv_clk_counter_526_add_4_8, drv_clk_counter_526_add_4_8_lut}
-ble_pack drv_clk_counter_526__i7_LC_36 {drv_clk_counter_526__i7, drv_clk_counter_526_add_4_9, drv_clk_counter_526_add_4_9_lut}
-clb_pack PLB_1 {drv_clk_counter_526__i0_LC_29, drv_clk_counter_526__i1_LC_30, drv_clk_counter_526__i2_LC_31, drv_clk_counter_526__i3_LC_32, drv_clk_counter_526__i4_LC_33, drv_clk_counter_526__i5_LC_34, drv_clk_counter_526__i6_LC_35, drv_clk_counter_526__i7_LC_36}
-ble_pack drv_clk_counter_526__i8_LC_26 {drv_clk_counter_526__i8, drv_clk_counter_526_add_4_10, drv_clk_counter_526_add_4_10_lut}
-ble_pack drv_clk_counter_526__i9_LC_27 {drv_clk_counter_526__i9, drv_clk_counter_526_add_4_11, drv_clk_counter_526_add_4_11_lut}
-ble_pack drv_clk_counter_526__i10_LC_28 {drv_clk_counter_526__i10, drv_clk_counter_526_add_4_12_lut}
-clb_pack PLB_2 {drv_clk_counter_526__i8_LC_26, drv_clk_counter_526__i9_LC_27, drv_clk_counter_526__i10_LC_28}
-ble_pack LessThan_8_i4_4_lut_4_lut_LC_6 {LessThan_8_i4_4_lut_4_lut}
-ble_pack LessThan_8_i14_3_lut_LC_3 {LessThan_8_i14_3_lut}
-ble_pack LessThan_8_i16_3_lut_LC_5 {LessThan_8_i16_3_lut}
-ble_pack i1_3_lut_adj_20_LC_83 {i1_3_lut_adj_20}
+ble_pack PWM_cnt__i0_LC_16 {PWM_cnt__i0, add_206_2, add_206_2_lut}
+ble_pack PWM_cnt__i1_LC_17 {PWM_cnt__i1, add_206_3, add_206_3_lut}
+ble_pack PWM_cnt__i2_LC_18 {PWM_cnt__i2, add_206_4, add_206_4_lut}
+ble_pack PWM_cnt__i3_LC_19 {PWM_cnt__i3, add_206_5, add_206_5_lut}
+ble_pack PWM_cnt__i4_LC_20 {PWM_cnt__i4, add_206_6, add_206_6_lut}
+ble_pack PWM_cnt__i5_LC_21 {PWM_cnt__i5, add_206_7, add_206_7_lut}
+ble_pack PWM_cnt__i6_LC_22 {PWM_cnt__i6, add_206_8, add_206_8_lut}
+ble_pack PWM_cnt__i7_LC_23 {PWM_cnt__i7, add_206_9_lut}
+clb_pack PLB_0 {PWM_cnt__i0_LC_16, PWM_cnt__i1_LC_17, PWM_cnt__i2_LC_18, PWM_cnt__i3_LC_19, PWM_cnt__i4_LC_20, PWM_cnt__i5_LC_21, PWM_cnt__i6_LC_22, PWM_cnt__i7_LC_23}
+ble_pack drv_clk_counter_602__i0_LC_27 {drv_clk_counter_602__i0, drv_clk_counter_602_add_4_2, drv_clk_counter_602_add_4_2_lut}
+ble_pack drv_clk_counter_602__i1_LC_28 {drv_clk_counter_602__i1, drv_clk_counter_602_add_4_3, drv_clk_counter_602_add_4_3_lut}
+ble_pack drv_clk_counter_602__i2_LC_29 {drv_clk_counter_602__i2, drv_clk_counter_602_add_4_4, drv_clk_counter_602_add_4_4_lut}
+ble_pack drv_clk_counter_602__i3_LC_30 {drv_clk_counter_602__i3, drv_clk_counter_602_add_4_5, drv_clk_counter_602_add_4_5_lut}
+ble_pack drv_clk_counter_602__i4_LC_31 {drv_clk_counter_602__i4, drv_clk_counter_602_add_4_6, drv_clk_counter_602_add_4_6_lut}
+ble_pack drv_clk_counter_602__i5_LC_32 {drv_clk_counter_602__i5, drv_clk_counter_602_add_4_7, drv_clk_counter_602_add_4_7_lut}
+ble_pack drv_clk_counter_602__i6_LC_33 {drv_clk_counter_602__i6, drv_clk_counter_602_add_4_8, drv_clk_counter_602_add_4_8_lut}
+ble_pack drv_clk_counter_602__i7_LC_34 {drv_clk_counter_602__i7, drv_clk_counter_602_add_4_9, drv_clk_counter_602_add_4_9_lut}
+clb_pack PLB_1 {drv_clk_counter_602__i0_LC_27, drv_clk_counter_602__i1_LC_28, drv_clk_counter_602__i2_LC_29, drv_clk_counter_602__i3_LC_30, drv_clk_counter_602__i4_LC_31, drv_clk_counter_602__i5_LC_32, drv_clk_counter_602__i6_LC_33, drv_clk_counter_602__i7_LC_34}
+ble_pack drv_clk_counter_602__i8_LC_24 {drv_clk_counter_602__i8, drv_clk_counter_602_add_4_10, drv_clk_counter_602_add_4_10_lut}
+ble_pack drv_clk_counter_602__i9_LC_25 {drv_clk_counter_602__i9, drv_clk_counter_602_add_4_11, drv_clk_counter_602_add_4_11_lut}
+ble_pack drv_clk_counter_602__i10_LC_26 {drv_clk_counter_602__i10, drv_clk_counter_602_add_4_12_lut}
+clb_pack PLB_2 {drv_clk_counter_602__i8_LC_24, drv_clk_counter_602__i9_LC_25, drv_clk_counter_602__i10_LC_26}
+ble_pack LessThan_8_i14_4_lut_LC_2 {LessThan_8_i14_4_lut}
+ble_pack LessThan_8_i16_4_lut_LC_3 {LessThan_8_i16_4_lut}
+ble_pack i1_3_lut_LC_82 {i1_3_lut}
 ble_pack LessThan_8_i12_3_lut_3_lut_LC_1 {LessThan_8_i12_3_lut_3_lut}
 ble_pack LessThan_8_i10_3_lut_3_lut_LC_0 {LessThan_8_i10_3_lut_3_lut}
-ble_pack i1895_3_lut_3_lut_4_lut_LC_60 {i1895_3_lut_3_lut_4_lut}
-ble_pack LessThan_8_i15_2_lut_rep_51_LC_4 {LessThan_8_i15_2_lut_rep_51}
-clb_pack PLB_3 {LessThan_8_i4_4_lut_4_lut_LC_6, LessThan_8_i14_3_lut_LC_3, LessThan_8_i16_3_lut_LC_5, i1_3_lut_adj_20_LC_83, LessThan_8_i12_3_lut_3_lut_LC_1, LessThan_8_i10_3_lut_3_lut_LC_0, i1895_3_lut_3_lut_4_lut_LC_60, LessThan_8_i15_2_lut_rep_51_LC_4}
-ble_pack PWM_cnt_7__I_0_i4_4_lut_4_lut_LC_14 {PWM_cnt_7__I_0_i4_4_lut_4_lut}
-ble_pack PWM_cnt_7__I_0_i14_3_lut_LC_13 {PWM_cnt_7__I_0_i14_3_lut}
-ble_pack i1049_3_lut_LC_38 {i1049_3_lut}
-ble_pack PWM_cnt_7__I_0_i12_3_lut_3_lut_LC_12 {PWM_cnt_7__I_0_i12_3_lut_3_lut}
-ble_pack PWM_cnt_7__I_0_i10_3_lut_3_lut_LC_10 {PWM_cnt_7__I_0_i10_3_lut_3_lut}
-ble_pack i2_3_lut_rep_37_LC_108 {i2_3_lut_rep_37}
-clb_pack PLB_4 {PWM_cnt_7__I_0_i4_4_lut_4_lut_LC_14, PWM_cnt_7__I_0_i14_3_lut_LC_13, i1049_3_lut_LC_38, PWM_cnt_7__I_0_i12_3_lut_3_lut_LC_12, PWM_cnt_7__I_0_i10_3_lut_3_lut_LC_10, i2_3_lut_rep_37_LC_108}
-ble_pack i1293_3_lut_4_lut_LC_50 {i1293_3_lut_4_lut}
-ble_pack i2c_cnt_523_524__i1_LC_115 {i2c_cnt_523_524__i1, i2c_cnt_523_524_mux_7_i1_3_lut}
-ble_pack equal_587_i3_2_lut_rep_56_LC_37 {equal_587_i3_2_lut_rep_56}
-ble_pack i2c_cnt_523_524__i2_LC_116 {i2c_cnt_523_524__i2, i2c_cnt_523_524_mux_7_i2_4_lut_3_lut}
-ble_pack i36_4_lut_LC_118 {i36_4_lut}
-ble_pack i1_4_lut_adj_13_LC_86 {i1_4_lut_adj_13}
-ble_pack i1_4_lut_4_lut_LC_85 {i1_4_lut_4_lut}
-ble_pack i2c_steps_i1_LC_127 {i2c_steps_i1, i856_4_lut}
-clb_pack PLB_5 {i1293_3_lut_4_lut_LC_50, i2c_cnt_523_524__i1_LC_115, equal_587_i3_2_lut_rep_56_LC_37, i2c_cnt_523_524__i2_LC_116, i36_4_lut_LC_118, i1_4_lut_adj_13_LC_86, i1_4_lut_4_lut_LC_85, i2c_steps_i1_LC_127}
-ble_pack i1846_4_lut_LC_54 {i1846_4_lut}
-ble_pack i2_4_lut_adj_6_LC_113 {i2_4_lut_adj_6}
-ble_pack i1_2_lut_3_lut_adj_11_LC_71 {i1_2_lut_3_lut_adj_11}
-ble_pack i1926_2_lut_LC_65 {i1926_2_lut}
-ble_pack i1_2_lut_LC_67 {i1_2_lut}
-ble_pack PWM_B_142_LC_111 {PWM_B_142, i2_4_lut}
-ble_pack i1921_2_lut_LC_63 {i1921_2_lut}
-ble_pack i2_3_lut_adj_8_LC_107 {i2_3_lut_adj_8}
-clb_pack PLB_6 {i1846_4_lut_LC_54, i2_4_lut_adj_6_LC_113, i1_2_lut_3_lut_adj_11_LC_71, i1926_2_lut_LC_65, i1_2_lut_LC_67, PWM_B_142_LC_111, i1921_2_lut_LC_63, i2_3_lut_adj_8_LC_107}
-ble_pack i1863_4_lut_LC_56 {i1863_4_lut}
-ble_pack i2c_steps_i0_LC_95 {i2c_steps_i0, i1_4_lut_adj_3}
-ble_pack i1_4_lut_adj_2_LC_92 {i1_4_lut_adj_2}
-ble_pack i60_3_lut_LC_122 {i60_3_lut}
-ble_pack i2_3_lut_LC_103 {i2_3_lut}
-ble_pack i58_4_lut_LC_121 {i58_4_lut}
-ble_pack i1_4_lut_LC_84 {i1_4_lut}
-ble_pack i1_3_lut_LC_80 {i1_3_lut}
-clb_pack PLB_7 {i1863_4_lut_LC_56, i2c_steps_i0_LC_95, i1_4_lut_adj_2_LC_92, i60_3_lut_LC_122, i2_3_lut_LC_103, i58_4_lut_LC_121, i1_4_lut_LC_84, i1_3_lut_LC_80}
-ble_pack i1871_4_lut_LC_57 {i1871_4_lut}
-ble_pack i1852_2_lut_LC_55 {i1852_2_lut}
-ble_pack i3_4_lut_LC_119 {i3_4_lut}
-ble_pack i2c_cmd_0___i8_LC_153 {i2c_cmd_0___i8, i2c_cmd_0___i8_THRU_LUT4_0}
-ble_pack i4_4_lut_LC_120 {i4_4_lut}
-ble_pack i1_2_lut_adj_21_LC_73 {i1_2_lut_adj_21}
-ble_pack i2c_cmd_0___i3_LC_148 {i2c_cmd_0___i3, i2c_cmd_0___i3_THRU_LUT4_0}
-ble_pack i1286_2_lut_LC_49 {i1286_2_lut}
-clb_pack PLB_8 {i1871_4_lut_LC_57, i1852_2_lut_LC_55, i3_4_lut_LC_119, i2c_cmd_0___i8_LC_153, i4_4_lut_LC_120, i1_2_lut_adj_21_LC_73, i2c_cmd_0___i3_LC_148, i1286_2_lut_LC_49}
-ble_pack i1882_4_lut_LC_58 {i1882_4_lut}
-ble_pack PWM_cnt_7__I_0_i9_2_lut_rep_47_LC_17 {PWM_cnt_7__I_0_i9_2_lut_rep_47}
-ble_pack i1893_4_lut_LC_59 {i1893_4_lut}
-ble_pack LessThan_8_i7_2_lut_rep_49_LC_8 {LessThan_8_i7_2_lut_rep_49}
-ble_pack PWM_duty_i4_LC_135 {PWM_duty_i4, PWM_duty_i4_THRU_LUT4_0}
-ble_pack PWM_duty_i3_LC_134 {PWM_duty_i3, PWM_duty_i3_THRU_LUT4_0}
-ble_pack PWM_cnt_7__I_0_i6_3_lut_3_lut_LC_15 {PWM_cnt_7__I_0_i6_3_lut_3_lut}
-ble_pack PWM_cnt_7__I_0_i8_3_lut_3_lut_LC_16 {PWM_cnt_7__I_0_i8_3_lut_3_lut}
-clb_pack PLB_9 {i1882_4_lut_LC_58, PWM_cnt_7__I_0_i9_2_lut_rep_47_LC_17, i1893_4_lut_LC_59, LessThan_8_i7_2_lut_rep_49_LC_8, PWM_duty_i4_LC_135, PWM_duty_i3_LC_134, PWM_cnt_7__I_0_i6_3_lut_3_lut_LC_15, PWM_cnt_7__I_0_i8_3_lut_3_lut_LC_16}
-ble_pack i1923_2_lut_rep_41_4_lut_LC_64 {i1923_2_lut_rep_41_4_lut}
-ble_pack i2c_steps_i2_LC_126 {i2c_steps_i2, i847_4_lut}
-ble_pack i2_3_lut_rep_52_LC_110 {i2_3_lut_rep_52}
-ble_pack i2_3_lut_rep_43_LC_109 {i2_3_lut_rep_43}
-ble_pack i2_3_lut_adj_17_LC_105 {i2_3_lut_adj_17}
-ble_pack i1279_2_lut_3_lut_LC_48 {i1279_2_lut_3_lut}
-ble_pack i1_2_lut_3_lut_4_lut_adj_4_LC_70 {i1_2_lut_3_lut_4_lut_adj_4}
-ble_pack i1_2_lut_rep_39_4_lut_LC_75 {i1_2_lut_rep_39_4_lut}
-clb_pack PLB_10 {i1923_2_lut_rep_41_4_lut_LC_64, i2c_steps_i2_LC_126, i2_3_lut_rep_52_LC_110, i2_3_lut_rep_43_LC_109, i2_3_lut_adj_17_LC_105, i1279_2_lut_3_lut_LC_48, i1_2_lut_3_lut_4_lut_adj_4_LC_70, i1_2_lut_rep_39_4_lut_LC_75}
-ble_pack i1_2_lut_3_lut_4_lut_LC_69 {i1_2_lut_3_lut_4_lut}
-ble_pack i1_2_lut_rep_46_LC_79 {i1_2_lut_rep_46}
-ble_pack i2c_cmd_cnt_525__i1_LC_51 {i2c_cmd_cnt_525__i1, i1536_2_lut}
-ble_pack i2c_cmd_cnt_525__i0_LC_123 {i2c_cmd_cnt_525__i0, i627_1_lut}
-ble_pack i2_2_lut_3_lut_LC_102 {i2_2_lut_3_lut}
-ble_pack i2c_cmd_cnt_525__i2_LC_52 {i2c_cmd_cnt_525__i2, i1543_3_lut}
-ble_pack i1_3_lut_4_lut_adj_5_LC_82 {i1_3_lut_4_lut_adj_5}
-ble_pack i1_2_lut_rep_38_3_lut_LC_74 {i1_2_lut_rep_38_3_lut}
-clb_pack PLB_11 {i1_2_lut_3_lut_4_lut_LC_69, i1_2_lut_rep_46_LC_79, i2c_cmd_cnt_525__i1_LC_51, i2c_cmd_cnt_525__i0_LC_123, i2_2_lut_3_lut_LC_102, i2c_cmd_cnt_525__i2_LC_52, i1_3_lut_4_lut_adj_5_LC_82, i1_2_lut_rep_38_3_lut_LC_74}
-ble_pack i1_3_lut_4_lut_LC_81 {i1_3_lut_4_lut}
-ble_pack soft_SBADRi_i0_LC_93 {soft_SBADRi_i0, i1_4_lut_adj_22}
-ble_pack i1256_2_lut_rep_53_LC_47 {i1256_2_lut_rep_53}
-ble_pack hard_SBDATi_i4_LC_91 {hard_SBDATi_i4, i1_4_lut_adj_19}
-ble_pack i29_3_lut_4_lut_LC_99 {i29_3_lut_4_lut}
-ble_pack i1241_2_lut_rep_54_LC_46 {i1241_2_lut_rep_54}
-ble_pack i29_4_lut_4_lut_LC_101 {i29_4_lut_4_lut}
-ble_pack i1_4_lut_adj_14_LC_87 {i1_4_lut_adj_14}
-clb_pack PLB_12 {i1_3_lut_4_lut_LC_81, soft_SBADRi_i0_LC_93, i1256_2_lut_rep_53_LC_47, hard_SBDATi_i4_LC_91, i29_3_lut_4_lut_LC_99, i1241_2_lut_rep_54_LC_46, i29_4_lut_4_lut_LC_101, i1_4_lut_adj_14_LC_87}
-ble_pack i248_4_lut_LC_96 {i248_4_lut}
-ble_pack i2_4_lut_adj_10_LC_112 {i2_4_lut_adj_10}
-ble_pack i2_4_lut_adj_9_LC_114 {i2_4_lut_adj_9}
-ble_pack i1_2_lut_rep_45_LC_78 {i1_2_lut_rep_45}
-ble_pack drv_cnt_i0_i0_LC_66 {drv_cnt_i0_i0, i19_2_lut_4_lut}
-ble_pack drv_cnt_i0_i2_LC_41 {drv_cnt_i0_i2, i1160_4_lut}
-clb_pack PLB_13 {i248_4_lut_LC_96, i2_4_lut_adj_10_LC_112, i2_4_lut_adj_9_LC_114, i1_2_lut_rep_45_LC_78, drv_cnt_i0_i0_LC_66, drv_cnt_i0_i2_LC_41}
-ble_pack i28_4_lut_LC_97 {i28_4_lut}
-ble_pack soft_SBADRi_i2_LC_88 {soft_SBADRi_i2, i1_4_lut_adj_15}
-ble_pack i745_2_lut_rep_42_4_lut_LC_124 {i745_2_lut_rep_42_4_lut}
-ble_pack hard_SBWRi_147_LC_128 {hard_SBWRi_147, mux_387_i1_4_lut}
-ble_pack i1_2_lut_3_lut_adj_12_LC_72 {i1_2_lut_3_lut_adj_12}
-ble_pack soft_SBADRi_i3_LC_89 {soft_SBADRi_i3, i1_4_lut_adj_16}
-ble_pack i1_2_lut_rep_40_3_lut_LC_76 {i1_2_lut_rep_40_3_lut}
-ble_pack i2_3_lut_adj_7_LC_106 {i2_3_lut_adj_7}
-clb_pack PLB_14 {i28_4_lut_LC_97, soft_SBADRi_i2_LC_88, i745_2_lut_rep_42_4_lut_LC_124, hard_SBWRi_147_LC_128, i1_2_lut_3_lut_adj_12_LC_72, soft_SBADRi_i3_LC_89, i1_2_lut_rep_40_3_lut_LC_76, i2_3_lut_adj_7_LC_106}
-ble_pack i28_4_lut_4_lut_LC_98 {i28_4_lut_4_lut}
-ble_pack hard_SBDATi_i2_LC_90 {hard_SBDATi_i2, i1_4_lut_adj_18}
-ble_pack i1240_2_lut_LC_45 {i1240_2_lut}
-ble_pack i1844_2_lut_rep_55_LC_53 {i1844_2_lut_rep_55}
-ble_pack hard_SBDATi_i7_LC_94 {hard_SBDATi_i7, i1_4_lut_adj_23}
-ble_pack i29_3_lut_4_lut_adj_1_LC_100 {i29_3_lut_4_lut_adj_1}
-ble_pack i1_2_lut_rep_44_LC_77 {i1_2_lut_rep_44}
-ble_pack soft_SBADRi_i1_LC_104 {soft_SBADRi_i1, i2_3_lut_4_lut}
-clb_pack PLB_15 {i28_4_lut_4_lut_LC_98, hard_SBDATi_i2_LC_90, i1240_2_lut_LC_45, i1844_2_lut_rep_55_LC_53, hard_SBDATi_i7_LC_94, i29_3_lut_4_lut_adj_1_LC_100, i1_2_lut_rep_44_LC_77, soft_SBADRi_i1_LC_104}
-ble_pack LessThan_8_i6_3_lut_3_lut_LC_7 {LessThan_8_i6_3_lut_3_lut}
-ble_pack LessThan_8_i8_3_lut_3_lut_LC_9 {LessThan_8_i8_3_lut_3_lut}
-ble_pack cmd_decoded_156_LC_39 {cmd_decoded_156, i1073_4_lut}
-ble_pack i30_4_lut_3_lut_LC_117 {i30_4_lut_3_lut}
-ble_pack motor_on_158_LC_40 {motor_on_158, i1079_4_lut}
-ble_pack i2c_stat_i2_LC_61 {i2c_stat_i2, i1916_4_lut}
-ble_pack mux_55_i3_3_lut_LC_129 {mux_55_i3_3_lut}
-clb_pack PLB_16 {LessThan_8_i6_3_lut_3_lut_LC_7, LessThan_8_i8_3_lut_3_lut_LC_9, cmd_decoded_156_LC_39, i30_4_lut_3_lut_LC_117, motor_on_158_LC_40, i2c_stat_i2_LC_61, mux_55_i3_3_lut_LC_129}
-ble_pack PWM_R_144_LC_43 {PWM_R_144, i1199_3_lut}
-ble_pack PWM_G_143_LC_44 {PWM_G_143, i1203_3_lut}
-ble_pack mux_55_i7_3_lut_LC_130 {mux_55_i7_3_lut}
-ble_pack LessThan_8_i13_2_lut_rep_50_LC_2 {LessThan_8_i13_2_lut_rep_50}
-ble_pack PWM_cnt_7__I_0_i11_2_lut_rep_48_LC_11 {PWM_cnt_7__I_0_i11_2_lut_rep_48}
-ble_pack GB_BUFFER_n2981_THRU_LUT4_0_LC_155 {GB_BUFFER_n2981_THRU_LUT4_0}
-ble_pack LC_156 {CONSTANT_ONE_LUT4}
-clb_pack PLB_17 {PWM_R_144_LC_43, PWM_G_143_LC_44, mux_55_i7_3_lut_LC_130, LessThan_8_i13_2_lut_rep_50_LC_2, PWM_cnt_7__I_0_i11_2_lut_rep_48_LC_11, GB_BUFFER_n2981_THRU_LUT4_0_LC_155, LC_156}
-ble_pack i2c_stat_i6_LC_62 {i2c_stat_i6, i1918_4_lut}
-ble_pack hard_SBSTBi_148_LC_125 {hard_SBSTBi_148, i746_3_lut_4_lut}
-clb_pack PLB_18 {i2c_stat_i6_LC_62, hard_SBSTBi_148_LC_125}
-ble_pack drv_cnt_i0_i1_LC_42 {drv_cnt_i0_i1, i1195_3_lut}
-clb_pack PLB_19 {drv_cnt_i0_i1_LC_42}
-ble_pack i2c_steps_i3_LC_68 {i2c_steps_i3, i1_2_lut_3_lut}
-clb_pack PLB_20 {i2c_steps_i3_LC_68}
-ble_pack PWM_duty_i0_LC_131 {PWM_duty_i0, PWM_duty_i0_THRU_LUT4_0}
-ble_pack PWM_duty_i1_LC_132 {PWM_duty_i1, PWM_duty_i1_THRU_LUT4_0}
-ble_pack PWM_duty_i2_LC_133 {PWM_duty_i2, PWM_duty_i2_THRU_LUT4_0}
-ble_pack PWM_duty_i5_LC_136 {PWM_duty_i5, PWM_duty_i5_THRU_LUT4_0}
-ble_pack PWM_duty_i6_LC_137 {PWM_duty_i6, PWM_duty_i6_THRU_LUT4_0}
-ble_pack PWM_duty_i7_LC_138 {PWM_duty_i7, PWM_duty_i7_THRU_LUT4_0}
-clb_pack PLB_21 {PWM_duty_i0_LC_131, PWM_duty_i1_LC_132, PWM_duty_i2_LC_133, PWM_duty_i5_LC_136, PWM_duty_i6_LC_137, PWM_duty_i7_LC_138}
-ble_pack i2c_cmd_0___i1_LC_139 {i2c_cmd_0___i1, i2c_cmd_0___i1_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i2_LC_147 {i2c_cmd_0___i2, i2c_cmd_0___i2_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i4_LC_149 {i2c_cmd_0___i4, i2c_cmd_0___i4_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i5_LC_150 {i2c_cmd_0___i5, i2c_cmd_0___i5_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i6_LC_151 {i2c_cmd_0___i6, i2c_cmd_0___i6_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i7_LC_152 {i2c_cmd_0___i7, i2c_cmd_0___i7_THRU_LUT4_0}
-clb_pack PLB_22 {i2c_cmd_0___i1_LC_139, i2c_cmd_0___i2_LC_147, i2c_cmd_0___i4_LC_149, i2c_cmd_0___i5_LC_150, i2c_cmd_0___i6_LC_151, i2c_cmd_0___i7_LC_152}
-ble_pack i2c_cmd_0___i10_LC_140 {i2c_cmd_0___i10, i2c_cmd_0___i10_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i11_LC_141 {i2c_cmd_0___i11, i2c_cmd_0___i11_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i12_LC_142 {i2c_cmd_0___i12, i2c_cmd_0___i12_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i13_LC_143 {i2c_cmd_0___i13, i2c_cmd_0___i13_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i14_LC_144 {i2c_cmd_0___i14, i2c_cmd_0___i14_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i15_LC_145 {i2c_cmd_0___i15, i2c_cmd_0___i15_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i16_LC_146 {i2c_cmd_0___i16, i2c_cmd_0___i16_THRU_LUT4_0}
-ble_pack i2c_cmd_0___i9_LC_154 {i2c_cmd_0___i9, i2c_cmd_0___i9_THRU_LUT4_0}
-clb_pack PLB_23 {i2c_cmd_0___i10_LC_140, i2c_cmd_0___i11_LC_141, i2c_cmd_0___i12_LC_142, i2c_cmd_0___i13_LC_143, i2c_cmd_0___i14_LC_144, i2c_cmd_0___i15_LC_145, i2c_cmd_0___i16_LC_146, i2c_cmd_0___i9_LC_154}
+ble_pack i2343_2_lut_3_lut_LC_107 {i2343_2_lut_3_lut}
+ble_pack PWM_duty_i0_i6_LC_144 {PWM_duty_i0_i6, PWM_duty_i0_i6_THRU_LUT4_0}
+ble_pack i2356_4_lut_LC_109 {i2356_4_lut}
+clb_pack PLB_3 {LessThan_8_i14_4_lut_LC_2, LessThan_8_i16_4_lut_LC_3, i1_3_lut_LC_82, LessThan_8_i12_3_lut_3_lut_LC_1, LessThan_8_i10_3_lut_3_lut_LC_0, i2343_2_lut_3_lut_LC_107, PWM_duty_i0_i6_LC_144, i2356_4_lut_LC_109}
+ble_pack LessThan_8_i4_4_lut_4_lut_LC_4 {LessThan_8_i4_4_lut_4_lut}
+ble_pack PWM_duty_i0_i1_LC_139 {PWM_duty_i0_i1, PWM_duty_i0_i1_THRU_LUT4_0}
+ble_pack PWM_cnt_7__I_0_i4_4_lut_4_lut_LC_12 {PWM_cnt_7__I_0_i4_4_lut_4_lut}
+ble_pack PWM_cnt_7__I_0_i10_3_lut_3_lut_LC_8 {PWM_cnt_7__I_0_i10_3_lut_3_lut}
+ble_pack PWM_cnt_7__I_0_i12_3_lut_LC_10 {PWM_cnt_7__I_0_i12_3_lut}
+ble_pack i1851_3_lut_3_lut_LC_53 {i1851_3_lut_3_lut}
+ble_pack PWM_cnt_7__I_0_i8_3_lut_3_lut_LC_14 {PWM_cnt_7__I_0_i8_3_lut_3_lut}
+ble_pack PWM_cnt_7__I_0_i6_3_lut_3_lut_LC_13 {PWM_cnt_7__I_0_i6_3_lut_3_lut}
+clb_pack PLB_4 {LessThan_8_i4_4_lut_4_lut_LC_4, PWM_duty_i0_i1_LC_139, PWM_cnt_7__I_0_i4_4_lut_4_lut_LC_12, PWM_cnt_7__I_0_i10_3_lut_3_lut_LC_8, PWM_cnt_7__I_0_i12_3_lut_LC_10, i1851_3_lut_3_lut_LC_53, PWM_cnt_7__I_0_i8_3_lut_3_lut_LC_14, PWM_cnt_7__I_0_i6_3_lut_3_lut_LC_13}
+ble_pack i1116_2_lut_3_lut_4_lut_LC_36 {i1116_2_lut_3_lut_4_lut}
+ble_pack i2_3_lut_rep_54_LC_119 {i2_3_lut_rep_54}
+ble_pack i1_2_lut_rep_42_3_lut_LC_74 {i1_2_lut_rep_42_3_lut}
+ble_pack i2c_cnt_599_600__i2_LC_126 {i2c_cnt_599_600__i2, i2c_cnt_599_600_mux_7_i2_4_lut_3_lut}
+ble_pack equal_669_i3_2_lut_rep_56_LC_35 {equal_669_i3_2_lut_rep_56}
+ble_pack i36_4_lut_adj_5_LC_129 {i36_4_lut_adj_5}
+ble_pack i1_4_lut_adj_6_LC_97 {i1_4_lut_adj_6}
+ble_pack i1968_4_lut_LC_60 {i1968_4_lut}
+clb_pack PLB_5 {i1116_2_lut_3_lut_4_lut_LC_36, i2_3_lut_rep_54_LC_119, i1_2_lut_rep_42_3_lut_LC_74, i2c_cnt_599_600__i2_LC_126, equal_669_i3_2_lut_rep_56_LC_35, i36_4_lut_adj_5_LC_129, i1_4_lut_adj_6_LC_97, i1968_4_lut_LC_60}
+ble_pack i1456_3_lut_3_lut_4_lut_4_lut_LC_39 {i1456_3_lut_3_lut_4_lut_4_lut}
+ble_pack drv_cnt_i0_i2_LC_137 {drv_cnt_i0_i2, n3380_bdd_4_lut}
+ble_pack motor_dir_bdd_4_lut_LC_134 {motor_dir_bdd_4_lut}
+ble_pack i1461_4_lut_LC_40 {i1461_4_lut}
+ble_pack i12_3_lut_rep_39_3_lut_LC_37 {i12_3_lut_rep_39_3_lut}
+ble_pack i9_3_lut_4_lut_4_lut_LC_133 {i9_3_lut_4_lut_4_lut}
+ble_pack motor_dir_bdd_4_lut_2380_LC_135 {motor_dir_bdd_4_lut_2380}
+ble_pack drv_cnt_i0_i1_LC_136 {drv_cnt_i0_i1, n3374_bdd_4_lut}
+clb_pack PLB_6 {i1456_3_lut_3_lut_4_lut_4_lut_LC_39, drv_cnt_i0_i2_LC_137, motor_dir_bdd_4_lut_LC_134, i1461_4_lut_LC_40, i12_3_lut_rep_39_3_lut_LC_37, i9_3_lut_4_lut_4_lut_LC_133, motor_dir_bdd_4_lut_2380_LC_135, drv_cnt_i0_i1_LC_136}
+ble_pack i1591_4_lut_LC_46 {i1591_4_lut}
+ble_pack i2_4_lut_adj_25_LC_123 {i2_4_lut_adj_25}
+ble_pack i1_2_lut_3_lut_adj_14_LC_67 {i1_2_lut_3_lut_adj_14}
+ble_pack i2366_2_lut_rep_40_LC_110 {i2366_2_lut_rep_40}
+ble_pack i1_2_lut_adj_24_LC_70 {i1_2_lut_adj_24}
+ble_pack i1_3_lut_rep_37_4_lut_4_lut_LC_85 {i1_3_lut_rep_37_4_lut_4_lut}
+ble_pack i2_4_lut_adj_19_LC_122 {i2_4_lut_adj_19}
+ble_pack i1_4_lut_adj_20_LC_94 {i1_4_lut_adj_20}
+clb_pack PLB_7 {i1591_4_lut_LC_46, i2_4_lut_adj_25_LC_123, i1_2_lut_3_lut_adj_14_LC_67, i2366_2_lut_rep_40_LC_110, i1_2_lut_adj_24_LC_70, i1_3_lut_rep_37_4_lut_4_lut_LC_85, i2_4_lut_adj_19_LC_122, i1_4_lut_adj_20_LC_94}
+ble_pack i1669_4_lut_LC_47 {i1669_4_lut}
+ble_pack i2323_3_lut_LC_105 {i2323_3_lut}
+ble_pack i2c_steps_i0_LC_48 {i2c_steps_i0, i1677_4_lut}
+ble_pack i1_3_lut_adj_4_LC_83 {i1_3_lut_adj_4}
+ble_pack i2c_stat_i2_LC_100 {i2c_stat_i2, i2315_3_lut}
+ble_pack i2c_steps_i1_LC_52 {i2c_steps_i1, i1741_4_lut}
+ble_pack i1_2_lut_adj_2_LC_69 {i1_2_lut_adj_2}
+ble_pack i2_4_lut_adj_3_LC_124 {i2_4_lut_adj_3}
+clb_pack PLB_8 {i1669_4_lut_LC_47, i2323_3_lut_LC_105, i2c_steps_i0_LC_48, i1_3_lut_adj_4_LC_83, i2c_stat_i2_LC_100, i2c_steps_i1_LC_52, i1_2_lut_adj_2_LC_69, i2_4_lut_adj_3_LC_124}
+ble_pack i1684_4_lut_LC_49 {i1684_4_lut}
+ble_pack hard_SBWRi_161_LC_38 {hard_SBWRi_161, i12_4_lut}
+ble_pack i1_2_lut_rep_48_LC_78 {i1_2_lut_rep_48}
+ble_pack i2c_steps_i2_LC_51 {i2c_steps_i2, i1733_4_lut}
+ble_pack i1_2_lut_LC_61 {i1_2_lut}
+ble_pack i1_4_lut_adj_15_LC_91 {i1_4_lut_adj_15}
+ble_pack soft_SBADRi_i3_LC_92 {soft_SBADRi_i3, i1_4_lut_adj_16}
+ble_pack i1_2_lut_rep_46_4_lut_LC_77 {i1_2_lut_rep_46_4_lut}
+clb_pack PLB_9 {i1684_4_lut_LC_49, hard_SBWRi_161_LC_38, i1_2_lut_rep_48_LC_78, i2c_steps_i2_LC_51, i1_2_lut_LC_61, i1_4_lut_adj_15_LC_91, soft_SBADRi_i3_LC_92, i1_2_lut_rep_46_4_lut_LC_77}
+ble_pack i1726_4_lut_LC_50 {i1726_4_lut}
+ble_pack hard_SBDATi_i2_LC_93 {hard_SBDATi_i2, i1_4_lut_adj_17}
+ble_pack i1555_2_lut_rep_50_LC_45 {i1555_2_lut_rep_50}
+ble_pack i28_4_lut_LC_115 {i28_4_lut}
+ble_pack soft_SBADRi_i2_LC_90 {soft_SBADRi_i2, i1_4_lut_adj_12}
+ble_pack i1_2_lut_2_lut_3_lut_4_lut_LC_62 {i1_2_lut_2_lut_3_lut_4_lut}
+ble_pack i1_2_lut_rep_41_3_lut_4_lut_LC_73 {i1_2_lut_rep_41_3_lut_4_lut}
+ble_pack soft_SBADRi_i0_LC_86 {soft_SBADRi_i0, i1_4_lut}
+clb_pack PLB_10 {i1726_4_lut_LC_50, hard_SBDATi_i2_LC_93, i1555_2_lut_rep_50_LC_45, i28_4_lut_LC_115, soft_SBADRi_i2_LC_90, i1_2_lut_2_lut_3_lut_4_lut_LC_62, i1_2_lut_rep_41_3_lut_4_lut_LC_73, soft_SBADRi_i0_LC_86}
+ble_pack i1872_4_lut_LC_54 {i1872_4_lut}
+ble_pack motor_dir_173_LC_55 {motor_dir_173, i1873_3_lut}
+ble_pack i1_2_lut_3_lut_adj_1_LC_65 {i1_2_lut_3_lut_adj_1}
+ble_pack i2_2_lut_3_lut_LC_117 {i2_2_lut_3_lut}
+ble_pack i3_4_lut_LC_131 {i3_4_lut}
+ble_pack i2302_4_lut_4_lut_LC_98 {i2302_4_lut_4_lut}
+ble_pack i36_4_lut_LC_128 {i36_4_lut}
+ble_pack i2311_2_lut_LC_99 {i2311_2_lut}
+clb_pack PLB_11 {i1872_4_lut_LC_54, motor_dir_173_LC_55, i1_2_lut_3_lut_adj_1_LC_65, i2_2_lut_3_lut_LC_117, i3_4_lut_LC_131, i2302_4_lut_4_lut_LC_98, i36_4_lut_LC_128, i2311_2_lut_LC_99}
+ble_pack i1_2_lut_3_lut_4_lut_LC_64 {i1_2_lut_3_lut_4_lut}
+ble_pack i1_2_lut_rep_59_LC_81 {i1_2_lut_rep_59}
+ble_pack i2c_cmd_cnt_601__i1_LC_58 {i2c_cmd_cnt_601__i1, i1935_2_lut}
+ble_pack i2c_cmd_cnt_601__i0_LC_57 {i2c_cmd_cnt_601__i0, i1933_1_lut}
+ble_pack i2c_cmd_cnt_601__i2_LC_59 {i2c_cmd_cnt_601__i2, i1942_3_lut}
+ble_pack i1_2_lut_3_lut_LC_63 {i1_2_lut_3_lut}
+ble_pack i2_3_lut_4_lut_LC_118 {i2_3_lut_4_lut}
+ble_pack i1_2_lut_rep_43_3_lut_LC_75 {i1_2_lut_rep_43_3_lut}
+clb_pack PLB_12 {i1_2_lut_3_lut_4_lut_LC_64, i1_2_lut_rep_59_LC_81, i2c_cmd_cnt_601__i1_LC_58, i2c_cmd_cnt_601__i0_LC_57, i2c_cmd_cnt_601__i2_LC_59, i1_2_lut_3_lut_LC_63, i2_3_lut_4_lut_LC_118, i1_2_lut_rep_43_3_lut_LC_75}
+ble_pack i1_2_lut_rep_38_2_lut_4_lut_4_lut_LC_72 {i1_2_lut_rep_38_2_lut_4_lut_4_lut}
+ble_pack PWM_duty_i0_i7_LC_145 {PWM_duty_i0_i7, PWM_duty_i0_i7_THRU_LUT4_0}
+ble_pack PWM_cnt_7__I_0_i15_2_lut_rep_57_LC_11 {PWM_cnt_7__I_0_i15_2_lut_rep_57}
+ble_pack i2371_2_lut_2_lut_4_lut_4_lut_LC_112 {i2371_2_lut_2_lut_4_lut_4_lut}
+ble_pack i1_4_lut_adj_10_LC_88 {i1_4_lut_adj_10}
+ble_pack i2316_3_lut_4_lut_LC_101 {i2316_3_lut_4_lut}
+ble_pack i1533_2_lut_rep_49_LC_44 {i1533_2_lut_rep_49}
+ble_pack i2318_2_lut_rep_45_3_lut_LC_103 {i2318_2_lut_rep_45_3_lut}
+clb_pack PLB_13 {i1_2_lut_rep_38_2_lut_4_lut_4_lut_LC_72, PWM_duty_i0_i7_LC_145, PWM_cnt_7__I_0_i15_2_lut_rep_57_LC_11, i2371_2_lut_2_lut_4_lut_4_lut_LC_112, i1_4_lut_adj_10_LC_88, i2316_3_lut_4_lut_LC_101, i1533_2_lut_rep_49_LC_44, i2318_2_lut_rep_45_3_lut_LC_103}
+ble_pack i2345_2_lut_2_lut_3_lut_4_lut_LC_108 {i2345_2_lut_2_lut_3_lut_4_lut}
+ble_pack PWM_duty_i0_i5_LC_143 {PWM_duty_i0_i5, PWM_duty_i0_i5_THRU_LUT4_0}
+ble_pack PWM_cnt_7__I_0_i11_2_lut_rep_52_LC_9 {PWM_cnt_7__I_0_i11_2_lut_rep_52}
+ble_pack i25_3_lut_4_lut_LC_113 {i25_3_lut_4_lut}
+ble_pack i29_3_lut_4_lut_LC_116 {i29_3_lut_4_lut}
+ble_pack i1_2_lut_adj_8_LC_71 {i1_2_lut_adj_8}
+ble_pack i38_3_lut_LC_130 {i38_3_lut}
+ble_pack i1_2_lut_rep_53_LC_79 {i1_2_lut_rep_53}
+clb_pack PLB_14 {i2345_2_lut_2_lut_3_lut_4_lut_LC_108, PWM_duty_i0_i5_LC_143, PWM_cnt_7__I_0_i11_2_lut_rep_52_LC_9, i25_3_lut_4_lut_LC_113, i29_3_lut_4_lut_LC_116, i1_2_lut_adj_8_LC_71, i38_3_lut_LC_130, i1_2_lut_rep_53_LC_79}
+ble_pack PWM_B_156_LC_120 {PWM_B_156, i2_4_lut}
+ble_pack i2_4_lut_adj_18_LC_121 {i2_4_lut_adj_18}
+ble_pack i1_2_lut_rep_55_LC_80 {i1_2_lut_rep_55}
+ble_pack i3_4_lut_adj_23_LC_132 {i3_4_lut_adj_23}
+ble_pack i1_2_lut_rep_44_LC_76 {i1_2_lut_rep_44}
+ble_pack i1_2_lut_3_lut_adj_7_LC_68 {i1_2_lut_3_lut_adj_7}
+ble_pack LessThan_8_i6_3_lut_3_lut_LC_5 {LessThan_8_i6_3_lut_3_lut}
+ble_pack LessThan_8_i8_3_lut_3_lut_LC_7 {LessThan_8_i8_3_lut_3_lut}
+clb_pack PLB_15 {PWM_B_156_LC_120, i2_4_lut_adj_18_LC_121, i1_2_lut_rep_55_LC_80, i3_4_lut_adj_23_LC_132, i1_2_lut_rep_44_LC_76, i1_2_lut_3_lut_adj_7_LC_68, LessThan_8_i6_3_lut_3_lut_LC_5, LessThan_8_i8_3_lut_3_lut_LC_7}
+ble_pack PWM_R_158_LC_42 {PWM_R_158, i1472_3_lut}
+ble_pack PWM_G_157_LC_43 {PWM_G_157, i1476_3_lut}
+ble_pack i1_2_lut_3_lut_adj_13_LC_66 {i1_2_lut_3_lut_adj_13}
+ble_pack i2320_2_lut_LC_104 {i2320_2_lut}
+ble_pack LessThan_8_i7_2_lut_rep_51_LC_6 {LessThan_8_i7_2_lut_rep_51}
+ble_pack PWM_cnt_7__I_0_i9_2_lut_rep_58_LC_15 {PWM_cnt_7__I_0_i9_2_lut_rep_58}
+ble_pack i2333_2_lut_LC_106 {i2333_2_lut}
+ble_pack i2369_2_lut_LC_111 {i2369_2_lut}
+clb_pack PLB_16 {PWM_R_158_LC_42, PWM_G_157_LC_43, i1_2_lut_3_lut_adj_13_LC_66, i2320_2_lut_LC_104, LessThan_8_i7_2_lut_rep_51_LC_6, PWM_cnt_7__I_0_i9_2_lut_rep_58_LC_15, i2333_2_lut_LC_106, i2369_2_lut_LC_111}
+ble_pack motor_on_172_LC_56 {motor_on_172, i1881_4_lut}
+ble_pack hard_SBSTBi_162_LC_87 {hard_SBSTBi_162, i1_4_lut_4_lut_4_lut}
+ble_pack i277_2_lut_LC_114 {i277_2_lut}
+ble_pack i2c_stat_i6_LC_102 {i2c_stat_i6, i2317_3_lut}
+ble_pack hard_SBDATi_i4_LC_95 {hard_SBDATi_i4, i1_4_lut_adj_21}
+ble_pack hard_SBDATi_i7_LC_96 {hard_SBDATi_i7, i1_4_lut_adj_22}
+ble_pack soft_SBADRi_i1_LC_89 {soft_SBADRi_i1, i1_4_lut_adj_11}
+ble_pack GB_BUFFER_n3456_THRU_LUT4_0_LC_162 {GB_BUFFER_n3456_THRU_LUT4_0}
+clb_pack PLB_17 {motor_on_172_LC_56, hard_SBSTBi_162_LC_87, i277_2_lut_LC_114, i2c_stat_i6_LC_102, hard_SBDATi_i4_LC_95, hard_SBDATi_i7_LC_96, soft_SBADRi_i1_LC_89, GB_BUFFER_n3456_THRU_LUT4_0_LC_162}
+ble_pack i2c_cnt_599_600__i1_LC_125 {i2c_cnt_599_600__i1, i2c_cnt_599_600_mux_7_i1_3_lut_4_lut}
+ble_pack cmd_decoded_170_LC_127 {cmd_decoded_170, i34_4_lut}
+ble_pack LC_163 {CONSTANT_ONE_LUT4}
+clb_pack PLB_18 {i2c_cnt_599_600__i1_LC_125, cmd_decoded_170_LC_127, LC_163}
+ble_pack i2c_steps_i3_LC_84 {i2c_steps_i3, i1_3_lut_adj_9}
+clb_pack PLB_19 {i2c_steps_i3_LC_84}
+ble_pack PWM_duty_i0_i0_LC_138 {PWM_duty_i0_i0, PWM_duty_i0_i0_THRU_LUT4_0}
+ble_pack PWM_duty_i0_i2_LC_140 {PWM_duty_i0_i2, PWM_duty_i0_i2_THRU_LUT4_0}
+ble_pack PWM_duty_i0_i3_LC_141 {PWM_duty_i0_i3, PWM_duty_i0_i3_THRU_LUT4_0}
+ble_pack PWM_duty_i0_i4_LC_142 {PWM_duty_i0_i4, PWM_duty_i0_i4_THRU_LUT4_0}
+clb_pack PLB_20 {PWM_duty_i0_i0_LC_138, PWM_duty_i0_i2_LC_140, PWM_duty_i0_i3_LC_141, PWM_duty_i0_i4_LC_142}
+ble_pack i2c_cmd_0___i1_LC_146 {i2c_cmd_0___i1, i2c_cmd_0___i1_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i2_LC_154 {i2c_cmd_0___i2, i2c_cmd_0___i2_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i3_LC_155 {i2c_cmd_0___i3, i2c_cmd_0___i3_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i4_LC_156 {i2c_cmd_0___i4, i2c_cmd_0___i4_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i5_LC_157 {i2c_cmd_0___i5, i2c_cmd_0___i5_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i6_LC_158 {i2c_cmd_0___i6, i2c_cmd_0___i6_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i7_LC_159 {i2c_cmd_0___i7, i2c_cmd_0___i7_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i8_LC_160 {i2c_cmd_0___i8, i2c_cmd_0___i8_THRU_LUT4_0}
+clb_pack PLB_21 {i2c_cmd_0___i1_LC_146, i2c_cmd_0___i2_LC_154, i2c_cmd_0___i3_LC_155, i2c_cmd_0___i4_LC_156, i2c_cmd_0___i5_LC_157, i2c_cmd_0___i6_LC_158, i2c_cmd_0___i7_LC_159, i2c_cmd_0___i8_LC_160}
+ble_pack i2c_cmd_0___i10_LC_147 {i2c_cmd_0___i10, i2c_cmd_0___i10_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i11_LC_148 {i2c_cmd_0___i11, i2c_cmd_0___i11_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i12_LC_149 {i2c_cmd_0___i12, i2c_cmd_0___i12_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i13_LC_150 {i2c_cmd_0___i13, i2c_cmd_0___i13_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i14_LC_151 {i2c_cmd_0___i14, i2c_cmd_0___i14_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i15_LC_152 {i2c_cmd_0___i15, i2c_cmd_0___i15_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i16_LC_153 {i2c_cmd_0___i16, i2c_cmd_0___i16_THRU_LUT4_0}
+ble_pack i2c_cmd_0___i9_LC_161 {i2c_cmd_0___i9, i2c_cmd_0___i9_THRU_LUT4_0}
+clb_pack PLB_22 {i2c_cmd_0___i10_LC_147, i2c_cmd_0___i11_LC_148, i2c_cmd_0___i12_LC_149, i2c_cmd_0___i13_LC_150, i2c_cmd_0___i14_LC_151, i2c_cmd_0___i15_LC_152, i2c_cmd_0___i16_LC_153, i2c_cmd_0___i9_LC_161}
+ble_pack drv_cnt_i0_i0_LC_41 {drv_cnt_i0_i0, i1471_1_lut}
+clb_pack PLB_23 {drv_cnt_i0_i0_LC_41}

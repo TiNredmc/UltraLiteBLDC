@@ -6,7 +6,7 @@
 
 -- Build Date:         Dec  9 2020 18:18:06
 
--- File Generated:     Apr 20 2022 14:33:48
+-- File Generated:     Apr 20 2022 15:22:04
 
 -- Purpose:            Post-Route Verilog/VHDL netlist for timing simulation
 
@@ -38,270 +38,385 @@ end top;
 -- View name is \INTERFACE\
 architecture \INTERFACE\ of top is
 
+signal \N__5335\ : std_logic;
+signal \N__5334\ : std_logic;
+signal \N__5333\ : std_logic;
+signal \N__5326\ : std_logic;
+signal \N__5325\ : std_logic;
+signal \N__5324\ : std_logic;
+signal \N__5307\ : std_logic;
+signal \N__5304\ : std_logic;
+signal \N__5301\ : std_logic;
+signal \N__5298\ : std_logic;
+signal \N__5297\ : std_logic;
+signal \N__5296\ : std_logic;
+signal \N__5295\ : std_logic;
+signal \N__5294\ : std_logic;
+signal \N__5293\ : std_logic;
+signal \N__5292\ : std_logic;
+signal \N__5287\ : std_logic;
+signal \N__5286\ : std_logic;
+signal \N__5281\ : std_logic;
+signal \N__5280\ : std_logic;
+signal \N__5279\ : std_logic;
+signal \N__5276\ : std_logic;
+signal \N__5275\ : std_logic;
+signal \N__5274\ : std_logic;
+signal \N__5273\ : std_logic;
+signal \N__5272\ : std_logic;
+signal \N__5271\ : std_logic;
+signal \N__5268\ : std_logic;
+signal \N__5267\ : std_logic;
+signal \N__5266\ : std_logic;
+signal \N__5265\ : std_logic;
+signal \N__5262\ : std_logic;
+signal \N__5261\ : std_logic;
+signal \N__5258\ : std_logic;
+signal \N__5257\ : std_logic;
+signal \N__5256\ : std_logic;
+signal \N__5255\ : std_logic;
+signal \N__5252\ : std_logic;
+signal \N__5251\ : std_logic;
+signal \N__5250\ : std_logic;
+signal \N__5249\ : std_logic;
+signal \N__5248\ : std_logic;
+signal \N__5247\ : std_logic;
+signal \N__5246\ : std_logic;
+signal \N__5243\ : std_logic;
+signal \N__5238\ : std_logic;
+signal \N__5231\ : std_logic;
+signal \N__5228\ : std_logic;
+signal \N__5223\ : std_logic;
+signal \N__5220\ : std_logic;
+signal \N__5209\ : std_logic;
+signal \N__5206\ : std_logic;
+signal \N__5203\ : std_logic;
+signal \N__5198\ : std_logic;
+signal \N__5191\ : std_logic;
+signal \N__5182\ : std_logic;
+signal \N__5177\ : std_logic;
+signal \N__5174\ : std_logic;
+signal \N__5151\ : std_logic;
+signal \N__5148\ : std_logic;
+signal \N__5147\ : std_logic;
+signal \N__5146\ : std_logic;
+signal \N__5143\ : std_logic;
+signal \N__5140\ : std_logic;
+signal \N__5137\ : std_logic;
+signal \N__5136\ : std_logic;
+signal \N__5135\ : std_logic;
+signal \N__5134\ : std_logic;
+signal \N__5133\ : std_logic;
+signal \N__5132\ : std_logic;
+signal \N__5129\ : std_logic;
+signal \N__5122\ : std_logic;
+signal \N__5117\ : std_logic;
+signal \N__5114\ : std_logic;
+signal \N__5113\ : std_logic;
+signal \N__5112\ : std_logic;
+signal \N__5111\ : std_logic;
+signal \N__5110\ : std_logic;
+signal \N__5107\ : std_logic;
+signal \N__5104\ : std_logic;
+signal \N__5101\ : std_logic;
+signal \N__5096\ : std_logic;
+signal \N__5095\ : std_logic;
+signal \N__5094\ : std_logic;
+signal \N__5093\ : std_logic;
+signal \N__5092\ : std_logic;
+signal \N__5091\ : std_logic;
+signal \N__5086\ : std_logic;
+signal \N__5081\ : std_logic;
+signal \N__5074\ : std_logic;
+signal \N__5071\ : std_logic;
+signal \N__5064\ : std_logic;
+signal \N__5059\ : std_logic;
+signal \N__5046\ : std_logic;
+signal \N__5043\ : std_logic;
+signal \N__5040\ : std_logic;
+signal \N__5037\ : std_logic;
+signal \N__5036\ : std_logic;
+signal \N__5035\ : std_logic;
+signal \N__5034\ : std_logic;
+signal \N__5027\ : std_logic;
+signal \N__5024\ : std_logic;
+signal \N__5019\ : std_logic;
+signal \N__5016\ : std_logic;
+signal \N__5015\ : std_logic;
+signal \N__5014\ : std_logic;
+signal \N__5013\ : std_logic;
+signal \N__5006\ : std_logic;
+signal \N__5003\ : std_logic;
+signal \N__4998\ : std_logic;
+signal \N__4997\ : std_logic;
+signal \N__4996\ : std_logic;
+signal \N__4995\ : std_logic;
+signal \N__4994\ : std_logic;
+signal \N__4993\ : std_logic;
+signal \N__4992\ : std_logic;
+signal \N__4991\ : std_logic;
 signal \N__4990\ : std_logic;
 signal \N__4989\ : std_logic;
 signal \N__4988\ : std_logic;
+signal \N__4987\ : std_logic;
+signal \N__4986\ : std_logic;
+signal \N__4985\ : std_logic;
+signal \N__4984\ : std_logic;
+signal \N__4983\ : std_logic;
+signal \N__4982\ : std_logic;
 signal \N__4981\ : std_logic;
 signal \N__4980\ : std_logic;
 signal \N__4979\ : std_logic;
-signal \N__4962\ : std_logic;
-signal \N__4961\ : std_logic;
-signal \N__4960\ : std_logic;
-signal \N__4959\ : std_logic;
-signal \N__4954\ : std_logic;
-signal \N__4951\ : std_logic;
-signal \N__4948\ : std_logic;
-signal \N__4941\ : std_logic;
-signal \N__4938\ : std_logic;
-signal \N__4935\ : std_logic;
-signal \N__4934\ : std_logic;
-signal \N__4933\ : std_logic;
-signal \N__4932\ : std_logic;
-signal \N__4931\ : std_logic;
-signal \N__4930\ : std_logic;
-signal \N__4929\ : std_logic;
-signal \N__4928\ : std_logic;
-signal \N__4927\ : std_logic;
-signal \N__4926\ : std_logic;
-signal \N__4923\ : std_logic;
-signal \N__4922\ : std_logic;
-signal \N__4919\ : std_logic;
+signal \N__4978\ : std_logic;
+signal \N__4977\ : std_logic;
+signal \N__4976\ : std_logic;
+signal \N__4975\ : std_logic;
+signal \N__4974\ : std_logic;
+signal \N__4973\ : std_logic;
+signal \N__4920\ : std_logic;
+signal \N__4917\ : std_logic;
 signal \N__4914\ : std_logic;
+signal \N__4913\ : std_logic;
+signal \N__4912\ : std_logic;
 signal \N__4911\ : std_logic;
-signal \N__4908\ : std_logic;
+signal \N__4910\ : std_logic;
+signal \N__4907\ : std_logic;
+signal \N__4906\ : std_logic;
+signal \N__4905\ : std_logic;
+signal \N__4904\ : std_logic;
 signal \N__4903\ : std_logic;
-signal \N__4900\ : std_logic;
-signal \N__4893\ : std_logic;
+signal \N__4902\ : std_logic;
+signal \N__4901\ : std_logic;
+signal \N__4898\ : std_logic;
+signal \N__4895\ : std_logic;
+signal \N__4894\ : std_logic;
+signal \N__4889\ : std_logic;
 signal \N__4884\ : std_logic;
-signal \N__4883\ : std_logic;
-signal \N__4882\ : std_logic;
 signal \N__4881\ : std_logic;
 signal \N__4880\ : std_logic;
-signal \N__4879\ : std_logic;
+signal \N__4877\ : std_logic;
 signal \N__4872\ : std_logic;
 signal \N__4869\ : std_logic;
-signal \N__4860\ : std_logic;
-signal \N__4857\ : std_logic;
-signal \N__4848\ : std_logic;
-signal \N__4845\ : std_logic;
+signal \N__4866\ : std_logic;
+signal \N__4861\ : std_logic;
+signal \N__4858\ : std_logic;
+signal \N__4855\ : std_logic;
+signal \N__4850\ : std_logic;
+signal \N__4849\ : std_logic;
 signal \N__4842\ : std_logic;
-signal \N__4841\ : std_logic;
-signal \N__4840\ : std_logic;
-signal \N__4839\ : std_logic;
-signal \N__4836\ : std_logic;
-signal \N__4835\ : std_logic;
-signal \N__4834\ : std_logic;
-signal \N__4833\ : std_logic;
+signal \N__4837\ : std_logic;
 signal \N__4832\ : std_logic;
-signal \N__4831\ : std_logic;
-signal \N__4830\ : std_logic;
 signal \N__4829\ : std_logic;
-signal \N__4828\ : std_logic;
-signal \N__4827\ : std_logic;
 signal \N__4826\ : std_logic;
-signal \N__4825\ : std_logic;
-signal \N__4822\ : std_logic;
-signal \N__4817\ : std_logic;
+signal \N__4823\ : std_logic;
 signal \N__4816\ : std_logic;
-signal \N__4815\ : std_logic;
-signal \N__4812\ : std_logic;
-signal \N__4811\ : std_logic;
-signal \N__4810\ : std_logic;
 signal \N__4809\ : std_logic;
-signal \N__4808\ : std_logic;
+signal \N__4806\ : std_logic;
 signal \N__4805\ : std_logic;
-signal \N__4802\ : std_logic;
+signal \N__4804\ : std_logic;
 signal \N__4801\ : std_logic;
-signal \N__4800\ : std_logic;
-signal \N__4799\ : std_logic;
-signal \N__4792\ : std_logic;
-signal \N__4789\ : std_logic;
+signal \N__4798\ : std_logic;
+signal \N__4795\ : std_logic;
+signal \N__4788\ : std_logic;
+signal \N__4787\ : std_logic;
+signal \N__4786\ : std_logic;
+signal \N__4785\ : std_logic;
 signal \N__4784\ : std_logic;
+signal \N__4783\ : std_logic;
+signal \N__4782\ : std_logic;
+signal \N__4781\ : std_logic;
+signal \N__4780\ : std_logic;
 signal \N__4779\ : std_logic;
-signal \N__4776\ : std_logic;
+signal \N__4774\ : std_logic;
 signal \N__4771\ : std_logic;
-signal \N__4766\ : std_logic;
-signal \N__4763\ : std_logic;
-signal \N__4760\ : std_logic;
-signal \N__4753\ : std_logic;
+signal \N__4764\ : std_logic;
+signal \N__4757\ : std_logic;
+signal \N__4756\ : std_logic;
+signal \N__4755\ : std_logic;
+signal \N__4754\ : std_logic;
+signal \N__4751\ : std_logic;
+signal \N__4750\ : std_logic;
+signal \N__4749\ : std_logic;
+signal \N__4748\ : std_logic;
+signal \N__4747\ : std_logic;
+signal \N__4744\ : std_logic;
+signal \N__4743\ : std_logic;
 signal \N__4742\ : std_logic;
+signal \N__4741\ : std_logic;
+signal \N__4734\ : std_logic;
+signal \N__4733\ : std_logic;
+signal \N__4732\ : std_logic;
+signal \N__4725\ : std_logic;
+signal \N__4722\ : std_logic;
 signal \N__4719\ : std_logic;
-signal \N__4718\ : std_logic;
-signal \N__4717\ : std_logic;
 signal \N__4716\ : std_logic;
-signal \N__4715\ : std_logic;
-signal \N__4714\ : std_logic;
-signal \N__4713\ : std_logic;
-signal \N__4712\ : std_logic;
 signal \N__4711\ : std_logic;
-signal \N__4710\ : std_logic;
-signal \N__4709\ : std_logic;
 signal \N__4708\ : std_logic;
-signal \N__4707\ : std_logic;
-signal \N__4704\ : std_logic;
-signal \N__4703\ : std_logic;
-signal \N__4702\ : std_logic;
 signal \N__4701\ : std_logic;
-signal \N__4700\ : std_logic;
-signal \N__4697\ : std_logic;
-signal \N__4696\ : std_logic;
+signal \N__4698\ : std_logic;
 signal \N__4693\ : std_logic;
-signal \N__4690\ : std_logic;
-signal \N__4685\ : std_logic;
-signal \N__4676\ : std_logic;
+signal \N__4674\ : std_logic;
 signal \N__4673\ : std_logic;
 signal \N__4672\ : std_logic;
 signal \N__4671\ : std_logic;
 signal \N__4670\ : std_logic;
 signal \N__4669\ : std_logic;
 signal \N__4668\ : std_logic;
-signal \N__4665\ : std_logic;
-signal \N__4658\ : std_logic;
-signal \N__4651\ : std_logic;
+signal \N__4667\ : std_logic;
+signal \N__4664\ : std_logic;
+signal \N__4659\ : std_logic;
+signal \N__4652\ : std_logic;
+signal \N__4649\ : std_logic;
 signal \N__4648\ : std_logic;
+signal \N__4647\ : std_logic;
+signal \N__4646\ : std_logic;
 signal \N__4645\ : std_logic;
-signal \N__4640\ : std_logic;
-signal \N__4637\ : std_logic;
+signal \N__4644\ : std_logic;
+signal \N__4643\ : std_logic;
+signal \N__4642\ : std_logic;
+signal \N__4639\ : std_logic;
 signal \N__4634\ : std_logic;
+signal \N__4633\ : std_logic;
+signal \N__4632\ : std_logic;
 signal \N__4631\ : std_logic;
-signal \N__4626\ : std_logic;
-signal \N__4619\ : std_logic;
-signal \N__4596\ : std_logic;
-signal \N__4595\ : std_logic;
+signal \N__4630\ : std_logic;
+signal \N__4629\ : std_logic;
+signal \N__4628\ : std_logic;
+signal \N__4625\ : std_logic;
+signal \N__4622\ : std_logic;
+signal \N__4615\ : std_logic;
+signal \N__4610\ : std_logic;
+signal \N__4609\ : std_logic;
+signal \N__4608\ : std_logic;
+signal \N__4607\ : std_logic;
+signal \N__4602\ : std_logic;
+signal \N__4597\ : std_logic;
 signal \N__4594\ : std_logic;
 signal \N__4591\ : std_logic;
-signal \N__4586\ : std_logic;
-signal \N__4585\ : std_logic;
-signal \N__4584\ : std_logic;
-signal \N__4583\ : std_logic;
 signal \N__4582\ : std_logic;
-signal \N__4581\ : std_logic;
-signal \N__4580\ : std_logic;
 signal \N__4579\ : std_logic;
-signal \N__4578\ : std_logic;
-signal \N__4575\ : std_logic;
-signal \N__4572\ : std_logic;
-signal \N__4565\ : std_logic;
+signal \N__4574\ : std_logic;
+signal \N__4571\ : std_logic;
 signal \N__4564\ : std_logic;
-signal \N__4563\ : std_logic;
-signal \N__4562\ : std_logic;
-signal \N__4561\ : std_logic;
-signal \N__4560\ : std_logic;
-signal \N__4559\ : std_logic;
-signal \N__4556\ : std_logic;
-signal \N__4555\ : std_logic;
-signal \N__4554\ : std_logic;
-signal \N__4553\ : std_logic;
-signal \N__4552\ : std_logic;
-signal \N__4551\ : std_logic;
-signal \N__4550\ : std_logic;
-signal \N__4541\ : std_logic;
-signal \N__4534\ : std_logic;
-signal \N__4531\ : std_logic;
-signal \N__4522\ : std_logic;
-signal \N__4517\ : std_logic;
-signal \N__4510\ : std_logic;
+signal \N__4545\ : std_logic;
+signal \N__4542\ : std_logic;
+signal \N__4539\ : std_logic;
+signal \N__4536\ : std_logic;
+signal \N__4533\ : std_logic;
+signal \N__4530\ : std_logic;
+signal \N__4529\ : std_logic;
+signal \N__4528\ : std_logic;
+signal \N__4527\ : std_logic;
+signal \N__4526\ : std_logic;
+signal \N__4525\ : std_logic;
+signal \N__4518\ : std_logic;
+signal \N__4511\ : std_logic;
+signal \N__4506\ : std_logic;
+signal \N__4505\ : std_logic;
+signal \N__4504\ : std_logic;
 signal \N__4503\ : std_logic;
-signal \N__4488\ : std_logic;
-signal \N__4485\ : std_logic;
-signal \N__4484\ : std_logic;
-signal \N__4483\ : std_logic;
-signal \N__4482\ : std_logic;
-signal \N__4481\ : std_logic;
-signal \N__4480\ : std_logic;
+signal \N__4500\ : std_logic;
+signal \N__4499\ : std_logic;
+signal \N__4494\ : std_logic;
+signal \N__4491\ : std_logic;
+signal \N__4486\ : std_logic;
 signal \N__4479\ : std_logic;
 signal \N__4478\ : std_logic;
-signal \N__4477\ : std_logic;
-signal \N__4476\ : std_logic;
 signal \N__4475\ : std_logic;
-signal \N__4474\ : std_logic;
-signal \N__4473\ : std_logic;
 signal \N__4472\ : std_logic;
-signal \N__4471\ : std_logic;
-signal \N__4470\ : std_logic;
 signal \N__4467\ : std_logic;
-signal \N__4462\ : std_logic;
-signal \N__4459\ : std_logic;
-signal \N__4450\ : std_logic;
+signal \N__4464\ : std_logic;
+signal \N__4461\ : std_logic;
+signal \N__4458\ : std_logic;
+signal \N__4455\ : std_logic;
+signal \N__4452\ : std_logic;
+signal \N__4449\ : std_logic;
+signal \N__4446\ : std_logic;
 signal \N__4443\ : std_logic;
+signal \N__4440\ : std_logic;
+signal \N__4437\ : std_logic;
 signal \N__4436\ : std_logic;
-signal \N__4433\ : std_logic;
+signal \N__4435\ : std_logic;
 signal \N__4430\ : std_logic;
 signal \N__4427\ : std_logic;
-signal \N__4426\ : std_logic;
-signal \N__4425\ : std_logic;
 signal \N__4424\ : std_logic;
-signal \N__4423\ : std_logic;
-signal \N__4418\ : std_logic;
-signal \N__4411\ : std_logic;
+signal \N__4419\ : std_logic;
+signal \N__4416\ : std_logic;
+signal \N__4413\ : std_logic;
 signal \N__4410\ : std_logic;
-signal \N__4409\ : std_logic;
-signal \N__4408\ : std_logic;
 signal \N__4407\ : std_logic;
-signal \N__4406\ : std_logic;
-signal \N__4405\ : std_logic;
-signal \N__4402\ : std_logic;
-signal \N__4397\ : std_logic;
+signal \N__4404\ : std_logic;
+signal \N__4401\ : std_logic;
+signal \N__4398\ : std_logic;
+signal \N__4395\ : std_logic;
 signal \N__4392\ : std_logic;
-signal \N__4387\ : std_logic;
+signal \N__4389\ : std_logic;
+signal \N__4386\ : std_logic;
+signal \N__4383\ : std_logic;
 signal \N__4382\ : std_logic;
+signal \N__4379\ : std_logic;
+signal \N__4376\ : std_logic;
 signal \N__4371\ : std_logic;
 signal \N__4368\ : std_logic;
+signal \N__4365\ : std_logic;
+signal \N__4362\ : std_logic;
+signal \N__4359\ : std_logic;
+signal \N__4356\ : std_logic;
 signal \N__4353\ : std_logic;
 signal \N__4350\ : std_logic;
 signal \N__4347\ : std_logic;
 signal \N__4344\ : std_logic;
 signal \N__4341\ : std_logic;
 signal \N__4338\ : std_logic;
+signal \N__4337\ : std_logic;
+signal \N__4336\ : std_logic;
 signal \N__4335\ : std_logic;
 signal \N__4332\ : std_logic;
 signal \N__4329\ : std_logic;
-signal \N__4326\ : std_logic;
-signal \N__4325\ : std_logic;
 signal \N__4324\ : std_logic;
-signal \N__4323\ : std_logic;
-signal \N__4320\ : std_logic;
-signal \N__4319\ : std_logic;
+signal \N__4317\ : std_logic;
 signal \N__4314\ : std_logic;
 signal \N__4311\ : std_logic;
-signal \N__4306\ : std_logic;
-signal \N__4299\ : std_logic;
+signal \N__4308\ : std_logic;
+signal \N__4305\ : std_logic;
+signal \N__4304\ : std_logic;
+signal \N__4301\ : std_logic;
 signal \N__4298\ : std_logic;
 signal \N__4297\ : std_logic;
-signal \N__4296\ : std_logic;
-signal \N__4295\ : std_logic;
-signal \N__4294\ : std_logic;
-signal \N__4287\ : std_logic;
-signal \N__4280\ : std_logic;
+signal \N__4292\ : std_logic;
+signal \N__4289\ : std_logic;
+signal \N__4286\ : std_logic;
+signal \N__4283\ : std_logic;
+signal \N__4278\ : std_logic;
 signal \N__4275\ : std_logic;
-signal \N__4274\ : std_logic;
-signal \N__4271\ : std_logic;
-signal \N__4268\ : std_logic;
-signal \N__4265\ : std_logic;
+signal \N__4272\ : std_logic;
+signal \N__4269\ : std_logic;
+signal \N__4266\ : std_logic;
+signal \N__4263\ : std_logic;
 signal \N__4260\ : std_logic;
-signal \N__4259\ : std_logic;
-signal \N__4258\ : std_logic;
 signal \N__4257\ : std_logic;
 signal \N__4256\ : std_logic;
 signal \N__4255\ : std_logic;
 signal \N__4254\ : std_logic;
-signal \N__4253\ : std_logic;
-signal \N__4252\ : std_logic;
 signal \N__4251\ : std_logic;
-signal \N__4250\ : std_logic;
-signal \N__4249\ : std_logic;
-signal \N__4248\ : std_logic;
-signal \N__4247\ : std_logic;
 signal \N__4246\ : std_logic;
-signal \N__4245\ : std_logic;
-signal \N__4244\ : std_logic;
 signal \N__4243\ : std_logic;
-signal \N__4242\ : std_logic;
-signal \N__4241\ : std_logic;
-signal \N__4240\ : std_logic;
-signal \N__4197\ : std_logic;
-signal \N__4194\ : std_logic;
-signal \N__4191\ : std_logic;
+signal \N__4236\ : std_logic;
+signal \N__4233\ : std_logic;
+signal \N__4230\ : std_logic;
+signal \N__4227\ : std_logic;
+signal \N__4226\ : std_logic;
+signal \N__4223\ : std_logic;
+signal \N__4222\ : std_logic;
+signal \N__4219\ : std_logic;
+signal \N__4216\ : std_logic;
+signal \N__4211\ : std_logic;
+signal \N__4206\ : std_logic;
+signal \N__4205\ : std_logic;
+signal \N__4202\ : std_logic;
+signal \N__4199\ : std_logic;
+signal \N__4196\ : std_logic;
+signal \N__4193\ : std_logic;
 signal \N__4188\ : std_logic;
 signal \N__4185\ : std_logic;
 signal \N__4182\ : std_logic;
@@ -312,184 +427,184 @@ signal \N__4170\ : std_logic;
 signal \N__4167\ : std_logic;
 signal \N__4164\ : std_logic;
 signal \N__4161\ : std_logic;
-signal \N__4160\ : std_logic;
-signal \N__4157\ : std_logic;
-signal \N__4156\ : std_logic;
-signal \N__4153\ : std_logic;
-signal \N__4150\ : std_logic;
+signal \N__4158\ : std_logic;
+signal \N__4155\ : std_logic;
+signal \N__4152\ : std_logic;
+signal \N__4149\ : std_logic;
+signal \N__4148\ : std_logic;
 signal \N__4147\ : std_logic;
-signal \N__4142\ : std_logic;
-signal \N__4137\ : std_logic;
-signal \N__4134\ : std_logic;
-signal \N__4131\ : std_logic;
+signal \N__4146\ : std_logic;
+signal \N__4145\ : std_logic;
+signal \N__4140\ : std_logic;
+signal \N__4133\ : std_logic;
 signal \N__4128\ : std_logic;
+signal \N__4127\ : std_logic;
+signal \N__4126\ : std_logic;
 signal \N__4125\ : std_logic;
-signal \N__4122\ : std_logic;
+signal \N__4124\ : std_logic;
 signal \N__4119\ : std_logic;
-signal \N__4116\ : std_logic;
-signal \N__4113\ : std_logic;
-signal \N__4110\ : std_logic;
+signal \N__4112\ : std_logic;
 signal \N__4107\ : std_logic;
 signal \N__4104\ : std_logic;
-signal \N__4101\ : std_logic;
+signal \N__4103\ : std_logic;
+signal \N__4100\ : std_logic;
+signal \N__4099\ : std_logic;
 signal \N__4098\ : std_logic;
-signal \N__4095\ : std_logic;
-signal \N__4092\ : std_logic;
-signal \N__4089\ : std_logic;
-signal \N__4086\ : std_logic;
-signal \N__4085\ : std_logic;
-signal \N__4082\ : std_logic;
-signal \N__4079\ : std_logic;
+signal \N__4097\ : std_logic;
+signal \N__4094\ : std_logic;
+signal \N__4091\ : std_logic;
+signal \N__4088\ : std_logic;
+signal \N__4081\ : std_logic;
 signal \N__4074\ : std_logic;
 signal \N__4073\ : std_logic;
 signal \N__4070\ : std_logic;
-signal \N__4067\ : std_logic;
-signal \N__4064\ : std_logic;
-signal \N__4059\ : std_logic;
-signal \N__4056\ : std_logic;
-signal \N__4053\ : std_logic;
-signal \N__4052\ : std_logic;
-signal \N__4051\ : std_logic;
+signal \N__4069\ : std_logic;
+signal \N__4068\ : std_logic;
+signal \N__4065\ : std_logic;
+signal \N__4062\ : std_logic;
+signal \N__4057\ : std_logic;
 signal \N__4050\ : std_logic;
+signal \N__4047\ : std_logic;
+signal \N__4046\ : std_logic;
 signal \N__4045\ : std_logic;
+signal \N__4044\ : std_logic;
+signal \N__4043\ : std_logic;
 signal \N__4042\ : std_logic;
-signal \N__4039\ : std_logic;
-signal \N__4036\ : std_logic;
-signal \N__4029\ : std_logic;
-signal \N__4026\ : std_logic;
+signal \N__4035\ : std_logic;
+signal \N__4028\ : std_logic;
 signal \N__4023\ : std_logic;
 signal \N__4020\ : std_logic;
-signal \N__4017\ : std_logic;
-signal \N__4014\ : std_logic;
-signal \N__4011\ : std_logic;
-signal \N__4010\ : std_logic;
+signal \N__4019\ : std_logic;
+signal \N__4016\ : std_logic;
+signal \N__4013\ : std_logic;
+signal \N__4012\ : std_logic;
 signal \N__4009\ : std_logic;
 signal \N__4006\ : std_logic;
 signal \N__4003\ : std_logic;
-signal \N__4000\ : std_logic;
-signal \N__3997\ : std_logic;
-signal \N__3990\ : std_logic;
-signal \N__3987\ : std_logic;
+signal \N__4002\ : std_logic;
+signal \N__3999\ : std_logic;
+signal \N__3994\ : std_logic;
+signal \N__3991\ : std_logic;
 signal \N__3984\ : std_logic;
-signal \N__3983\ : std_logic;
-signal \N__3982\ : std_logic;
 signal \N__3981\ : std_logic;
-signal \N__3974\ : std_logic;
-signal \N__3971\ : std_logic;
-signal \N__3966\ : std_logic;
-signal \N__3965\ : std_logic;
-signal \N__3962\ : std_logic;
+signal \N__3980\ : std_logic;
+signal \N__3979\ : std_logic;
+signal \N__3976\ : std_logic;
+signal \N__3973\ : std_logic;
+signal \N__3970\ : std_logic;
+signal \N__3967\ : std_logic;
+signal \N__3964\ : std_logic;
 signal \N__3961\ : std_logic;
-signal \N__3960\ : std_logic;
-signal \N__3957\ : std_logic;
-signal \N__3950\ : std_logic;
+signal \N__3958\ : std_logic;
+signal \N__3953\ : std_logic;
+signal \N__3948\ : std_logic;
 signal \N__3945\ : std_logic;
-signal \N__3944\ : std_logic;
-signal \N__3943\ : std_logic;
 signal \N__3942\ : std_logic;
 signal \N__3939\ : std_logic;
-signal \N__3932\ : std_logic;
+signal \N__3936\ : std_logic;
+signal \N__3933\ : std_logic;
+signal \N__3930\ : std_logic;
 signal \N__3927\ : std_logic;
 signal \N__3924\ : std_logic;
 signal \N__3921\ : std_logic;
-signal \N__3920\ : std_logic;
-signal \N__3919\ : std_logic;
-signal \N__3916\ : std_logic;
+signal \N__3918\ : std_logic;
+signal \N__3915\ : std_logic;
+signal \N__3914\ : std_logic;
 signal \N__3911\ : std_logic;
 signal \N__3908\ : std_logic;
 signal \N__3905\ : std_logic;
 signal \N__3900\ : std_logic;
 signal \N__3897\ : std_logic;
-signal \N__3894\ : std_logic;
+signal \N__3896\ : std_logic;
 signal \N__3893\ : std_logic;
-signal \N__3888\ : std_logic;
+signal \N__3890\ : std_logic;
 signal \N__3885\ : std_logic;
 signal \N__3882\ : std_logic;
-signal \N__3881\ : std_logic;
-signal \N__3878\ : std_logic;
-signal \N__3875\ : std_logic;
-signal \N__3870\ : std_logic;
-signal \N__3867\ : std_logic;
+signal \N__3879\ : std_logic;
+signal \N__3876\ : std_logic;
+signal \N__3873\ : std_logic;
+signal \N__3872\ : std_logic;
+signal \N__3869\ : std_logic;
 signal \N__3866\ : std_logic;
-signal \N__3865\ : std_logic;
-signal \N__3864\ : std_logic;
 signal \N__3861\ : std_logic;
-signal \N__3854\ : std_logic;
-signal \N__3851\ : std_logic;
-signal \N__3846\ : std_logic;
-signal \N__3843\ : std_logic;
-signal \N__3840\ : std_logic;
-signal \N__3837\ : std_logic;
-signal \N__3834\ : std_logic;
+signal \N__3858\ : std_logic;
+signal \N__3855\ : std_logic;
+signal \N__3852\ : std_logic;
+signal \N__3849\ : std_logic;
+signal \N__3848\ : std_logic;
+signal \N__3845\ : std_logic;
+signal \N__3842\ : std_logic;
+signal \N__3839\ : std_logic;
+signal \N__3836\ : std_logic;
 signal \N__3831\ : std_logic;
-signal \N__3830\ : std_logic;
-signal \N__3827\ : std_logic;
-signal \N__3826\ : std_logic;
-signal \N__3823\ : std_logic;
+signal \N__3828\ : std_logic;
+signal \N__3825\ : std_logic;
+signal \N__3822\ : std_logic;
+signal \N__3821\ : std_logic;
 signal \N__3820\ : std_logic;
-signal \N__3817\ : std_logic;
+signal \N__3819\ : std_logic;
 signal \N__3814\ : std_logic;
+signal \N__3811\ : std_logic;
+signal \N__3810\ : std_logic;
 signal \N__3807\ : std_logic;
 signal \N__3804\ : std_logic;
 signal \N__3801\ : std_logic;
 signal \N__3798\ : std_logic;
 signal \N__3795\ : std_logic;
-signal \N__3794\ : std_logic;
-signal \N__3791\ : std_logic;
-signal \N__3790\ : std_logic;
-signal \N__3787\ : std_logic;
-signal \N__3784\ : std_logic;
-signal \N__3781\ : std_logic;
-signal \N__3778\ : std_logic;
+signal \N__3792\ : std_logic;
+signal \N__3789\ : std_logic;
+signal \N__3780\ : std_logic;
+signal \N__3777\ : std_logic;
+signal \N__3774\ : std_logic;
 signal \N__3771\ : std_logic;
 signal \N__3768\ : std_logic;
 signal \N__3765\ : std_logic;
+signal \N__3764\ : std_logic;
+signal \N__3763\ : std_logic;
 signal \N__3762\ : std_logic;
-signal \N__3761\ : std_logic;
-signal \N__3758\ : std_logic;
-signal \N__3755\ : std_logic;
-signal \N__3752\ : std_logic;
-signal \N__3747\ : std_logic;
-signal \N__3744\ : std_logic;
-signal \N__3741\ : std_logic;
+signal \N__3759\ : std_logic;
+signal \N__3756\ : std_logic;
+signal \N__3753\ : std_logic;
+signal \N__3748\ : std_logic;
+signal \N__3743\ : std_logic;
 signal \N__3738\ : std_logic;
 signal \N__3735\ : std_logic;
-signal \N__3734\ : std_logic;
+signal \N__3732\ : std_logic;
 signal \N__3731\ : std_logic;
 signal \N__3728\ : std_logic;
-signal \N__3725\ : std_logic;
-signal \N__3720\ : std_logic;
-signal \N__3717\ : std_logic;
-signal \N__3714\ : std_logic;
+signal \N__3727\ : std_logic;
+signal \N__3724\ : std_logic;
+signal \N__3721\ : std_logic;
+signal \N__3718\ : std_logic;
 signal \N__3711\ : std_logic;
 signal \N__3708\ : std_logic;
 signal \N__3705\ : std_logic;
 signal \N__3702\ : std_logic;
-signal \N__3701\ : std_logic;
-signal \N__3698\ : std_logic;
-signal \N__3695\ : std_logic;
-signal \N__3690\ : std_logic;
-signal \N__3687\ : std_logic;
-signal \N__3684\ : std_logic;
-signal \N__3681\ : std_logic;
-signal \N__3680\ : std_logic;
+signal \N__3699\ : std_logic;
+signal \N__3696\ : std_logic;
+signal \N__3693\ : std_logic;
+signal \N__3692\ : std_logic;
+signal \N__3689\ : std_logic;
+signal \N__3686\ : std_logic;
+signal \N__3683\ : std_logic;
+signal \N__3678\ : std_logic;
 signal \N__3677\ : std_logic;
-signal \N__3676\ : std_logic;
-signal \N__3673\ : std_logic;
-signal \N__3670\ : std_logic;
-signal \N__3665\ : std_logic;
+signal \N__3674\ : std_logic;
+signal \N__3671\ : std_logic;
+signal \N__3666\ : std_logic;
+signal \N__3663\ : std_logic;
 signal \N__3660\ : std_logic;
-signal \N__3657\ : std_logic;
-signal \N__3654\ : std_logic;
-signal \N__3651\ : std_logic;
+signal \N__3659\ : std_logic;
+signal \N__3656\ : std_logic;
+signal \N__3653\ : std_logic;
 signal \N__3650\ : std_logic;
-signal \N__3647\ : std_logic;
-signal \N__3646\ : std_logic;
-signal \N__3643\ : std_logic;
-signal \N__3640\ : std_logic;
+signal \N__3645\ : std_logic;
+signal \N__3642\ : std_logic;
+signal \N__3639\ : std_logic;
+signal \N__3636\ : std_logic;
 signal \N__3635\ : std_logic;
-signal \N__3630\ : std_logic;
-signal \N__3627\ : std_logic;
+signal \N__3632\ : std_logic;
+signal \N__3629\ : std_logic;
 signal \N__3624\ : std_logic;
 signal \N__3621\ : std_logic;
 signal \N__3618\ : std_logic;
@@ -498,409 +613,409 @@ signal \N__3614\ : std_logic;
 signal \N__3611\ : std_logic;
 signal \N__3608\ : std_logic;
 signal \N__3605\ : std_logic;
-signal \N__3600\ : std_logic;
+signal \N__3602\ : std_logic;
 signal \N__3597\ : std_logic;
-signal \N__3596\ : std_logic;
-signal \N__3593\ : std_logic;
+signal \N__3594\ : std_logic;
+signal \N__3591\ : std_logic;
 signal \N__3590\ : std_logic;
-signal \N__3585\ : std_logic;
-signal \N__3582\ : std_logic;
-signal \N__3579\ : std_logic;
-signal \N__3576\ : std_logic;
-signal \N__3573\ : std_logic;
-signal \N__3570\ : std_logic;
+signal \N__3587\ : std_logic;
+signal \N__3584\ : std_logic;
+signal \N__3581\ : std_logic;
+signal \N__3578\ : std_logic;
+signal \N__3575\ : std_logic;
+signal \N__3572\ : std_logic;
 signal \N__3567\ : std_logic;
 signal \N__3564\ : std_logic;
 signal \N__3561\ : std_logic;
 signal \N__3560\ : std_logic;
 signal \N__3557\ : std_logic;
-signal \N__3554\ : std_logic;
-signal \N__3551\ : std_logic;
-signal \N__3546\ : std_logic;
-signal \N__3545\ : std_logic;
-signal \N__3542\ : std_logic;
+signal \N__3556\ : std_logic;
+signal \N__3553\ : std_logic;
+signal \N__3550\ : std_logic;
+signal \N__3547\ : std_logic;
+signal \N__3540\ : std_logic;
 signal \N__3539\ : std_logic;
 signal \N__3536\ : std_logic;
 signal \N__3533\ : std_logic;
 signal \N__3530\ : std_logic;
-signal \N__3525\ : std_logic;
-signal \N__3522\ : std_logic;
+signal \N__3527\ : std_logic;
+signal \N__3524\ : std_logic;
 signal \N__3519\ : std_logic;
-signal \N__3518\ : std_logic;
-signal \N__3515\ : std_logic;
-signal \N__3514\ : std_logic;
-signal \N__3511\ : std_logic;
-signal \N__3508\ : std_logic;
+signal \N__3516\ : std_logic;
+signal \N__3513\ : std_logic;
+signal \N__3510\ : std_logic;
+signal \N__3507\ : std_logic;
+signal \N__3504\ : std_logic;
 signal \N__3503\ : std_logic;
-signal \N__3498\ : std_logic;
-signal \N__3495\ : std_logic;
+signal \N__3500\ : std_logic;
+signal \N__3497\ : std_logic;
 signal \N__3492\ : std_logic;
 signal \N__3489\ : std_logic;
-signal \N__3488\ : std_logic;
-signal \N__3485\ : std_logic;
+signal \N__3486\ : std_logic;
+signal \N__3483\ : std_logic;
 signal \N__3482\ : std_logic;
-signal \N__3477\ : std_logic;
-signal \N__3474\ : std_logic;
-signal \N__3471\ : std_logic;
+signal \N__3481\ : std_logic;
+signal \N__3478\ : std_logic;
+signal \N__3473\ : std_logic;
 signal \N__3468\ : std_logic;
 signal \N__3465\ : std_logic;
 signal \N__3464\ : std_logic;
-signal \N__3463\ : std_logic;
-signal \N__3462\ : std_logic;
 signal \N__3461\ : std_logic;
-signal \N__3460\ : std_logic;
-signal \N__3457\ : std_logic;
+signal \N__3458\ : std_logic;
+signal \N__3453\ : std_logic;
 signal \N__3450\ : std_logic;
-signal \N__3445\ : std_logic;
-signal \N__3442\ : std_logic;
+signal \N__3447\ : std_logic;
+signal \N__3444\ : std_logic;
+signal \N__3441\ : std_logic;
+signal \N__3438\ : std_logic;
 signal \N__3435\ : std_logic;
 signal \N__3432\ : std_logic;
 signal \N__3429\ : std_logic;
-signal \N__3426\ : std_logic;
-signal \N__3423\ : std_logic;
-signal \N__3422\ : std_logic;
+signal \N__3428\ : std_logic;
+signal \N__3425\ : std_logic;
+signal \N__3424\ : std_logic;
 signal \N__3421\ : std_logic;
 signal \N__3418\ : std_logic;
 signal \N__3413\ : std_logic;
 signal \N__3408\ : std_logic;
 signal \N__3407\ : std_logic;
 signal \N__3406\ : std_logic;
-signal \N__3405\ : std_logic;
-signal \N__3402\ : std_logic;
-signal \N__3399\ : std_logic;
-signal \N__3396\ : std_logic;
+signal \N__3403\ : std_logic;
+signal \N__3398\ : std_logic;
 signal \N__3393\ : std_logic;
-signal \N__3384\ : std_logic;
-signal \N__3383\ : std_logic;
+signal \N__3390\ : std_logic;
+signal \N__3389\ : std_logic;
+signal \N__3388\ : std_logic;
+signal \N__3385\ : std_logic;
 signal \N__3380\ : std_logic;
-signal \N__3377\ : std_logic;
-signal \N__3374\ : std_logic;
+signal \N__3375\ : std_logic;
+signal \N__3372\ : std_logic;
 signal \N__3371\ : std_logic;
-signal \N__3366\ : std_logic;
-signal \N__3365\ : std_logic;
-signal \N__3364\ : std_logic;
-signal \N__3361\ : std_logic;
-signal \N__3358\ : std_logic;
-signal \N__3355\ : std_logic;
-signal \N__3348\ : std_logic;
-signal \N__3347\ : std_logic;
+signal \N__3370\ : std_logic;
+signal \N__3367\ : std_logic;
+signal \N__3362\ : std_logic;
+signal \N__3357\ : std_logic;
+signal \N__3354\ : std_logic;
+signal \N__3353\ : std_logic;
+signal \N__3352\ : std_logic;
+signal \N__3349\ : std_logic;
 signal \N__3346\ : std_logic;
 signal \N__3343\ : std_logic;
-signal \N__3340\ : std_logic;
-signal \N__3337\ : std_logic;
-signal \N__3330\ : std_logic;
+signal \N__3336\ : std_logic;
+signal \N__3333\ : std_logic;
+signal \N__3332\ : std_logic;
 signal \N__3329\ : std_logic;
 signal \N__3326\ : std_logic;
-signal \N__3323\ : std_logic;
-signal \N__3320\ : std_logic;
-signal \N__3315\ : std_logic;
+signal \N__3321\ : std_logic;
+signal \N__3318\ : std_logic;
+signal \N__3317\ : std_logic;
 signal \N__3314\ : std_logic;
-signal \N__3313\ : std_logic;
-signal \N__3310\ : std_logic;
-signal \N__3307\ : std_logic;
-signal \N__3304\ : std_logic;
-signal \N__3297\ : std_logic;
-signal \N__3296\ : std_logic;
+signal \N__3311\ : std_logic;
+signal \N__3306\ : std_logic;
+signal \N__3303\ : std_logic;
+signal \N__3302\ : std_logic;
+signal \N__3299\ : std_logic;
+signal \N__3298\ : std_logic;
 signal \N__3295\ : std_logic;
 signal \N__3292\ : std_logic;
 signal \N__3289\ : std_logic;
-signal \N__3286\ : std_logic;
+signal \N__3282\ : std_logic;
 signal \N__3279\ : std_logic;
-signal \N__3276\ : std_logic;
-signal \N__3273\ : std_logic;
-signal \N__3272\ : std_logic;
-signal \N__3269\ : std_logic;
-signal \N__3266\ : std_logic;
-signal \N__3261\ : std_logic;
-signal \N__3260\ : std_logic;
-signal \N__3259\ : std_logic;
+signal \N__3278\ : std_logic;
+signal \N__3275\ : std_logic;
+signal \N__3274\ : std_logic;
+signal \N__3271\ : std_logic;
+signal \N__3268\ : std_logic;
+signal \N__3265\ : std_logic;
 signal \N__3258\ : std_logic;
-signal \N__3257\ : std_logic;
-signal \N__3250\ : std_logic;
+signal \N__3255\ : std_logic;
+signal \N__3252\ : std_logic;
 signal \N__3249\ : std_logic;
-signal \N__3244\ : std_logic;
+signal \N__3246\ : std_logic;
 signal \N__3243\ : std_logic;
-signal \N__3242\ : std_logic;
+signal \N__3240\ : std_logic;
 signal \N__3239\ : std_logic;
-signal \N__3236\ : std_logic;
-signal \N__3233\ : std_logic;
-signal \N__3230\ : std_logic;
+signal \N__3238\ : std_logic;
+signal \N__3237\ : std_logic;
+signal \N__3234\ : std_logic;
+signal \N__3231\ : std_logic;
+signal \N__3228\ : std_logic;
 signal \N__3227\ : std_logic;
-signal \N__3224\ : std_logic;
+signal \N__3222\ : std_logic;
 signal \N__3219\ : std_logic;
-signal \N__3210\ : std_logic;
-signal \N__3209\ : std_logic;
-signal \N__3208\ : std_logic;
-signal \N__3205\ : std_logic;
+signal \N__3216\ : std_logic;
+signal \N__3213\ : std_logic;
+signal \N__3204\ : std_logic;
+signal \N__3203\ : std_logic;
 signal \N__3202\ : std_logic;
 signal \N__3199\ : std_logic;
+signal \N__3198\ : std_logic;
+signal \N__3197\ : std_logic;
 signal \N__3196\ : std_logic;
-signal \N__3189\ : std_logic;
-signal \N__3186\ : std_logic;
+signal \N__3191\ : std_logic;
+signal \N__3188\ : std_logic;
 signal \N__3185\ : std_logic;
-signal \N__3184\ : std_logic;
-signal \N__3181\ : std_logic;
-signal \N__3178\ : std_logic;
-signal \N__3175\ : std_logic;
-signal \N__3168\ : std_logic;
+signal \N__3182\ : std_logic;
+signal \N__3179\ : std_logic;
+signal \N__3172\ : std_logic;
 signal \N__3165\ : std_logic;
 signal \N__3164\ : std_logic;
-signal \N__3161\ : std_logic;
+signal \N__3163\ : std_logic;
 signal \N__3158\ : std_logic;
 signal \N__3155\ : std_logic;
-signal \N__3152\ : std_logic;
-signal \N__3147\ : std_logic;
-signal \N__3146\ : std_logic;
+signal \N__3150\ : std_logic;
+signal \N__3149\ : std_logic;
+signal \N__3148\ : std_logic;
 signal \N__3145\ : std_logic;
-signal \N__3142\ : std_logic;
-signal \N__3139\ : std_logic;
-signal \N__3136\ : std_logic;
-signal \N__3129\ : std_logic;
-signal \N__3128\ : std_logic;
+signal \N__3140\ : std_logic;
+signal \N__3135\ : std_logic;
+signal \N__3134\ : std_logic;
+signal \N__3131\ : std_logic;
+signal \N__3130\ : std_logic;
 signal \N__3127\ : std_logic;
-signal \N__3124\ : std_logic;
+signal \N__3122\ : std_logic;
 signal \N__3121\ : std_logic;
-signal \N__3118\ : std_logic;
+signal \N__3116\ : std_logic;
+signal \N__3115\ : std_logic;
+signal \N__3114\ : std_logic;
+signal \N__3113\ : std_logic;
+signal \N__3112\ : std_logic;
 signal \N__3111\ : std_logic;
 signal \N__3108\ : std_logic;
 signal \N__3105\ : std_logic;
-signal \N__3104\ : std_logic;
-signal \N__3099\ : std_logic;
-signal \N__3096\ : std_logic;
-signal \N__3093\ : std_logic;
-signal \N__3092\ : std_logic;
-signal \N__3091\ : std_logic;
-signal \N__3086\ : std_logic;
-signal \N__3083\ : std_logic;
+signal \N__3102\ : std_logic;
+signal \N__3097\ : std_logic;
+signal \N__3090\ : std_logic;
+signal \N__3081\ : std_logic;
 signal \N__3078\ : std_logic;
-signal \N__3077\ : std_logic;
-signal \N__3076\ : std_logic;
+signal \N__3075\ : std_logic;
+signal \N__3074\ : std_logic;
+signal \N__3073\ : std_logic;
+signal \N__3070\ : std_logic;
 signal \N__3069\ : std_logic;
 signal \N__3066\ : std_logic;
-signal \N__3063\ : std_logic;
+signal \N__3065\ : std_logic;
 signal \N__3062\ : std_logic;
-signal \N__3059\ : std_logic;
-signal \N__3058\ : std_logic;
-signal \N__3051\ : std_logic;
-signal \N__3048\ : std_logic;
-signal \N__3045\ : std_logic;
+signal \N__3061\ : std_logic;
+signal \N__3060\ : std_logic;
+signal \N__3057\ : std_logic;
+signal \N__3054\ : std_logic;
+signal \N__3049\ : std_logic;
 signal \N__3042\ : std_logic;
-signal \N__3039\ : std_logic;
-signal \N__3036\ : std_logic;
 signal \N__3033\ : std_logic;
-signal \N__3032\ : std_logic;
-signal \N__3031\ : std_logic;
+signal \N__3030\ : std_logic;
+signal \N__3029\ : std_logic;
 signal \N__3028\ : std_logic;
+signal \N__3027\ : std_logic;
+signal \N__3026\ : std_logic;
 signal \N__3025\ : std_logic;
+signal \N__3024\ : std_logic;
+signal \N__3023\ : std_logic;
 signal \N__3022\ : std_logic;
+signal \N__3019\ : std_logic;
+signal \N__3018\ : std_logic;
 signal \N__3015\ : std_logic;
-signal \N__3014\ : std_logic;
-signal \N__3011\ : std_logic;
-signal \N__3008\ : std_logic;
-signal \N__3003\ : std_logic;
-signal \N__3000\ : std_logic;
-signal \N__2997\ : std_logic;
-signal \N__2994\ : std_logic;
-signal \N__2993\ : std_logic;
-signal \N__2990\ : std_logic;
+signal \N__3004\ : std_logic;
+signal \N__3001\ : std_logic;
+signal \N__2998\ : std_logic;
+signal \N__2995\ : std_logic;
+signal \N__2992\ : std_logic;
 signal \N__2987\ : std_logic;
-signal \N__2982\ : std_logic;
-signal \N__2981\ : std_logic;
-signal \N__2980\ : std_logic;
-signal \N__2977\ : std_logic;
-signal \N__2974\ : std_logic;
-signal \N__2971\ : std_logic;
-signal \N__2964\ : std_logic;
-signal \N__2963\ : std_logic;
-signal \N__2962\ : std_logic;
+signal \N__2976\ : std_logic;
+signal \N__2973\ : std_logic;
+signal \N__2970\ : std_logic;
+signal \N__2967\ : std_logic;
+signal \N__2966\ : std_logic;
+signal \N__2961\ : std_logic;
+signal \N__2960\ : std_logic;
 signal \N__2959\ : std_logic;
-signal \N__2956\ : std_logic;
-signal \N__2953\ : std_logic;
-signal \N__2950\ : std_logic;
+signal \N__2958\ : std_logic;
+signal \N__2955\ : std_logic;
+signal \N__2952\ : std_logic;
+signal \N__2951\ : std_logic;
+signal \N__2948\ : std_logic;
 signal \N__2947\ : std_logic;
-signal \N__2940\ : std_logic;
-signal \N__2939\ : std_logic;
-signal \N__2936\ : std_logic;
-signal \N__2933\ : std_logic;
-signal \N__2928\ : std_logic;
-signal \N__2925\ : std_logic;
+signal \N__2944\ : std_logic;
+signal \N__2941\ : std_logic;
+signal \N__2938\ : std_logic;
+signal \N__2931\ : std_logic;
 signal \N__2922\ : std_logic;
 signal \N__2921\ : std_logic;
-signal \N__2920\ : std_logic;
-signal \N__2917\ : std_logic;
-signal \N__2914\ : std_logic;
-signal \N__2911\ : std_logic;
-signal \N__2908\ : std_logic;
-signal \N__2901\ : std_logic;
+signal \N__2918\ : std_logic;
+signal \N__2915\ : std_logic;
+signal \N__2912\ : std_logic;
+signal \N__2909\ : std_logic;
+signal \N__2904\ : std_logic;
+signal \N__2903\ : std_logic;
 signal \N__2900\ : std_logic;
-signal \N__2899\ : std_logic;
-signal \N__2898\ : std_logic;
-signal \N__2895\ : std_logic;
+signal \N__2897\ : std_logic;
 signal \N__2892\ : std_logic;
 signal \N__2889\ : std_logic;
 signal \N__2886\ : std_logic;
-signal \N__2877\ : std_logic;
+signal \N__2885\ : std_logic;
+signal \N__2884\ : std_logic;
+signal \N__2881\ : std_logic;
 signal \N__2876\ : std_logic;
-signal \N__2875\ : std_logic;
-signal \N__2874\ : std_logic;
 signal \N__2871\ : std_logic;
 signal \N__2868\ : std_logic;
-signal \N__2863\ : std_logic;
-signal \N__2856\ : std_logic;
-signal \N__2853\ : std_logic;
+signal \N__2865\ : std_logic;
+signal \N__2862\ : std_logic;
+signal \N__2861\ : std_logic;
+signal \N__2858\ : std_logic;
+signal \N__2855\ : std_logic;
 signal \N__2850\ : std_logic;
 signal \N__2847\ : std_logic;
 signal \N__2844\ : std_logic;
-signal \N__2843\ : std_logic;
-signal \N__2838\ : std_logic;
+signal \N__2841\ : std_logic;
+signal \N__2840\ : std_logic;
 signal \N__2835\ : std_logic;
-signal \N__2834\ : std_logic;
-signal \N__2831\ : std_logic;
-signal \N__2828\ : std_logic;
+signal \N__2832\ : std_logic;
+signal \N__2829\ : std_logic;
+signal \N__2826\ : std_logic;
 signal \N__2823\ : std_logic;
 signal \N__2822\ : std_logic;
-signal \N__2817\ : std_logic;
-signal \N__2814\ : std_logic;
-signal \N__2811\ : std_logic;
-signal \N__2810\ : std_logic;
+signal \N__2821\ : std_logic;
+signal \N__2818\ : std_logic;
+signal \N__2813\ : std_logic;
+signal \N__2808\ : std_logic;
 signal \N__2805\ : std_logic;
 signal \N__2802\ : std_logic;
 signal \N__2801\ : std_logic;
-signal \N__2796\ : std_logic;
-signal \N__2793\ : std_logic;
-signal \N__2790\ : std_logic;
+signal \N__2800\ : std_logic;
+signal \N__2797\ : std_logic;
+signal \N__2792\ : std_logic;
 signal \N__2787\ : std_logic;
 signal \N__2784\ : std_logic;
 signal \N__2781\ : std_logic;
 signal \N__2778\ : std_logic;
-signal \N__2777\ : std_logic;
-signal \N__2776\ : std_logic;
-signal \N__2773\ : std_logic;
-signal \N__2770\ : std_logic;
-signal \N__2767\ : std_logic;
+signal \N__2775\ : std_logic;
+signal \N__2774\ : std_logic;
+signal \N__2769\ : std_logic;
+signal \N__2766\ : std_logic;
+signal \N__2763\ : std_logic;
 signal \N__2760\ : std_logic;
-signal \N__2759\ : std_logic;
-signal \N__2758\ : std_logic;
-signal \N__2755\ : std_logic;
+signal \N__2757\ : std_logic;
 signal \N__2754\ : std_logic;
 signal \N__2751\ : std_logic;
 signal \N__2748\ : std_logic;
-signal \N__2743\ : std_logic;
+signal \N__2745\ : std_logic;
+signal \N__2742\ : std_logic;
+signal \N__2739\ : std_logic;
 signal \N__2736\ : std_logic;
-signal \N__2735\ : std_logic;
-signal \N__2734\ : std_logic;
-signal \N__2731\ : std_logic;
+signal \N__2733\ : std_logic;
+signal \N__2732\ : std_logic;
+signal \N__2729\ : std_logic;
 signal \N__2726\ : std_logic;
-signal \N__2721\ : std_logic;
+signal \N__2723\ : std_logic;
 signal \N__2720\ : std_logic;
-signal \N__2719\ : std_logic;
-signal \N__2716\ : std_logic;
-signal \N__2711\ : std_logic;
+signal \N__2715\ : std_logic;
+signal \N__2712\ : std_logic;
+signal \N__2709\ : std_logic;
 signal \N__2706\ : std_logic;
 signal \N__2703\ : std_logic;
-signal \N__2702\ : std_logic;
-signal \N__2701\ : std_logic;
 signal \N__2700\ : std_logic;
 signal \N__2697\ : std_logic;
 signal \N__2694\ : std_logic;
-signal \N__2689\ : std_logic;
+signal \N__2691\ : std_logic;
+signal \N__2688\ : std_logic;
+signal \N__2685\ : std_logic;
 signal \N__2682\ : std_logic;
-signal \N__2679\ : std_logic;
-signal \N__2676\ : std_logic;
-signal \N__2673\ : std_logic;
+signal \N__2681\ : std_logic;
+signal \N__2678\ : std_logic;
+signal \N__2675\ : std_logic;
 signal \N__2672\ : std_logic;
-signal \N__2669\ : std_logic;
-signal \N__2666\ : std_logic;
+signal \N__2667\ : std_logic;
+signal \N__2664\ : std_logic;
 signal \N__2661\ : std_logic;
-signal \N__2658\ : std_logic;
+signal \N__2660\ : std_logic;
 signal \N__2657\ : std_logic;
 signal \N__2654\ : std_logic;
-signal \N__2651\ : std_logic;
+signal \N__2649\ : std_logic;
+signal \N__2648\ : std_logic;
+signal \N__2647\ : std_logic;
 signal \N__2646\ : std_logic;
-signal \N__2643\ : std_logic;
-signal \N__2640\ : std_logic;
-signal \N__2637\ : std_logic;
-signal \N__2634\ : std_logic;
+signal \N__2645\ : std_logic;
+signal \N__2642\ : std_logic;
+signal \N__2639\ : std_logic;
+signal \N__2636\ : std_logic;
 signal \N__2631\ : std_logic;
-signal \N__2628\ : std_logic;
-signal \N__2625\ : std_logic;
 signal \N__2622\ : std_logic;
 signal \N__2619\ : std_logic;
-signal \N__2616\ : std_logic;
-signal \N__2615\ : std_logic;
-signal \N__2612\ : std_logic;
-signal \N__2611\ : std_logic;
-signal \N__2608\ : std_logic;
-signal \N__2603\ : std_logic;
+signal \N__2618\ : std_logic;
+signal \N__2617\ : std_logic;
+signal \N__2614\ : std_logic;
+signal \N__2609\ : std_logic;
+signal \N__2604\ : std_logic;
+signal \N__2601\ : std_logic;
 signal \N__2598\ : std_logic;
 signal \N__2595\ : std_logic;
 signal \N__2592\ : std_logic;
 signal \N__2589\ : std_logic;
-signal \N__2588\ : std_logic;
-signal \N__2585\ : std_logic;
-signal \N__2584\ : std_logic;
+signal \N__2586\ : std_logic;
+signal \N__2583\ : std_logic;
+signal \N__2582\ : std_logic;
 signal \N__2581\ : std_logic;
 signal \N__2580\ : std_logic;
-signal \N__2575\ : std_logic;
+signal \N__2577\ : std_logic;
 signal \N__2574\ : std_logic;
-signal \N__2571\ : std_logic;
-signal \N__2568\ : std_logic;
-signal \N__2565\ : std_logic;
+signal \N__2569\ : std_logic;
 signal \N__2562\ : std_logic;
-signal \N__2553\ : std_logic;
+signal \N__2559\ : std_logic;
+signal \N__2558\ : std_logic;
+signal \N__2557\ : std_logic;
+signal \N__2556\ : std_logic;
+signal \N__2555\ : std_logic;
 signal \N__2552\ : std_logic;
-signal \N__2551\ : std_logic;
+signal \N__2549\ : std_logic;
 signal \N__2546\ : std_logic;
-signal \N__2545\ : std_logic;
-signal \N__2544\ : std_logic;
-signal \N__2543\ : std_logic;
-signal \N__2540\ : std_logic;
-signal \N__2537\ : std_logic;
+signal \N__2541\ : std_logic;
 signal \N__2532\ : std_logic;
 signal \N__2529\ : std_logic;
+signal \N__2526\ : std_logic;
+signal \N__2523\ : std_logic;
 signal \N__2520\ : std_logic;
-signal \N__2517\ : std_logic;
-signal \N__2516\ : std_logic;
+signal \N__2519\ : std_logic;
+signal \N__2518\ : std_logic;
 signal \N__2515\ : std_logic;
-signal \N__2514\ : std_logic;
-signal \N__2509\ : std_logic;
-signal \N__2508\ : std_logic;
+signal \N__2510\ : std_logic;
 signal \N__2505\ : std_logic;
-signal \N__2502\ : std_logic;
-signal \N__2499\ : std_logic;
-signal \N__2496\ : std_logic;
+signal \N__2504\ : std_logic;
+signal \N__2503\ : std_logic;
+signal \N__2500\ : std_logic;
+signal \N__2495\ : std_logic;
+signal \N__2490\ : std_logic;
 signal \N__2487\ : std_logic;
 signal \N__2484\ : std_logic;
-signal \N__2481\ : std_logic;
+signal \N__2483\ : std_logic;
 signal \N__2478\ : std_logic;
 signal \N__2475\ : std_logic;
 signal \N__2472\ : std_logic;
-signal \N__2469\ : std_logic;
-signal \N__2466\ : std_logic;
-signal \N__2463\ : std_logic;
-signal \N__2460\ : std_logic;
-signal \N__2457\ : std_logic;
-signal \N__2454\ : std_logic;
+signal \N__2471\ : std_logic;
+signal \N__2468\ : std_logic;
+signal \N__2467\ : std_logic;
+signal \N__2464\ : std_logic;
+signal \N__2461\ : std_logic;
+signal \N__2456\ : std_logic;
 signal \N__2451\ : std_logic;
 signal \N__2448\ : std_logic;
 signal \N__2445\ : std_logic;
 signal \N__2442\ : std_logic;
 signal \N__2439\ : std_logic;
-signal \N__2436\ : std_logic;
+signal \N__2438\ : std_logic;
+signal \N__2435\ : std_logic;
+signal \N__2434\ : std_logic;
 signal \N__2433\ : std_logic;
-signal \N__2430\ : std_logic;
-signal \N__2427\ : std_logic;
-signal \N__2424\ : std_logic;
-signal \N__2421\ : std_logic;
+signal \N__2432\ : std_logic;
+signal \N__2429\ : std_logic;
+signal \N__2426\ : std_logic;
+signal \N__2423\ : std_logic;
 signal \N__2420\ : std_logic;
-signal \N__2415\ : std_logic;
-signal \N__2412\ : std_logic;
-signal \N__2409\ : std_logic;
-signal \N__2406\ : std_logic;
-signal \N__2403\ : std_logic;
-signal \N__2400\ : std_logic;
-signal \N__2397\ : std_logic;
-signal \N__2394\ : std_logic;
+signal \N__2417\ : std_logic;
+signal \N__2414\ : std_logic;
+signal \N__2411\ : std_logic;
+signal \N__2408\ : std_logic;
+signal \N__2405\ : std_logic;
+signal \N__2402\ : std_logic;
 signal \N__2391\ : std_logic;
 signal \N__2388\ : std_logic;
 signal \N__2385\ : std_logic;
@@ -908,37 +1023,37 @@ signal \N__2382\ : std_logic;
 signal \N__2379\ : std_logic;
 signal \N__2376\ : std_logic;
 signal \N__2373\ : std_logic;
-signal \N__2370\ : std_logic;
-signal \N__2367\ : std_logic;
-signal \N__2364\ : std_logic;
-signal \N__2363\ : std_logic;
-signal \N__2360\ : std_logic;
-signal \N__2357\ : std_logic;
+signal \N__2372\ : std_logic;
+signal \N__2369\ : std_logic;
+signal \N__2368\ : std_logic;
+signal \N__2365\ : std_logic;
+signal \N__2362\ : std_logic;
+signal \N__2359\ : std_logic;
 signal \N__2352\ : std_logic;
 signal \N__2349\ : std_logic;
-signal \N__2348\ : std_logic;
+signal \N__2346\ : std_logic;
 signal \N__2345\ : std_logic;
 signal \N__2342\ : std_logic;
+signal \N__2341\ : std_logic;
+signal \N__2340\ : std_logic;
 signal \N__2337\ : std_logic;
-signal \N__2334\ : std_logic;
-signal \N__2333\ : std_logic;
-signal \N__2330\ : std_logic;
-signal \N__2327\ : std_logic;
-signal \N__2322\ : std_logic;
+signal \N__2332\ : std_logic;
+signal \N__2329\ : std_logic;
+signal \N__2324\ : std_logic;
 signal \N__2319\ : std_logic;
-signal \N__2318\ : std_logic;
+signal \N__2316\ : std_logic;
 signal \N__2315\ : std_logic;
-signal \N__2312\ : std_logic;
-signal \N__2307\ : std_logic;
-signal \N__2304\ : std_logic;
-signal \N__2303\ : std_logic;
-signal \N__2300\ : std_logic;
-signal \N__2297\ : std_logic;
+signal \N__2314\ : std_logic;
+signal \N__2313\ : std_logic;
+signal \N__2308\ : std_logic;
+signal \N__2305\ : std_logic;
+signal \N__2302\ : std_logic;
+signal \N__2299\ : std_logic;
 signal \N__2292\ : std_logic;
 signal \N__2289\ : std_logic;
-signal \N__2288\ : std_logic;
-signal \N__2285\ : std_logic;
-signal \N__2282\ : std_logic;
+signal \N__2286\ : std_logic;
+signal \N__2283\ : std_logic;
+signal \N__2280\ : std_logic;
 signal \N__2277\ : std_logic;
 signal \N__2274\ : std_logic;
 signal \N__2271\ : std_logic;
@@ -950,36 +1065,36 @@ signal \N__2256\ : std_logic;
 signal \N__2253\ : std_logic;
 signal \N__2250\ : std_logic;
 signal \N__2247\ : std_logic;
-signal \N__2246\ : std_logic;
-signal \N__2243\ : std_logic;
-signal \N__2240\ : std_logic;
-signal \N__2237\ : std_logic;
-signal \N__2234\ : std_logic;
-signal \N__2231\ : std_logic;
+signal \N__2244\ : std_logic;
+signal \N__2241\ : std_logic;
+signal \N__2238\ : std_logic;
+signal \N__2235\ : std_logic;
+signal \N__2232\ : std_logic;
+signal \N__2229\ : std_logic;
 signal \N__2226\ : std_logic;
 signal \N__2223\ : std_logic;
 signal \N__2220\ : std_logic;
 signal \N__2217\ : std_logic;
 signal \N__2214\ : std_logic;
-signal \N__2213\ : std_logic;
-signal \N__2212\ : std_logic;
 signal \N__2211\ : std_logic;
-signal \N__2210\ : std_logic;
-signal \N__2207\ : std_logic;
-signal \N__2204\ : std_logic;
-signal \N__2201\ : std_logic;
-signal \N__2198\ : std_logic;
-signal \N__2195\ : std_logic;
-signal \N__2192\ : std_logic;
-signal \N__2189\ : std_logic;
-signal \N__2186\ : std_logic;
-signal \N__2183\ : std_logic;
-signal \N__2180\ : std_logic;
-signal \N__2177\ : std_logic;
-signal \N__2168\ : std_logic;
-signal \N__2165\ : std_logic;
-signal \N__2162\ : std_logic;
-signal \N__2159\ : std_logic;
+signal \N__2208\ : std_logic;
+signal \N__2205\ : std_logic;
+signal \N__2202\ : std_logic;
+signal \N__2199\ : std_logic;
+signal \N__2196\ : std_logic;
+signal \N__2193\ : std_logic;
+signal \N__2190\ : std_logic;
+signal \N__2187\ : std_logic;
+signal \N__2184\ : std_logic;
+signal \N__2181\ : std_logic;
+signal \N__2178\ : std_logic;
+signal \N__2175\ : std_logic;
+signal \N__2172\ : std_logic;
+signal \N__2169\ : std_logic;
+signal \N__2166\ : std_logic;
+signal \N__2163\ : std_logic;
+signal \N__2160\ : std_logic;
+signal \N__2157\ : std_logic;
 signal \N__2154\ : std_logic;
 signal \N__2151\ : std_logic;
 signal \N__2148\ : std_logic;
@@ -995,238 +1110,219 @@ signal \N__2121\ : std_logic;
 signal \N__2118\ : std_logic;
 signal \N__2115\ : std_logic;
 signal \N__2112\ : std_logic;
-signal \N__2109\ : std_logic;
-signal \N__2106\ : std_logic;
-signal \N__2103\ : std_logic;
-signal \N__2100\ : std_logic;
-signal \N__2097\ : std_logic;
-signal \N__2094\ : std_logic;
-signal \N__2091\ : std_logic;
-signal \N__2088\ : std_logic;
-signal \N__2085\ : std_logic;
-signal \N__2082\ : std_logic;
-signal \N__2079\ : std_logic;
-signal \N__2076\ : std_logic;
-signal \N__2073\ : std_logic;
-signal \N__2070\ : std_logic;
-signal \N__2067\ : std_logic;
-signal \N__2064\ : std_logic;
-signal \N__2061\ : std_logic;
-signal \N__2058\ : std_logic;
-signal \N__2055\ : std_logic;
-signal \N__2052\ : std_logic;
-signal \N__2049\ : std_logic;
-signal \N__2046\ : std_logic;
-signal \N__2043\ : std_logic;
-signal \N__2040\ : std_logic;
-signal \N__2037\ : std_logic;
-signal \N__2034\ : std_logic;
-signal \N__2031\ : std_logic;
-signal \N__2028\ : std_logic;
-signal \N__2025\ : std_logic;
 signal \VCCG0\ : std_logic;
 signal \GNDG0\ : std_logic;
 signal sdaoe_i : std_logic;
 signal sdaout_i : std_logic;
 signal sdain_i : std_logic;
 signal sclin_i : std_logic;
-signal \n2965_cascade_\ : std_logic;
-signal \n2870_cascade_\ : std_logic;
-signal \n6_adj_16_cascade_\ : std_logic;
-signal n2967 : std_logic;
-signal n2966 : std_logic;
-signal \n2811_cascade_\ : std_logic;
-signal \n2821_cascade_\ : std_logic;
-signal \n1_adj_12_cascade_\ : std_logic;
-signal \PWM_B\ : std_logic;
-signal \PWM_G\ : std_logic;
+signal \n3355_cascade_\ : std_logic;
+signal \n10_cascade_\ : std_logic;
+signal \n12_adj_7_cascade_\ : std_logic;
+signal n3342 : std_logic;
+signal \n14_adj_8_cascade_\ : std_logic;
+signal \n104_cascade_\ : std_logic;
+signal \bfn_0_5_0_\ : std_logic;
+signal n2940 : std_logic;
+signal n2941 : std_logic;
+signal n2942 : std_logic;
+signal n2943 : std_logic;
+signal n2944 : std_logic;
+signal n2945 : std_logic;
+signal n2946 : std_logic;
+signal n2810 : std_logic;
+signal n3344 : std_logic;
+signal n3442 : std_logic;
 signal \PWM_R\ : std_logic;
-signal n1815 : std_logic;
-signal n1_adj_12 : std_logic;
+signal \PWM_G\ : std_logic;
+signal \n12_adj_16_cascade_\ : std_logic;
+signal \hard_SBDATi_7\ : std_logic;
+signal n3448 : std_logic;
 signal \CONSTANT_ONE_NET\ : std_logic;
-signal \hard0_SBDATo_0\ : std_logic;
+signal n3441 : std_logic;
+signal \n6_adj_1_cascade_\ : std_logic;
+signal n8 : std_logic;
+signal \PWM_cnt_2\ : std_logic;
+signal n3332 : std_logic;
+signal \PWM_cnt_3\ : std_logic;
+signal \n6_adj_9_cascade_\ : std_logic;
+signal \PWM_cnt_4\ : std_logic;
+signal \PWM_cnt_5\ : std_logic;
+signal \PWM_duty_5\ : std_logic;
+signal n8_adj_10 : std_logic;
+signal \n10_adj_6_cascade_\ : std_logic;
+signal n3355 : std_logic;
+signal \PWM_duty_6\ : std_logic;
+signal \n12_adj_11_cascade_\ : std_logic;
+signal \PWM_cnt_6\ : std_logic;
+signal n4_adj_12 : std_logic;
+signal n1933 : std_logic;
+signal \PWM_cnt_1\ : std_logic;
+signal \PWM_cnt_0\ : std_logic;
+signal n4 : std_logic;
+signal n3447 : std_logic;
+signal \n6_adj_13_cascade_\ : std_logic;
+signal \n3288_cascade_\ : std_logic;
+signal \n5_cascade_\ : std_logic;
+signal n2570 : std_logic;
+signal \n2570_cascade_\ : std_logic;
+signal \n3430_cascade_\ : std_logic;
+signal n42 : std_logic;
+signal \n3445_cascade_\ : std_logic;
+signal n3287 : std_logic;
+signal \PWM_B\ : std_logic;
+signal n1968 : std_logic;
+signal i2c_cmd_1_5 : std_logic;
+signal i2c_cmd_1_6 : std_logic;
+signal i2c_cmd_1_0 : std_logic;
+signal \PWM_duty_0\ : std_logic;
+signal i2c_cmd_1_2 : std_logic;
+signal \PWM_duty_2\ : std_logic;
+signal i2c_cmd_1_3 : std_logic;
+signal \PWM_duty_3\ : std_logic;
+signal i2c_cmd_1_4 : std_logic;
+signal \PWM_duty_4\ : std_logic;
+signal i2c_cmd_1_7 : std_logic;
+signal i2c_cmd_1_1 : std_logic;
+signal \PWM_duty_1\ : std_logic;
+signal \n3380_cascade_\ : std_logic;
+signal n2420 : std_logic;
+signal n2425 : std_logic;
+signal \PWM_duty_7\ : std_logic;
+signal \PWM_cnt_7\ : std_logic;
+signal n2828 : std_logic;
+signal n3429 : std_logic;
+signal drv_cnt_2 : std_logic;
+signal \n3429_cascade_\ : std_logic;
+signal n3430 : std_logic;
+signal \n6_cascade_\ : std_logic;
+signal drv_cnt_0 : std_logic;
+signal \n3374_cascade_\ : std_logic;
+signal n3427 : std_logic;
+signal drv_cnt_1 : std_logic;
+signal n3428 : std_logic;
+signal drv_clk_counter_0 : std_logic;
+signal \bfn_2_6_0_\ : std_logic;
+signal drv_clk_counter_1 : std_logic;
+signal n2947 : std_logic;
+signal drv_clk_counter_2 : std_logic;
+signal n2948 : std_logic;
+signal drv_clk_counter_3 : std_logic;
+signal n2949 : std_logic;
+signal drv_clk_counter_4 : std_logic;
+signal n2950 : std_logic;
+signal drv_clk_counter_5 : std_logic;
+signal n2951 : std_logic;
+signal drv_clk_counter_6 : std_logic;
+signal n2952 : std_logic;
+signal drv_clk_counter_7 : std_logic;
+signal n2953 : std_logic;
+signal n2954 : std_logic;
+signal drv_clk_counter_8 : std_logic;
+signal \bfn_2_7_0_\ : std_logic;
+signal drv_clk_counter_9 : std_logic;
+signal n2955 : std_logic;
+signal n2956 : std_logic;
+signal drv_clk_counter_10 : std_logic;
+signal n985 : std_logic;
+signal \n98_cascade_\ : std_logic;
+signal \n11_cascade_\ : std_logic;
+signal \hard_SBADRi_3\ : std_logic;
+signal \n2662_cascade_\ : std_logic;
+signal \hard_SBWRi\ : std_logic;
+signal n3456 : std_logic;
+signal \GB_BUFFER_n3456_THRU_CO\ : std_logic;
+signal \n13_cascade_\ : std_logic;
+signal \hard_SBDATi_4\ : std_logic;
+signal n3318 : std_logic;
+signal \n3435_cascade_\ : std_logic;
+signal \hard_SBSTBi\ : std_logic;
+signal n98 : std_logic;
+signal \n3431_cascade_\ : std_logic;
+signal \hard_SBADRi_0\ : std_logic;
+signal n3438 : std_logic;
 signal \hard0_SBDATo_1\ : std_logic;
 signal \hard0_SBDATo_3\ : std_logic;
 signal \hard0_SBDATo_4\ : std_logic;
-signal \hard0_SBDATo_5\ : std_logic;
+signal \n3293_cascade_\ : std_logic;
+signal motor_on : std_logic;
+signal n86 : std_logic;
+signal n2999 : std_logic;
+signal \n2849_cascade_\ : std_logic;
+signal motor_dir : std_logic;
+signal \n12_adj_4_cascade_\ : std_logic;
+signal \hard_SBDATi_2\ : std_logic;
+signal n3439 : std_logic;
+signal \n3439_cascade_\ : std_logic;
+signal \n24_cascade_\ : std_logic;
+signal n21_adj_14 : std_logic;
+signal \hard_SBADRi_1\ : std_logic;
+signal \hard0_SBDATo_0\ : std_logic;
 signal \hard0_SBDATo_7\ : std_logic;
-signal i2c_cmd_1_0 : std_logic;
-signal i2c_cmd_1_1 : std_logic;
-signal i2c_cmd_1_2 : std_logic;
-signal \PWM_duty_2\ : std_logic;
-signal i2c_cmd_1_5 : std_logic;
-signal i2c_cmd_1_6 : std_logic;
-signal i2c_cmd_1_7 : std_logic;
-signal i2c_cmd_1_4 : std_logic;
-signal i2c_cmd_1_3 : std_logic;
-signal \bfn_1_4_0_\ : std_logic;
-signal n2514 : std_logic;
-signal n2515 : std_logic;
-signal n2516 : std_logic;
-signal n2517 : std_logic;
-signal n2518 : std_logic;
-signal n2519 : std_logic;
-signal n2520 : std_logic;
-signal n1831 : std_logic;
-signal \n12_adj_11_cascade_\ : std_logic;
-signal n4_adj_15 : std_logic;
-signal n8 : std_logic;
-signal \n14_cascade_\ : std_logic;
-signal n2012 : std_logic;
-signal n2955 : std_logic;
-signal drv_cnt_1 : std_logic;
-signal drv_cnt_0 : std_logic;
-signal \n2955_cascade_\ : std_logic;
-signal drv_cnt_2 : std_logic;
-signal \bfn_1_6_0_\ : std_logic;
-signal n2521 : std_logic;
-signal n2522 : std_logic;
-signal n2523 : std_logic;
-signal n2524 : std_logic;
-signal n2525 : std_logic;
-signal drv_clk_counter_6 : std_logic;
-signal n2526 : std_logic;
-signal drv_clk_counter_7 : std_logic;
-signal n2527 : std_logic;
-signal n2528 : std_logic;
-signal \bfn_1_7_0_\ : std_logic;
-signal n2529 : std_logic;
-signal n2530 : std_logic;
-signal \n2838_cascade_\ : std_logic;
+signal \hard0_SBDATo_5\ : std_logic;
+signal \n3300_cascade_\ : std_logic;
+signal \n31_adj_2_cascade_\ : std_logic;
+signal n3434 : std_logic;
 signal i2c_cmd_0_5 : std_logic;
 signal i2c_cmd_0_6 : std_logic;
-signal i2c_cmd_0_3 : std_logic;
-signal \n6_adj_8_cascade_\ : std_logic;
 signal i2c_cmd_0_7 : std_logic;
 signal i2c_cmd_0_2 : std_logic;
-signal n10_adj_2 : std_logic;
-signal \n17_adj_18_cascade_\ : std_logic;
-signal \PWM_cnt_2\ : std_logic;
-signal \PWM_cnt_3\ : std_logic;
-signal \PWM_duty_3\ : std_logic;
-signal \PWM_duty_4\ : std_logic;
-signal \n6_adj_5_cascade_\ : std_logic;
-signal \PWM_cnt_4\ : std_logic;
-signal n2247 : std_logic;
-signal \n2250_cascade_\ : std_logic;
+signal n3 : std_logic;
+signal i2c_cmd_0_3 : std_logic;
+signal \n3_cascade_\ : std_logic;
 signal i2c_cmd_0_1 : std_logic;
-signal i2c_cmd_0_4 : std_logic;
 signal i2c_cmd_0_0 : std_logic;
-signal n2858 : std_logic;
-signal n1778 : std_logic;
-signal \PWM_duty_5\ : std_logic;
-signal n2968 : std_logic;
-signal n2883 : std_logic;
-signal \n2883_cascade_\ : std_logic;
-signal \PWM_duty_0\ : std_logic;
-signal \PWM_cnt_1\ : std_logic;
-signal \PWM_cnt_0\ : std_logic;
-signal \PWM_duty_1\ : std_logic;
-signal n4_adj_17 : std_logic;
-signal \PWM_duty_6\ : std_logic;
-signal \PWM_cnt_6\ : std_logic;
-signal \PWM_cnt_5\ : std_logic;
-signal \n10_cascade_\ : std_logic;
-signal n12_adj_13 : std_logic;
-signal n8_adj_10 : std_logic;
-signal n2881 : std_logic;
-signal n14_adj_14 : std_logic;
-signal \n104_cascade_\ : std_logic;
-signal n105 : std_logic;
-signal n1921 : std_logic;
-signal \PWM_duty_7\ : std_logic;
-signal \PWM_cnt_7\ : std_logic;
-signal n2969 : std_logic;
-signal drv_clk_counter_4 : std_logic;
-signal drv_clk_counter_1 : std_logic;
-signal drv_clk_counter_0 : std_logic;
-signal drv_clk_counter_8 : std_logic;
-signal drv_clk_counter_5 : std_logic;
-signal \n2810_cascade_\ : std_logic;
-signal n2819 : std_logic;
-signal motor_on : std_logic;
-signal drv_clk_counter_10 : std_logic;
-signal \n2820_cascade_\ : std_logic;
-signal drv_clk_counter_9 : std_logic;
-signal n953 : std_logic;
-signal drv_clk_counter_2 : std_logic;
-signal drv_clk_counter_3 : std_logic;
-signal n2963 : std_logic;
-signal \n2824_cascade_\ : std_logic;
-signal \hard_SBADRi_3\ : std_logic;
-signal n2981 : std_logic;
-signal \GB_BUFFER_n2981_THRU_CO\ : std_logic;
-signal \n2960_cascade_\ : std_logic;
-signal \hard_SBWRi\ : std_logic;
-signal \hard_SBADRi_0\ : std_logic;
-signal \n12_adj_7_cascade_\ : std_logic;
-signal \hard_SBADRi_2\ : std_logic;
-signal n2971 : std_logic;
-signal \n13_adj_6_cascade_\ : std_logic;
-signal \hard_SBDATi_4\ : std_logic;
-signal \n12_cascade_\ : std_logic;
-signal \hard_SBDATi_2\ : std_logic;
-signal n15 : std_logic;
-signal \n2974_cascade_\ : std_logic;
-signal \n2970_cascade_\ : std_logic;
-signal \hard_SBSTBi\ : std_logic;
-signal n31 : std_logic;
-signal n2970 : std_logic;
-signal n2243 : std_logic;
-signal \n17_cascade_\ : std_logic;
-signal \n1887_cascade_\ : std_logic;
-signal n1852 : std_logic;
-signal n22_adj_9 : std_logic;
-signal n2959 : std_logic;
-signal n1887 : std_logic;
-signal n4 : std_logic;
-signal n1779 : std_logic;
-signal n2972 : std_logic;
-signal \n13_cascade_\ : std_logic;
-signal \n4_adj_19_cascade_\ : std_logic;
-signal \hard_SBADRi_1\ : std_logic;
-signal \n13_adj_4_cascade_\ : std_logic;
-signal \hard_SBDATi_7\ : std_logic;
-signal cmd_decoded : std_logic;
-signal \n2961_cascade_\ : std_logic;
-signal n2961 : std_logic;
-signal n2973 : std_logic;
-signal n2962 : std_logic;
-signal \hard0_SBDATo_6\ : std_logic;
-signal \i2c_stat_7_N_205_6_cascade_\ : std_logic;
-signal i2c_stat_6 : std_logic;
-signal i2c_cnt_1 : std_logic;
-signal i2c_cnt_0 : std_logic;
-signal \n2534_cascade_\ : std_logic;
-signal \n25_cascade_\ : std_logic;
+signal \n3309_cascade_\ : std_logic;
+signal i2c_cmd_0_4 : std_logic;
+signal n1914 : std_logic;
 signal \hard0_SBDATo_2\ : std_logic;
-signal n2534 : std_logic;
-signal n4_adj_1 : std_logic;
-signal \n2840_cascade_\ : std_logic;
-signal n2850 : std_logic;
-signal \n29_cascade_\ : std_logic;
-signal n26 : std_logic;
-signal n2958 : std_logic;
-signal \i2c_stat_7_N_205_2\ : std_logic;
-signal \n2958_cascade_\ : std_logic;
-signal n20 : std_logic;
-signal i2c_stat_2 : std_logic;
-signal n2964 : std_logic;
-signal \hard0_SBACKo\ : std_logic;
-signal i2c_steps_1 : std_logic;
-signal i2c_steps_2 : std_logic;
-signal i2c_steps_0 : std_logic;
-signal \n2957_cascade_\ : std_logic;
-signal i2c_steps_3 : std_logic;
-signal n1780 : std_logic;
-signal n1730 : std_logic;
-signal i2c_cmd_cnt_1 : std_logic;
+signal \n3314_cascade_\ : std_logic;
+signal \hard0_SBDATo_6\ : std_logic;
+signal n3314 : std_logic;
+signal n3280 : std_logic;
+signal n3440 : std_logic;
+signal \n12_cascade_\ : std_logic;
+signal \hard_SBADRi_2\ : std_logic;
+signal n1913 : std_logic;
+signal n45 : std_logic;
+signal \n2710_cascade_\ : std_logic;
+signal cmd_decoded : std_logic;
+signal \n3444_cascade_\ : std_logic;
+signal n14 : std_logic;
+signal \n3436_cascade_\ : std_logic;
+signal n1962 : std_logic;
+signal n3444 : std_logic;
+signal n3449 : std_logic;
 signal i2c_cmd_cnt_0 : std_logic;
+signal i2c_cmd_cnt_1 : std_logic;
 signal i2c_cmd_cnt_2 : std_logic;
-signal \_gnd_net_\ : std_logic;
+signal n3433 : std_logic;
+signal n2081 : std_logic;
+signal n3443 : std_logic;
+signal i2c_stat_6 : std_logic;
+signal \n3446_cascade_\ : std_logic;
+signal \n31_cascade_\ : std_logic;
+signal n16 : std_logic;
+signal \n16_cascade_\ : std_logic;
+signal n56_adj_5 : std_logic;
+signal n22 : std_logic;
+signal n3436 : std_logic;
+signal \n4_adj_15_cascade_\ : std_logic;
+signal i2c_steps_3 : std_logic;
+signal \n2988_cascade_\ : std_logic;
+signal i2c_steps_0 : std_logic;
+signal n3432 : std_logic;
+signal i2c_cnt_0 : std_logic;
+signal i2c_cnt_1 : std_logic;
 signal sysclk : std_logic;
-signal n2956 : std_logic;
-signal n2016 : std_logic;
+signal \hard0_SBACKo\ : std_logic;
+signal i2c_stat_2 : std_logic;
+signal i2c_steps_2 : std_logic;
+signal i2c_steps_1 : std_logic;
+signal \n3321_cascade_\ : std_logic;
+signal n990 : std_logic;
+signal n1 : std_logic;
+signal \_gnd_net_\ : std_logic;
 
 signal io_i2c_scl_wire : std_logic;
 signal \LED_B_wire\ : std_logic;
@@ -1241,9 +1337,9 @@ begin
 
     \sbio_sda_iopad_od\ : IO_PAD_OD
     port map (
-            OE => \N__4990\,
-            DIN => \N__4989\,
-            DOUT => \N__4988\,
+            OE => \N__5335\,
+            DIN => \N__5334\,
+            DOUT => \N__5333\,
             PACKAGEPIN => io_i2c_sda
         );
 
@@ -1253,25 +1349,25 @@ begin
             NEG_TRIGGER => '0'
         )
     port map (
-            PADOEN => \N__4990\,
-            PADOUT => \N__4989\,
-            PADIN => \N__4988\,
+            PADOEN => \N__5335\,
+            PADOUT => \N__5334\,
+            PADIN => \N__5333\,
             CLOCKENABLE => 'H',
             DIN0 => sdain_i,
-            DOUT0 => \N__2046\,
+            DOUT0 => \N__2175\,
             OUTPUTCLK => '0',
             DIN1 => OPEN,
             DOUT1 => '0',
             LATCHINPUTVALUE => '0',
-            OUTPUTENABLE => \N__2070\,
+            OUTPUTENABLE => \N__2199\,
             INPUTCLK => '0'
         );
 
     \sbio_scl_iopad_od\ : IO_PAD_OD
     port map (
-            OE => \N__4981\,
-            DIN => \N__4980\,
-            DOUT => \N__4979\,
+            OE => \N__5326\,
+            DIN => \N__5325\,
+            DOUT => \N__5324\,
             PACKAGEPIN => io_i2c_scl_wire
         );
 
@@ -1281,9 +1377,9 @@ begin
             NEG_TRIGGER => '0'
         )
     port map (
-            PADOEN => \N__4981\,
-            PADOUT => \N__4980\,
-            PADIN => \N__4979\,
+            PADOEN => \N__5326\,
+            PADOUT => \N__5325\,
+            PADIN => \N__5324\,
             CLOCKENABLE => 'H',
             DIN0 => sclin_i,
             DOUT0 => \GNDG0\,
@@ -1295,5911 +1391,6427 @@ begin
             INPUTCLK => '0'
         );
 
+    \I__1241\ : InMux
+    port map (
+            O => \N__5307\,
+            I => \N__5304\
+        );
+
+    \I__1240\ : LocalMux
+    port map (
+            O => \N__5304\,
+            I => n3436
+        );
+
+    \I__1239\ : CascadeMux
+    port map (
+            O => \N__5301\,
+            I => \n4_adj_15_cascade_\
+        );
+
+    \I__1238\ : InMux
+    port map (
+            O => \N__5298\,
+            I => \N__5287\
+        );
+
+    \I__1237\ : InMux
+    port map (
+            O => \N__5297\,
+            I => \N__5287\
+        );
+
+    \I__1236\ : InMux
+    port map (
+            O => \N__5296\,
+            I => \N__5281\
+        );
+
+    \I__1235\ : InMux
+    port map (
+            O => \N__5295\,
+            I => \N__5281\
+        );
+
+    \I__1234\ : CascadeMux
+    port map (
+            O => \N__5294\,
+            I => \N__5276\
+        );
+
+    \I__1233\ : CascadeMux
+    port map (
+            O => \N__5293\,
+            I => \N__5268\
+        );
+
+    \I__1232\ : CascadeMux
+    port map (
+            O => \N__5292\,
+            I => \N__5262\
+        );
+
+    \I__1231\ : LocalMux
+    port map (
+            O => \N__5287\,
+            I => \N__5258\
+        );
+
+    \I__1230\ : CascadeMux
+    port map (
+            O => \N__5286\,
+            I => \N__5252\
+        );
+
+    \I__1229\ : LocalMux
+    port map (
+            O => \N__5281\,
+            I => \N__5243\
+        );
+
+    \I__1228\ : InMux
+    port map (
+            O => \N__5280\,
+            I => \N__5238\
+        );
+
+    \I__1227\ : InMux
+    port map (
+            O => \N__5279\,
+            I => \N__5238\
+        );
+
+    \I__1226\ : InMux
+    port map (
+            O => \N__5276\,
+            I => \N__5231\
+        );
+
+    \I__1225\ : InMux
+    port map (
+            O => \N__5275\,
+            I => \N__5231\
+        );
+
+    \I__1224\ : InMux
+    port map (
+            O => \N__5274\,
+            I => \N__5231\
+        );
+
+    \I__1223\ : InMux
+    port map (
+            O => \N__5273\,
+            I => \N__5228\
+        );
+
+    \I__1222\ : InMux
+    port map (
+            O => \N__5272\,
+            I => \N__5223\
+        );
+
+    \I__1221\ : InMux
+    port map (
+            O => \N__5271\,
+            I => \N__5223\
+        );
+
+    \I__1220\ : InMux
+    port map (
+            O => \N__5268\,
+            I => \N__5220\
+        );
+
+    \I__1219\ : InMux
+    port map (
+            O => \N__5267\,
+            I => \N__5209\
+        );
+
+    \I__1218\ : InMux
+    port map (
+            O => \N__5266\,
+            I => \N__5209\
+        );
+
+    \I__1217\ : InMux
+    port map (
+            O => \N__5265\,
+            I => \N__5209\
+        );
+
+    \I__1216\ : InMux
+    port map (
+            O => \N__5262\,
+            I => \N__5209\
+        );
+
+    \I__1215\ : InMux
+    port map (
+            O => \N__5261\,
+            I => \N__5209\
+        );
+
+    \I__1214\ : Span4Mux_v
+    port map (
+            O => \N__5258\,
+            I => \N__5206\
+        );
+
+    \I__1213\ : InMux
+    port map (
+            O => \N__5257\,
+            I => \N__5203\
+        );
+
+    \I__1212\ : InMux
+    port map (
+            O => \N__5256\,
+            I => \N__5198\
+        );
+
+    \I__1211\ : InMux
+    port map (
+            O => \N__5255\,
+            I => \N__5198\
+        );
+
+    \I__1210\ : InMux
+    port map (
+            O => \N__5252\,
+            I => \N__5191\
+        );
+
+    \I__1209\ : InMux
+    port map (
+            O => \N__5251\,
+            I => \N__5191\
+        );
+
+    \I__1208\ : InMux
+    port map (
+            O => \N__5250\,
+            I => \N__5191\
+        );
+
+    \I__1207\ : InMux
+    port map (
+            O => \N__5249\,
+            I => \N__5182\
+        );
+
+    \I__1206\ : InMux
+    port map (
+            O => \N__5248\,
+            I => \N__5182\
+        );
+
+    \I__1205\ : InMux
+    port map (
+            O => \N__5247\,
+            I => \N__5182\
+        );
+
+    \I__1204\ : InMux
+    port map (
+            O => \N__5246\,
+            I => \N__5182\
+        );
+
+    \I__1203\ : Span12Mux_s5_h
+    port map (
+            O => \N__5243\,
+            I => \N__5177\
+        );
+
+    \I__1202\ : LocalMux
+    port map (
+            O => \N__5238\,
+            I => \N__5177\
+        );
+
+    \I__1201\ : LocalMux
+    port map (
+            O => \N__5231\,
+            I => \N__5174\
+        );
+
+    \I__1200\ : LocalMux
+    port map (
+            O => \N__5228\,
+            I => i2c_steps_3
+        );
+
+    \I__1199\ : LocalMux
+    port map (
+            O => \N__5223\,
+            I => i2c_steps_3
+        );
+
+    \I__1198\ : LocalMux
+    port map (
+            O => \N__5220\,
+            I => i2c_steps_3
+        );
+
+    \I__1197\ : LocalMux
+    port map (
+            O => \N__5209\,
+            I => i2c_steps_3
+        );
+
+    \I__1196\ : Odrv4
+    port map (
+            O => \N__5206\,
+            I => i2c_steps_3
+        );
+
+    \I__1195\ : LocalMux
+    port map (
+            O => \N__5203\,
+            I => i2c_steps_3
+        );
+
+    \I__1194\ : LocalMux
+    port map (
+            O => \N__5198\,
+            I => i2c_steps_3
+        );
+
+    \I__1193\ : LocalMux
+    port map (
+            O => \N__5191\,
+            I => i2c_steps_3
+        );
+
+    \I__1192\ : LocalMux
+    port map (
+            O => \N__5182\,
+            I => i2c_steps_3
+        );
+
+    \I__1191\ : Odrv12
+    port map (
+            O => \N__5177\,
+            I => i2c_steps_3
+        );
+
+    \I__1190\ : Odrv4
+    port map (
+            O => \N__5174\,
+            I => i2c_steps_3
+        );
+
+    \I__1189\ : CascadeMux
+    port map (
+            O => \N__5151\,
+            I => \n2988_cascade_\
+        );
+
+    \I__1188\ : InMux
+    port map (
+            O => \N__5148\,
+            I => \N__5143\
+        );
+
+    \I__1187\ : CascadeMux
+    port map (
+            O => \N__5147\,
+            I => \N__5140\
+        );
+
+    \I__1186\ : CascadeMux
+    port map (
+            O => \N__5146\,
+            I => \N__5137\
+        );
+
+    \I__1185\ : LocalMux
+    port map (
+            O => \N__5143\,
+            I => \N__5129\
+        );
+
+    \I__1184\ : InMux
+    port map (
+            O => \N__5140\,
+            I => \N__5122\
+        );
+
+    \I__1183\ : InMux
+    port map (
+            O => \N__5137\,
+            I => \N__5122\
+        );
+
+    \I__1182\ : InMux
+    port map (
+            O => \N__5136\,
+            I => \N__5122\
+        );
+
+    \I__1181\ : InMux
+    port map (
+            O => \N__5135\,
+            I => \N__5117\
+        );
+
+    \I__1180\ : InMux
+    port map (
+            O => \N__5134\,
+            I => \N__5117\
+        );
+
+    \I__1179\ : InMux
+    port map (
+            O => \N__5133\,
+            I => \N__5114\
+        );
+
+    \I__1178\ : InMux
+    port map (
+            O => \N__5132\,
+            I => \N__5107\
+        );
+
+    \I__1177\ : Span4Mux_s2_v
+    port map (
+            O => \N__5129\,
+            I => \N__5104\
+        );
+
+    \I__1176\ : LocalMux
+    port map (
+            O => \N__5122\,
+            I => \N__5101\
+        );
+
+    \I__1175\ : LocalMux
+    port map (
+            O => \N__5117\,
+            I => \N__5096\
+        );
+
+    \I__1174\ : LocalMux
+    port map (
+            O => \N__5114\,
+            I => \N__5096\
+        );
+
+    \I__1173\ : InMux
+    port map (
+            O => \N__5113\,
+            I => \N__5086\
+        );
+
+    \I__1172\ : InMux
+    port map (
+            O => \N__5112\,
+            I => \N__5086\
+        );
+
+    \I__1171\ : InMux
+    port map (
+            O => \N__5111\,
+            I => \N__5081\
+        );
+
+    \I__1170\ : InMux
+    port map (
+            O => \N__5110\,
+            I => \N__5081\
+        );
+
+    \I__1169\ : LocalMux
+    port map (
+            O => \N__5107\,
+            I => \N__5074\
+        );
+
+    \I__1168\ : Span4Mux_h
+    port map (
+            O => \N__5104\,
+            I => \N__5074\
+        );
+
+    \I__1167\ : Span4Mux_s2_v
+    port map (
+            O => \N__5101\,
+            I => \N__5074\
+        );
+
+    \I__1166\ : Span4Mux_s2_v
+    port map (
+            O => \N__5096\,
+            I => \N__5071\
+        );
+
+    \I__1165\ : InMux
+    port map (
+            O => \N__5095\,
+            I => \N__5064\
+        );
+
+    \I__1164\ : InMux
+    port map (
+            O => \N__5094\,
+            I => \N__5064\
+        );
+
+    \I__1163\ : InMux
+    port map (
+            O => \N__5093\,
+            I => \N__5064\
+        );
+
+    \I__1162\ : InMux
+    port map (
+            O => \N__5092\,
+            I => \N__5059\
+        );
+
+    \I__1161\ : InMux
+    port map (
+            O => \N__5091\,
+            I => \N__5059\
+        );
+
+    \I__1160\ : LocalMux
+    port map (
+            O => \N__5086\,
+            I => i2c_steps_0
+        );
+
+    \I__1159\ : LocalMux
+    port map (
+            O => \N__5081\,
+            I => i2c_steps_0
+        );
+
+    \I__1158\ : Odrv4
+    port map (
+            O => \N__5074\,
+            I => i2c_steps_0
+        );
+
+    \I__1157\ : Odrv4
+    port map (
+            O => \N__5071\,
+            I => i2c_steps_0
+        );
+
+    \I__1156\ : LocalMux
+    port map (
+            O => \N__5064\,
+            I => i2c_steps_0
+        );
+
+    \I__1155\ : LocalMux
+    port map (
+            O => \N__5059\,
+            I => i2c_steps_0
+        );
+
+    \I__1154\ : InMux
+    port map (
+            O => \N__5046\,
+            I => \N__5043\
+        );
+
+    \I__1153\ : LocalMux
+    port map (
+            O => \N__5043\,
+            I => \N__5040\
+        );
+
+    \I__1152\ : Odrv4
+    port map (
+            O => \N__5040\,
+            I => n3432
+        );
+
+    \I__1151\ : InMux
+    port map (
+            O => \N__5037\,
+            I => \N__5027\
+        );
+
+    \I__1150\ : InMux
+    port map (
+            O => \N__5036\,
+            I => \N__5027\
+        );
+
+    \I__1149\ : InMux
+    port map (
+            O => \N__5035\,
+            I => \N__5027\
+        );
+
     \I__1148\ : InMux
     port map (
-            O => \N__4962\,
-            I => \N__4954\
+            O => \N__5034\,
+            I => \N__5024\
         );
 
-    \I__1147\ : InMux
+    \I__1147\ : LocalMux
     port map (
-            O => \N__4961\,
-            I => \N__4954\
+            O => \N__5027\,
+            I => i2c_cnt_0
         );
 
-    \I__1146\ : InMux
+    \I__1146\ : LocalMux
     port map (
-            O => \N__4960\,
-            I => \N__4951\
+            O => \N__5024\,
+            I => i2c_cnt_0
         );
 
-    \I__1145\ : InMux
+    \I__1145\ : CascadeMux
     port map (
-            O => \N__4959\,
-            I => \N__4948\
+            O => \N__5019\,
+            I => \N__5016\
         );
 
-    \I__1144\ : LocalMux
+    \I__1144\ : InMux
     port map (
-            O => \N__4954\,
-            I => i2c_stat_2
+            O => \N__5016\,
+            I => \N__5006\
         );
 
-    \I__1143\ : LocalMux
+    \I__1143\ : InMux
     port map (
-            O => \N__4951\,
-            I => i2c_stat_2
+            O => \N__5015\,
+            I => \N__5006\
         );
 
-    \I__1142\ : LocalMux
+    \I__1142\ : InMux
     port map (
-            O => \N__4948\,
-            I => i2c_stat_2
+            O => \N__5014\,
+            I => \N__5006\
         );
 
     \I__1141\ : InMux
     port map (
-            O => \N__4941\,
-            I => \N__4938\
+            O => \N__5013\,
+            I => \N__5003\
         );
 
     \I__1140\ : LocalMux
     port map (
-            O => \N__4938\,
-            I => n2964
+            O => \N__5006\,
+            I => i2c_cnt_1
         );
 
-    \I__1139\ : CascadeMux
+    \I__1139\ : LocalMux
     port map (
-            O => \N__4935\,
-            I => \N__4923\
+            O => \N__5003\,
+            I => i2c_cnt_1
         );
 
-    \I__1138\ : InMux
+    \I__1138\ : ClkMux
     port map (
-            O => \N__4934\,
-            I => \N__4919\
+            O => \N__4998\,
+            I => \N__4920\
         );
 
-    \I__1137\ : InMux
+    \I__1137\ : ClkMux
     port map (
-            O => \N__4933\,
-            I => \N__4914\
+            O => \N__4997\,
+            I => \N__4920\
         );
 
-    \I__1136\ : InMux
+    \I__1136\ : ClkMux
     port map (
-            O => \N__4932\,
-            I => \N__4914\
+            O => \N__4996\,
+            I => \N__4920\
         );
 
-    \I__1135\ : InMux
+    \I__1135\ : ClkMux
     port map (
-            O => \N__4931\,
-            I => \N__4911\
+            O => \N__4995\,
+            I => \N__4920\
         );
 
-    \I__1134\ : InMux
+    \I__1134\ : ClkMux
     port map (
-            O => \N__4930\,
-            I => \N__4908\
+            O => \N__4994\,
+            I => \N__4920\
         );
 
-    \I__1133\ : InMux
+    \I__1133\ : ClkMux
     port map (
-            O => \N__4929\,
-            I => \N__4903\
+            O => \N__4993\,
+            I => \N__4920\
         );
 
-    \I__1132\ : InMux
+    \I__1132\ : ClkMux
     port map (
-            O => \N__4928\,
-            I => \N__4903\
+            O => \N__4992\,
+            I => \N__4920\
         );
 
-    \I__1131\ : InMux
+    \I__1131\ : ClkMux
     port map (
-            O => \N__4927\,
-            I => \N__4900\
+            O => \N__4991\,
+            I => \N__4920\
         );
 
-    \I__1130\ : InMux
+    \I__1130\ : ClkMux
     port map (
-            O => \N__4926\,
-            I => \N__4893\
+            O => \N__4990\,
+            I => \N__4920\
         );
 
-    \I__1129\ : InMux
+    \I__1129\ : ClkMux
     port map (
-            O => \N__4923\,
-            I => \N__4893\
+            O => \N__4989\,
+            I => \N__4920\
         );
 
-    \I__1128\ : InMux
+    \I__1128\ : ClkMux
     port map (
-            O => \N__4922\,
-            I => \N__4893\
+            O => \N__4988\,
+            I => \N__4920\
         );
 
-    \I__1127\ : LocalMux
+    \I__1127\ : ClkMux
     port map (
-            O => \N__4919\,
-            I => \N__4884\
+            O => \N__4987\,
+            I => \N__4920\
         );
 
-    \I__1126\ : LocalMux
+    \I__1126\ : ClkMux
+    port map (
+            O => \N__4986\,
+            I => \N__4920\
+        );
+
+    \I__1125\ : ClkMux
+    port map (
+            O => \N__4985\,
+            I => \N__4920\
+        );
+
+    \I__1124\ : ClkMux
+    port map (
+            O => \N__4984\,
+            I => \N__4920\
+        );
+
+    \I__1123\ : ClkMux
+    port map (
+            O => \N__4983\,
+            I => \N__4920\
+        );
+
+    \I__1122\ : ClkMux
+    port map (
+            O => \N__4982\,
+            I => \N__4920\
+        );
+
+    \I__1121\ : ClkMux
+    port map (
+            O => \N__4981\,
+            I => \N__4920\
+        );
+
+    \I__1120\ : ClkMux
+    port map (
+            O => \N__4980\,
+            I => \N__4920\
+        );
+
+    \I__1119\ : ClkMux
+    port map (
+            O => \N__4979\,
+            I => \N__4920\
+        );
+
+    \I__1118\ : ClkMux
+    port map (
+            O => \N__4978\,
+            I => \N__4920\
+        );
+
+    \I__1117\ : ClkMux
+    port map (
+            O => \N__4977\,
+            I => \N__4920\
+        );
+
+    \I__1116\ : ClkMux
+    port map (
+            O => \N__4976\,
+            I => \N__4920\
+        );
+
+    \I__1115\ : ClkMux
+    port map (
+            O => \N__4975\,
+            I => \N__4920\
+        );
+
+    \I__1114\ : ClkMux
+    port map (
+            O => \N__4974\,
+            I => \N__4920\
+        );
+
+    \I__1113\ : ClkMux
+    port map (
+            O => \N__4973\,
+            I => \N__4920\
+        );
+
+    \I__1112\ : GlobalMux
+    port map (
+            O => \N__4920\,
+            I => \N__4917\
+        );
+
+    \I__1111\ : gio2CtrlBuf
+    port map (
+            O => \N__4917\,
+            I => sysclk
+        );
+
+    \I__1110\ : CascadeMux
     port map (
             O => \N__4914\,
-            I => \N__4884\
+            I => \N__4907\
         );
 
-    \I__1125\ : LocalMux
+    \I__1109\ : InMux
+    port map (
+            O => \N__4913\,
+            I => \N__4898\
+        );
+
+    \I__1108\ : CascadeMux
+    port map (
+            O => \N__4912\,
+            I => \N__4895\
+        );
+
+    \I__1107\ : InMux
     port map (
             O => \N__4911\,
-            I => \N__4884\
+            I => \N__4889\
         );
 
-    \I__1124\ : LocalMux
+    \I__1106\ : InMux
     port map (
-            O => \N__4908\,
+            O => \N__4910\,
+            I => \N__4889\
+        );
+
+    \I__1105\ : InMux
+    port map (
+            O => \N__4907\,
             I => \N__4884\
         );
 
-    \I__1123\ : LocalMux
+    \I__1104\ : InMux
+    port map (
+            O => \N__4906\,
+            I => \N__4884\
+        );
+
+    \I__1103\ : CascadeMux
+    port map (
+            O => \N__4905\,
+            I => \N__4881\
+        );
+
+    \I__1102\ : InMux
+    port map (
+            O => \N__4904\,
+            I => \N__4877\
+        );
+
+    \I__1101\ : InMux
     port map (
             O => \N__4903\,
             I => \N__4872\
         );
 
-    \I__1122\ : LocalMux
-    port map (
-            O => \N__4900\,
-            I => \N__4872\
-        );
-
-    \I__1121\ : LocalMux
-    port map (
-            O => \N__4893\,
-            I => \N__4872\
-        );
-
-    \I__1120\ : Span4Mux_s2_v
-    port map (
-            O => \N__4884\,
-            I => \N__4869\
-        );
-
-    \I__1119\ : InMux
-    port map (
-            O => \N__4883\,
-            I => \N__4860\
-        );
-
-    \I__1118\ : InMux
-    port map (
-            O => \N__4882\,
-            I => \N__4860\
-        );
-
-    \I__1117\ : InMux
-    port map (
-            O => \N__4881\,
-            I => \N__4860\
-        );
-
-    \I__1116\ : InMux
-    port map (
-            O => \N__4880\,
-            I => \N__4860\
-        );
-
-    \I__1115\ : InMux
-    port map (
-            O => \N__4879\,
-            I => \N__4857\
-        );
-
-    \I__1114\ : Span12Mux_s2_v
-    port map (
-            O => \N__4872\,
-            I => \N__4848\
-        );
-
-    \I__1113\ : Sp12to4
-    port map (
-            O => \N__4869\,
-            I => \N__4848\
-        );
-
-    \I__1112\ : LocalMux
-    port map (
-            O => \N__4860\,
-            I => \N__4848\
-        );
-
-    \I__1111\ : LocalMux
-    port map (
-            O => \N__4857\,
-            I => \N__4848\
-        );
-
-    \I__1110\ : Odrv12
-    port map (
-            O => \N__4848\,
-            I => \N__4845\
-        );
-
-    \I__1109\ : DummyBuf
-    port map (
-            O => \N__4845\,
-            I => \hard0_SBACKo\
-        );
-
-    \I__1108\ : CascadeMux
-    port map (
-            O => \N__4842\,
-            I => \N__4836\
-        );
-
-    \I__1107\ : InMux
-    port map (
-            O => \N__4841\,
-            I => \N__4822\
-        );
-
-    \I__1106\ : InMux
-    port map (
-            O => \N__4840\,
-            I => \N__4817\
-        );
-
-    \I__1105\ : InMux
-    port map (
-            O => \N__4839\,
-            I => \N__4817\
-        );
-
-    \I__1104\ : InMux
-    port map (
-            O => \N__4836\,
-            I => \N__4812\
-        );
-
-    \I__1103\ : CascadeMux
-    port map (
-            O => \N__4835\,
-            I => \N__4805\
-        );
-
-    \I__1102\ : CascadeMux
-    port map (
-            O => \N__4834\,
-            I => \N__4802\
-        );
-
-    \I__1101\ : InMux
-    port map (
-            O => \N__4833\,
-            I => \N__4792\
-        );
-
     \I__1100\ : InMux
     port map (
-            O => \N__4832\,
-            I => \N__4792\
+            O => \N__4902\,
+            I => \N__4872\
         );
 
     \I__1099\ : InMux
     port map (
-            O => \N__4831\,
-            I => \N__4792\
+            O => \N__4901\,
+            I => \N__4869\
         );
 
-    \I__1098\ : InMux
+    \I__1098\ : LocalMux
     port map (
-            O => \N__4830\,
-            I => \N__4789\
+            O => \N__4898\,
+            I => \N__4866\
         );
 
     \I__1097\ : InMux
     port map (
-            O => \N__4829\,
-            I => \N__4784\
+            O => \N__4895\,
+            I => \N__4861\
         );
 
     \I__1096\ : InMux
     port map (
-            O => \N__4828\,
-            I => \N__4784\
+            O => \N__4894\,
+            I => \N__4861\
         );
 
-    \I__1095\ : InMux
+    \I__1095\ : LocalMux
     port map (
-            O => \N__4827\,
-            I => \N__4779\
+            O => \N__4889\,
+            I => \N__4858\
         );
 
-    \I__1094\ : InMux
+    \I__1094\ : LocalMux
     port map (
-            O => \N__4826\,
-            I => \N__4779\
+            O => \N__4884\,
+            I => \N__4855\
         );
 
     \I__1093\ : InMux
     port map (
-            O => \N__4825\,
-            I => \N__4776\
+            O => \N__4881\,
+            I => \N__4850\
         );
 
-    \I__1092\ : LocalMux
+    \I__1092\ : InMux
     port map (
-            O => \N__4822\,
-            I => \N__4771\
+            O => \N__4880\,
+            I => \N__4850\
         );
 
     \I__1091\ : LocalMux
     port map (
-            O => \N__4817\,
-            I => \N__4771\
+            O => \N__4877\,
+            I => \N__4842\
         );
 
-    \I__1090\ : InMux
+    \I__1090\ : LocalMux
     port map (
-            O => \N__4816\,
-            I => \N__4766\
+            O => \N__4872\,
+            I => \N__4842\
         );
 
-    \I__1089\ : InMux
+    \I__1089\ : LocalMux
     port map (
-            O => \N__4815\,
-            I => \N__4766\
+            O => \N__4869\,
+            I => \N__4842\
         );
 
-    \I__1088\ : LocalMux
+    \I__1088\ : Sp12to4
     port map (
-            O => \N__4812\,
-            I => \N__4763\
+            O => \N__4866\,
+            I => \N__4837\
         );
 
-    \I__1087\ : InMux
+    \I__1087\ : LocalMux
     port map (
-            O => \N__4811\,
-            I => \N__4760\
+            O => \N__4861\,
+            I => \N__4837\
         );
 
-    \I__1086\ : InMux
+    \I__1086\ : Span4Mux_h
     port map (
-            O => \N__4810\,
-            I => \N__4753\
+            O => \N__4858\,
+            I => \N__4832\
         );
 
-    \I__1085\ : InMux
+    \I__1085\ : Span4Mux_s2_v
     port map (
-            O => \N__4809\,
-            I => \N__4753\
+            O => \N__4855\,
+            I => \N__4832\
         );
 
-    \I__1084\ : InMux
+    \I__1084\ : LocalMux
     port map (
-            O => \N__4808\,
-            I => \N__4753\
+            O => \N__4850\,
+            I => \N__4829\
         );
 
     \I__1083\ : InMux
     port map (
-            O => \N__4805\,
-            I => \N__4742\
+            O => \N__4849\,
+            I => \N__4826\
         );
 
-    \I__1082\ : InMux
+    \I__1082\ : Span4Mux_s2_v
     port map (
-            O => \N__4802\,
-            I => \N__4742\
+            O => \N__4842\,
+            I => \N__4823\
         );
 
-    \I__1081\ : InMux
+    \I__1081\ : Span12Mux_s2_v
     port map (
-            O => \N__4801\,
-            I => \N__4742\
+            O => \N__4837\,
+            I => \N__4816\
         );
 
-    \I__1080\ : InMux
+    \I__1080\ : Sp12to4
     port map (
-            O => \N__4800\,
-            I => \N__4742\
+            O => \N__4832\,
+            I => \N__4816\
         );
 
-    \I__1079\ : InMux
+    \I__1079\ : Span12Mux_s11_v
     port map (
-            O => \N__4799\,
-            I => \N__4742\
+            O => \N__4829\,
+            I => \N__4816\
         );
 
     \I__1078\ : LocalMux
     port map (
-            O => \N__4792\,
-            I => i2c_steps_1
+            O => \N__4826\,
+            I => \N__4809\
         );
 
-    \I__1077\ : LocalMux
+    \I__1077\ : Odrv4
     port map (
-            O => \N__4789\,
-            I => i2c_steps_1
+            O => \N__4823\,
+            I => \N__4809\
         );
 
-    \I__1076\ : LocalMux
+    \I__1076\ : Odrv12
     port map (
-            O => \N__4784\,
-            I => i2c_steps_1
+            O => \N__4816\,
+            I => \N__4809\
         );
 
-    \I__1075\ : LocalMux
+    \I__1075\ : DummyBuf
     port map (
-            O => \N__4779\,
-            I => i2c_steps_1
+            O => \N__4809\,
+            I => \hard0_SBACKo\
         );
 
-    \I__1074\ : LocalMux
+    \I__1074\ : InMux
     port map (
-            O => \N__4776\,
-            I => i2c_steps_1
+            O => \N__4806\,
+            I => \N__4801\
         );
 
-    \I__1073\ : Odrv4
+    \I__1073\ : InMux
     port map (
-            O => \N__4771\,
-            I => i2c_steps_1
+            O => \N__4805\,
+            I => \N__4798\
         );
 
-    \I__1072\ : LocalMux
+    \I__1072\ : InMux
     port map (
-            O => \N__4766\,
-            I => i2c_steps_1
+            O => \N__4804\,
+            I => \N__4795\
         );
 
-    \I__1071\ : Odrv4
+    \I__1071\ : LocalMux
     port map (
-            O => \N__4763\,
-            I => i2c_steps_1
+            O => \N__4801\,
+            I => i2c_stat_2
         );
 
     \I__1070\ : LocalMux
     port map (
-            O => \N__4760\,
-            I => i2c_steps_1
+            O => \N__4798\,
+            I => i2c_stat_2
         );
 
     \I__1069\ : LocalMux
     port map (
-            O => \N__4753\,
-            I => i2c_steps_1
+            O => \N__4795\,
+            I => i2c_stat_2
         );
 
-    \I__1068\ : LocalMux
+    \I__1068\ : InMux
     port map (
-            O => \N__4742\,
-            I => i2c_steps_1
+            O => \N__4788\,
+            I => \N__4774\
         );
 
-    \I__1067\ : CascadeMux
+    \I__1067\ : InMux
     port map (
-            O => \N__4719\,
-            I => \N__4704\
+            O => \N__4787\,
+            I => \N__4774\
         );
 
-    \I__1066\ : CascadeMux
+    \I__1066\ : InMux
     port map (
-            O => \N__4718\,
-            I => \N__4697\
+            O => \N__4786\,
+            I => \N__4771\
         );
 
-    \I__1065\ : CascadeMux
+    \I__1065\ : InMux
     port map (
-            O => \N__4717\,
-            I => \N__4693\
+            O => \N__4785\,
+            I => \N__4764\
         );
 
-    \I__1064\ : CascadeMux
+    \I__1064\ : InMux
     port map (
-            O => \N__4716\,
-            I => \N__4690\
+            O => \N__4784\,
+            I => \N__4764\
         );
 
     \I__1063\ : InMux
     port map (
-            O => \N__4715\,
-            I => \N__4685\
+            O => \N__4783\,
+            I => \N__4764\
         );
 
     \I__1062\ : InMux
     port map (
-            O => \N__4714\,
-            I => \N__4685\
+            O => \N__4782\,
+            I => \N__4757\
         );
 
     \I__1061\ : InMux
     port map (
-            O => \N__4713\,
-            I => \N__4676\
+            O => \N__4781\,
+            I => \N__4757\
         );
 
     \I__1060\ : InMux
     port map (
-            O => \N__4712\,
-            I => \N__4676\
+            O => \N__4780\,
+            I => \N__4757\
         );
 
     \I__1059\ : InMux
     port map (
-            O => \N__4711\,
-            I => \N__4676\
+            O => \N__4779\,
+            I => \N__4751\
         );
 
-    \I__1058\ : InMux
+    \I__1058\ : LocalMux
     port map (
-            O => \N__4710\,
-            I => \N__4676\
+            O => \N__4774\,
+            I => \N__4744\
         );
 
-    \I__1057\ : CascadeMux
+    \I__1057\ : LocalMux
     port map (
-            O => \N__4709\,
-            I => \N__4673\
+            O => \N__4771\,
+            I => \N__4734\
         );
 
-    \I__1056\ : InMux
+    \I__1056\ : LocalMux
     port map (
-            O => \N__4708\,
-            I => \N__4665\
+            O => \N__4764\,
+            I => \N__4734\
         );
 
-    \I__1055\ : InMux
+    \I__1055\ : LocalMux
     port map (
-            O => \N__4707\,
-            I => \N__4658\
+            O => \N__4757\,
+            I => \N__4734\
         );
 
     \I__1054\ : InMux
     port map (
-            O => \N__4704\,
-            I => \N__4658\
+            O => \N__4756\,
+            I => \N__4725\
         );
 
     \I__1053\ : InMux
     port map (
-            O => \N__4703\,
-            I => \N__4658\
+            O => \N__4755\,
+            I => \N__4725\
         );
 
     \I__1052\ : InMux
     port map (
-            O => \N__4702\,
-            I => \N__4651\
+            O => \N__4754\,
+            I => \N__4725\
         );
 
-    \I__1051\ : InMux
+    \I__1051\ : LocalMux
     port map (
-            O => \N__4701\,
-            I => \N__4651\
+            O => \N__4751\,
+            I => \N__4722\
         );
 
     \I__1050\ : InMux
     port map (
-            O => \N__4700\,
-            I => \N__4651\
+            O => \N__4750\,
+            I => \N__4719\
         );
 
     \I__1049\ : InMux
     port map (
-            O => \N__4697\,
-            I => \N__4648\
+            O => \N__4749\,
+            I => \N__4716\
         );
 
     \I__1048\ : InMux
     port map (
-            O => \N__4696\,
-            I => \N__4645\
+            O => \N__4748\,
+            I => \N__4711\
         );
 
     \I__1047\ : InMux
     port map (
-            O => \N__4693\,
-            I => \N__4640\
+            O => \N__4747\,
+            I => \N__4711\
         );
 
-    \I__1046\ : InMux
+    \I__1046\ : Span4Mux_s1_v
     port map (
-            O => \N__4690\,
-            I => \N__4640\
+            O => \N__4744\,
+            I => \N__4708\
         );
 
-    \I__1045\ : LocalMux
+    \I__1045\ : InMux
     port map (
-            O => \N__4685\,
-            I => \N__4637\
+            O => \N__4743\,
+            I => \N__4701\
         );
 
-    \I__1044\ : LocalMux
+    \I__1044\ : InMux
     port map (
-            O => \N__4676\,
-            I => \N__4634\
+            O => \N__4742\,
+            I => \N__4701\
         );
 
     \I__1043\ : InMux
     port map (
-            O => \N__4673\,
-            I => \N__4631\
+            O => \N__4741\,
+            I => \N__4701\
         );
 
-    \I__1042\ : InMux
+    \I__1042\ : Span4Mux_s2_v
     port map (
-            O => \N__4672\,
-            I => \N__4626\
+            O => \N__4734\,
+            I => \N__4698\
         );
 
     \I__1041\ : InMux
     port map (
-            O => \N__4671\,
-            I => \N__4626\
+            O => \N__4733\,
+            I => \N__4693\
         );
 
     \I__1040\ : InMux
     port map (
-            O => \N__4670\,
-            I => \N__4619\
+            O => \N__4732\,
+            I => \N__4693\
         );
 
-    \I__1039\ : InMux
+    \I__1039\ : LocalMux
     port map (
-            O => \N__4669\,
-            I => \N__4619\
+            O => \N__4725\,
+            I => i2c_steps_2
         );
 
-    \I__1038\ : InMux
+    \I__1038\ : Odrv4
     port map (
-            O => \N__4668\,
-            I => \N__4619\
+            O => \N__4722\,
+            I => i2c_steps_2
         );
 
     \I__1037\ : LocalMux
     port map (
-            O => \N__4665\,
+            O => \N__4719\,
             I => i2c_steps_2
         );
 
     \I__1036\ : LocalMux
     port map (
-            O => \N__4658\,
+            O => \N__4716\,
             I => i2c_steps_2
         );
 
     \I__1035\ : LocalMux
     port map (
-            O => \N__4651\,
+            O => \N__4711\,
             I => i2c_steps_2
         );
 
-    \I__1034\ : LocalMux
+    \I__1034\ : Odrv4
     port map (
-            O => \N__4648\,
+            O => \N__4708\,
             I => i2c_steps_2
         );
 
     \I__1033\ : LocalMux
     port map (
-            O => \N__4645\,
+            O => \N__4701\,
             I => i2c_steps_2
         );
 
-    \I__1032\ : LocalMux
+    \I__1032\ : Odrv4
     port map (
-            O => \N__4640\,
+            O => \N__4698\,
             I => i2c_steps_2
         );
 
-    \I__1031\ : Odrv4
+    \I__1031\ : LocalMux
     port map (
-            O => \N__4637\,
+            O => \N__4693\,
             I => i2c_steps_2
         );
 
-    \I__1030\ : Odrv4
+    \I__1030\ : InMux
     port map (
-            O => \N__4634\,
-            I => i2c_steps_2
+            O => \N__4674\,
+            I => \N__4664\
         );
 
-    \I__1029\ : LocalMux
+    \I__1029\ : InMux
     port map (
-            O => \N__4631\,
-            I => i2c_steps_2
+            O => \N__4673\,
+            I => \N__4659\
         );
 
-    \I__1028\ : LocalMux
+    \I__1028\ : InMux
     port map (
-            O => \N__4626\,
-            I => i2c_steps_2
+            O => \N__4672\,
+            I => \N__4659\
         );
 
-    \I__1027\ : LocalMux
+    \I__1027\ : InMux
     port map (
-            O => \N__4619\,
-            I => i2c_steps_2
+            O => \N__4671\,
+            I => \N__4652\
         );
 
     \I__1026\ : InMux
     port map (
-            O => \N__4596\,
-            I => \N__4591\
+            O => \N__4670\,
+            I => \N__4652\
         );
 
     \I__1025\ : InMux
     port map (
-            O => \N__4595\,
-            I => \N__4586\
+            O => \N__4669\,
+            I => \N__4652\
         );
 
-    \I__1024\ : InMux
+    \I__1024\ : CascadeMux
     port map (
-            O => \N__4594\,
-            I => \N__4586\
+            O => \N__4668\,
+            I => \N__4649\
         );
 
-    \I__1023\ : LocalMux
+    \I__1023\ : InMux
     port map (
-            O => \N__4591\,
-            I => \N__4575\
+            O => \N__4667\,
+            I => \N__4639\
         );
 
     \I__1022\ : LocalMux
     port map (
-            O => \N__4586\,
-            I => \N__4572\
+            O => \N__4664\,
+            I => \N__4634\
         );
 
-    \I__1021\ : InMux
+    \I__1021\ : LocalMux
     port map (
-            O => \N__4585\,
-            I => \N__4565\
+            O => \N__4659\,
+            I => \N__4634\
         );
 
-    \I__1020\ : InMux
+    \I__1020\ : LocalMux
     port map (
-            O => \N__4584\,
-            I => \N__4565\
+            O => \N__4652\,
+            I => \N__4625\
         );
 
     \I__1019\ : InMux
     port map (
-            O => \N__4583\,
-            I => \N__4565\
+            O => \N__4649\,
+            I => \N__4622\
         );
 
-    \I__1018\ : CascadeMux
+    \I__1018\ : InMux
     port map (
-            O => \N__4582\,
-            I => \N__4556\
+            O => \N__4648\,
+            I => \N__4615\
         );
 
     \I__1017\ : InMux
     port map (
-            O => \N__4581\,
-            I => \N__4541\
+            O => \N__4647\,
+            I => \N__4615\
         );
 
     \I__1016\ : InMux
     port map (
-            O => \N__4580\,
-            I => \N__4541\
+            O => \N__4646\,
+            I => \N__4615\
         );
 
     \I__1015\ : InMux
     port map (
-            O => \N__4579\,
-            I => \N__4541\
+            O => \N__4645\,
+            I => \N__4610\
         );
 
     \I__1014\ : InMux
     port map (
-            O => \N__4578\,
-            I => \N__4541\
+            O => \N__4644\,
+            I => \N__4610\
         );
 
-    \I__1013\ : Span4Mux_s1_v
+    \I__1013\ : InMux
     port map (
-            O => \N__4575\,
-            I => \N__4534\
+            O => \N__4643\,
+            I => \N__4602\
         );
 
-    \I__1012\ : Span4Mux_v
+    \I__1012\ : InMux
     port map (
-            O => \N__4572\,
-            I => \N__4534\
+            O => \N__4642\,
+            I => \N__4602\
         );
 
     \I__1011\ : LocalMux
     port map (
-            O => \N__4565\,
-            I => \N__4534\
+            O => \N__4639\,
+            I => \N__4597\
         );
 
-    \I__1010\ : InMux
+    \I__1010\ : Span4Mux_s1_v
     port map (
-            O => \N__4564\,
-            I => \N__4531\
+            O => \N__4634\,
+            I => \N__4597\
         );
 
     \I__1009\ : InMux
     port map (
-            O => \N__4563\,
-            I => \N__4522\
+            O => \N__4633\,
+            I => \N__4594\
         );
 
     \I__1008\ : InMux
     port map (
-            O => \N__4562\,
-            I => \N__4522\
+            O => \N__4632\,
+            I => \N__4591\
         );
 
     \I__1007\ : InMux
     port map (
-            O => \N__4561\,
-            I => \N__4522\
+            O => \N__4631\,
+            I => \N__4582\
         );
 
     \I__1006\ : InMux
     port map (
-            O => \N__4560\,
-            I => \N__4522\
+            O => \N__4630\,
+            I => \N__4582\
         );
 
     \I__1005\ : InMux
     port map (
-            O => \N__4559\,
-            I => \N__4517\
+            O => \N__4629\,
+            I => \N__4582\
         );
 
     \I__1004\ : InMux
     port map (
-            O => \N__4556\,
-            I => \N__4517\
+            O => \N__4628\,
+            I => \N__4582\
         );
 
-    \I__1003\ : InMux
+    \I__1003\ : Span4Mux_s1_v
     port map (
-            O => \N__4555\,
-            I => \N__4510\
+            O => \N__4625\,
+            I => \N__4579\
         );
 
-    \I__1002\ : InMux
+    \I__1002\ : LocalMux
     port map (
-            O => \N__4554\,
-            I => \N__4510\
+            O => \N__4622\,
+            I => \N__4574\
         );
 
-    \I__1001\ : InMux
+    \I__1001\ : LocalMux
     port map (
-            O => \N__4553\,
-            I => \N__4510\
+            O => \N__4615\,
+            I => \N__4574\
         );
 
-    \I__1000\ : InMux
+    \I__1000\ : LocalMux
     port map (
-            O => \N__4552\,
-            I => \N__4503\
+            O => \N__4610\,
+            I => \N__4571\
         );
 
     \I__999\ : InMux
     port map (
-            O => \N__4551\,
-            I => \N__4503\
+            O => \N__4609\,
+            I => \N__4564\
         );
 
     \I__998\ : InMux
     port map (
-            O => \N__4550\,
-            I => \N__4503\
+            O => \N__4608\,
+            I => \N__4564\
         );
 
-    \I__997\ : LocalMux
+    \I__997\ : InMux
     port map (
-            O => \N__4541\,
-            I => i2c_steps_0
+            O => \N__4607\,
+            I => \N__4564\
         );
 
-    \I__996\ : Odrv4
+    \I__996\ : LocalMux
     port map (
-            O => \N__4534\,
-            I => i2c_steps_0
+            O => \N__4602\,
+            I => i2c_steps_1
         );
 
-    \I__995\ : LocalMux
+    \I__995\ : Odrv4
     port map (
-            O => \N__4531\,
-            I => i2c_steps_0
+            O => \N__4597\,
+            I => i2c_steps_1
         );
 
     \I__994\ : LocalMux
     port map (
-            O => \N__4522\,
-            I => i2c_steps_0
+            O => \N__4594\,
+            I => i2c_steps_1
         );
 
     \I__993\ : LocalMux
     port map (
-            O => \N__4517\,
-            I => i2c_steps_0
+            O => \N__4591\,
+            I => i2c_steps_1
         );
 
     \I__992\ : LocalMux
     port map (
-            O => \N__4510\,
-            I => i2c_steps_0
+            O => \N__4582\,
+            I => i2c_steps_1
         );
 
-    \I__991\ : LocalMux
+    \I__991\ : Odrv4
     port map (
-            O => \N__4503\,
-            I => i2c_steps_0
+            O => \N__4579\,
+            I => i2c_steps_1
         );
 
-    \I__990\ : CascadeMux
+    \I__990\ : Odrv4
     port map (
-            O => \N__4488\,
-            I => \n2957_cascade_\
+            O => \N__4574\,
+            I => i2c_steps_1
         );
 
-    \I__989\ : InMux
+    \I__989\ : Odrv12
     port map (
-            O => \N__4485\,
-            I => \N__4467\
+            O => \N__4571\,
+            I => i2c_steps_1
         );
 
-    \I__988\ : InMux
+    \I__988\ : LocalMux
     port map (
-            O => \N__4484\,
-            I => \N__4462\
+            O => \N__4564\,
+            I => i2c_steps_1
         );
 
-    \I__987\ : InMux
+    \I__987\ : CascadeMux
     port map (
-            O => \N__4483\,
-            I => \N__4462\
+            O => \N__4545\,
+            I => \n3321_cascade_\
         );
 
     \I__986\ : InMux
     port map (
-            O => \N__4482\,
-            I => \N__4459\
+            O => \N__4542\,
+            I => \N__4539\
         );
 
-    \I__985\ : InMux
+    \I__985\ : LocalMux
     port map (
-            O => \N__4481\,
-            I => \N__4450\
+            O => \N__4539\,
+            I => n990
         );
 
     \I__984\ : InMux
     port map (
-            O => \N__4480\,
-            I => \N__4450\
+            O => \N__4536\,
+            I => \N__4533\
         );
 
-    \I__983\ : InMux
+    \I__983\ : LocalMux
     port map (
-            O => \N__4479\,
-            I => \N__4450\
+            O => \N__4533\,
+            I => n1
         );
 
     \I__982\ : InMux
     port map (
-            O => \N__4478\,
-            I => \N__4450\
+            O => \N__4530\,
+            I => \N__4518\
         );
 
     \I__981\ : InMux
     port map (
-            O => \N__4477\,
-            I => \N__4443\
+            O => \N__4529\,
+            I => \N__4518\
         );
 
     \I__980\ : InMux
     port map (
-            O => \N__4476\,
-            I => \N__4443\
+            O => \N__4528\,
+            I => \N__4518\
         );
 
     \I__979\ : InMux
     port map (
-            O => \N__4475\,
-            I => \N__4443\
+            O => \N__4527\,
+            I => \N__4511\
         );
 
     \I__978\ : InMux
     port map (
-            O => \N__4474\,
-            I => \N__4436\
+            O => \N__4526\,
+            I => \N__4511\
         );
 
     \I__977\ : InMux
     port map (
-            O => \N__4473\,
-            I => \N__4436\
+            O => \N__4525\,
+            I => \N__4511\
         );
 
-    \I__976\ : InMux
+    \I__976\ : LocalMux
     port map (
-            O => \N__4472\,
-            I => \N__4436\
+            O => \N__4518\,
+            I => i2c_cmd_cnt_0
         );
 
-    \I__975\ : InMux
+    \I__975\ : LocalMux
     port map (
-            O => \N__4471\,
-            I => \N__4433\
+            O => \N__4511\,
+            I => i2c_cmd_cnt_0
         );
 
-    \I__974\ : InMux
+    \I__974\ : CascadeMux
     port map (
-            O => \N__4470\,
-            I => \N__4430\
+            O => \N__4506\,
+            I => \N__4500\
         );
 
-    \I__973\ : LocalMux
+    \I__973\ : InMux
     port map (
-            O => \N__4467\,
-            I => \N__4427\
+            O => \N__4505\,
+            I => \N__4494\
         );
 
-    \I__972\ : LocalMux
+    \I__972\ : InMux
     port map (
-            O => \N__4462\,
-            I => \N__4418\
+            O => \N__4504\,
+            I => \N__4494\
         );
 
-    \I__971\ : LocalMux
+    \I__971\ : InMux
     port map (
-            O => \N__4459\,
-            I => \N__4418\
+            O => \N__4503\,
+            I => \N__4491\
         );
 
-    \I__970\ : LocalMux
+    \I__970\ : InMux
     port map (
-            O => \N__4450\,
-            I => \N__4411\
+            O => \N__4500\,
+            I => \N__4486\
         );
 
-    \I__969\ : LocalMux
+    \I__969\ : InMux
     port map (
-            O => \N__4443\,
-            I => \N__4411\
+            O => \N__4499\,
+            I => \N__4486\
         );
 
     \I__968\ : LocalMux
     port map (
-            O => \N__4436\,
-            I => \N__4411\
+            O => \N__4494\,
+            I => i2c_cmd_cnt_1
         );
 
     \I__967\ : LocalMux
     port map (
-            O => \N__4433\,
-            I => \N__4402\
+            O => \N__4491\,
+            I => i2c_cmd_cnt_1
         );
 
     \I__966\ : LocalMux
     port map (
-            O => \N__4430\,
-            I => \N__4397\
+            O => \N__4486\,
+            I => i2c_cmd_cnt_1
         );
 
-    \I__965\ : Span4Mux_s3_v
+    \I__965\ : InMux
     port map (
-            O => \N__4427\,
-            I => \N__4397\
+            O => \N__4479\,
+            I => \N__4475\
         );
 
     \I__964\ : InMux
     port map (
-            O => \N__4426\,
-            I => \N__4392\
+            O => \N__4478\,
+            I => \N__4472\
         );
 
-    \I__963\ : InMux
+    \I__963\ : LocalMux
     port map (
-            O => \N__4425\,
-            I => \N__4392\
+            O => \N__4475\,
+            I => i2c_cmd_cnt_2
         );
 
-    \I__962\ : InMux
+    \I__962\ : LocalMux
     port map (
-            O => \N__4424\,
-            I => \N__4387\
+            O => \N__4472\,
+            I => i2c_cmd_cnt_2
         );
 
-    \I__961\ : InMux
+    \I__961\ : CEMux
     port map (
-            O => \N__4423\,
-            I => \N__4387\
+            O => \N__4467\,
+            I => \N__4464\
         );
 
-    \I__960\ : Span4Mux_s1_v
+    \I__960\ : LocalMux
     port map (
-            O => \N__4418\,
-            I => \N__4382\
+            O => \N__4464\,
+            I => \N__4461\
         );
 
-    \I__959\ : Span4Mux_h
+    \I__959\ : Odrv12
     port map (
-            O => \N__4411\,
-            I => \N__4382\
+            O => \N__4461\,
+            I => n3433
         );
 
-    \I__958\ : InMux
+    \I__958\ : SRMux
     port map (
-            O => \N__4410\,
-            I => \N__4371\
+            O => \N__4458\,
+            I => \N__4455\
         );
 
-    \I__957\ : InMux
+    \I__957\ : LocalMux
     port map (
-            O => \N__4409\,
-            I => \N__4371\
+            O => \N__4455\,
+            I => \N__4452\
         );
 
-    \I__956\ : InMux
+    \I__956\ : Span4Mux_v
     port map (
-            O => \N__4408\,
-            I => \N__4371\
+            O => \N__4452\,
+            I => \N__4449\
         );
 
-    \I__955\ : InMux
+    \I__955\ : Odrv4
     port map (
-            O => \N__4407\,
-            I => \N__4371\
+            O => \N__4449\,
+            I => n2081
         );
 
-    \I__954\ : InMux
+    \I__954\ : CascadeMux
     port map (
-            O => \N__4406\,
-            I => \N__4371\
+            O => \N__4446\,
+            I => \N__4443\
         );
 
     \I__953\ : InMux
     port map (
-            O => \N__4405\,
-            I => \N__4368\
+            O => \N__4443\,
+            I => \N__4440\
         );
 
-    \I__952\ : Odrv4
+    \I__952\ : LocalMux
     port map (
-            O => \N__4402\,
-            I => i2c_steps_3
+            O => \N__4440\,
+            I => n3443
         );
 
-    \I__951\ : Odrv4
+    \I__951\ : InMux
     port map (
-            O => \N__4397\,
-            I => i2c_steps_3
+            O => \N__4437\,
+            I => \N__4430\
         );
 
-    \I__950\ : LocalMux
+    \I__950\ : InMux
     port map (
-            O => \N__4392\,
-            I => i2c_steps_3
+            O => \N__4436\,
+            I => \N__4430\
         );
 
-    \I__949\ : LocalMux
+    \I__949\ : InMux
     port map (
-            O => \N__4387\,
-            I => i2c_steps_3
+            O => \N__4435\,
+            I => \N__4427\
         );
 
-    \I__948\ : Odrv4
+    \I__948\ : LocalMux
     port map (
-            O => \N__4382\,
-            I => i2c_steps_3
+            O => \N__4430\,
+            I => \N__4424\
         );
 
     \I__947\ : LocalMux
     port map (
-            O => \N__4371\,
-            I => i2c_steps_3
+            O => \N__4427\,
+            I => i2c_stat_6
         );
 
-    \I__946\ : LocalMux
+    \I__946\ : Odrv4
+    port map (
+            O => \N__4424\,
+            I => i2c_stat_6
+        );
+
+    \I__945\ : CascadeMux
+    port map (
+            O => \N__4419\,
+            I => \n3446_cascade_\
+        );
+
+    \I__944\ : CascadeMux
+    port map (
+            O => \N__4416\,
+            I => \n31_cascade_\
+        );
+
+    \I__943\ : InMux
+    port map (
+            O => \N__4413\,
+            I => \N__4410\
+        );
+
+    \I__942\ : LocalMux
+    port map (
+            O => \N__4410\,
+            I => n16
+        );
+
+    \I__941\ : CascadeMux
+    port map (
+            O => \N__4407\,
+            I => \n16_cascade_\
+        );
+
+    \I__940\ : InMux
+    port map (
+            O => \N__4404\,
+            I => \N__4401\
+        );
+
+    \I__939\ : LocalMux
+    port map (
+            O => \N__4401\,
+            I => n56_adj_5
+        );
+
+    \I__938\ : InMux
+    port map (
+            O => \N__4398\,
+            I => \N__4395\
+        );
+
+    \I__937\ : LocalMux
+    port map (
+            O => \N__4395\,
+            I => n22
+        );
+
+    \I__936\ : InMux
+    port map (
+            O => \N__4392\,
+            I => \N__4389\
+        );
+
+    \I__935\ : LocalMux
+    port map (
+            O => \N__4389\,
+            I => n45
+        );
+
+    \I__934\ : CascadeMux
+    port map (
+            O => \N__4386\,
+            I => \n2710_cascade_\
+        );
+
+    \I__933\ : InMux
+    port map (
+            O => \N__4383\,
+            I => \N__4379\
+        );
+
+    \I__932\ : InMux
+    port map (
+            O => \N__4382\,
+            I => \N__4376\
+        );
+
+    \I__931\ : LocalMux
+    port map (
+            O => \N__4379\,
+            I => \N__4371\
+        );
+
+    \I__930\ : LocalMux
+    port map (
+            O => \N__4376\,
+            I => \N__4371\
+        );
+
+    \I__929\ : Odrv4
+    port map (
+            O => \N__4371\,
+            I => cmd_decoded
+        );
+
+    \I__928\ : CascadeMux
     port map (
             O => \N__4368\,
-            I => i2c_steps_3
+            I => \n3444_cascade_\
         );
 
-    \I__945\ : CEMux
+    \I__927\ : InMux
+    port map (
+            O => \N__4365\,
+            I => \N__4362\
+        );
+
+    \I__926\ : LocalMux
+    port map (
+            O => \N__4362\,
+            I => n14
+        );
+
+    \I__925\ : CascadeMux
+    port map (
+            O => \N__4359\,
+            I => \n3436_cascade_\
+        );
+
+    \I__924\ : CEMux
+    port map (
+            O => \N__4356\,
+            I => \N__4353\
+        );
+
+    \I__923\ : LocalMux
     port map (
             O => \N__4353\,
             I => \N__4350\
         );
 
-    \I__944\ : LocalMux
+    \I__922\ : Span4Mux_s3_h
     port map (
             O => \N__4350\,
             I => \N__4347\
         );
 
-    \I__943\ : Span4Mux_s1_v
+    \I__921\ : Span4Mux_h
     port map (
             O => \N__4347\,
             I => \N__4344\
         );
 
-    \I__942\ : Span4Mux_h
+    \I__920\ : Odrv4
     port map (
             O => \N__4344\,
-            I => \N__4341\
-        );
-
-    \I__941\ : Odrv4
-    port map (
-            O => \N__4341\,
-            I => n1780
-        );
-
-    \I__940\ : InMux
-    port map (
-            O => \N__4338\,
-            I => \N__4335\
-        );
-
-    \I__939\ : LocalMux
-    port map (
-            O => \N__4335\,
-            I => \N__4332\
-        );
-
-    \I__938\ : Span4Mux_s3_h
-    port map (
-            O => \N__4332\,
-            I => \N__4329\
-        );
-
-    \I__937\ : Odrv4
-    port map (
-            O => \N__4329\,
-            I => n1730
-        );
-
-    \I__936\ : CascadeMux
-    port map (
-            O => \N__4326\,
-            I => \N__4320\
-        );
-
-    \I__935\ : InMux
-    port map (
-            O => \N__4325\,
-            I => \N__4314\
-        );
-
-    \I__934\ : InMux
-    port map (
-            O => \N__4324\,
-            I => \N__4314\
-        );
-
-    \I__933\ : InMux
-    port map (
-            O => \N__4323\,
-            I => \N__4311\
-        );
-
-    \I__932\ : InMux
-    port map (
-            O => \N__4320\,
-            I => \N__4306\
-        );
-
-    \I__931\ : InMux
-    port map (
-            O => \N__4319\,
-            I => \N__4306\
-        );
-
-    \I__930\ : LocalMux
-    port map (
-            O => \N__4314\,
-            I => i2c_cmd_cnt_1
-        );
-
-    \I__929\ : LocalMux
-    port map (
-            O => \N__4311\,
-            I => i2c_cmd_cnt_1
-        );
-
-    \I__928\ : LocalMux
-    port map (
-            O => \N__4306\,
-            I => i2c_cmd_cnt_1
-        );
-
-    \I__927\ : InMux
-    port map (
-            O => \N__4299\,
-            I => \N__4287\
-        );
-
-    \I__926\ : InMux
-    port map (
-            O => \N__4298\,
-            I => \N__4287\
-        );
-
-    \I__925\ : InMux
-    port map (
-            O => \N__4297\,
-            I => \N__4287\
-        );
-
-    \I__924\ : InMux
-    port map (
-            O => \N__4296\,
-            I => \N__4280\
-        );
-
-    \I__923\ : InMux
-    port map (
-            O => \N__4295\,
-            I => \N__4280\
-        );
-
-    \I__922\ : InMux
-    port map (
-            O => \N__4294\,
-            I => \N__4280\
-        );
-
-    \I__921\ : LocalMux
-    port map (
-            O => \N__4287\,
-            I => i2c_cmd_cnt_0
-        );
-
-    \I__920\ : LocalMux
-    port map (
-            O => \N__4280\,
-            I => i2c_cmd_cnt_0
+            I => n1962
         );
 
     \I__919\ : InMux
     port map (
+            O => \N__4341\,
+            I => \N__4338\
+        );
+
+    \I__918\ : LocalMux
+    port map (
+            O => \N__4338\,
+            I => \N__4332\
+        );
+
+    \I__917\ : InMux
+    port map (
+            O => \N__4337\,
+            I => \N__4329\
+        );
+
+    \I__916\ : InMux
+    port map (
+            O => \N__4336\,
+            I => \N__4324\
+        );
+
+    \I__915\ : InMux
+    port map (
+            O => \N__4335\,
+            I => \N__4324\
+        );
+
+    \I__914\ : Odrv4
+    port map (
+            O => \N__4332\,
+            I => n3444
+        );
+
+    \I__913\ : LocalMux
+    port map (
+            O => \N__4329\,
+            I => n3444
+        );
+
+    \I__912\ : LocalMux
+    port map (
+            O => \N__4324\,
+            I => n3444
+        );
+
+    \I__911\ : CascadeMux
+    port map (
+            O => \N__4317\,
+            I => \N__4314\
+        );
+
+    \I__910\ : InMux
+    port map (
+            O => \N__4314\,
+            I => \N__4311\
+        );
+
+    \I__909\ : LocalMux
+    port map (
+            O => \N__4311\,
+            I => n3449
+        );
+
+    \I__908\ : InMux
+    port map (
+            O => \N__4308\,
+            I => \N__4305\
+        );
+
+    \I__907\ : LocalMux
+    port map (
+            O => \N__4305\,
+            I => \N__4301\
+        );
+
+    \I__906\ : InMux
+    port map (
+            O => \N__4304\,
+            I => \N__4298\
+        );
+
+    \I__905\ : Span4Mux_h
+    port map (
+            O => \N__4301\,
+            I => \N__4292\
+        );
+
+    \I__904\ : LocalMux
+    port map (
+            O => \N__4298\,
+            I => \N__4292\
+        );
+
+    \I__903\ : InMux
+    port map (
+            O => \N__4297\,
+            I => \N__4289\
+        );
+
+    \I__902\ : Span4Mux_h
+    port map (
+            O => \N__4292\,
+            I => \N__4286\
+        );
+
+    \I__901\ : LocalMux
+    port map (
+            O => \N__4289\,
+            I => \N__4283\
+        );
+
+    \I__900\ : Odrv4
+    port map (
+            O => \N__4286\,
+            I => \N__4278\
+        );
+
+    \I__899\ : Odrv12
+    port map (
+            O => \N__4283\,
+            I => \N__4278\
+        );
+
+    \I__898\ : DummyBuf
+    port map (
+            O => \N__4278\,
+            I => \hard0_SBDATo_6\
+        );
+
+    \I__897\ : InMux
+    port map (
             O => \N__4275\,
-            I => \N__4271\
+            I => \N__4272\
         );
 
-    \I__918\ : InMux
+    \I__896\ : LocalMux
     port map (
-            O => \N__4274\,
-            I => \N__4268\
+            O => \N__4272\,
+            I => n3314
         );
 
-    \I__917\ : LocalMux
+    \I__895\ : SRMux
     port map (
-            O => \N__4271\,
-            I => \N__4265\
+            O => \N__4269\,
+            I => \N__4266\
         );
 
-    \I__916\ : LocalMux
+    \I__894\ : LocalMux
     port map (
-            O => \N__4268\,
-            I => i2c_cmd_cnt_2
+            O => \N__4266\,
+            I => \N__4263\
         );
 
-    \I__915\ : Odrv4
+    \I__893\ : Odrv4
     port map (
-            O => \N__4265\,
-            I => i2c_cmd_cnt_2
+            O => \N__4263\,
+            I => n3280
         );
 
-    \I__914\ : ClkMux
+    \I__892\ : InMux
     port map (
             O => \N__4260\,
-            I => \N__4197\
+            I => \N__4257\
         );
 
-    \I__913\ : ClkMux
-    port map (
-            O => \N__4259\,
-            I => \N__4197\
-        );
-
-    \I__912\ : ClkMux
-    port map (
-            O => \N__4258\,
-            I => \N__4197\
-        );
-
-    \I__911\ : ClkMux
+    \I__891\ : LocalMux
     port map (
             O => \N__4257\,
-            I => \N__4197\
+            I => \N__4251\
         );
 
-    \I__910\ : ClkMux
+    \I__890\ : InMux
     port map (
             O => \N__4256\,
-            I => \N__4197\
+            I => \N__4246\
         );
 
-    \I__909\ : ClkMux
+    \I__889\ : InMux
     port map (
             O => \N__4255\,
-            I => \N__4197\
+            I => \N__4246\
         );
 
-    \I__908\ : ClkMux
+    \I__888\ : InMux
     port map (
             O => \N__4254\,
-            I => \N__4197\
+            I => \N__4243\
         );
 
-    \I__907\ : ClkMux
-    port map (
-            O => \N__4253\,
-            I => \N__4197\
-        );
-
-    \I__906\ : ClkMux
-    port map (
-            O => \N__4252\,
-            I => \N__4197\
-        );
-
-    \I__905\ : ClkMux
+    \I__887\ : Odrv4
     port map (
             O => \N__4251\,
-            I => \N__4197\
+            I => n3440
         );
 
-    \I__904\ : ClkMux
-    port map (
-            O => \N__4250\,
-            I => \N__4197\
-        );
-
-    \I__903\ : ClkMux
-    port map (
-            O => \N__4249\,
-            I => \N__4197\
-        );
-
-    \I__902\ : ClkMux
-    port map (
-            O => \N__4248\,
-            I => \N__4197\
-        );
-
-    \I__901\ : ClkMux
-    port map (
-            O => \N__4247\,
-            I => \N__4197\
-        );
-
-    \I__900\ : ClkMux
+    \I__886\ : LocalMux
     port map (
             O => \N__4246\,
-            I => \N__4197\
+            I => n3440
         );
 
-    \I__899\ : ClkMux
-    port map (
-            O => \N__4245\,
-            I => \N__4197\
-        );
-
-    \I__898\ : ClkMux
-    port map (
-            O => \N__4244\,
-            I => \N__4197\
-        );
-
-    \I__897\ : ClkMux
+    \I__885\ : LocalMux
     port map (
             O => \N__4243\,
-            I => \N__4197\
+            I => n3440
         );
 
-    \I__896\ : ClkMux
+    \I__884\ : CascadeMux
     port map (
-            O => \N__4242\,
-            I => \N__4197\
+            O => \N__4236\,
+            I => \n12_cascade_\
         );
 
-    \I__895\ : ClkMux
+    \I__883\ : DummyBuf
     port map (
-            O => \N__4241\,
-            I => \N__4197\
+            O => \N__4233\,
+            I => \N__4230\
         );
 
-    \I__894\ : ClkMux
+    \I__882\ : InMux
     port map (
-            O => \N__4240\,
-            I => \N__4197\
+            O => \N__4230\,
+            I => \N__4227\
         );
 
-    \I__893\ : GlobalMux
+    \I__881\ : LocalMux
     port map (
-            O => \N__4197\,
-            I => \N__4194\
+            O => \N__4227\,
+            I => \N__4223\
         );
 
-    \I__892\ : gio2CtrlBuf
+    \I__880\ : CascadeMux
     port map (
-            O => \N__4194\,
-            I => sysclk
+            O => \N__4226\,
+            I => \N__4219\
         );
 
-    \I__891\ : CEMux
+    \I__879\ : Span12Mux_s2_v
     port map (
-            O => \N__4191\,
-            I => \N__4188\
+            O => \N__4223\,
+            I => \N__4216\
         );
 
-    \I__890\ : LocalMux
+    \I__878\ : InMux
+    port map (
+            O => \N__4222\,
+            I => \N__4211\
+        );
+
+    \I__877\ : InMux
+    port map (
+            O => \N__4219\,
+            I => \N__4211\
+        );
+
+    \I__876\ : Odrv12
+    port map (
+            O => \N__4216\,
+            I => \hard_SBADRi_2\
+        );
+
+    \I__875\ : LocalMux
+    port map (
+            O => \N__4211\,
+            I => \hard_SBADRi_2\
+        );
+
+    \I__874\ : CEMux
+    port map (
+            O => \N__4206\,
+            I => \N__4202\
+        );
+
+    \I__873\ : CEMux
+    port map (
+            O => \N__4205\,
+            I => \N__4199\
+        );
+
+    \I__872\ : LocalMux
+    port map (
+            O => \N__4202\,
+            I => \N__4196\
+        );
+
+    \I__871\ : LocalMux
+    port map (
+            O => \N__4199\,
+            I => \N__4193\
+        );
+
+    \I__870\ : Odrv4
+    port map (
+            O => \N__4196\,
+            I => n1913
+        );
+
+    \I__869\ : Odrv4
+    port map (
+            O => \N__4193\,
+            I => n1913
+        );
+
+    \I__868\ : CascadeMux
     port map (
             O => \N__4188\,
-            I => \N__4185\
+            I => \n3300_cascade_\
         );
 
-    \I__889\ : Span4Mux_h
+    \I__867\ : CascadeMux
     port map (
             O => \N__4185\,
-            I => \N__4182\
+            I => \n31_adj_2_cascade_\
         );
 
-    \I__888\ : Span4Mux_s3_h
+    \I__866\ : InMux
     port map (
             O => \N__4182\,
             I => \N__4179\
         );
 
-    \I__887\ : Odrv4
+    \I__865\ : LocalMux
     port map (
             O => \N__4179\,
-            I => n2956
+            I => n3434
         );
 
-    \I__886\ : SRMux
+    \I__864\ : InMux
     port map (
             O => \N__4176\,
             I => \N__4173\
         );
 
-    \I__885\ : LocalMux
+    \I__863\ : LocalMux
     port map (
             O => \N__4173\,
-            I => \N__4170\
+            I => i2c_cmd_0_5
         );
 
-    \I__884\ : Span4Mux_h
+    \I__862\ : InMux
     port map (
             O => \N__4170\,
             I => \N__4167\
         );
 
-    \I__883\ : Odrv4
+    \I__861\ : LocalMux
     port map (
             O => \N__4167\,
-            I => n2016
+            I => i2c_cmd_0_6
         );
 
-    \I__882\ : CascadeMux
+    \I__860\ : CascadeMux
     port map (
             O => \N__4164\,
-            I => \n25_cascade_\
-        );
-
-    \I__881\ : InMux
-    port map (
-            O => \N__4161\,
-            I => \N__4157\
-        );
-
-    \I__880\ : InMux
-    port map (
-            O => \N__4160\,
-            I => \N__4153\
-        );
-
-    \I__879\ : LocalMux
-    port map (
-            O => \N__4157\,
-            I => \N__4150\
-        );
-
-    \I__878\ : InMux
-    port map (
-            O => \N__4156\,
-            I => \N__4147\
-        );
-
-    \I__877\ : LocalMux
-    port map (
-            O => \N__4153\,
-            I => \N__4142\
-        );
-
-    \I__876\ : Span4Mux_h
-    port map (
-            O => \N__4150\,
-            I => \N__4142\
-        );
-
-    \I__875\ : LocalMux
-    port map (
-            O => \N__4147\,
-            I => \N__4137\
-        );
-
-    \I__874\ : Odrv4
-    port map (
-            O => \N__4142\,
-            I => \N__4137\
-        );
-
-    \I__873\ : DummyBuf
-    port map (
-            O => \N__4137\,
-            I => \hard0_SBDATo_2\
-        );
-
-    \I__872\ : InMux
-    port map (
-            O => \N__4134\,
-            I => \N__4131\
-        );
-
-    \I__871\ : LocalMux
-    port map (
-            O => \N__4131\,
-            I => n2534
-        );
-
-    \I__870\ : InMux
-    port map (
-            O => \N__4128\,
-            I => \N__4125\
-        );
-
-    \I__869\ : LocalMux
-    port map (
-            O => \N__4125\,
-            I => \N__4122\
-        );
-
-    \I__868\ : Odrv4
-    port map (
-            O => \N__4122\,
-            I => n4_adj_1
-        );
-
-    \I__867\ : CascadeMux
-    port map (
-            O => \N__4119\,
-            I => \n2840_cascade_\
-        );
-
-    \I__866\ : InMux
-    port map (
-            O => \N__4116\,
-            I => \N__4113\
-        );
-
-    \I__865\ : LocalMux
-    port map (
-            O => \N__4113\,
-            I => n2850
-        );
-
-    \I__864\ : CascadeMux
-    port map (
-            O => \N__4110\,
-            I => \n29_cascade_\
-        );
-
-    \I__863\ : InMux
-    port map (
-            O => \N__4107\,
-            I => \N__4104\
-        );
-
-    \I__862\ : LocalMux
-    port map (
-            O => \N__4104\,
-            I => n26
-        );
-
-    \I__861\ : InMux
-    port map (
-            O => \N__4101\,
-            I => \N__4098\
-        );
-
-    \I__860\ : LocalMux
-    port map (
-            O => \N__4098\,
-            I => n2958
+            I => \N__4161\
         );
 
     \I__859\ : InMux
     port map (
-            O => \N__4095\,
-            I => \N__4092\
+            O => \N__4161\,
+            I => \N__4158\
         );
 
     \I__858\ : LocalMux
     port map (
-            O => \N__4092\,
-            I => \i2c_stat_7_N_205_2\
+            O => \N__4158\,
+            I => i2c_cmd_0_7
         );
 
-    \I__857\ : CascadeMux
+    \I__857\ : InMux
     port map (
-            O => \N__4089\,
-            I => \n2958_cascade_\
+            O => \N__4155\,
+            I => \N__4152\
         );
 
-    \I__856\ : InMux
+    \I__856\ : LocalMux
     port map (
-            O => \N__4086\,
-            I => \N__4082\
+            O => \N__4152\,
+            I => i2c_cmd_0_2
         );
 
     \I__855\ : InMux
     port map (
-            O => \N__4085\,
-            I => \N__4079\
+            O => \N__4149\,
+            I => \N__4140\
         );
 
-    \I__854\ : LocalMux
+    \I__854\ : InMux
     port map (
-            O => \N__4082\,
-            I => n20
+            O => \N__4148\,
+            I => \N__4140\
         );
 
-    \I__853\ : LocalMux
+    \I__853\ : InMux
     port map (
-            O => \N__4079\,
-            I => n20
+            O => \N__4147\,
+            I => \N__4133\
         );
 
     \I__852\ : InMux
+    port map (
+            O => \N__4146\,
+            I => \N__4133\
+        );
+
+    \I__851\ : InMux
+    port map (
+            O => \N__4145\,
+            I => \N__4133\
+        );
+
+    \I__850\ : LocalMux
+    port map (
+            O => \N__4140\,
+            I => n3
+        );
+
+    \I__849\ : LocalMux
+    port map (
+            O => \N__4133\,
+            I => n3
+        );
+
+    \I__848\ : InMux
+    port map (
+            O => \N__4128\,
+            I => \N__4119\
+        );
+
+    \I__847\ : InMux
+    port map (
+            O => \N__4127\,
+            I => \N__4119\
+        );
+
+    \I__846\ : InMux
+    port map (
+            O => \N__4126\,
+            I => \N__4112\
+        );
+
+    \I__845\ : InMux
+    port map (
+            O => \N__4125\,
+            I => \N__4112\
+        );
+
+    \I__844\ : InMux
+    port map (
+            O => \N__4124\,
+            I => \N__4112\
+        );
+
+    \I__843\ : LocalMux
+    port map (
+            O => \N__4119\,
+            I => i2c_cmd_0_3
+        );
+
+    \I__842\ : LocalMux
+    port map (
+            O => \N__4112\,
+            I => i2c_cmd_0_3
+        );
+
+    \I__841\ : CascadeMux
+    port map (
+            O => \N__4107\,
+            I => \n3_cascade_\
+        );
+
+    \I__840\ : InMux
+    port map (
+            O => \N__4104\,
+            I => \N__4100\
+        );
+
+    \I__839\ : CascadeMux
+    port map (
+            O => \N__4103\,
+            I => \N__4094\
+        );
+
+    \I__838\ : LocalMux
+    port map (
+            O => \N__4100\,
+            I => \N__4091\
+        );
+
+    \I__837\ : InMux
+    port map (
+            O => \N__4099\,
+            I => \N__4088\
+        );
+
+    \I__836\ : InMux
+    port map (
+            O => \N__4098\,
+            I => \N__4081\
+        );
+
+    \I__835\ : InMux
+    port map (
+            O => \N__4097\,
+            I => \N__4081\
+        );
+
+    \I__834\ : InMux
+    port map (
+            O => \N__4094\,
+            I => \N__4081\
+        );
+
+    \I__833\ : Odrv4
+    port map (
+            O => \N__4091\,
+            I => i2c_cmd_0_1
+        );
+
+    \I__832\ : LocalMux
+    port map (
+            O => \N__4088\,
+            I => i2c_cmd_0_1
+        );
+
+    \I__831\ : LocalMux
+    port map (
+            O => \N__4081\,
+            I => i2c_cmd_0_1
+        );
+
+    \I__830\ : InMux
     port map (
             O => \N__4074\,
             I => \N__4070\
         );
 
-    \I__851\ : InMux
+    \I__829\ : InMux
     port map (
             O => \N__4073\,
-            I => \N__4067\
+            I => \N__4065\
         );
 
-    \I__850\ : LocalMux
+    \I__828\ : LocalMux
     port map (
             O => \N__4070\,
-            I => \N__4064\
+            I => \N__4062\
         );
 
-    \I__849\ : LocalMux
+    \I__827\ : InMux
     port map (
-            O => \N__4067\,
-            I => cmd_decoded
+            O => \N__4069\,
+            I => \N__4057\
         );
 
-    \I__848\ : Odrv4
+    \I__826\ : InMux
     port map (
-            O => \N__4064\,
-            I => cmd_decoded
+            O => \N__4068\,
+            I => \N__4057\
         );
 
-    \I__847\ : CascadeMux
+    \I__825\ : LocalMux
     port map (
-            O => \N__4059\,
-            I => \n2961_cascade_\
+            O => \N__4065\,
+            I => i2c_cmd_0_0
         );
 
-    \I__846\ : CascadeMux
+    \I__824\ : Odrv4
     port map (
-            O => \N__4056\,
-            I => \N__4053\
+            O => \N__4062\,
+            I => i2c_cmd_0_0
         );
 
-    \I__845\ : InMux
+    \I__823\ : LocalMux
     port map (
-            O => \N__4053\,
-            I => \N__4045\
+            O => \N__4057\,
+            I => i2c_cmd_0_0
         );
 
-    \I__844\ : InMux
-    port map (
-            O => \N__4052\,
-            I => \N__4045\
-        );
-
-    \I__843\ : InMux
-    port map (
-            O => \N__4051\,
-            I => \N__4042\
-        );
-
-    \I__842\ : InMux
+    \I__822\ : CascadeMux
     port map (
             O => \N__4050\,
-            I => \N__4039\
+            I => \n3309_cascade_\
         );
 
-    \I__841\ : LocalMux
+    \I__821\ : InMux
+    port map (
+            O => \N__4047\,
+            I => \N__4035\
+        );
+
+    \I__820\ : InMux
+    port map (
+            O => \N__4046\,
+            I => \N__4035\
+        );
+
+    \I__819\ : InMux
     port map (
             O => \N__4045\,
-            I => \N__4036\
+            I => \N__4035\
         );
 
-    \I__840\ : LocalMux
+    \I__818\ : InMux
+    port map (
+            O => \N__4044\,
+            I => \N__4028\
+        );
+
+    \I__817\ : InMux
+    port map (
+            O => \N__4043\,
+            I => \N__4028\
+        );
+
+    \I__816\ : InMux
     port map (
             O => \N__4042\,
-            I => n2961
+            I => \N__4028\
         );
 
-    \I__839\ : LocalMux
+    \I__815\ : LocalMux
     port map (
-            O => \N__4039\,
-            I => n2961
+            O => \N__4035\,
+            I => i2c_cmd_0_4
         );
 
-    \I__838\ : Odrv4
+    \I__814\ : LocalMux
     port map (
-            O => \N__4036\,
-            I => n2961
+            O => \N__4028\,
+            I => i2c_cmd_0_4
         );
 
-    \I__837\ : InMux
-    port map (
-            O => \N__4029\,
-            I => \N__4026\
-        );
-
-    \I__836\ : LocalMux
-    port map (
-            O => \N__4026\,
-            I => n2973
-        );
-
-    \I__835\ : InMux
+    \I__813\ : CEMux
     port map (
             O => \N__4023\,
             I => \N__4020\
         );
 
-    \I__834\ : LocalMux
+    \I__812\ : LocalMux
     port map (
             O => \N__4020\,
-            I => n2962
+            I => \N__4016\
         );
 
-    \I__833\ : InMux
+    \I__811\ : CEMux
     port map (
-            O => \N__4017\,
-            I => \N__4014\
+            O => \N__4019\,
+            I => \N__4013\
         );
 
-    \I__832\ : LocalMux
+    \I__810\ : Span4Mux_s1_h
     port map (
-            O => \N__4014\,
-            I => \N__4011\
+            O => \N__4016\,
+            I => \N__4009\
         );
 
-    \I__831\ : Span4Mux_s1_v
+    \I__809\ : LocalMux
     port map (
-            O => \N__4011\,
+            O => \N__4013\,
             I => \N__4006\
         );
 
-    \I__830\ : InMux
+    \I__808\ : CEMux
     port map (
-            O => \N__4010\,
+            O => \N__4012\,
             I => \N__4003\
         );
 
-    \I__829\ : InMux
+    \I__807\ : Span4Mux_h
     port map (
             O => \N__4009\,
-            I => \N__4000\
+            I => \N__3999\
         );
 
-    \I__828\ : Span4Mux_h
+    \I__806\ : Span4Mux_s2_h
     port map (
             O => \N__4006\,
-            I => \N__3997\
-        );
-
-    \I__827\ : LocalMux
-    port map (
-            O => \N__4003\,
-            I => \N__3990\
-        );
-
-    \I__826\ : LocalMux
-    port map (
-            O => \N__4000\,
-            I => \N__3990\
-        );
-
-    \I__825\ : Odrv4
-    port map (
-            O => \N__3997\,
-            I => \N__3990\
-        );
-
-    \I__824\ : DummyBuf
-    port map (
-            O => \N__3990\,
-            I => \hard0_SBDATo_6\
-        );
-
-    \I__823\ : CascadeMux
-    port map (
-            O => \N__3987\,
-            I => \i2c_stat_7_N_205_6_cascade_\
-        );
-
-    \I__822\ : InMux
-    port map (
-            O => \N__3984\,
-            I => \N__3974\
-        );
-
-    \I__821\ : InMux
-    port map (
-            O => \N__3983\,
-            I => \N__3974\
-        );
-
-    \I__820\ : InMux
-    port map (
-            O => \N__3982\,
-            I => \N__3974\
-        );
-
-    \I__819\ : InMux
-    port map (
-            O => \N__3981\,
-            I => \N__3971\
-        );
-
-    \I__818\ : LocalMux
-    port map (
-            O => \N__3974\,
-            I => i2c_stat_6
-        );
-
-    \I__817\ : LocalMux
-    port map (
-            O => \N__3971\,
-            I => i2c_stat_6
-        );
-
-    \I__816\ : CascadeMux
-    port map (
-            O => \N__3966\,
-            I => \N__3962\
-        );
-
-    \I__815\ : InMux
-    port map (
-            O => \N__3965\,
-            I => \N__3957\
-        );
-
-    \I__814\ : InMux
-    port map (
-            O => \N__3962\,
-            I => \N__3950\
-        );
-
-    \I__813\ : InMux
-    port map (
-            O => \N__3961\,
-            I => \N__3950\
-        );
-
-    \I__812\ : InMux
-    port map (
-            O => \N__3960\,
-            I => \N__3950\
-        );
-
-    \I__811\ : LocalMux
-    port map (
-            O => \N__3957\,
-            I => i2c_cnt_1
-        );
-
-    \I__810\ : LocalMux
-    port map (
-            O => \N__3950\,
-            I => i2c_cnt_1
-        );
-
-    \I__809\ : InMux
-    port map (
-            O => \N__3945\,
-            I => \N__3939\
-        );
-
-    \I__808\ : InMux
-    port map (
-            O => \N__3944\,
-            I => \N__3932\
-        );
-
-    \I__807\ : InMux
-    port map (
-            O => \N__3943\,
-            I => \N__3932\
-        );
-
-    \I__806\ : InMux
-    port map (
-            O => \N__3942\,
-            I => \N__3932\
+            I => \N__3994\
         );
 
     \I__805\ : LocalMux
     port map (
-            O => \N__3939\,
-            I => i2c_cnt_0
+            O => \N__4003\,
+            I => \N__3994\
         );
 
-    \I__804\ : LocalMux
+    \I__804\ : InMux
     port map (
-            O => \N__3932\,
-            I => i2c_cnt_0
+            O => \N__4002\,
+            I => \N__3991\
         );
 
-    \I__803\ : CascadeMux
+    \I__803\ : Odrv4
+    port map (
+            O => \N__3999\,
+            I => n1914
+        );
+
+    \I__802\ : Odrv4
+    port map (
+            O => \N__3994\,
+            I => n1914
+        );
+
+    \I__801\ : LocalMux
+    port map (
+            O => \N__3991\,
+            I => n1914
+        );
+
+    \I__800\ : InMux
+    port map (
+            O => \N__3984\,
+            I => \N__3981\
+        );
+
+    \I__799\ : LocalMux
+    port map (
+            O => \N__3981\,
+            I => \N__3976\
+        );
+
+    \I__798\ : InMux
+    port map (
+            O => \N__3980\,
+            I => \N__3973\
+        );
+
+    \I__797\ : InMux
+    port map (
+            O => \N__3979\,
+            I => \N__3970\
+        );
+
+    \I__796\ : Span4Mux_s2_v
+    port map (
+            O => \N__3976\,
+            I => \N__3967\
+        );
+
+    \I__795\ : LocalMux
+    port map (
+            O => \N__3973\,
+            I => \N__3964\
+        );
+
+    \I__794\ : LocalMux
+    port map (
+            O => \N__3970\,
+            I => \N__3961\
+        );
+
+    \I__793\ : Span4Mux_h
+    port map (
+            O => \N__3967\,
+            I => \N__3958\
+        );
+
+    \I__792\ : Span4Mux_v
+    port map (
+            O => \N__3964\,
+            I => \N__3953\
+        );
+
+    \I__791\ : Span4Mux_h
+    port map (
+            O => \N__3961\,
+            I => \N__3953\
+        );
+
+    \I__790\ : Odrv4
+    port map (
+            O => \N__3958\,
+            I => \N__3948\
+        );
+
+    \I__789\ : Odrv4
+    port map (
+            O => \N__3953\,
+            I => \N__3948\
+        );
+
+    \I__788\ : DummyBuf
+    port map (
+            O => \N__3948\,
+            I => \hard0_SBDATo_2\
+        );
+
+    \I__787\ : CascadeMux
+    port map (
+            O => \N__3945\,
+            I => \n3314_cascade_\
+        );
+
+    \I__786\ : InMux
+    port map (
+            O => \N__3942\,
+            I => \N__3939\
+        );
+
+    \I__785\ : LocalMux
+    port map (
+            O => \N__3939\,
+            I => n3439
+        );
+
+    \I__784\ : CascadeMux
+    port map (
+            O => \N__3936\,
+            I => \n3439_cascade_\
+        );
+
+    \I__783\ : CascadeMux
+    port map (
+            O => \N__3933\,
+            I => \n24_cascade_\
+        );
+
+    \I__782\ : InMux
+    port map (
+            O => \N__3930\,
+            I => \N__3927\
+        );
+
+    \I__781\ : LocalMux
     port map (
             O => \N__3927\,
-            I => \n2534_cascade_\
+            I => n21_adj_14
         );
 
-    \I__802\ : SRMux
+    \I__780\ : DummyBuf
     port map (
             O => \N__3924\,
             I => \N__3921\
         );
 
-    \I__801\ : LocalMux
+    \I__779\ : InMux
     port map (
             O => \N__3921\,
-            I => \N__3916\
+            I => \N__3918\
         );
 
-    \I__800\ : InMux
+    \I__778\ : LocalMux
     port map (
-            O => \N__3920\,
+            O => \N__3918\,
+            I => \N__3915\
+        );
+
+    \I__777\ : Span4Mux_s1_h
+    port map (
+            O => \N__3915\,
             I => \N__3911\
         );
 
-    \I__799\ : InMux
+    \I__776\ : InMux
     port map (
-            O => \N__3919\,
-            I => \N__3911\
-        );
-
-    \I__798\ : Span4Mux_v
-    port map (
-            O => \N__3916\,
+            O => \N__3914\,
             I => \N__3908\
         );
 
-    \I__797\ : LocalMux
+    \I__775\ : Span4Mux_h
     port map (
             O => \N__3911\,
             I => \N__3905\
         );
 
-    \I__796\ : Odrv4
+    \I__774\ : LocalMux
     port map (
             O => \N__3908\,
-            I => n2959
+            I => \hard_SBADRi_1\
         );
 
-    \I__795\ : Odrv4
+    \I__773\ : Odrv4
     port map (
             O => \N__3905\,
-            I => n2959
+            I => \hard_SBADRi_1\
         );
 
-    \I__794\ : InMux
+    \I__772\ : InMux
     port map (
             O => \N__3900\,
             I => \N__3897\
         );
 
-    \I__793\ : LocalMux
+    \I__771\ : LocalMux
     port map (
             O => \N__3897\,
-            I => n1887
+            I => \N__3893\
         );
 
-    \I__792\ : InMux
+    \I__770\ : InMux
     port map (
-            O => \N__3894\,
-            I => \N__3888\
+            O => \N__3896\,
+            I => \N__3890\
         );
 
-    \I__791\ : InMux
+    \I__769\ : Span4Mux_s2_v
     port map (
             O => \N__3893\,
-            I => \N__3888\
+            I => \N__3885\
         );
 
-    \I__790\ : LocalMux
+    \I__768\ : LocalMux
     port map (
-            O => \N__3888\,
-            I => n4
+            O => \N__3890\,
+            I => \N__3885\
         );
 
-    \I__789\ : CEMux
+    \I__767\ : Span4Mux_h
     port map (
             O => \N__3885\,
             I => \N__3882\
         );
 
-    \I__788\ : LocalMux
-    port map (
-            O => \N__3882\,
-            I => \N__3878\
-        );
-
-    \I__787\ : CEMux
-    port map (
-            O => \N__3881\,
-            I => \N__3875\
-        );
-
-    \I__786\ : Span4Mux_s2_h
-    port map (
-            O => \N__3878\,
-            I => \N__3870\
-        );
-
-    \I__785\ : LocalMux
-    port map (
-            O => \N__3875\,
-            I => \N__3870\
-        );
-
-    \I__784\ : Odrv4
-    port map (
-            O => \N__3870\,
-            I => n1779
-        );
-
-    \I__783\ : InMux
-    port map (
-            O => \N__3867\,
-            I => \N__3861\
-        );
-
-    \I__782\ : InMux
-    port map (
-            O => \N__3866\,
-            I => \N__3854\
-        );
-
-    \I__781\ : InMux
-    port map (
-            O => \N__3865\,
-            I => \N__3854\
-        );
-
-    \I__780\ : InMux
-    port map (
-            O => \N__3864\,
-            I => \N__3854\
-        );
-
-    \I__779\ : LocalMux
-    port map (
-            O => \N__3861\,
-            I => \N__3851\
-        );
-
-    \I__778\ : LocalMux
-    port map (
-            O => \N__3854\,
-            I => n2972
-        );
-
-    \I__777\ : Odrv4
-    port map (
-            O => \N__3851\,
-            I => n2972
-        );
-
-    \I__776\ : CascadeMux
-    port map (
-            O => \N__3846\,
-            I => \n13_cascade_\
-        );
-
-    \I__775\ : CascadeMux
-    port map (
-            O => \N__3843\,
-            I => \n4_adj_19_cascade_\
-        );
-
-    \I__774\ : DummyBuf
-    port map (
-            O => \N__3840\,
-            I => \N__3837\
-        );
-
-    \I__773\ : InMux
-    port map (
-            O => \N__3837\,
-            I => \N__3834\
-        );
-
-    \I__772\ : LocalMux
-    port map (
-            O => \N__3834\,
-            I => \N__3831\
-        );
-
-    \I__771\ : Span4Mux_s1_h
-    port map (
-            O => \N__3831\,
-            I => \N__3827\
-        );
-
-    \I__770\ : CascadeMux
-    port map (
-            O => \N__3830\,
-            I => \N__3823\
-        );
-
-    \I__769\ : Span4Mux_h
-    port map (
-            O => \N__3827\,
-            I => \N__3820\
-        );
-
-    \I__768\ : InMux
-    port map (
-            O => \N__3826\,
-            I => \N__3817\
-        );
-
-    \I__767\ : InMux
-    port map (
-            O => \N__3823\,
-            I => \N__3814\
-        );
-
     \I__766\ : Odrv4
     port map (
-            O => \N__3820\,
-            I => \hard_SBADRi_1\
+            O => \N__3882\,
+            I => \N__3879\
         );
 
-    \I__765\ : LocalMux
+    \I__765\ : DummyBuf
     port map (
-            O => \N__3817\,
-            I => \hard_SBADRi_1\
+            O => \N__3879\,
+            I => \hard0_SBDATo_0\
         );
 
-    \I__764\ : LocalMux
+    \I__764\ : InMux
     port map (
-            O => \N__3814\,
-            I => \hard_SBADRi_1\
+            O => \N__3876\,
+            I => \N__3873\
         );
 
-    \I__763\ : CascadeMux
+    \I__763\ : LocalMux
     port map (
-            O => \N__3807\,
-            I => \n13_adj_4_cascade_\
+            O => \N__3873\,
+            I => \N__3869\
         );
 
-    \I__762\ : DummyBuf
+    \I__762\ : InMux
     port map (
-            O => \N__3804\,
-            I => \N__3801\
+            O => \N__3872\,
+            I => \N__3866\
         );
 
-    \I__761\ : InMux
+    \I__761\ : Span4Mux_h
     port map (
-            O => \N__3801\,
-            I => \N__3798\
+            O => \N__3869\,
+            I => \N__3861\
         );
 
     \I__760\ : LocalMux
     port map (
-            O => \N__3798\,
-            I => \N__3795\
+            O => \N__3866\,
+            I => \N__3861\
         );
 
-    \I__759\ : Span4Mux_s1_h
+    \I__759\ : Span4Mux_h
     port map (
-            O => \N__3795\,
-            I => \N__3791\
+            O => \N__3861\,
+            I => \N__3858\
         );
 
-    \I__758\ : CascadeMux
+    \I__758\ : Odrv4
     port map (
-            O => \N__3794\,
-            I => \N__3787\
+            O => \N__3858\,
+            I => \N__3855\
         );
 
-    \I__757\ : Span4Mux_h
+    \I__757\ : DummyBuf
     port map (
-            O => \N__3791\,
-            I => \N__3784\
+            O => \N__3855\,
+            I => \hard0_SBDATo_7\
         );
 
     \I__756\ : InMux
     port map (
-            O => \N__3790\,
-            I => \N__3781\
+            O => \N__3852\,
+            I => \N__3849\
         );
 
-    \I__755\ : InMux
+    \I__755\ : LocalMux
     port map (
-            O => \N__3787\,
-            I => \N__3778\
+            O => \N__3849\,
+            I => \N__3845\
         );
 
-    \I__754\ : Odrv4
+    \I__754\ : InMux
     port map (
-            O => \N__3784\,
-            I => \hard_SBDATi_7\
+            O => \N__3848\,
+            I => \N__3842\
         );
 
-    \I__753\ : LocalMux
+    \I__753\ : Span4Mux_v
     port map (
-            O => \N__3781\,
-            I => \hard_SBDATi_7\
+            O => \N__3845\,
+            I => \N__3839\
         );
 
     \I__752\ : LocalMux
     port map (
-            O => \N__3778\,
-            I => \hard_SBDATi_7\
+            O => \N__3842\,
+            I => \N__3836\
         );
 
-    \I__751\ : CascadeMux
+    \I__751\ : Span4Mux_h
     port map (
-            O => \N__3771\,
-            I => \n2974_cascade_\
+            O => \N__3839\,
+            I => \N__3831\
         );
 
-    \I__750\ : CascadeMux
+    \I__750\ : Span4Mux_v
     port map (
-            O => \N__3768\,
-            I => \n2970_cascade_\
+            O => \N__3836\,
+            I => \N__3831\
         );
 
-    \I__749\ : DummyBuf
+    \I__749\ : Odrv4
     port map (
-            O => \N__3765\,
-            I => \N__3762\
+            O => \N__3831\,
+            I => \N__3828\
         );
 
-    \I__748\ : InMux
+    \I__748\ : DummyBuf
     port map (
-            O => \N__3762\,
-            I => \N__3758\
+            O => \N__3828\,
+            I => \hard0_SBDATo_5\
         );
 
-    \I__747\ : InMux
+    \I__747\ : CascadeMux
     port map (
-            O => \N__3761\,
-            I => \N__3755\
+            O => \N__3825\,
+            I => \n3293_cascade_\
         );
 
-    \I__746\ : LocalMux
+    \I__746\ : InMux
     port map (
-            O => \N__3758\,
-            I => \N__3752\
+            O => \N__3822\,
+            I => \N__3814\
         );
 
-    \I__745\ : LocalMux
+    \I__745\ : InMux
     port map (
-            O => \N__3755\,
-            I => \hard_SBSTBi\
+            O => \N__3821\,
+            I => \N__3814\
         );
 
-    \I__744\ : Odrv12
+    \I__744\ : InMux
     port map (
-            O => \N__3752\,
-            I => \hard_SBSTBi\
+            O => \N__3820\,
+            I => \N__3811\
         );
 
     \I__743\ : InMux
     port map (
-            O => \N__3747\,
-            I => \N__3744\
+            O => \N__3819\,
+            I => \N__3807\
         );
 
     \I__742\ : LocalMux
     port map (
-            O => \N__3744\,
-            I => n31
+            O => \N__3814\,
+            I => \N__3804\
         );
 
-    \I__741\ : InMux
+    \I__741\ : LocalMux
     port map (
-            O => \N__3741\,
-            I => \N__3738\
+            O => \N__3811\,
+            I => \N__3801\
         );
 
-    \I__740\ : LocalMux
+    \I__740\ : InMux
     port map (
-            O => \N__3738\,
-            I => n2970
+            O => \N__3810\,
+            I => \N__3798\
         );
 
-    \I__739\ : InMux
+    \I__739\ : LocalMux
     port map (
-            O => \N__3735\,
-            I => \N__3731\
+            O => \N__3807\,
+            I => \N__3795\
         );
 
-    \I__738\ : InMux
+    \I__738\ : Span4Mux_h
     port map (
-            O => \N__3734\,
-            I => \N__3728\
+            O => \N__3804\,
+            I => \N__3792\
         );
 
-    \I__737\ : LocalMux
+    \I__737\ : Span4Mux_h
     port map (
-            O => \N__3731\,
-            I => \N__3725\
+            O => \N__3801\,
+            I => \N__3789\
         );
 
     \I__736\ : LocalMux
     port map (
-            O => \N__3728\,
-            I => n2243
+            O => \N__3798\,
+            I => motor_on
         );
 
-    \I__735\ : Odrv4
+    \I__735\ : Odrv12
     port map (
-            O => \N__3725\,
-            I => n2243
+            O => \N__3795\,
+            I => motor_on
         );
 
-    \I__734\ : CascadeMux
+    \I__734\ : Odrv4
     port map (
-            O => \N__3720\,
-            I => \n17_cascade_\
+            O => \N__3792\,
+            I => motor_on
         );
 
-    \I__733\ : CascadeMux
+    \I__733\ : Odrv4
     port map (
-            O => \N__3717\,
-            I => \n1887_cascade_\
+            O => \N__3789\,
+            I => motor_on
         );
 
     \I__732\ : InMux
     port map (
-            O => \N__3714\,
-            I => \N__3711\
+            O => \N__3780\,
+            I => \N__3777\
         );
 
     \I__731\ : LocalMux
     port map (
-            O => \N__3711\,
-            I => n1852
+            O => \N__3777\,
+            I => n86
         );
 
     \I__730\ : InMux
+    port map (
+            O => \N__3774\,
+            I => \N__3771\
+        );
+
+    \I__729\ : LocalMux
+    port map (
+            O => \N__3771\,
+            I => n2999
+        );
+
+    \I__728\ : CascadeMux
+    port map (
+            O => \N__3768\,
+            I => \n2849_cascade_\
+        );
+
+    \I__727\ : CascadeMux
+    port map (
+            O => \N__3765\,
+            I => \N__3759\
+        );
+
+    \I__726\ : InMux
+    port map (
+            O => \N__3764\,
+            I => \N__3756\
+        );
+
+    \I__725\ : InMux
+    port map (
+            O => \N__3763\,
+            I => \N__3753\
+        );
+
+    \I__724\ : InMux
+    port map (
+            O => \N__3762\,
+            I => \N__3748\
+        );
+
+    \I__723\ : InMux
+    port map (
+            O => \N__3759\,
+            I => \N__3748\
+        );
+
+    \I__722\ : LocalMux
+    port map (
+            O => \N__3756\,
+            I => \N__3743\
+        );
+
+    \I__721\ : LocalMux
+    port map (
+            O => \N__3753\,
+            I => \N__3743\
+        );
+
+    \I__720\ : LocalMux
+    port map (
+            O => \N__3748\,
+            I => motor_dir
+        );
+
+    \I__719\ : Odrv4
+    port map (
+            O => \N__3743\,
+            I => motor_dir
+        );
+
+    \I__718\ : CascadeMux
+    port map (
+            O => \N__3738\,
+            I => \n12_adj_4_cascade_\
+        );
+
+    \I__717\ : DummyBuf
+    port map (
+            O => \N__3735\,
+            I => \N__3732\
+        );
+
+    \I__716\ : InMux
+    port map (
+            O => \N__3732\,
+            I => \N__3728\
+        );
+
+    \I__715\ : InMux
+    port map (
+            O => \N__3731\,
+            I => \N__3724\
+        );
+
+    \I__714\ : LocalMux
+    port map (
+            O => \N__3728\,
+            I => \N__3721\
+        );
+
+    \I__713\ : InMux
+    port map (
+            O => \N__3727\,
+            I => \N__3718\
+        );
+
+    \I__712\ : LocalMux
+    port map (
+            O => \N__3724\,
+            I => \hard_SBDATi_2\
+        );
+
+    \I__711\ : Odrv12
+    port map (
+            O => \N__3721\,
+            I => \hard_SBDATi_2\
+        );
+
+    \I__710\ : LocalMux
+    port map (
+            O => \N__3718\,
+            I => \hard_SBDATi_2\
+        );
+
+    \I__709\ : InMux
+    port map (
+            O => \N__3711\,
+            I => \N__3708\
+        );
+
+    \I__708\ : LocalMux
     port map (
             O => \N__3708\,
             I => \N__3705\
         );
 
-    \I__729\ : LocalMux
+    \I__707\ : Odrv12
     port map (
             O => \N__3705\,
-            I => n22_adj_9
+            I => n3318
         );
 
-    \I__728\ : InMux
+    \I__706\ : CascadeMux
     port map (
             O => \N__3702\,
-            I => \N__3698\
+            I => \n3435_cascade_\
         );
 
-    \I__727\ : InMux
+    \I__705\ : DummyBuf
     port map (
-            O => \N__3701\,
-            I => \N__3695\
-        );
-
-    \I__726\ : LocalMux
-    port map (
-            O => \N__3698\,
-            I => n2971
-        );
-
-    \I__725\ : LocalMux
-    port map (
-            O => \N__3695\,
-            I => n2971
-        );
-
-    \I__724\ : CascadeMux
-    port map (
-            O => \N__3690\,
-            I => \n13_adj_6_cascade_\
-        );
-
-    \I__723\ : DummyBuf
-    port map (
-            O => \N__3687\,
-            I => \N__3684\
-        );
-
-    \I__722\ : InMux
-    port map (
-            O => \N__3684\,
-            I => \N__3681\
-        );
-
-    \I__721\ : LocalMux
-    port map (
-            O => \N__3681\,
-            I => \N__3677\
-        );
-
-    \I__720\ : CascadeMux
-    port map (
-            O => \N__3680\,
-            I => \N__3673\
-        );
-
-    \I__719\ : Span4Mux_h
-    port map (
-            O => \N__3677\,
-            I => \N__3670\
-        );
-
-    \I__718\ : InMux
-    port map (
-            O => \N__3676\,
-            I => \N__3665\
-        );
-
-    \I__717\ : InMux
-    port map (
-            O => \N__3673\,
-            I => \N__3665\
-        );
-
-    \I__716\ : Odrv4
-    port map (
-            O => \N__3670\,
-            I => \hard_SBDATi_4\
-        );
-
-    \I__715\ : LocalMux
-    port map (
-            O => \N__3665\,
-            I => \hard_SBDATi_4\
-        );
-
-    \I__714\ : CascadeMux
-    port map (
-            O => \N__3660\,
-            I => \n12_cascade_\
-        );
-
-    \I__713\ : DummyBuf
-    port map (
-            O => \N__3657\,
-            I => \N__3654\
-        );
-
-    \I__712\ : InMux
-    port map (
-            O => \N__3654\,
-            I => \N__3651\
-        );
-
-    \I__711\ : LocalMux
-    port map (
-            O => \N__3651\,
-            I => \N__3647\
-        );
-
-    \I__710\ : CascadeMux
-    port map (
-            O => \N__3650\,
-            I => \N__3643\
-        );
-
-    \I__709\ : Span4Mux_s1_v
-    port map (
-            O => \N__3647\,
-            I => \N__3640\
-        );
-
-    \I__708\ : InMux
-    port map (
-            O => \N__3646\,
-            I => \N__3635\
-        );
-
-    \I__707\ : InMux
-    port map (
-            O => \N__3643\,
-            I => \N__3635\
-        );
-
-    \I__706\ : Odrv4
-    port map (
-            O => \N__3640\,
-            I => \hard_SBDATi_2\
-        );
-
-    \I__705\ : LocalMux
-    port map (
-            O => \N__3635\,
-            I => \hard_SBDATi_2\
+            O => \N__3699\,
+            I => \N__3696\
         );
 
     \I__704\ : InMux
     port map (
-            O => \N__3630\,
-            I => \N__3627\
+            O => \N__3696\,
+            I => \N__3693\
         );
 
     \I__703\ : LocalMux
     port map (
-            O => \N__3627\,
-            I => n15
+            O => \N__3693\,
+            I => \N__3689\
         );
 
-    \I__702\ : CascadeMux
+    \I__702\ : InMux
+    port map (
+            O => \N__3692\,
+            I => \N__3686\
+        );
+
+    \I__701\ : Span4Mux_h
+    port map (
+            O => \N__3689\,
+            I => \N__3683\
+        );
+
+    \I__700\ : LocalMux
+    port map (
+            O => \N__3686\,
+            I => \hard_SBSTBi\
+        );
+
+    \I__699\ : Odrv4
+    port map (
+            O => \N__3683\,
+            I => \hard_SBSTBi\
+        );
+
+    \I__698\ : InMux
+    port map (
+            O => \N__3678\,
+            I => \N__3674\
+        );
+
+    \I__697\ : InMux
+    port map (
+            O => \N__3677\,
+            I => \N__3671\
+        );
+
+    \I__696\ : LocalMux
+    port map (
+            O => \N__3674\,
+            I => n98
+        );
+
+    \I__695\ : LocalMux
+    port map (
+            O => \N__3671\,
+            I => n98
+        );
+
+    \I__694\ : CascadeMux
+    port map (
+            O => \N__3666\,
+            I => \n3431_cascade_\
+        );
+
+    \I__693\ : DummyBuf
+    port map (
+            O => \N__3663\,
+            I => \N__3660\
+        );
+
+    \I__692\ : InMux
+    port map (
+            O => \N__3660\,
+            I => \N__3656\
+        );
+
+    \I__691\ : InMux
+    port map (
+            O => \N__3659\,
+            I => \N__3653\
+        );
+
+    \I__690\ : LocalMux
+    port map (
+            O => \N__3656\,
+            I => \N__3650\
+        );
+
+    \I__689\ : LocalMux
+    port map (
+            O => \N__3653\,
+            I => \hard_SBADRi_0\
+        );
+
+    \I__688\ : Odrv12
+    port map (
+            O => \N__3650\,
+            I => \hard_SBADRi_0\
+        );
+
+    \I__687\ : InMux
+    port map (
+            O => \N__3645\,
+            I => \N__3642\
+        );
+
+    \I__686\ : LocalMux
+    port map (
+            O => \N__3642\,
+            I => n3438
+        );
+
+    \I__685\ : InMux
+    port map (
+            O => \N__3639\,
+            I => \N__3636\
+        );
+
+    \I__684\ : LocalMux
+    port map (
+            O => \N__3636\,
+            I => \N__3632\
+        );
+
+    \I__683\ : InMux
+    port map (
+            O => \N__3635\,
+            I => \N__3629\
+        );
+
+    \I__682\ : Span4Mux_s2_v
+    port map (
+            O => \N__3632\,
+            I => \N__3624\
+        );
+
+    \I__681\ : LocalMux
+    port map (
+            O => \N__3629\,
+            I => \N__3624\
+        );
+
+    \I__680\ : Span4Mux_h
     port map (
             O => \N__3624\,
-            I => \n2824_cascade_\
+            I => \N__3621\
         );
 
-    \I__701\ : DummyBuf
+    \I__679\ : Odrv4
     port map (
             O => \N__3621\,
             I => \N__3618\
         );
 
-    \I__700\ : InMux
+    \I__678\ : DummyBuf
     port map (
             O => \N__3618\,
-            I => \N__3615\
+            I => \hard0_SBDATo_1\
         );
 
-    \I__699\ : LocalMux
+    \I__677\ : InMux
     port map (
             O => \N__3615\,
             I => \N__3611\
         );
 
-    \I__698\ : InMux
+    \I__676\ : InMux
     port map (
             O => \N__3614\,
             I => \N__3608\
         );
 
-    \I__697\ : Span12Mux_s4_h
+    \I__675\ : LocalMux
     port map (
             O => \N__3611\,
             I => \N__3605\
         );
 
-    \I__696\ : LocalMux
+    \I__674\ : LocalMux
     port map (
             O => \N__3608\,
-            I => \hard_SBADRi_3\
+            I => \N__3602\
         );
 
-    \I__695\ : Odrv12
+    \I__673\ : IoSpan4Mux
     port map (
             O => \N__3605\,
-            I => \hard_SBADRi_3\
-        );
-
-    \I__694\ : InMux
-    port map (
-            O => \N__3600\,
             I => \N__3597\
         );
 
-    \I__693\ : LocalMux
+    \I__672\ : Span4Mux_h
+    port map (
+            O => \N__3602\,
+            I => \N__3597\
+        );
+
+    \I__671\ : Odrv4
     port map (
             O => \N__3597\,
-            I => \N__3593\
+            I => \N__3594\
         );
 
-    \I__692\ : DummyBuf
+    \I__670\ : DummyBuf
     port map (
-            O => \N__3596\,
-            I => \N__3590\
+            O => \N__3594\,
+            I => \hard0_SBDATo_3\
         );
 
-    \I__691\ : Glb2LocalMux
+    \I__669\ : InMux
     port map (
-            O => \N__3593\,
-            I => \N__3585\
+            O => \N__3591\,
+            I => \N__3587\
         );
 
-    \I__690\ : ClkMux
+    \I__668\ : InMux
     port map (
             O => \N__3590\,
-            I => \N__3585\
+            I => \N__3584\
         );
 
-    \I__689\ : GlobalMux
+    \I__667\ : LocalMux
     port map (
-            O => \N__3585\,
-            I => \N__3582\
+            O => \N__3587\,
+            I => \N__3581\
         );
 
-    \I__688\ : DummyBuf
+    \I__666\ : LocalMux
     port map (
-            O => \N__3582\,
-            I => n2981
+            O => \N__3584\,
+            I => \N__3578\
         );
 
-    \I__687\ : IoInMux
+    \I__665\ : Span4Mux_v
     port map (
-            O => \N__3579\,
-            I => \N__3576\
+            O => \N__3581\,
+            I => \N__3575\
         );
 
-    \I__686\ : LocalMux
+    \I__664\ : Span4Mux_v
     port map (
-            O => \N__3576\,
-            I => \N__3573\
+            O => \N__3578\,
+            I => \N__3572\
         );
 
-    \I__685\ : IoSpan4Mux
+    \I__663\ : Odrv4
     port map (
-            O => \N__3573\,
-            I => \N__3570\
+            O => \N__3575\,
+            I => \N__3567\
         );
 
-    \I__684\ : Odrv4
+    \I__662\ : Odrv4
     port map (
-            O => \N__3570\,
-            I => \GB_BUFFER_n2981_THRU_CO\
+            O => \N__3572\,
+            I => \N__3567\
         );
 
-    \I__683\ : CascadeMux
+    \I__661\ : DummyBuf
     port map (
             O => \N__3567\,
-            I => \n2960_cascade_\
+            I => \hard0_SBDATo_4\
         );
 
-    \I__682\ : DummyBuf
+    \I__660\ : InMux
     port map (
             O => \N__3564\,
-            I => \N__3561\
+            I => n2956
         );
 
-    \I__681\ : InMux
+    \I__659\ : InMux
     port map (
             O => \N__3561\,
             I => \N__3557\
         );
 
-    \I__680\ : InMux
+    \I__658\ : InMux
     port map (
             O => \N__3560\,
-            I => \N__3554\
+            I => \N__3553\
         );
 
-    \I__679\ : LocalMux
+    \I__657\ : LocalMux
     port map (
             O => \N__3557\,
-            I => \N__3551\
+            I => \N__3550\
         );
 
-    \I__678\ : LocalMux
+    \I__656\ : InMux
     port map (
-            O => \N__3554\,
-            I => \hard_SBWRi\
+            O => \N__3556\,
+            I => \N__3547\
         );
 
-    \I__677\ : Odrv12
+    \I__655\ : LocalMux
     port map (
-            O => \N__3551\,
-            I => \hard_SBWRi\
+            O => \N__3553\,
+            I => drv_clk_counter_10
         );
 
-    \I__676\ : DummyBuf
+    \I__654\ : Odrv4
     port map (
-            O => \N__3546\,
-            I => \N__3542\
+            O => \N__3550\,
+            I => drv_clk_counter_10
         );
 
-    \I__675\ : CascadeMux
+    \I__653\ : LocalMux
     port map (
-            O => \N__3545\,
-            I => \N__3539\
+            O => \N__3547\,
+            I => drv_clk_counter_10
         );
 
-    \I__674\ : InMux
+    \I__652\ : SRMux
     port map (
-            O => \N__3542\,
+            O => \N__3540\,
             I => \N__3536\
         );
 
-    \I__673\ : InMux
+    \I__651\ : SRMux
     port map (
             O => \N__3539\,
             I => \N__3533\
         );
 
-    \I__672\ : LocalMux
+    \I__650\ : LocalMux
     port map (
             O => \N__3536\,
             I => \N__3530\
         );
 
-    \I__671\ : LocalMux
+    \I__649\ : LocalMux
     port map (
             O => \N__3533\,
-            I => \hard_SBADRi_0\
+            I => \N__3527\
         );
 
-    \I__670\ : Odrv12
+    \I__648\ : Span4Mux_h
     port map (
             O => \N__3530\,
-            I => \hard_SBADRi_0\
+            I => \N__3524\
         );
 
-    \I__669\ : CascadeMux
+    \I__647\ : Odrv4
     port map (
-            O => \N__3525\,
-            I => \n12_adj_7_cascade_\
+            O => \N__3527\,
+            I => n985
         );
 
-    \I__668\ : DummyBuf
+    \I__646\ : Odrv4
     port map (
-            O => \N__3522\,
-            I => \N__3519\
+            O => \N__3524\,
+            I => n985
         );
 
-    \I__667\ : InMux
+    \I__645\ : CascadeMux
     port map (
             O => \N__3519\,
-            I => \N__3515\
+            I => \n98_cascade_\
         );
 
-    \I__666\ : CascadeMux
+    \I__644\ : CascadeMux
     port map (
-            O => \N__3518\,
-            I => \N__3511\
+            O => \N__3516\,
+            I => \n11_cascade_\
         );
 
-    \I__665\ : LocalMux
+    \I__643\ : DummyBuf
     port map (
-            O => \N__3515\,
-            I => \N__3508\
+            O => \N__3513\,
+            I => \N__3510\
         );
 
-    \I__664\ : InMux
+    \I__642\ : InMux
     port map (
-            O => \N__3514\,
-            I => \N__3503\
+            O => \N__3510\,
+            I => \N__3507\
         );
 
-    \I__663\ : InMux
+    \I__641\ : LocalMux
     port map (
-            O => \N__3511\,
-            I => \N__3503\
+            O => \N__3507\,
+            I => \N__3504\
         );
 
-    \I__662\ : Odrv12
+    \I__640\ : Span4Mux_h
     port map (
-            O => \N__3508\,
-            I => \hard_SBADRi_2\
+            O => \N__3504\,
+            I => \N__3500\
         );
 
-    \I__661\ : LocalMux
+    \I__639\ : InMux
     port map (
             O => \N__3503\,
-            I => \hard_SBADRi_2\
+            I => \N__3497\
         );
 
-    \I__660\ : InMux
+    \I__638\ : Odrv4
     port map (
-            O => \N__3498\,
-            I => \N__3495\
+            O => \N__3500\,
+            I => \hard_SBADRi_3\
         );
 
-    \I__659\ : LocalMux
+    \I__637\ : LocalMux
     port map (
-            O => \N__3495\,
-            I => n8_adj_10
+            O => \N__3497\,
+            I => \hard_SBADRi_3\
         );
 
-    \I__658\ : InMux
+    \I__636\ : CascadeMux
     port map (
             O => \N__3492\,
-            I => \N__3489\
+            I => \n2662_cascade_\
         );
 
-    \I__657\ : LocalMux
+    \I__635\ : DummyBuf
     port map (
             O => \N__3489\,
-            I => \N__3485\
+            I => \N__3486\
         );
 
-    \I__656\ : InMux
+    \I__634\ : InMux
     port map (
-            O => \N__3488\,
-            I => \N__3482\
+            O => \N__3486\,
+            I => \N__3483\
         );
 
-    \I__655\ : Odrv4
+    \I__633\ : LocalMux
     port map (
-            O => \N__3485\,
-            I => n2881
+            O => \N__3483\,
+            I => \N__3478\
         );
 
-    \I__654\ : LocalMux
+    \I__632\ : InMux
     port map (
             O => \N__3482\,
-            I => n2881
+            I => \N__3473\
         );
 
-    \I__653\ : InMux
+    \I__631\ : InMux
     port map (
-            O => \N__3477\,
-            I => \N__3474\
+            O => \N__3481\,
+            I => \N__3473\
         );
 
-    \I__652\ : LocalMux
+    \I__630\ : Odrv12
     port map (
-            O => \N__3474\,
-            I => n14_adj_14
+            O => \N__3478\,
+            I => \hard_SBWRi\
         );
 
-    \I__651\ : CascadeMux
+    \I__629\ : LocalMux
     port map (
-            O => \N__3471\,
-            I => \n104_cascade_\
+            O => \N__3473\,
+            I => \hard_SBWRi\
         );
 
-    \I__650\ : InMux
+    \I__628\ : InMux
     port map (
             O => \N__3468\,
             I => \N__3465\
         );
 
-    \I__649\ : LocalMux
+    \I__627\ : LocalMux
     port map (
             O => \N__3465\,
-            I => \N__3457\
+            I => \N__3461\
         );
 
-    \I__648\ : InMux
+    \I__626\ : DummyBuf
     port map (
             O => \N__3464\,
-            I => \N__3450\
+            I => \N__3458\
         );
 
-    \I__647\ : InMux
-    port map (
-            O => \N__3463\,
-            I => \N__3450\
-        );
-
-    \I__646\ : InMux
-    port map (
-            O => \N__3462\,
-            I => \N__3450\
-        );
-
-    \I__645\ : InMux
+    \I__625\ : Glb2LocalMux
     port map (
             O => \N__3461\,
-            I => \N__3445\
+            I => \N__3453\
         );
 
-    \I__644\ : InMux
+    \I__624\ : ClkMux
     port map (
-            O => \N__3460\,
-            I => \N__3445\
+            O => \N__3458\,
+            I => \N__3453\
         );
 
-    \I__643\ : Span4Mux_v
+    \I__623\ : GlobalMux
     port map (
-            O => \N__3457\,
-            I => \N__3442\
+            O => \N__3453\,
+            I => \N__3450\
         );
 
-    \I__642\ : LocalMux
+    \I__622\ : DummyBuf
     port map (
             O => \N__3450\,
-            I => n105
+            I => n3456
         );
 
-    \I__641\ : LocalMux
+    \I__621\ : IoInMux
     port map (
-            O => \N__3445\,
-            I => n105
+            O => \N__3447\,
+            I => \N__3444\
         );
 
-    \I__640\ : Odrv4
+    \I__620\ : LocalMux
     port map (
-            O => \N__3442\,
-            I => n105
+            O => \N__3444\,
+            I => \N__3441\
         );
 
-    \I__639\ : SRMux
+    \I__619\ : Span4Mux_s0_v
+    port map (
+            O => \N__3441\,
+            I => \N__3438\
+        );
+
+    \I__618\ : Odrv4
+    port map (
+            O => \N__3438\,
+            I => \GB_BUFFER_n3456_THRU_CO\
+        );
+
+    \I__617\ : CascadeMux
     port map (
             O => \N__3435\,
-            I => \N__3432\
+            I => \n13_cascade_\
         );
 
-    \I__638\ : LocalMux
+    \I__616\ : DummyBuf
     port map (
             O => \N__3432\,
             I => \N__3429\
         );
 
-    \I__637\ : Odrv4
+    \I__615\ : InMux
     port map (
             O => \N__3429\,
-            I => n1921
+            I => \N__3425\
         );
 
-    \I__636\ : InMux
+    \I__614\ : CascadeMux
     port map (
-            O => \N__3426\,
-            I => \N__3423\
+            O => \N__3428\,
+            I => \N__3421\
         );
 
-    \I__635\ : LocalMux
+    \I__613\ : LocalMux
     port map (
-            O => \N__3423\,
+            O => \N__3425\,
             I => \N__3418\
         );
 
-    \I__634\ : InMux
+    \I__612\ : InMux
     port map (
-            O => \N__3422\,
+            O => \N__3424\,
             I => \N__3413\
         );
 
-    \I__633\ : InMux
+    \I__611\ : InMux
     port map (
             O => \N__3421\,
             I => \N__3413\
         );
 
-    \I__632\ : Odrv4
+    \I__610\ : Odrv12
     port map (
             O => \N__3418\,
-            I => \PWM_duty_7\
+            I => \hard_SBDATi_4\
         );
 
-    \I__631\ : LocalMux
+    \I__609\ : LocalMux
     port map (
             O => \N__3413\,
-            I => \PWM_duty_7\
-        );
-
-    \I__630\ : InMux
-    port map (
-            O => \N__3408\,
-            I => \N__3402\
-        );
-
-    \I__629\ : InMux
-    port map (
-            O => \N__3407\,
-            I => \N__3399\
-        );
-
-    \I__628\ : InMux
-    port map (
-            O => \N__3406\,
-            I => \N__3396\
-        );
-
-    \I__627\ : InMux
-    port map (
-            O => \N__3405\,
-            I => \N__3393\
-        );
-
-    \I__626\ : LocalMux
-    port map (
-            O => \N__3402\,
-            I => \PWM_cnt_7\
-        );
-
-    \I__625\ : LocalMux
-    port map (
-            O => \N__3399\,
-            I => \PWM_cnt_7\
-        );
-
-    \I__624\ : LocalMux
-    port map (
-            O => \N__3396\,
-            I => \PWM_cnt_7\
-        );
-
-    \I__623\ : LocalMux
-    port map (
-            O => \N__3393\,
-            I => \PWM_cnt_7\
-        );
-
-    \I__622\ : InMux
-    port map (
-            O => \N__3384\,
-            I => \N__3380\
-        );
-
-    \I__621\ : CascadeMux
-    port map (
-            O => \N__3383\,
-            I => \N__3377\
-        );
-
-    \I__620\ : LocalMux
-    port map (
-            O => \N__3380\,
-            I => \N__3374\
-        );
-
-    \I__619\ : InMux
-    port map (
-            O => \N__3377\,
-            I => \N__3371\
-        );
-
-    \I__618\ : Odrv12
-    port map (
-            O => \N__3374\,
-            I => n2969
-        );
-
-    \I__617\ : LocalMux
-    port map (
-            O => \N__3371\,
-            I => n2969
-        );
-
-    \I__616\ : InMux
-    port map (
-            O => \N__3366\,
-            I => \N__3361\
-        );
-
-    \I__615\ : InMux
-    port map (
-            O => \N__3365\,
-            I => \N__3358\
-        );
-
-    \I__614\ : InMux
-    port map (
-            O => \N__3364\,
-            I => \N__3355\
-        );
-
-    \I__613\ : LocalMux
-    port map (
-            O => \N__3361\,
-            I => drv_clk_counter_4
-        );
-
-    \I__612\ : LocalMux
-    port map (
-            O => \N__3358\,
-            I => drv_clk_counter_4
-        );
-
-    \I__611\ : LocalMux
-    port map (
-            O => \N__3355\,
-            I => drv_clk_counter_4
-        );
-
-    \I__610\ : InMux
-    port map (
-            O => \N__3348\,
-            I => \N__3343\
-        );
-
-    \I__609\ : InMux
-    port map (
-            O => \N__3347\,
-            I => \N__3340\
+            I => \hard_SBDATi_4\
         );
 
     \I__608\ : InMux
     port map (
-            O => \N__3346\,
-            I => \N__3337\
+            O => \N__3408\,
+            I => \N__3403\
         );
 
-    \I__607\ : LocalMux
+    \I__607\ : InMux
     port map (
-            O => \N__3343\,
-            I => drv_clk_counter_1
+            O => \N__3407\,
+            I => \N__3398\
         );
 
-    \I__606\ : LocalMux
+    \I__606\ : InMux
     port map (
-            O => \N__3340\,
-            I => drv_clk_counter_1
+            O => \N__3406\,
+            I => \N__3398\
         );
 
     \I__605\ : LocalMux
     port map (
-            O => \N__3337\,
-            I => drv_clk_counter_1
+            O => \N__3403\,
+            I => drv_clk_counter_2
         );
 
-    \I__604\ : CascadeMux
+    \I__604\ : LocalMux
     port map (
-            O => \N__3330\,
-            I => \N__3326\
+            O => \N__3398\,
+            I => drv_clk_counter_2
         );
 
     \I__603\ : InMux
     port map (
-            O => \N__3329\,
-            I => \N__3323\
+            O => \N__3393\,
+            I => n2948
         );
 
     \I__602\ : InMux
     port map (
-            O => \N__3326\,
-            I => \N__3320\
+            O => \N__3390\,
+            I => \N__3385\
         );
 
-    \I__601\ : LocalMux
+    \I__601\ : InMux
     port map (
-            O => \N__3323\,
-            I => drv_clk_counter_0
+            O => \N__3389\,
+            I => \N__3380\
         );
 
-    \I__600\ : LocalMux
+    \I__600\ : InMux
     port map (
-            O => \N__3320\,
-            I => drv_clk_counter_0
+            O => \N__3388\,
+            I => \N__3380\
         );
 
-    \I__599\ : InMux
+    \I__599\ : LocalMux
     port map (
-            O => \N__3315\,
-            I => \N__3310\
+            O => \N__3385\,
+            I => drv_clk_counter_3
         );
 
-    \I__598\ : InMux
+    \I__598\ : LocalMux
     port map (
-            O => \N__3314\,
-            I => \N__3307\
+            O => \N__3380\,
+            I => drv_clk_counter_3
         );
 
     \I__597\ : InMux
     port map (
-            O => \N__3313\,
-            I => \N__3304\
+            O => \N__3375\,
+            I => n2949
         );
 
-    \I__596\ : LocalMux
+    \I__596\ : InMux
     port map (
-            O => \N__3310\,
-            I => drv_clk_counter_8
+            O => \N__3372\,
+            I => \N__3367\
         );
 
-    \I__595\ : LocalMux
+    \I__595\ : InMux
     port map (
-            O => \N__3307\,
-            I => drv_clk_counter_8
+            O => \N__3371\,
+            I => \N__3362\
         );
 
-    \I__594\ : LocalMux
+    \I__594\ : InMux
     port map (
-            O => \N__3304\,
-            I => drv_clk_counter_8
+            O => \N__3370\,
+            I => \N__3362\
         );
 
-    \I__593\ : InMux
+    \I__593\ : LocalMux
     port map (
-            O => \N__3297\,
-            I => \N__3292\
+            O => \N__3367\,
+            I => drv_clk_counter_4
         );
 
-    \I__592\ : InMux
+    \I__592\ : LocalMux
     port map (
-            O => \N__3296\,
-            I => \N__3289\
+            O => \N__3362\,
+            I => drv_clk_counter_4
         );
 
     \I__591\ : InMux
     port map (
-            O => \N__3295\,
-            I => \N__3286\
+            O => \N__3357\,
+            I => n2950
         );
 
-    \I__590\ : LocalMux
+    \I__590\ : InMux
     port map (
-            O => \N__3292\,
+            O => \N__3354\,
+            I => \N__3349\
+        );
+
+    \I__589\ : InMux
+    port map (
+            O => \N__3353\,
+            I => \N__3346\
+        );
+
+    \I__588\ : InMux
+    port map (
+            O => \N__3352\,
+            I => \N__3343\
+        );
+
+    \I__587\ : LocalMux
+    port map (
+            O => \N__3349\,
             I => drv_clk_counter_5
         );
 
-    \I__589\ : LocalMux
+    \I__586\ : LocalMux
     port map (
-            O => \N__3289\,
+            O => \N__3346\,
             I => drv_clk_counter_5
-        );
-
-    \I__588\ : LocalMux
-    port map (
-            O => \N__3286\,
-            I => drv_clk_counter_5
-        );
-
-    \I__587\ : CascadeMux
-    port map (
-            O => \N__3279\,
-            I => \n2810_cascade_\
-        );
-
-    \I__586\ : InMux
-    port map (
-            O => \N__3276\,
-            I => \N__3273\
         );
 
     \I__585\ : LocalMux
     port map (
-            O => \N__3273\,
-            I => \N__3269\
+            O => \N__3343\,
+            I => drv_clk_counter_5
         );
 
     \I__584\ : InMux
     port map (
-            O => \N__3272\,
-            I => \N__3266\
+            O => \N__3336\,
+            I => n2951
         );
 
-    \I__583\ : Odrv4
+    \I__583\ : InMux
     port map (
-            O => \N__3269\,
-            I => n2819
+            O => \N__3333\,
+            I => \N__3329\
         );
 
-    \I__582\ : LocalMux
+    \I__582\ : InMux
     port map (
-            O => \N__3266\,
-            I => n2819
+            O => \N__3332\,
+            I => \N__3326\
         );
 
-    \I__581\ : InMux
+    \I__581\ : LocalMux
     port map (
-            O => \N__3261\,
-            I => \N__3250\
+            O => \N__3329\,
+            I => drv_clk_counter_6
         );
 
-    \I__580\ : InMux
+    \I__580\ : LocalMux
     port map (
-            O => \N__3260\,
-            I => \N__3250\
+            O => \N__3326\,
+            I => drv_clk_counter_6
         );
 
     \I__579\ : InMux
     port map (
-            O => \N__3259\,
-            I => \N__3250\
+            O => \N__3321\,
+            I => n2952
         );
 
     \I__578\ : InMux
     port map (
-            O => \N__3258\,
-            I => \N__3244\
+            O => \N__3318\,
+            I => \N__3314\
         );
 
     \I__577\ : InMux
     port map (
-            O => \N__3257\,
-            I => \N__3244\
+            O => \N__3317\,
+            I => \N__3311\
         );
 
     \I__576\ : LocalMux
     port map (
-            O => \N__3250\,
-            I => \N__3239\
+            O => \N__3314\,
+            I => drv_clk_counter_7
         );
 
-    \I__575\ : InMux
+    \I__575\ : LocalMux
     port map (
-            O => \N__3249\,
-            I => \N__3236\
+            O => \N__3311\,
+            I => drv_clk_counter_7
         );
 
-    \I__574\ : LocalMux
+    \I__574\ : InMux
     port map (
-            O => \N__3244\,
-            I => \N__3233\
+            O => \N__3306\,
+            I => n2953
         );
 
     \I__573\ : InMux
     port map (
-            O => \N__3243\,
-            I => \N__3230\
+            O => \N__3303\,
+            I => \N__3299\
         );
 
     \I__572\ : InMux
     port map (
-            O => \N__3242\,
-            I => \N__3227\
+            O => \N__3302\,
+            I => \N__3295\
         );
 
-    \I__571\ : Span4Mux_s2_h
+    \I__571\ : LocalMux
     port map (
-            O => \N__3239\,
-            I => \N__3224\
+            O => \N__3299\,
+            I => \N__3292\
         );
 
-    \I__570\ : LocalMux
+    \I__570\ : InMux
     port map (
-            O => \N__3236\,
-            I => \N__3219\
+            O => \N__3298\,
+            I => \N__3289\
         );
 
-    \I__569\ : Span4Mux_s3_h
+    \I__569\ : LocalMux
     port map (
-            O => \N__3233\,
-            I => \N__3219\
+            O => \N__3295\,
+            I => drv_clk_counter_8
         );
 
-    \I__568\ : LocalMux
+    \I__568\ : Odrv4
     port map (
-            O => \N__3230\,
-            I => motor_on
+            O => \N__3292\,
+            I => drv_clk_counter_8
         );
 
     \I__567\ : LocalMux
     port map (
-            O => \N__3227\,
-            I => motor_on
+            O => \N__3289\,
+            I => drv_clk_counter_8
         );
 
-    \I__566\ : Odrv4
+    \I__566\ : InMux
     port map (
-            O => \N__3224\,
-            I => motor_on
+            O => \N__3282\,
+            I => \bfn_2_7_0_\
         );
 
-    \I__565\ : Odrv4
+    \I__565\ : InMux
     port map (
-            O => \N__3219\,
-            I => motor_on
+            O => \N__3279\,
+            I => \N__3275\
         );
 
     \I__564\ : InMux
     port map (
-            O => \N__3210\,
-            I => \N__3205\
+            O => \N__3278\,
+            I => \N__3271\
         );
 
-    \I__563\ : InMux
+    \I__563\ : LocalMux
     port map (
-            O => \N__3209\,
-            I => \N__3202\
+            O => \N__3275\,
+            I => \N__3268\
         );
 
     \I__562\ : InMux
     port map (
-            O => \N__3208\,
-            I => \N__3199\
+            O => \N__3274\,
+            I => \N__3265\
         );
 
     \I__561\ : LocalMux
     port map (
-            O => \N__3205\,
-            I => \N__3196\
+            O => \N__3271\,
+            I => drv_clk_counter_9
         );
 
-    \I__560\ : LocalMux
+    \I__560\ : Odrv4
     port map (
-            O => \N__3202\,
-            I => drv_clk_counter_10
+            O => \N__3268\,
+            I => drv_clk_counter_9
         );
 
     \I__559\ : LocalMux
     port map (
-            O => \N__3199\,
-            I => drv_clk_counter_10
+            O => \N__3265\,
+            I => drv_clk_counter_9
         );
 
-    \I__558\ : Odrv4
+    \I__558\ : InMux
     port map (
-            O => \N__3196\,
-            I => drv_clk_counter_10
+            O => \N__3258\,
+            I => n2955
         );
 
     \I__557\ : CascadeMux
     port map (
-            O => \N__3189\,
-            I => \n2820_cascade_\
+            O => \N__3255\,
+            I => \n3380_cascade_\
         );
 
     \I__556\ : InMux
     port map (
-            O => \N__3186\,
-            I => \N__3181\
+            O => \N__3252\,
+            I => \N__3249\
         );
 
-    \I__555\ : InMux
+    \I__555\ : LocalMux
     port map (
-            O => \N__3185\,
-            I => \N__3178\
+            O => \N__3249\,
+            I => n2420
         );
 
     \I__554\ : InMux
     port map (
-            O => \N__3184\,
-            I => \N__3175\
+            O => \N__3246\,
+            I => \N__3243\
         );
 
     \I__553\ : LocalMux
     port map (
-            O => \N__3181\,
-            I => drv_clk_counter_9
+            O => \N__3243\,
+            I => n2425
         );
 
-    \I__552\ : LocalMux
+    \I__552\ : CascadeMux
     port map (
-            O => \N__3178\,
-            I => drv_clk_counter_9
+            O => \N__3240\,
+            I => \N__3234\
         );
 
-    \I__551\ : LocalMux
+    \I__551\ : InMux
     port map (
-            O => \N__3175\,
-            I => drv_clk_counter_9
+            O => \N__3239\,
+            I => \N__3231\
         );
 
-    \I__550\ : SRMux
+    \I__550\ : InMux
     port map (
-            O => \N__3168\,
-            I => \N__3165\
+            O => \N__3238\,
+            I => \N__3228\
         );
 
-    \I__549\ : LocalMux
+    \I__549\ : InMux
+    port map (
+            O => \N__3237\,
+            I => \N__3222\
+        );
+
+    \I__548\ : InMux
+    port map (
+            O => \N__3234\,
+            I => \N__3222\
+        );
+
+    \I__547\ : LocalMux
+    port map (
+            O => \N__3231\,
+            I => \N__3219\
+        );
+
+    \I__546\ : LocalMux
+    port map (
+            O => \N__3228\,
+            I => \N__3216\
+        );
+
+    \I__545\ : InMux
+    port map (
+            O => \N__3227\,
+            I => \N__3213\
+        );
+
+    \I__544\ : LocalMux
+    port map (
+            O => \N__3222\,
+            I => \PWM_duty_7\
+        );
+
+    \I__543\ : Odrv4
+    port map (
+            O => \N__3219\,
+            I => \PWM_duty_7\
+        );
+
+    \I__542\ : Odrv4
+    port map (
+            O => \N__3216\,
+            I => \PWM_duty_7\
+        );
+
+    \I__541\ : LocalMux
+    port map (
+            O => \N__3213\,
+            I => \PWM_duty_7\
+        );
+
+    \I__540\ : InMux
+    port map (
+            O => \N__3204\,
+            I => \N__3199\
+        );
+
+    \I__539\ : InMux
+    port map (
+            O => \N__3203\,
+            I => \N__3191\
+        );
+
+    \I__538\ : InMux
+    port map (
+            O => \N__3202\,
+            I => \N__3191\
+        );
+
+    \I__537\ : LocalMux
+    port map (
+            O => \N__3199\,
+            I => \N__3188\
+        );
+
+    \I__536\ : InMux
+    port map (
+            O => \N__3198\,
+            I => \N__3185\
+        );
+
+    \I__535\ : InMux
+    port map (
+            O => \N__3197\,
+            I => \N__3182\
+        );
+
+    \I__534\ : InMux
+    port map (
+            O => \N__3196\,
+            I => \N__3179\
+        );
+
+    \I__533\ : LocalMux
+    port map (
+            O => \N__3191\,
+            I => \N__3172\
+        );
+
+    \I__532\ : Span4Mux_h
+    port map (
+            O => \N__3188\,
+            I => \N__3172\
+        );
+
+    \I__531\ : LocalMux
+    port map (
+            O => \N__3185\,
+            I => \N__3172\
+        );
+
+    \I__530\ : LocalMux
+    port map (
+            O => \N__3182\,
+            I => \PWM_cnt_7\
+        );
+
+    \I__529\ : LocalMux
+    port map (
+            O => \N__3179\,
+            I => \PWM_cnt_7\
+        );
+
+    \I__528\ : Odrv4
+    port map (
+            O => \N__3172\,
+            I => \PWM_cnt_7\
+        );
+
+    \I__527\ : InMux
     port map (
             O => \N__3165\,
-            I => \N__3161\
+            I => \N__3158\
         );
 
-    \I__548\ : SRMux
+    \I__526\ : InMux
     port map (
             O => \N__3164\,
             I => \N__3158\
         );
 
-    \I__547\ : Span4Mux_s2_h
+    \I__525\ : InMux
     port map (
-            O => \N__3161\,
+            O => \N__3163\,
             I => \N__3155\
         );
 
-    \I__546\ : LocalMux
+    \I__524\ : LocalMux
     port map (
             O => \N__3158\,
-            I => \N__3152\
+            I => n2828
         );
 
-    \I__545\ : Odrv4
+    \I__523\ : LocalMux
     port map (
             O => \N__3155\,
-            I => n953
+            I => n2828
         );
 
-    \I__544\ : Odrv4
+    \I__522\ : InMux
     port map (
-            O => \N__3152\,
-            I => n953
+            O => \N__3150\,
+            I => \N__3145\
         );
 
-    \I__543\ : InMux
+    \I__521\ : InMux
     port map (
-            O => \N__3147\,
-            I => \N__3142\
-        );
-
-    \I__542\ : InMux
-    port map (
-            O => \N__3146\,
-            I => \N__3139\
-        );
-
-    \I__541\ : InMux
-    port map (
-            O => \N__3145\,
-            I => \N__3136\
-        );
-
-    \I__540\ : LocalMux
-    port map (
-            O => \N__3142\,
-            I => drv_clk_counter_2
-        );
-
-    \I__539\ : LocalMux
-    port map (
-            O => \N__3139\,
-            I => drv_clk_counter_2
-        );
-
-    \I__538\ : LocalMux
-    port map (
-            O => \N__3136\,
-            I => drv_clk_counter_2
-        );
-
-    \I__537\ : InMux
-    port map (
-            O => \N__3129\,
-            I => \N__3124\
-        );
-
-    \I__536\ : InMux
-    port map (
-            O => \N__3128\,
-            I => \N__3121\
-        );
-
-    \I__535\ : InMux
-    port map (
-            O => \N__3127\,
-            I => \N__3118\
-        );
-
-    \I__534\ : LocalMux
-    port map (
-            O => \N__3124\,
-            I => drv_clk_counter_3
-        );
-
-    \I__533\ : LocalMux
-    port map (
-            O => \N__3121\,
-            I => drv_clk_counter_3
-        );
-
-    \I__532\ : LocalMux
-    port map (
-            O => \N__3118\,
-            I => drv_clk_counter_3
-        );
-
-    \I__531\ : InMux
-    port map (
-            O => \N__3111\,
-            I => \N__3108\
-        );
-
-    \I__530\ : LocalMux
-    port map (
-            O => \N__3108\,
-            I => n2963
-        );
-
-    \I__529\ : InMux
-    port map (
-            O => \N__3105\,
-            I => \N__3099\
-        );
-
-    \I__528\ : InMux
-    port map (
-            O => \N__3104\,
-            I => \N__3099\
-        );
-
-    \I__527\ : LocalMux
-    port map (
-            O => \N__3099\,
-            I => n2247
-        );
-
-    \I__526\ : CascadeMux
-    port map (
-            O => \N__3096\,
-            I => \n2250_cascade_\
-        );
-
-    \I__525\ : InMux
-    port map (
-            O => \N__3093\,
-            I => \N__3086\
-        );
-
-    \I__524\ : InMux
-    port map (
-            O => \N__3092\,
-            I => \N__3086\
-        );
-
-    \I__523\ : InMux
-    port map (
-            O => \N__3091\,
-            I => \N__3083\
-        );
-
-    \I__522\ : LocalMux
-    port map (
-            O => \N__3086\,
-            I => i2c_cmd_0_1
-        );
-
-    \I__521\ : LocalMux
-    port map (
-            O => \N__3083\,
-            I => i2c_cmd_0_1
+            O => \N__3149\,
+            I => \N__3140\
         );
 
     \I__520\ : InMux
     port map (
-            O => \N__3078\,
-            I => \N__3069\
+            O => \N__3148\,
+            I => \N__3140\
         );
 
-    \I__519\ : InMux
+    \I__519\ : LocalMux
     port map (
-            O => \N__3077\,
-            I => \N__3069\
+            O => \N__3145\,
+            I => n3429
         );
 
-    \I__518\ : InMux
+    \I__518\ : LocalMux
     port map (
-            O => \N__3076\,
-            I => \N__3069\
+            O => \N__3140\,
+            I => n3429
         );
 
-    \I__517\ : LocalMux
+    \I__517\ : CascadeMux
     port map (
-            O => \N__3069\,
-            I => \N__3066\
+            O => \N__3135\,
+            I => \N__3131\
         );
 
-    \I__516\ : Odrv4
+    \I__516\ : InMux
     port map (
-            O => \N__3066\,
-            I => i2c_cmd_0_4
+            O => \N__3134\,
+            I => \N__3127\
         );
 
-    \I__515\ : CascadeMux
+    \I__515\ : InMux
     port map (
-            O => \N__3063\,
-            I => \N__3059\
+            O => \N__3131\,
+            I => \N__3122\
         );
 
     \I__514\ : InMux
     port map (
-            O => \N__3062\,
-            I => \N__3051\
+            O => \N__3130\,
+            I => \N__3122\
         );
 
-    \I__513\ : InMux
+    \I__513\ : LocalMux
     port map (
-            O => \N__3059\,
-            I => \N__3051\
+            O => \N__3127\,
+            I => \N__3116\
         );
 
-    \I__512\ : InMux
+    \I__512\ : LocalMux
     port map (
-            O => \N__3058\,
-            I => \N__3051\
+            O => \N__3122\,
+            I => \N__3116\
         );
 
-    \I__511\ : LocalMux
+    \I__511\ : CascadeMux
     port map (
-            O => \N__3051\,
-            I => i2c_cmd_0_0
+            O => \N__3121\,
+            I => \N__3108\
         );
 
-    \I__510\ : InMux
+    \I__510\ : Span4Mux_s2_h
     port map (
-            O => \N__3048\,
-            I => \N__3045\
+            O => \N__3116\,
+            I => \N__3105\
         );
 
-    \I__509\ : LocalMux
+    \I__509\ : InMux
     port map (
-            O => \N__3045\,
-            I => n2858
+            O => \N__3115\,
+            I => \N__3102\
         );
 
-    \I__508\ : CEMux
+    \I__508\ : InMux
     port map (
-            O => \N__3042\,
-            I => \N__3039\
+            O => \N__3114\,
+            I => \N__3097\
         );
 
-    \I__507\ : LocalMux
+    \I__507\ : InMux
     port map (
-            O => \N__3039\,
-            I => \N__3036\
+            O => \N__3113\,
+            I => \N__3097\
         );
 
-    \I__506\ : Odrv4
+    \I__506\ : InMux
     port map (
-            O => \N__3036\,
-            I => n1778
+            O => \N__3112\,
+            I => \N__3090\
         );
 
     \I__505\ : InMux
     port map (
-            O => \N__3033\,
-            I => \N__3028\
+            O => \N__3111\,
+            I => \N__3090\
         );
 
     \I__504\ : InMux
     port map (
-            O => \N__3032\,
-            I => \N__3025\
+            O => \N__3108\,
+            I => \N__3090\
         );
 
-    \I__503\ : InMux
+    \I__503\ : Odrv4
     port map (
-            O => \N__3031\,
-            I => \N__3022\
+            O => \N__3105\,
+            I => drv_cnt_2
         );
 
     \I__502\ : LocalMux
     port map (
-            O => \N__3028\,
-            I => \PWM_duty_5\
+            O => \N__3102\,
+            I => drv_cnt_2
         );
 
     \I__501\ : LocalMux
     port map (
-            O => \N__3025\,
-            I => \PWM_duty_5\
+            O => \N__3097\,
+            I => drv_cnt_2
         );
 
     \I__500\ : LocalMux
     port map (
-            O => \N__3022\,
-            I => \PWM_duty_5\
+            O => \N__3090\,
+            I => drv_cnt_2
         );
 
-    \I__499\ : InMux
+    \I__499\ : CascadeMux
     port map (
-            O => \N__3015\,
-            I => \N__3011\
+            O => \N__3081\,
+            I => \n3429_cascade_\
         );
 
-    \I__498\ : InMux
+    \I__498\ : SRMux
     port map (
-            O => \N__3014\,
-            I => \N__3008\
+            O => \N__3078\,
+            I => \N__3075\
         );
 
     \I__497\ : LocalMux
     port map (
-            O => \N__3011\,
-            I => n2968
+            O => \N__3075\,
+            I => \N__3070\
         );
 
-    \I__496\ : LocalMux
+    \I__496\ : CascadeMux
     port map (
-            O => \N__3008\,
-            I => n2968
+            O => \N__3074\,
+            I => \N__3066\
         );
 
-    \I__495\ : InMux
+    \I__495\ : CascadeMux
     port map (
-            O => \N__3003\,
-            I => \N__3000\
+            O => \N__3073\,
+            I => \N__3062\
         );
 
-    \I__494\ : LocalMux
+    \I__494\ : Sp12to4
     port map (
-            O => \N__3000\,
-            I => n2883
+            O => \N__3070\,
+            I => \N__3057\
         );
 
-    \I__493\ : CascadeMux
+    \I__493\ : InMux
     port map (
-            O => \N__2997\,
-            I => \n2883_cascade_\
+            O => \N__3069\,
+            I => \N__3054\
         );
 
     \I__492\ : InMux
     port map (
-            O => \N__2994\,
-            I => \N__2990\
+            O => \N__3066\,
+            I => \N__3049\
         );
 
     \I__491\ : InMux
     port map (
-            O => \N__2993\,
-            I => \N__2987\
+            O => \N__3065\,
+            I => \N__3049\
         );
 
-    \I__490\ : LocalMux
+    \I__490\ : InMux
     port map (
-            O => \N__2990\,
-            I => \PWM_duty_0\
+            O => \N__3062\,
+            I => \N__3042\
         );
 
-    \I__489\ : LocalMux
+    \I__489\ : InMux
     port map (
-            O => \N__2987\,
-            I => \PWM_duty_0\
+            O => \N__3061\,
+            I => \N__3042\
         );
 
     \I__488\ : InMux
     port map (
-            O => \N__2982\,
-            I => \N__2977\
+            O => \N__3060\,
+            I => \N__3042\
         );
 
-    \I__487\ : InMux
+    \I__487\ : Odrv12
     port map (
-            O => \N__2981\,
-            I => \N__2974\
+            O => \N__3057\,
+            I => n3430
         );
 
-    \I__486\ : InMux
+    \I__486\ : LocalMux
     port map (
-            O => \N__2980\,
-            I => \N__2971\
+            O => \N__3054\,
+            I => n3430
         );
 
     \I__485\ : LocalMux
     port map (
-            O => \N__2977\,
-            I => \PWM_cnt_1\
+            O => \N__3049\,
+            I => n3430
         );
 
     \I__484\ : LocalMux
     port map (
-            O => \N__2974\,
-            I => \PWM_cnt_1\
+            O => \N__3042\,
+            I => n3430
         );
 
-    \I__483\ : LocalMux
+    \I__483\ : CascadeMux
     port map (
-            O => \N__2971\,
-            I => \PWM_cnt_1\
+            O => \N__3033\,
+            I => \n6_cascade_\
         );
 
     \I__482\ : CascadeMux
     port map (
-            O => \N__2964\,
-            I => \N__2959\
+            O => \N__3030\,
+            I => \N__3019\
         );
 
-    \I__481\ : CascadeMux
+    \I__481\ : InMux
     port map (
-            O => \N__2963\,
-            I => \N__2956\
+            O => \N__3029\,
+            I => \N__3015\
         );
 
     \I__480\ : InMux
     port map (
-            O => \N__2962\,
-            I => \N__2953\
+            O => \N__3028\,
+            I => \N__3004\
         );
 
     \I__479\ : InMux
     port map (
-            O => \N__2959\,
-            I => \N__2950\
+            O => \N__3027\,
+            I => \N__3004\
         );
 
     \I__478\ : InMux
     port map (
-            O => \N__2956\,
-            I => \N__2947\
+            O => \N__3026\,
+            I => \N__3004\
         );
 
-    \I__477\ : LocalMux
+    \I__477\ : InMux
     port map (
-            O => \N__2953\,
-            I => \PWM_cnt_0\
+            O => \N__3025\,
+            I => \N__3004\
         );
 
-    \I__476\ : LocalMux
+    \I__476\ : InMux
     port map (
-            O => \N__2950\,
-            I => \PWM_cnt_0\
+            O => \N__3024\,
+            I => \N__3004\
         );
 
-    \I__475\ : LocalMux
+    \I__475\ : InMux
     port map (
-            O => \N__2947\,
-            I => \PWM_cnt_0\
+            O => \N__3023\,
+            I => \N__3001\
         );
 
     \I__474\ : InMux
     port map (
-            O => \N__2940\,
-            I => \N__2936\
+            O => \N__3022\,
+            I => \N__2998\
         );
 
     \I__473\ : InMux
     port map (
-            O => \N__2939\,
-            I => \N__2933\
+            O => \N__3019\,
+            I => \N__2995\
         );
 
-    \I__472\ : LocalMux
+    \I__472\ : InMux
     port map (
-            O => \N__2936\,
-            I => \PWM_duty_1\
+            O => \N__3018\,
+            I => \N__2992\
         );
 
     \I__471\ : LocalMux
     port map (
-            O => \N__2933\,
-            I => \PWM_duty_1\
+            O => \N__3015\,
+            I => \N__2987\
         );
 
-    \I__470\ : InMux
+    \I__470\ : LocalMux
     port map (
-            O => \N__2928\,
-            I => \N__2925\
+            O => \N__3004\,
+            I => \N__2987\
         );
 
     \I__469\ : LocalMux
     port map (
-            O => \N__2925\,
-            I => n4_adj_17
+            O => \N__3001\,
+            I => drv_cnt_0
         );
 
-    \I__468\ : InMux
+    \I__468\ : LocalMux
     port map (
-            O => \N__2922\,
-            I => \N__2917\
+            O => \N__2998\,
+            I => drv_cnt_0
         );
 
-    \I__467\ : InMux
+    \I__467\ : LocalMux
     port map (
-            O => \N__2921\,
-            I => \N__2914\
+            O => \N__2995\,
+            I => drv_cnt_0
         );
 
-    \I__466\ : InMux
+    \I__466\ : LocalMux
     port map (
-            O => \N__2920\,
-            I => \N__2911\
+            O => \N__2992\,
+            I => drv_cnt_0
         );
 
-    \I__465\ : LocalMux
+    \I__465\ : Odrv4
     port map (
-            O => \N__2917\,
-            I => \N__2908\
+            O => \N__2987\,
+            I => drv_cnt_0
         );
 
-    \I__464\ : LocalMux
+    \I__464\ : CascadeMux
     port map (
-            O => \N__2914\,
-            I => \PWM_duty_6\
+            O => \N__2976\,
+            I => \n3374_cascade_\
         );
 
-    \I__463\ : LocalMux
+    \I__463\ : InMux
     port map (
-            O => \N__2911\,
-            I => \PWM_duty_6\
+            O => \N__2973\,
+            I => \N__2970\
         );
 
-    \I__462\ : Odrv4
+    \I__462\ : LocalMux
     port map (
-            O => \N__2908\,
-            I => \PWM_duty_6\
+            O => \N__2970\,
+            I => n3427
         );
 
     \I__461\ : InMux
     port map (
-            O => \N__2901\,
-            I => \N__2895\
+            O => \N__2967\,
+            I => \N__2961\
         );
 
     \I__460\ : InMux
+    port map (
+            O => \N__2966\,
+            I => \N__2961\
+        );
+
+    \I__459\ : LocalMux
+    port map (
+            O => \N__2961\,
+            I => \N__2955\
+        );
+
+    \I__458\ : InMux
+    port map (
+            O => \N__2960\,
+            I => \N__2952\
+        );
+
+    \I__457\ : CascadeMux
+    port map (
+            O => \N__2959\,
+            I => \N__2948\
+        );
+
+    \I__456\ : InMux
+    port map (
+            O => \N__2958\,
+            I => \N__2944\
+        );
+
+    \I__455\ : Span4Mux_s2_h
+    port map (
+            O => \N__2955\,
+            I => \N__2941\
+        );
+
+    \I__454\ : LocalMux
+    port map (
+            O => \N__2952\,
+            I => \N__2938\
+        );
+
+    \I__453\ : InMux
+    port map (
+            O => \N__2951\,
+            I => \N__2931\
+        );
+
+    \I__452\ : InMux
+    port map (
+            O => \N__2948\,
+            I => \N__2931\
+        );
+
+    \I__451\ : InMux
+    port map (
+            O => \N__2947\,
+            I => \N__2931\
+        );
+
+    \I__450\ : LocalMux
+    port map (
+            O => \N__2944\,
+            I => drv_cnt_1
+        );
+
+    \I__449\ : Odrv4
+    port map (
+            O => \N__2941\,
+            I => drv_cnt_1
+        );
+
+    \I__448\ : Odrv4
+    port map (
+            O => \N__2938\,
+            I => drv_cnt_1
+        );
+
+    \I__447\ : LocalMux
+    port map (
+            O => \N__2931\,
+            I => drv_cnt_1
+        );
+
+    \I__446\ : CEMux
+    port map (
+            O => \N__2922\,
+            I => \N__2918\
+        );
+
+    \I__445\ : CEMux
+    port map (
+            O => \N__2921\,
+            I => \N__2915\
+        );
+
+    \I__444\ : LocalMux
+    port map (
+            O => \N__2918\,
+            I => \N__2912\
+        );
+
+    \I__443\ : LocalMux
+    port map (
+            O => \N__2915\,
+            I => \N__2909\
+        );
+
+    \I__442\ : Odrv12
+    port map (
+            O => \N__2912\,
+            I => n3428
+        );
+
+    \I__441\ : Odrv12
+    port map (
+            O => \N__2909\,
+            I => n3428
+        );
+
+    \I__440\ : InMux
+    port map (
+            O => \N__2904\,
+            I => \N__2900\
+        );
+
+    \I__439\ : InMux
+    port map (
+            O => \N__2903\,
+            I => \N__2897\
+        );
+
+    \I__438\ : LocalMux
     port map (
             O => \N__2900\,
             I => \N__2892\
         );
 
-    \I__459\ : InMux
-    port map (
-            O => \N__2899\,
-            I => \N__2889\
-        );
-
-    \I__458\ : InMux
-    port map (
-            O => \N__2898\,
-            I => \N__2886\
-        );
-
-    \I__457\ : LocalMux
-    port map (
-            O => \N__2895\,
-            I => \PWM_cnt_6\
-        );
-
-    \I__456\ : LocalMux
-    port map (
-            O => \N__2892\,
-            I => \PWM_cnt_6\
-        );
-
-    \I__455\ : LocalMux
-    port map (
-            O => \N__2889\,
-            I => \PWM_cnt_6\
-        );
-
-    \I__454\ : LocalMux
-    port map (
-            O => \N__2886\,
-            I => \PWM_cnt_6\
-        );
-
-    \I__453\ : InMux
-    port map (
-            O => \N__2877\,
-            I => \N__2871\
-        );
-
-    \I__452\ : InMux
-    port map (
-            O => \N__2876\,
-            I => \N__2868\
-        );
-
-    \I__451\ : InMux
-    port map (
-            O => \N__2875\,
-            I => \N__2863\
-        );
-
-    \I__450\ : InMux
-    port map (
-            O => \N__2874\,
-            I => \N__2863\
-        );
-
-    \I__449\ : LocalMux
-    port map (
-            O => \N__2871\,
-            I => \PWM_cnt_5\
-        );
-
-    \I__448\ : LocalMux
-    port map (
-            O => \N__2868\,
-            I => \PWM_cnt_5\
-        );
-
-    \I__447\ : LocalMux
-    port map (
-            O => \N__2863\,
-            I => \PWM_cnt_5\
-        );
-
-    \I__446\ : CascadeMux
-    port map (
-            O => \N__2856\,
-            I => \n10_cascade_\
-        );
-
-    \I__445\ : InMux
-    port map (
-            O => \N__2853\,
-            I => \N__2850\
-        );
-
-    \I__444\ : LocalMux
-    port map (
-            O => \N__2850\,
-            I => n12_adj_13
-        );
-
-    \I__443\ : CascadeMux
-    port map (
-            O => \N__2847\,
-            I => \n2838_cascade_\
-        );
-
-    \I__442\ : InMux
-    port map (
-            O => \N__2844\,
-            I => \N__2838\
-        );
-
-    \I__441\ : InMux
-    port map (
-            O => \N__2843\,
-            I => \N__2838\
-        );
-
-    \I__440\ : LocalMux
-    port map (
-            O => \N__2838\,
-            I => i2c_cmd_0_5
-        );
-
-    \I__439\ : InMux
-    port map (
-            O => \N__2835\,
-            I => \N__2831\
-        );
-
-    \I__438\ : InMux
-    port map (
-            O => \N__2834\,
-            I => \N__2828\
-        );
-
     \I__437\ : LocalMux
     port map (
-            O => \N__2831\,
-            I => i2c_cmd_0_6
+            O => \N__2897\,
+            I => \N__2892\
         );
 
-    \I__436\ : LocalMux
+    \I__436\ : Odrv4
     port map (
-            O => \N__2828\,
-            I => i2c_cmd_0_6
+            O => \N__2892\,
+            I => drv_clk_counter_0
         );
 
     \I__435\ : InMux
     port map (
-            O => \N__2823\,
-            I => \N__2817\
+            O => \N__2889\,
+            I => \bfn_2_6_0_\
         );
 
     \I__434\ : InMux
     port map (
-            O => \N__2822\,
-            I => \N__2817\
+            O => \N__2886\,
+            I => \N__2881\
         );
 
-    \I__433\ : LocalMux
+    \I__433\ : InMux
     port map (
-            O => \N__2817\,
-            I => i2c_cmd_0_3
+            O => \N__2885\,
+            I => \N__2876\
         );
 
-    \I__432\ : CascadeMux
+    \I__432\ : InMux
     port map (
-            O => \N__2814\,
-            I => \n6_adj_8_cascade_\
+            O => \N__2884\,
+            I => \N__2876\
         );
 
-    \I__431\ : InMux
+    \I__431\ : LocalMux
     port map (
-            O => \N__2811\,
-            I => \N__2805\
+            O => \N__2881\,
+            I => drv_clk_counter_1
         );
 
-    \I__430\ : InMux
+    \I__430\ : LocalMux
     port map (
-            O => \N__2810\,
-            I => \N__2805\
+            O => \N__2876\,
+            I => drv_clk_counter_1
         );
 
-    \I__429\ : LocalMux
+    \I__429\ : InMux
     port map (
-            O => \N__2805\,
-            I => i2c_cmd_0_7
+            O => \N__2871\,
+            I => n2947
         );
 
     \I__428\ : InMux
     port map (
-            O => \N__2802\,
-            I => \N__2796\
+            O => \N__2868\,
+            I => \N__2865\
         );
 
-    \I__427\ : InMux
+    \I__427\ : LocalMux
     port map (
-            O => \N__2801\,
-            I => \N__2796\
+            O => \N__2865\,
+            I => i2c_cmd_1_0
         );
 
-    \I__426\ : LocalMux
+    \I__426\ : CascadeMux
     port map (
-            O => \N__2796\,
-            I => i2c_cmd_0_2
+            O => \N__2862\,
+            I => \N__2858\
         );
 
     \I__425\ : CascadeMux
     port map (
-            O => \N__2793\,
-            I => \N__2790\
+            O => \N__2861\,
+            I => \N__2855\
         );
 
     \I__424\ : InMux
     port map (
-            O => \N__2790\,
-            I => \N__2787\
+            O => \N__2858\,
+            I => \N__2850\
         );
 
-    \I__423\ : LocalMux
+    \I__423\ : InMux
+    port map (
+            O => \N__2855\,
+            I => \N__2850\
+        );
+
+    \I__422\ : LocalMux
+    port map (
+            O => \N__2850\,
+            I => \PWM_duty_0\
+        );
+
+    \I__421\ : InMux
+    port map (
+            O => \N__2847\,
+            I => \N__2844\
+        );
+
+    \I__420\ : LocalMux
+    port map (
+            O => \N__2844\,
+            I => i2c_cmd_1_2
+        );
+
+    \I__419\ : InMux
+    port map (
+            O => \N__2841\,
+            I => \N__2835\
+        );
+
+    \I__418\ : InMux
+    port map (
+            O => \N__2840\,
+            I => \N__2835\
+        );
+
+    \I__417\ : LocalMux
+    port map (
+            O => \N__2835\,
+            I => \PWM_duty_2\
+        );
+
+    \I__416\ : InMux
+    port map (
+            O => \N__2832\,
+            I => \N__2829\
+        );
+
+    \I__415\ : LocalMux
+    port map (
+            O => \N__2829\,
+            I => i2c_cmd_1_3
+        );
+
+    \I__414\ : InMux
+    port map (
+            O => \N__2826\,
+            I => \N__2823\
+        );
+
+    \I__413\ : LocalMux
+    port map (
+            O => \N__2823\,
+            I => \N__2818\
+        );
+
+    \I__412\ : InMux
+    port map (
+            O => \N__2822\,
+            I => \N__2813\
+        );
+
+    \I__411\ : InMux
+    port map (
+            O => \N__2821\,
+            I => \N__2813\
+        );
+
+    \I__410\ : Odrv4
+    port map (
+            O => \N__2818\,
+            I => \PWM_duty_3\
+        );
+
+    \I__409\ : LocalMux
+    port map (
+            O => \N__2813\,
+            I => \PWM_duty_3\
+        );
+
+    \I__408\ : InMux
+    port map (
+            O => \N__2808\,
+            I => \N__2805\
+        );
+
+    \I__407\ : LocalMux
+    port map (
+            O => \N__2805\,
+            I => i2c_cmd_1_4
+        );
+
+    \I__406\ : InMux
+    port map (
+            O => \N__2802\,
+            I => \N__2797\
+        );
+
+    \I__405\ : InMux
+    port map (
+            O => \N__2801\,
+            I => \N__2792\
+        );
+
+    \I__404\ : InMux
+    port map (
+            O => \N__2800\,
+            I => \N__2792\
+        );
+
+    \I__403\ : LocalMux
+    port map (
+            O => \N__2797\,
+            I => \PWM_duty_4\
+        );
+
+    \I__402\ : LocalMux
+    port map (
+            O => \N__2792\,
+            I => \PWM_duty_4\
+        );
+
+    \I__401\ : InMux
     port map (
             O => \N__2787\,
             I => \N__2784\
         );
 
-    \I__422\ : Odrv4
+    \I__400\ : LocalMux
     port map (
             O => \N__2784\,
-            I => n10_adj_2
-        );
-
-    \I__421\ : CascadeMux
-    port map (
-            O => \N__2781\,
-            I => \n17_adj_18_cascade_\
-        );
-
-    \I__420\ : InMux
-    port map (
-            O => \N__2778\,
-            I => \N__2773\
-        );
-
-    \I__419\ : InMux
-    port map (
-            O => \N__2777\,
-            I => \N__2770\
-        );
-
-    \I__418\ : InMux
-    port map (
-            O => \N__2776\,
-            I => \N__2767\
-        );
-
-    \I__417\ : LocalMux
-    port map (
-            O => \N__2773\,
-            I => \PWM_cnt_2\
-        );
-
-    \I__416\ : LocalMux
-    port map (
-            O => \N__2770\,
-            I => \PWM_cnt_2\
-        );
-
-    \I__415\ : LocalMux
-    port map (
-            O => \N__2767\,
-            I => \PWM_cnt_2\
-        );
-
-    \I__414\ : CascadeMux
-    port map (
-            O => \N__2760\,
-            I => \N__2755\
-        );
-
-    \I__413\ : InMux
-    port map (
-            O => \N__2759\,
-            I => \N__2751\
-        );
-
-    \I__412\ : InMux
-    port map (
-            O => \N__2758\,
-            I => \N__2748\
-        );
-
-    \I__411\ : InMux
-    port map (
-            O => \N__2755\,
-            I => \N__2743\
-        );
-
-    \I__410\ : InMux
-    port map (
-            O => \N__2754\,
-            I => \N__2743\
-        );
-
-    \I__409\ : LocalMux
-    port map (
-            O => \N__2751\,
-            I => \PWM_cnt_3\
-        );
-
-    \I__408\ : LocalMux
-    port map (
-            O => \N__2748\,
-            I => \PWM_cnt_3\
-        );
-
-    \I__407\ : LocalMux
-    port map (
-            O => \N__2743\,
-            I => \PWM_cnt_3\
-        );
-
-    \I__406\ : InMux
-    port map (
-            O => \N__2736\,
-            I => \N__2731\
-        );
-
-    \I__405\ : InMux
-    port map (
-            O => \N__2735\,
-            I => \N__2726\
-        );
-
-    \I__404\ : InMux
-    port map (
-            O => \N__2734\,
-            I => \N__2726\
-        );
-
-    \I__403\ : LocalMux
-    port map (
-            O => \N__2731\,
-            I => \PWM_duty_3\
-        );
-
-    \I__402\ : LocalMux
-    port map (
-            O => \N__2726\,
-            I => \PWM_duty_3\
-        );
-
-    \I__401\ : InMux
-    port map (
-            O => \N__2721\,
-            I => \N__2716\
-        );
-
-    \I__400\ : InMux
-    port map (
-            O => \N__2720\,
-            I => \N__2711\
+            I => i2c_cmd_1_7
         );
 
     \I__399\ : InMux
     port map (
-            O => \N__2719\,
-            I => \N__2711\
+            O => \N__2781\,
+            I => \N__2778\
         );
 
     \I__398\ : LocalMux
     port map (
-            O => \N__2716\,
-            I => \PWM_duty_4\
+            O => \N__2778\,
+            I => i2c_cmd_1_1
         );
 
-    \I__397\ : LocalMux
+    \I__397\ : InMux
     port map (
-            O => \N__2711\,
-            I => \PWM_duty_4\
+            O => \N__2775\,
+            I => \N__2769\
         );
 
-    \I__396\ : CascadeMux
+    \I__396\ : InMux
     port map (
-            O => \N__2706\,
-            I => \n6_adj_5_cascade_\
+            O => \N__2774\,
+            I => \N__2769\
         );
 
-    \I__395\ : InMux
+    \I__395\ : LocalMux
     port map (
-            O => \N__2703\,
-            I => \N__2697\
+            O => \N__2769\,
+            I => \PWM_duty_1\
         );
 
-    \I__394\ : InMux
+    \I__394\ : CascadeMux
     port map (
-            O => \N__2702\,
-            I => \N__2694\
+            O => \N__2766\,
+            I => \n3445_cascade_\
         );
 
-    \I__393\ : InMux
+    \I__393\ : CascadeMux
     port map (
-            O => \N__2701\,
-            I => \N__2689\
+            O => \N__2763\,
+            I => \N__2760\
         );
 
     \I__392\ : InMux
     port map (
-            O => \N__2700\,
-            I => \N__2689\
+            O => \N__2760\,
+            I => \N__2757\
         );
 
     \I__391\ : LocalMux
     port map (
-            O => \N__2697\,
-            I => \PWM_cnt_4\
+            O => \N__2757\,
+            I => \N__2754\
         );
 
-    \I__390\ : LocalMux
+    \I__390\ : Odrv12
     port map (
-            O => \N__2694\,
-            I => \PWM_cnt_4\
+            O => \N__2754\,
+            I => n3287
         );
 
-    \I__389\ : LocalMux
+    \I__389\ : DummyBuf
     port map (
-            O => \N__2689\,
-            I => \PWM_cnt_4\
+            O => \N__2751\,
+            I => \N__2748\
         );
 
     \I__388\ : InMux
     port map (
-            O => \N__2682\,
-            I => n2523
+            O => \N__2748\,
+            I => \N__2745\
         );
 
-    \I__387\ : InMux
+    \I__387\ : LocalMux
     port map (
-            O => \N__2679\,
-            I => n2524
+            O => \N__2745\,
+            I => \N__2742\
         );
 
-    \I__386\ : InMux
+    \I__386\ : Sp12to4
     port map (
-            O => \N__2676\,
-            I => n2525
+            O => \N__2742\,
+            I => \N__2739\
         );
 
-    \I__385\ : InMux
+    \I__385\ : Odrv12
     port map (
-            O => \N__2673\,
-            I => \N__2669\
+            O => \N__2739\,
+            I => \PWM_B\
         );
 
-    \I__384\ : InMux
+    \I__384\ : CEMux
     port map (
-            O => \N__2672\,
-            I => \N__2666\
+            O => \N__2736\,
+            I => \N__2733\
         );
 
     \I__383\ : LocalMux
     port map (
-            O => \N__2669\,
-            I => drv_clk_counter_6
+            O => \N__2733\,
+            I => \N__2729\
         );
 
-    \I__382\ : LocalMux
+    \I__382\ : CEMux
     port map (
-            O => \N__2666\,
-            I => drv_clk_counter_6
+            O => \N__2732\,
+            I => \N__2726\
         );
 
-    \I__381\ : InMux
+    \I__381\ : Span4Mux_v
     port map (
-            O => \N__2661\,
-            I => n2526
+            O => \N__2729\,
+            I => \N__2723\
         );
 
-    \I__380\ : InMux
+    \I__380\ : LocalMux
     port map (
-            O => \N__2658\,
-            I => \N__2654\
+            O => \N__2726\,
+            I => \N__2720\
         );
 
-    \I__379\ : InMux
+    \I__379\ : Odrv4
     port map (
-            O => \N__2657\,
-            I => \N__2651\
+            O => \N__2723\,
+            I => n1968
         );
 
-    \I__378\ : LocalMux
+    \I__378\ : Odrv12
     port map (
-            O => \N__2654\,
-            I => drv_clk_counter_7
+            O => \N__2720\,
+            I => n1968
         );
 
-    \I__377\ : LocalMux
+    \I__377\ : InMux
     port map (
-            O => \N__2651\,
-            I => drv_clk_counter_7
+            O => \N__2715\,
+            I => \N__2712\
         );
 
-    \I__376\ : InMux
+    \I__376\ : LocalMux
     port map (
-            O => \N__2646\,
-            I => n2527
+            O => \N__2712\,
+            I => \N__2709\
         );
 
-    \I__375\ : InMux
+    \I__375\ : Span4Mux_s2_h
     port map (
-            O => \N__2643\,
-            I => \bfn_1_7_0_\
+            O => \N__2709\,
+            I => \N__2706\
         );
 
-    \I__374\ : InMux
+    \I__374\ : Odrv4
     port map (
-            O => \N__2640\,
-            I => n2529
+            O => \N__2706\,
+            I => i2c_cmd_1_5
         );
 
     \I__373\ : InMux
     port map (
-            O => \N__2637\,
-            I => n2530
+            O => \N__2703\,
+            I => \N__2700\
         );
 
-    \I__372\ : CascadeMux
+    \I__372\ : LocalMux
     port map (
-            O => \N__2634\,
-            I => \n12_adj_11_cascade_\
+            O => \N__2700\,
+            I => \N__2697\
         );
 
-    \I__371\ : InMux
+    \I__371\ : Span4Mux_v
     port map (
-            O => \N__2631\,
-            I => \N__2628\
+            O => \N__2697\,
+            I => \N__2694\
         );
 
-    \I__370\ : LocalMux
+    \I__370\ : Odrv4
     port map (
-            O => \N__2628\,
-            I => n4_adj_15
+            O => \N__2694\,
+            I => i2c_cmd_1_6
         );
 
-    \I__369\ : InMux
+    \I__369\ : CascadeMux
     port map (
-            O => \N__2625\,
-            I => \N__2622\
+            O => \N__2691\,
+            I => \n6_adj_13_cascade_\
         );
 
-    \I__368\ : LocalMux
+    \I__368\ : CascadeMux
     port map (
-            O => \N__2622\,
-            I => n8
+            O => \N__2688\,
+            I => \n3288_cascade_\
         );
 
     \I__367\ : CascadeMux
     port map (
-            O => \N__2619\,
-            I => \n14_cascade_\
+            O => \N__2685\,
+            I => \n5_cascade_\
         );
 
-    \I__366\ : CascadeMux
+    \I__366\ : InMux
     port map (
-            O => \N__2616\,
-            I => \N__2612\
+            O => \N__2682\,
+            I => \N__2678\
         );
 
     \I__365\ : InMux
     port map (
-            O => \N__2615\,
-            I => \N__2608\
+            O => \N__2681\,
+            I => \N__2675\
         );
 
-    \I__364\ : InMux
+    \I__364\ : LocalMux
     port map (
-            O => \N__2612\,
-            I => \N__2603\
+            O => \N__2678\,
+            I => \N__2672\
         );
 
-    \I__363\ : InMux
+    \I__363\ : LocalMux
     port map (
-            O => \N__2611\,
-            I => \N__2603\
+            O => \N__2675\,
+            I => n2570
         );
 
-    \I__362\ : LocalMux
+    \I__362\ : Odrv4
     port map (
-            O => \N__2608\,
-            I => n2012
+            O => \N__2672\,
+            I => n2570
         );
 
-    \I__361\ : LocalMux
+    \I__361\ : CascadeMux
     port map (
-            O => \N__2603\,
-            I => n2012
+            O => \N__2667\,
+            I => \n2570_cascade_\
         );
 
-    \I__360\ : CEMux
+    \I__360\ : CascadeMux
+    port map (
+            O => \N__2664\,
+            I => \n3430_cascade_\
+        );
+
+    \I__359\ : InMux
+    port map (
+            O => \N__2661\,
+            I => \N__2657\
+        );
+
+    \I__358\ : InMux
+    port map (
+            O => \N__2660\,
+            I => \N__2654\
+        );
+
+    \I__357\ : LocalMux
+    port map (
+            O => \N__2657\,
+            I => n42
+        );
+
+    \I__356\ : LocalMux
+    port map (
+            O => \N__2654\,
+            I => n42
+        );
+
+    \I__355\ : InMux
+    port map (
+            O => \N__2649\,
+            I => \N__2642\
+        );
+
+    \I__354\ : InMux
+    port map (
+            O => \N__2648\,
+            I => \N__2639\
+        );
+
+    \I__353\ : InMux
+    port map (
+            O => \N__2647\,
+            I => \N__2636\
+        );
+
+    \I__352\ : InMux
+    port map (
+            O => \N__2646\,
+            I => \N__2631\
+        );
+
+    \I__351\ : InMux
+    port map (
+            O => \N__2645\,
+            I => \N__2631\
+        );
+
+    \I__350\ : LocalMux
+    port map (
+            O => \N__2642\,
+            I => \PWM_cnt_5\
+        );
+
+    \I__349\ : LocalMux
+    port map (
+            O => \N__2639\,
+            I => \PWM_cnt_5\
+        );
+
+    \I__348\ : LocalMux
+    port map (
+            O => \N__2636\,
+            I => \PWM_cnt_5\
+        );
+
+    \I__347\ : LocalMux
+    port map (
+            O => \N__2631\,
+            I => \PWM_cnt_5\
+        );
+
+    \I__346\ : InMux
+    port map (
+            O => \N__2622\,
+            I => \N__2619\
+        );
+
+    \I__345\ : LocalMux
+    port map (
+            O => \N__2619\,
+            I => \N__2614\
+        );
+
+    \I__344\ : InMux
+    port map (
+            O => \N__2618\,
+            I => \N__2609\
+        );
+
+    \I__343\ : InMux
+    port map (
+            O => \N__2617\,
+            I => \N__2609\
+        );
+
+    \I__342\ : Odrv4
+    port map (
+            O => \N__2614\,
+            I => \PWM_duty_5\
+        );
+
+    \I__341\ : LocalMux
+    port map (
+            O => \N__2609\,
+            I => \PWM_duty_5\
+        );
+
+    \I__340\ : InMux
+    port map (
+            O => \N__2604\,
+            I => \N__2601\
+        );
+
+    \I__339\ : LocalMux
+    port map (
+            O => \N__2601\,
+            I => n8_adj_10
+        );
+
+    \I__338\ : CascadeMux
     port map (
             O => \N__2598\,
-            I => \N__2595\
+            I => \n10_adj_6_cascade_\
         );
 
-    \I__359\ : LocalMux
+    \I__337\ : InMux
     port map (
             O => \N__2595\,
             I => \N__2592\
         );
 
-    \I__358\ : Odrv12
-    port map (
-            O => \N__2592\,
-            I => n2955
-        );
-
-    \I__357\ : CascadeMux
-    port map (
-            O => \N__2589\,
-            I => \N__2585\
-        );
-
-    \I__356\ : InMux
-    port map (
-            O => \N__2588\,
-            I => \N__2581\
-        );
-
-    \I__355\ : InMux
-    port map (
-            O => \N__2585\,
-            I => \N__2575\
-        );
-
-    \I__354\ : InMux
-    port map (
-            O => \N__2584\,
-            I => \N__2575\
-        );
-
-    \I__353\ : LocalMux
-    port map (
-            O => \N__2581\,
-            I => \N__2571\
-        );
-
-    \I__352\ : InMux
-    port map (
-            O => \N__2580\,
-            I => \N__2568\
-        );
-
-    \I__351\ : LocalMux
-    port map (
-            O => \N__2575\,
-            I => \N__2565\
-        );
-
-    \I__350\ : InMux
-    port map (
-            O => \N__2574\,
-            I => \N__2562\
-        );
-
-    \I__349\ : Odrv4
-    port map (
-            O => \N__2571\,
-            I => drv_cnt_1
-        );
-
-    \I__348\ : LocalMux
-    port map (
-            O => \N__2568\,
-            I => drv_cnt_1
-        );
-
-    \I__347\ : Odrv4
-    port map (
-            O => \N__2565\,
-            I => drv_cnt_1
-        );
-
-    \I__346\ : LocalMux
-    port map (
-            O => \N__2562\,
-            I => drv_cnt_1
-        );
-
-    \I__345\ : InMux
-    port map (
-            O => \N__2553\,
-            I => \N__2546\
-        );
-
-    \I__344\ : InMux
-    port map (
-            O => \N__2552\,
-            I => \N__2546\
-        );
-
-    \I__343\ : InMux
-    port map (
-            O => \N__2551\,
-            I => \N__2540\
-        );
-
-    \I__342\ : LocalMux
-    port map (
-            O => \N__2546\,
-            I => \N__2537\
-        );
-
-    \I__341\ : InMux
-    port map (
-            O => \N__2545\,
-            I => \N__2532\
-        );
-
-    \I__340\ : InMux
-    port map (
-            O => \N__2544\,
-            I => \N__2532\
-        );
-
-    \I__339\ : InMux
-    port map (
-            O => \N__2543\,
-            I => \N__2529\
-        );
-
-    \I__338\ : LocalMux
-    port map (
-            O => \N__2540\,
-            I => drv_cnt_0
-        );
-
-    \I__337\ : Odrv4
-    port map (
-            O => \N__2537\,
-            I => drv_cnt_0
-        );
-
     \I__336\ : LocalMux
     port map (
-            O => \N__2532\,
-            I => drv_cnt_0
+            O => \N__2592\,
+            I => n3355
         );
 
-    \I__335\ : LocalMux
+    \I__335\ : CascadeMux
     port map (
-            O => \N__2529\,
-            I => drv_cnt_0
+            O => \N__2589\,
+            I => \N__2586\
         );
 
-    \I__334\ : CascadeMux
+    \I__334\ : InMux
     port map (
-            O => \N__2520\,
-            I => \n2955_cascade_\
+            O => \N__2586\,
+            I => \N__2583\
         );
 
-    \I__333\ : InMux
+    \I__333\ : LocalMux
     port map (
-            O => \N__2517\,
-            I => \N__2509\
+            O => \N__2583\,
+            I => \N__2577\
         );
 
     \I__332\ : InMux
     port map (
-            O => \N__2516\,
-            I => \N__2509\
+            O => \N__2582\,
+            I => \N__2574\
         );
 
     \I__331\ : InMux
     port map (
-            O => \N__2515\,
-            I => \N__2505\
+            O => \N__2581\,
+            I => \N__2569\
         );
 
     \I__330\ : InMux
     port map (
-            O => \N__2514\,
-            I => \N__2502\
+            O => \N__2580\,
+            I => \N__2569\
         );
 
-    \I__329\ : LocalMux
+    \I__329\ : Odrv4
     port map (
-            O => \N__2509\,
-            I => \N__2499\
+            O => \N__2577\,
+            I => \PWM_duty_6\
         );
 
-    \I__328\ : InMux
+    \I__328\ : LocalMux
     port map (
-            O => \N__2508\,
-            I => \N__2496\
+            O => \N__2574\,
+            I => \PWM_duty_6\
         );
 
     \I__327\ : LocalMux
     port map (
-            O => \N__2505\,
-            I => drv_cnt_2
+            O => \N__2569\,
+            I => \PWM_duty_6\
         );
 
-    \I__326\ : LocalMux
+    \I__326\ : CascadeMux
     port map (
-            O => \N__2502\,
-            I => drv_cnt_2
+            O => \N__2562\,
+            I => \n12_adj_11_cascade_\
         );
 
-    \I__325\ : Odrv4
+    \I__325\ : InMux
     port map (
-            O => \N__2499\,
-            I => drv_cnt_2
+            O => \N__2559\,
+            I => \N__2552\
         );
 
-    \I__324\ : LocalMux
+    \I__324\ : InMux
     port map (
-            O => \N__2496\,
-            I => drv_cnt_2
+            O => \N__2558\,
+            I => \N__2549\
         );
 
     \I__323\ : InMux
     port map (
-            O => \N__2487\,
-            I => \bfn_1_6_0_\
+            O => \N__2557\,
+            I => \N__2546\
         );
 
     \I__322\ : InMux
     port map (
-            O => \N__2484\,
-            I => n2521
+            O => \N__2556\,
+            I => \N__2541\
         );
 
     \I__321\ : InMux
     port map (
-            O => \N__2481\,
-            I => n2522
+            O => \N__2555\,
+            I => \N__2541\
         );
 
-    \I__320\ : InMux
+    \I__320\ : LocalMux
     port map (
-            O => \N__2478\,
-            I => n2514
+            O => \N__2552\,
+            I => \PWM_cnt_6\
         );
 
-    \I__319\ : InMux
+    \I__319\ : LocalMux
     port map (
-            O => \N__2475\,
-            I => n2515
+            O => \N__2549\,
+            I => \PWM_cnt_6\
         );
 
-    \I__318\ : InMux
+    \I__318\ : LocalMux
     port map (
-            O => \N__2472\,
-            I => n2516
+            O => \N__2546\,
+            I => \PWM_cnt_6\
         );
 
-    \I__317\ : InMux
+    \I__317\ : LocalMux
     port map (
-            O => \N__2469\,
-            I => n2517
+            O => \N__2541\,
+            I => \PWM_cnt_6\
         );
 
     \I__316\ : InMux
     port map (
-            O => \N__2466\,
-            I => n2518
+            O => \N__2532\,
+            I => \N__2529\
         );
 
-    \I__315\ : InMux
+    \I__315\ : LocalMux
     port map (
-            O => \N__2463\,
-            I => n2519
+            O => \N__2529\,
+            I => n4_adj_12
         );
 
-    \I__314\ : InMux
+    \I__314\ : CEMux
     port map (
-            O => \N__2460\,
-            I => n2520
+            O => \N__2526\,
+            I => \N__2523\
         );
 
-    \I__313\ : CEMux
+    \I__313\ : LocalMux
     port map (
-            O => \N__2457\,
-            I => \N__2454\
+            O => \N__2523\,
+            I => n1933
         );
 
-    \I__312\ : LocalMux
+    \I__312\ : InMux
     port map (
-            O => \N__2454\,
-            I => \N__2451\
+            O => \N__2520\,
+            I => \N__2515\
         );
 
-    \I__311\ : Odrv12
+    \I__311\ : InMux
     port map (
-            O => \N__2451\,
-            I => n1831
+            O => \N__2519\,
+            I => \N__2510\
         );
 
     \I__310\ : InMux
     port map (
-            O => \N__2448\,
-            I => \N__2445\
+            O => \N__2518\,
+            I => \N__2510\
         );
 
     \I__309\ : LocalMux
+    port map (
+            O => \N__2515\,
+            I => \PWM_cnt_1\
+        );
+
+    \I__308\ : LocalMux
+    port map (
+            O => \N__2510\,
+            I => \PWM_cnt_1\
+        );
+
+    \I__307\ : InMux
+    port map (
+            O => \N__2505\,
+            I => \N__2500\
+        );
+
+    \I__306\ : InMux
+    port map (
+            O => \N__2504\,
+            I => \N__2495\
+        );
+
+    \I__305\ : InMux
+    port map (
+            O => \N__2503\,
+            I => \N__2495\
+        );
+
+    \I__304\ : LocalMux
+    port map (
+            O => \N__2500\,
+            I => \PWM_cnt_0\
+        );
+
+    \I__303\ : LocalMux
+    port map (
+            O => \N__2495\,
+            I => \PWM_cnt_0\
+        );
+
+    \I__302\ : InMux
+    port map (
+            O => \N__2490\,
+            I => \N__2487\
+        );
+
+    \I__301\ : LocalMux
+    port map (
+            O => \N__2487\,
+            I => n4
+        );
+
+    \I__300\ : InMux
+    port map (
+            O => \N__2484\,
+            I => \N__2478\
+        );
+
+    \I__299\ : InMux
+    port map (
+            O => \N__2483\,
+            I => \N__2478\
+        );
+
+    \I__298\ : LocalMux
+    port map (
+            O => \N__2478\,
+            I => n3447
+        );
+
+    \I__297\ : CascadeMux
+    port map (
+            O => \N__2475\,
+            I => \n12_adj_16_cascade_\
+        );
+
+    \I__296\ : DummyBuf
+    port map (
+            O => \N__2472\,
+            I => \N__2468\
+        );
+
+    \I__295\ : CascadeMux
+    port map (
+            O => \N__2471\,
+            I => \N__2464\
+        );
+
+    \I__294\ : InMux
+    port map (
+            O => \N__2468\,
+            I => \N__2461\
+        );
+
+    \I__293\ : InMux
+    port map (
+            O => \N__2467\,
+            I => \N__2456\
+        );
+
+    \I__292\ : InMux
+    port map (
+            O => \N__2464\,
+            I => \N__2456\
+        );
+
+    \I__291\ : LocalMux
+    port map (
+            O => \N__2461\,
+            I => \hard_SBDATi_7\
+        );
+
+    \I__290\ : LocalMux
+    port map (
+            O => \N__2456\,
+            I => \hard_SBDATi_7\
+        );
+
+    \I__289\ : InMux
+    port map (
+            O => \N__2451\,
+            I => \N__2448\
+        );
+
+    \I__288\ : LocalMux
+    port map (
+            O => \N__2448\,
+            I => n3448
+        );
+
+    \I__287\ : DummyBuf
     port map (
             O => \N__2445\,
             I => \N__2442\
         );
 
-    \I__308\ : Odrv4
+    \I__286\ : InMux
     port map (
             O => \N__2442\,
-            I => i2c_cmd_1_0
+            I => \N__2439\
         );
 
-    \I__307\ : InMux
+    \I__285\ : LocalMux
     port map (
             O => \N__2439\,
-            I => \N__2436\
+            I => \N__2435\
         );
 
-    \I__306\ : LocalMux
+    \I__284\ : DummyBuf
     port map (
-            O => \N__2436\,
-            I => \N__2433\
+            O => \N__2438\,
+            I => \N__2429\
         );
 
-    \I__305\ : Odrv4
+    \I__283\ : Span12Mux_s4_v
+    port map (
+            O => \N__2435\,
+            I => \N__2426\
+        );
+
+    \I__282\ : DummyBuf
+    port map (
+            O => \N__2434\,
+            I => \N__2423\
+        );
+
+    \I__281\ : DummyBuf
     port map (
             O => \N__2433\,
-            I => i2c_cmd_1_1
+            I => \N__2420\
         );
 
-    \I__304\ : InMux
+    \I__280\ : DummyBuf
     port map (
-            O => \N__2430\,
-            I => \N__2427\
+            O => \N__2432\,
+            I => \N__2417\
         );
 
-    \I__303\ : LocalMux
+    \I__279\ : InMux
     port map (
-            O => \N__2427\,
-            I => \N__2424\
+            O => \N__2429\,
+            I => \N__2414\
         );
 
-    \I__302\ : Odrv4
+    \I__278\ : Span12Mux_h
     port map (
-            O => \N__2424\,
-            I => i2c_cmd_1_2
+            O => \N__2426\,
+            I => \N__2411\
         );
 
-    \I__301\ : InMux
+    \I__277\ : InMux
     port map (
-            O => \N__2421\,
-            I => \N__2415\
+            O => \N__2423\,
+            I => \N__2408\
         );
 
-    \I__300\ : InMux
+    \I__276\ : InMux
     port map (
             O => \N__2420\,
-            I => \N__2415\
+            I => \N__2405\
         );
 
-    \I__299\ : LocalMux
+    \I__275\ : InMux
     port map (
-            O => \N__2415\,
-            I => \PWM_duty_2\
+            O => \N__2417\,
+            I => \N__2402\
         );
 
-    \I__298\ : InMux
+    \I__274\ : LocalMux
     port map (
-            O => \N__2412\,
-            I => \N__2409\
+            O => \N__2414\,
+            I => \CONSTANT_ONE_NET\
         );
 
-    \I__297\ : LocalMux
+    \I__273\ : Odrv12
     port map (
-            O => \N__2409\,
-            I => \N__2406\
+            O => \N__2411\,
+            I => \CONSTANT_ONE_NET\
         );
 
-    \I__296\ : Odrv4
+    \I__272\ : LocalMux
     port map (
-            O => \N__2406\,
-            I => i2c_cmd_1_5
+            O => \N__2408\,
+            I => \CONSTANT_ONE_NET\
         );
 
-    \I__295\ : InMux
+    \I__271\ : LocalMux
     port map (
-            O => \N__2403\,
-            I => \N__2400\
+            O => \N__2405\,
+            I => \CONSTANT_ONE_NET\
         );
 
-    \I__294\ : LocalMux
+    \I__270\ : LocalMux
     port map (
-            O => \N__2400\,
-            I => \N__2397\
+            O => \N__2402\,
+            I => \CONSTANT_ONE_NET\
         );
 
-    \I__293\ : Odrv4
-    port map (
-            O => \N__2397\,
-            I => i2c_cmd_1_6
-        );
-
-    \I__292\ : InMux
-    port map (
-            O => \N__2394\,
-            I => \N__2391\
-        );
-
-    \I__291\ : LocalMux
+    \I__269\ : CascadeMux
     port map (
             O => \N__2391\,
             I => \N__2388\
         );
 
-    \I__290\ : Odrv4
+    \I__268\ : InMux
     port map (
             O => \N__2388\,
-            I => i2c_cmd_1_7
+            I => \N__2385\
         );
 
-    \I__289\ : InMux
+    \I__267\ : LocalMux
     port map (
             O => \N__2385\,
-            I => \N__2382\
+            I => n3441
         );
 
-    \I__288\ : LocalMux
+    \I__266\ : CascadeMux
     port map (
             O => \N__2382\,
-            I => \N__2379\
+            I => \n6_adj_1_cascade_\
         );
 
-    \I__287\ : Odrv4
+    \I__265\ : InMux
     port map (
             O => \N__2379\,
-            I => i2c_cmd_1_4
+            I => \N__2376\
         );
 
-    \I__286\ : InMux
+    \I__264\ : LocalMux
     port map (
             O => \N__2376\,
-            I => \N__2373\
+            I => n8
         );
 
-    \I__285\ : LocalMux
+    \I__263\ : InMux
     port map (
             O => \N__2373\,
-            I => \N__2370\
+            I => \N__2369\
         );
 
-    \I__284\ : Odrv4
+    \I__262\ : InMux
     port map (
-            O => \N__2370\,
-            I => i2c_cmd_1_3
+            O => \N__2372\,
+            I => \N__2365\
         );
 
-    \I__283\ : InMux
+    \I__261\ : LocalMux
     port map (
-            O => \N__2367\,
-            I => \bfn_1_4_0_\
+            O => \N__2369\,
+            I => \N__2362\
         );
 
-    \I__282\ : InMux
+    \I__260\ : InMux
     port map (
-            O => \N__2364\,
-            I => \N__2360\
+            O => \N__2368\,
+            I => \N__2359\
         );
 
-    \I__281\ : InMux
+    \I__259\ : LocalMux
     port map (
-            O => \N__2363\,
-            I => \N__2357\
+            O => \N__2365\,
+            I => \PWM_cnt_2\
         );
 
-    \I__280\ : LocalMux
+    \I__258\ : Odrv4
     port map (
-            O => \N__2360\,
-            I => \N__2352\
+            O => \N__2362\,
+            I => \PWM_cnt_2\
         );
 
-    \I__279\ : LocalMux
+    \I__257\ : LocalMux
     port map (
-            O => \N__2357\,
-            I => \N__2352\
+            O => \N__2359\,
+            I => \PWM_cnt_2\
         );
 
-    \I__278\ : DummyBuf
+    \I__256\ : InMux
     port map (
             O => \N__2352\,
-            I => \hard0_SBDATo_0\
+            I => \N__2349\
         );
 
-    \I__277\ : InMux
+    \I__255\ : LocalMux
     port map (
             O => \N__2349\,
-            I => \N__2345\
+            I => n3332
         );
 
-    \I__276\ : InMux
+    \I__254\ : CascadeMux
     port map (
-            O => \N__2348\,
+            O => \N__2346\,
             I => \N__2342\
         );
 
-    \I__275\ : LocalMux
+    \I__253\ : InMux
     port map (
             O => \N__2345\,
             I => \N__2337\
         );
 
-    \I__274\ : LocalMux
+    \I__252\ : InMux
     port map (
             O => \N__2342\,
-            I => \N__2337\
+            I => \N__2332\
         );
 
-    \I__273\ : DummyBuf
+    \I__251\ : InMux
+    port map (
+            O => \N__2341\,
+            I => \N__2332\
+        );
+
+    \I__250\ : InMux
+    port map (
+            O => \N__2340\,
+            I => \N__2329\
+        );
+
+    \I__249\ : LocalMux
     port map (
             O => \N__2337\,
-            I => \hard0_SBDATo_1\
+            I => \N__2324\
         );
 
-    \I__272\ : InMux
+    \I__248\ : LocalMux
     port map (
-            O => \N__2334\,
-            I => \N__2330\
+            O => \N__2332\,
+            I => \N__2324\
         );
 
-    \I__271\ : InMux
+    \I__247\ : LocalMux
     port map (
-            O => \N__2333\,
-            I => \N__2327\
+            O => \N__2329\,
+            I => \PWM_cnt_3\
         );
 
-    \I__270\ : LocalMux
+    \I__246\ : Odrv4
     port map (
-            O => \N__2330\,
-            I => \N__2322\
+            O => \N__2324\,
+            I => \PWM_cnt_3\
         );
 
-    \I__269\ : LocalMux
-    port map (
-            O => \N__2327\,
-            I => \N__2322\
-        );
-
-    \I__268\ : DummyBuf
-    port map (
-            O => \N__2322\,
-            I => \hard0_SBDATo_3\
-        );
-
-    \I__267\ : InMux
+    \I__245\ : CascadeMux
     port map (
             O => \N__2319\,
-            I => \N__2315\
+            I => \n6_adj_9_cascade_\
         );
 
-    \I__266\ : InMux
+    \I__244\ : InMux
     port map (
-            O => \N__2318\,
-            I => \N__2312\
+            O => \N__2316\,
+            I => \N__2308\
         );
 
-    \I__265\ : LocalMux
+    \I__243\ : InMux
     port map (
             O => \N__2315\,
-            I => \N__2307\
+            I => \N__2308\
         );
 
-    \I__264\ : LocalMux
+    \I__242\ : InMux
     port map (
-            O => \N__2312\,
-            I => \N__2307\
+            O => \N__2314\,
+            I => \N__2305\
         );
 
-    \I__263\ : DummyBuf
+    \I__241\ : InMux
     port map (
-            O => \N__2307\,
-            I => \hard0_SBDATo_4\
+            O => \N__2313\,
+            I => \N__2302\
         );
 
-    \I__262\ : InMux
+    \I__240\ : LocalMux
     port map (
-            O => \N__2304\,
-            I => \N__2300\
+            O => \N__2308\,
+            I => \N__2299\
         );
 
-    \I__261\ : InMux
+    \I__239\ : LocalMux
     port map (
-            O => \N__2303\,
-            I => \N__2297\
+            O => \N__2305\,
+            I => \PWM_cnt_4\
         );
 
-    \I__260\ : LocalMux
+    \I__238\ : LocalMux
     port map (
-            O => \N__2300\,
-            I => \N__2292\
+            O => \N__2302\,
+            I => \PWM_cnt_4\
         );
 
-    \I__259\ : LocalMux
+    \I__237\ : Odrv4
     port map (
-            O => \N__2297\,
-            I => \N__2292\
+            O => \N__2299\,
+            I => \PWM_cnt_4\
         );
 
-    \I__258\ : DummyBuf
+    \I__236\ : InMux
     port map (
             O => \N__2292\,
-            I => \hard0_SBDATo_5\
+            I => n2944
         );
 
-    \I__257\ : InMux
+    \I__235\ : InMux
     port map (
             O => \N__2289\,
-            I => \N__2285\
+            I => n2945
         );
 
-    \I__256\ : InMux
+    \I__234\ : InMux
     port map (
-            O => \N__2288\,
-            I => \N__2282\
+            O => \N__2286\,
+            I => n2946
         );
 
-    \I__255\ : LocalMux
+    \I__233\ : SRMux
     port map (
-            O => \N__2285\,
+            O => \N__2283\,
+            I => \N__2280\
+        );
+
+    \I__232\ : LocalMux
+    port map (
+            O => \N__2280\,
             I => \N__2277\
         );
 
-    \I__254\ : LocalMux
-    port map (
-            O => \N__2282\,
-            I => \N__2277\
-        );
-
-    \I__253\ : DummyBuf
+    \I__231\ : Odrv12
     port map (
             O => \N__2277\,
-            I => \hard0_SBDATo_7\
+            I => n2810
         );
 
-    \I__252\ : DummyBuf
+    \I__230\ : InMux
     port map (
             O => \N__2274\,
             I => \N__2271\
         );
 
-    \I__251\ : InMux
+    \I__229\ : LocalMux
     port map (
             O => \N__2271\,
             I => \N__2268\
         );
 
-    \I__250\ : LocalMux
+    \I__228\ : Odrv4
     port map (
             O => \N__2268\,
-            I => \N__2265\
+            I => n3344
         );
 
-    \I__249\ : Odrv12
+    \I__227\ : InMux
     port map (
             O => \N__2265\,
-            I => \PWM_G\
+            I => \N__2262\
         );
 
-    \I__248\ : DummyBuf
+    \I__226\ : LocalMux
     port map (
             O => \N__2262\,
             I => \N__2259\
         );
 
-    \I__247\ : InMux
+    \I__225\ : Odrv4
     port map (
             O => \N__2259\,
-            I => \N__2256\
+            I => n3442
         );
 
-    \I__246\ : LocalMux
+    \I__224\ : DummyBuf
     port map (
             O => \N__2256\,
             I => \N__2253\
         );
 
-    \I__245\ : Odrv12
+    \I__223\ : InMux
     port map (
             O => \N__2253\,
-            I => \PWM_R\
+            I => \N__2250\
         );
 
-    \I__244\ : CEMux
+    \I__222\ : LocalMux
     port map (
             O => \N__2250\,
             I => \N__2247\
         );
 
-    \I__243\ : LocalMux
+    \I__221\ : Odrv12
     port map (
             O => \N__2247\,
-            I => \N__2243\
+            I => \PWM_R\
         );
 
-    \I__242\ : CEMux
+    \I__220\ : DummyBuf
     port map (
-            O => \N__2246\,
-            I => \N__2240\
+            O => \N__2244\,
+            I => \N__2241\
         );
 
-    \I__241\ : Span4Mux_s1_h
+    \I__219\ : InMux
     port map (
-            O => \N__2243\,
-            I => \N__2237\
+            O => \N__2241\,
+            I => \N__2238\
         );
 
-    \I__240\ : LocalMux
+    \I__218\ : LocalMux
     port map (
-            O => \N__2240\,
-            I => \N__2234\
+            O => \N__2238\,
+            I => \N__2235\
         );
 
-    \I__239\ : Span4Mux_h
+    \I__217\ : Odrv12
     port map (
-            O => \N__2237\,
-            I => \N__2231\
+            O => \N__2235\,
+            I => \PWM_G\
         );
 
-    \I__238\ : Odrv4
+    \I__216\ : CascadeMux
     port map (
-            O => \N__2234\,
-            I => n1815
+            O => \N__2232\,
+            I => \n10_cascade_\
         );
 
-    \I__237\ : Odrv4
+    \I__215\ : CascadeMux
     port map (
-            O => \N__2231\,
-            I => n1815
+            O => \N__2229\,
+            I => \n12_adj_7_cascade_\
         );
 
-    \I__236\ : SRMux
+    \I__214\ : InMux
     port map (
             O => \N__2226\,
             I => \N__2223\
         );
 
-    \I__235\ : LocalMux
+    \I__213\ : LocalMux
     port map (
             O => \N__2223\,
-            I => n1_adj_12
+            I => n3342
         );
 
-    \I__234\ : DummyBuf
+    \I__212\ : CascadeMux
     port map (
             O => \N__2220\,
-            I => \N__2217\
+            I => \n14_adj_8_cascade_\
         );
 
-    \I__233\ : InMux
+    \I__211\ : CascadeMux
     port map (
             O => \N__2217\,
-            I => \N__2214\
-        );
-
-    \I__232\ : LocalMux
-    port map (
-            O => \N__2214\,
-            I => \N__2207\
-        );
-
-    \I__231\ : DummyBuf
-    port map (
-            O => \N__2213\,
-            I => \N__2204\
-        );
-
-    \I__230\ : DummyBuf
-    port map (
-            O => \N__2212\,
-            I => \N__2201\
-        );
-
-    \I__229\ : DummyBuf
-    port map (
-            O => \N__2211\,
-            I => \N__2198\
-        );
-
-    \I__228\ : DummyBuf
-    port map (
-            O => \N__2210\,
-            I => \N__2195\
-        );
-
-    \I__227\ : Span4Mux_s1_h
-    port map (
-            O => \N__2207\,
-            I => \N__2192\
-        );
-
-    \I__226\ : InMux
-    port map (
-            O => \N__2204\,
-            I => \N__2189\
-        );
-
-    \I__225\ : InMux
-    port map (
-            O => \N__2201\,
-            I => \N__2186\
-        );
-
-    \I__224\ : InMux
-    port map (
-            O => \N__2198\,
-            I => \N__2183\
-        );
-
-    \I__223\ : InMux
-    port map (
-            O => \N__2195\,
-            I => \N__2180\
-        );
-
-    \I__222\ : Sp12to4
-    port map (
-            O => \N__2192\,
-            I => \N__2177\
-        );
-
-    \I__221\ : LocalMux
-    port map (
-            O => \N__2189\,
-            I => \N__2168\
-        );
-
-    \I__220\ : LocalMux
-    port map (
-            O => \N__2186\,
-            I => \N__2168\
-        );
-
-    \I__219\ : LocalMux
-    port map (
-            O => \N__2183\,
-            I => \N__2168\
-        );
-
-    \I__218\ : LocalMux
-    port map (
-            O => \N__2180\,
-            I => \N__2168\
-        );
-
-    \I__217\ : Span12Mux_s8_v
-    port map (
-            O => \N__2177\,
-            I => \N__2165\
-        );
-
-    \I__216\ : Sp12to4
-    port map (
-            O => \N__2168\,
-            I => \N__2162\
-        );
-
-    \I__215\ : Span12Mux_h
-    port map (
-            O => \N__2165\,
-            I => \N__2159\
-        );
-
-    \I__214\ : Odrv12
-    port map (
-            O => \N__2162\,
-            I => \CONSTANT_ONE_NET\
-        );
-
-    \I__213\ : Odrv12
-    port map (
-            O => \N__2159\,
-            I => \CONSTANT_ONE_NET\
-        );
-
-    \I__212\ : InMux
-    port map (
-            O => \N__2154\,
-            I => \N__2151\
-        );
-
-    \I__211\ : LocalMux
-    port map (
-            O => \N__2151\,
-            I => n2967
+            I => \n104_cascade_\
         );
 
     \I__210\ : InMux
+    port map (
+            O => \N__2214\,
+            I => \bfn_0_5_0_\
+        );
+
+    \I__209\ : InMux
+    port map (
+            O => \N__2211\,
+            I => n2940
+        );
+
+    \I__208\ : InMux
+    port map (
+            O => \N__2208\,
+            I => n2941
+        );
+
+    \I__207\ : InMux
+    port map (
+            O => \N__2205\,
+            I => n2942
+        );
+
+    \I__206\ : InMux
+    port map (
+            O => \N__2202\,
+            I => n2943
+        );
+
+    \I__205\ : IoInMux
+    port map (
+            O => \N__2199\,
+            I => \N__2196\
+        );
+
+    \I__204\ : LocalMux
+    port map (
+            O => \N__2196\,
+            I => \N__2193\
+        );
+
+    \I__203\ : IoSpan4Mux
+    port map (
+            O => \N__2193\,
+            I => \N__2190\
+        );
+
+    \I__202\ : IoSpan4Mux
+    port map (
+            O => \N__2190\,
+            I => \N__2187\
+        );
+
+    \I__201\ : Span4Mux_s3_v
+    port map (
+            O => \N__2187\,
+            I => \N__2184\
+        );
+
+    \I__200\ : Sp12to4
+    port map (
+            O => \N__2184\,
+            I => \N__2181\
+        );
+
+    \I__199\ : Odrv12
+    port map (
+            O => \N__2181\,
+            I => \N__2178\
+        );
+
+    \I__198\ : DummyBuf
+    port map (
+            O => \N__2178\,
+            I => sdaoe_i
+        );
+
+    \I__197\ : IoInMux
+    port map (
+            O => \N__2175\,
+            I => \N__2172\
+        );
+
+    \I__196\ : LocalMux
+    port map (
+            O => \N__2172\,
+            I => \N__2169\
+        );
+
+    \I__195\ : IoSpan4Mux
+    port map (
+            O => \N__2169\,
+            I => \N__2166\
+        );
+
+    \I__194\ : IoSpan4Mux
+    port map (
+            O => \N__2166\,
+            I => \N__2163\
+        );
+
+    \I__193\ : Sp12to4
+    port map (
+            O => \N__2163\,
+            I => \N__2160\
+        );
+
+    \I__192\ : Span12Mux_s5_v
+    port map (
+            O => \N__2160\,
+            I => \N__2157\
+        );
+
+    \I__191\ : Odrv12
+    port map (
+            O => \N__2157\,
+            I => \N__2154\
+        );
+
+    \I__190\ : DummyBuf
+    port map (
+            O => \N__2154\,
+            I => sdaout_i
+        );
+
+    \I__189\ : DummyBuf
+    port map (
+            O => \N__2151\,
+            I => \N__2148\
+        );
+
+    \I__188\ : InMux
     port map (
             O => \N__2148\,
             I => \N__2145\
         );
 
-    \I__209\ : LocalMux
+    \I__187\ : LocalMux
     port map (
             O => \N__2145\,
-            I => n2966
+            I => \N__2142\
         );
 
-    \I__208\ : CascadeMux
+    \I__186\ : Span12Mux_s10_h
     port map (
             O => \N__2142\,
-            I => \n2811_cascade_\
+            I => \N__2139\
         );
 
-    \I__207\ : CascadeMux
+    \I__185\ : Span12Mux_v
     port map (
             O => \N__2139\,
-            I => \n2821_cascade_\
+            I => \N__2136\
         );
 
-    \I__206\ : CascadeMux
+    \I__184\ : Odrv12
     port map (
             O => \N__2136\,
-            I => \n1_adj_12_cascade_\
+            I => sdain_i
         );
 
-    \I__205\ : DummyBuf
+    \I__183\ : DummyBuf
     port map (
             O => \N__2133\,
             I => \N__2130\
         );
 
-    \I__204\ : InMux
+    \I__182\ : InMux
     port map (
             O => \N__2130\,
             I => \N__2127\
         );
 
-    \I__203\ : LocalMux
+    \I__181\ : LocalMux
     port map (
             O => \N__2127\,
             I => \N__2124\
         );
 
-    \I__202\ : Span12Mux_s3_v
+    \I__180\ : Span4Mux_s2_v
     port map (
             O => \N__2124\,
             I => \N__2121\
         );
 
-    \I__201\ : Odrv12
+    \I__179\ : Sp12to4
     port map (
             O => \N__2121\,
-            I => \PWM_B\
+            I => \N__2118\
         );
 
-    \I__200\ : DummyBuf
+    \I__178\ : Span12Mux_s10_h
     port map (
             O => \N__2118\,
             I => \N__2115\
         );
 
-    \I__199\ : InMux
+    \I__177\ : Odrv12
     port map (
             O => \N__2115\,
-            I => \N__2112\
-        );
-
-    \I__198\ : LocalMux
-    port map (
-            O => \N__2112\,
-            I => \N__2109\
-        );
-
-    \I__197\ : Span12Mux_s10_h
-    port map (
-            O => \N__2109\,
-            I => \N__2106\
-        );
-
-    \I__196\ : Span12Mux_v
-    port map (
-            O => \N__2106\,
-            I => \N__2103\
-        );
-
-    \I__195\ : Odrv12
-    port map (
-            O => \N__2103\,
-            I => sdain_i
-        );
-
-    \I__194\ : DummyBuf
-    port map (
-            O => \N__2100\,
-            I => \N__2097\
-        );
-
-    \I__193\ : InMux
-    port map (
-            O => \N__2097\,
-            I => \N__2094\
-        );
-
-    \I__192\ : LocalMux
-    port map (
-            O => \N__2094\,
-            I => \N__2091\
-        );
-
-    \I__191\ : Span4Mux_s2_v
-    port map (
-            O => \N__2091\,
-            I => \N__2088\
-        );
-
-    \I__190\ : Sp12to4
-    port map (
-            O => \N__2088\,
-            I => \N__2085\
-        );
-
-    \I__189\ : Span12Mux_s10_h
-    port map (
-            O => \N__2085\,
-            I => \N__2082\
-        );
-
-    \I__188\ : Odrv12
-    port map (
-            O => \N__2082\,
             I => sclin_i
         );
 
-    \I__187\ : CascadeMux
+    \I__176\ : CascadeMux
     port map (
-            O => \N__2079\,
-            I => \n2965_cascade_\
+            O => \N__2112\,
+            I => \n3355_cascade_\
         );
 
-    \I__186\ : CascadeMux
-    port map (
-            O => \N__2076\,
-            I => \n2870_cascade_\
-        );
-
-    \I__185\ : CascadeMux
-    port map (
-            O => \N__2073\,
-            I => \n6_adj_16_cascade_\
-        );
-
-    \I__184\ : IoInMux
-    port map (
-            O => \N__2070\,
-            I => \N__2067\
-        );
-
-    \I__183\ : LocalMux
-    port map (
-            O => \N__2067\,
-            I => \N__2064\
-        );
-
-    \I__182\ : IoSpan4Mux
-    port map (
-            O => \N__2064\,
-            I => \N__2061\
-        );
-
-    \I__181\ : IoSpan4Mux
-    port map (
-            O => \N__2061\,
-            I => \N__2058\
-        );
-
-    \I__180\ : Span4Mux_s3_v
-    port map (
-            O => \N__2058\,
-            I => \N__2055\
-        );
-
-    \I__179\ : Sp12to4
-    port map (
-            O => \N__2055\,
-            I => \N__2052\
-        );
-
-    \I__178\ : Odrv12
-    port map (
-            O => \N__2052\,
-            I => \N__2049\
-        );
-
-    \I__177\ : DummyBuf
-    port map (
-            O => \N__2049\,
-            I => sdaoe_i
-        );
-
-    \I__176\ : IoInMux
-    port map (
-            O => \N__2046\,
-            I => \N__2043\
-        );
-
-    \I__175\ : LocalMux
-    port map (
-            O => \N__2043\,
-            I => \N__2040\
-        );
-
-    \I__174\ : IoSpan4Mux
-    port map (
-            O => \N__2040\,
-            I => \N__2037\
-        );
-
-    \I__173\ : IoSpan4Mux
-    port map (
-            O => \N__2037\,
-            I => \N__2034\
-        );
-
-    \I__172\ : Sp12to4
-    port map (
-            O => \N__2034\,
-            I => \N__2031\
-        );
-
-    \I__171\ : Span12Mux_s5_v
-    port map (
-            O => \N__2031\,
-            I => \N__2028\
-        );
-
-    \I__170\ : Odrv12
-    port map (
-            O => \N__2028\,
-            I => \N__2025\
-        );
-
-    \I__169\ : DummyBuf
-    port map (
-            O => \N__2025\,
-            I => sdaout_i
-        );
-
-    \IN_MUX_bfv_1_6_0_\ : ICE_CARRY_IN_MUX
+    \IN_MUX_bfv_2_6_0_\ : ICE_CARRY_IN_MUX
     generic map (
             C_INIT => "01"
         )
     port map (
             carryinitin => '0',
-            carryinitout => \bfn_1_6_0_\
+            carryinitout => \bfn_2_6_0_\
         );
 
-    \IN_MUX_bfv_1_7_0_\ : ICE_CARRY_IN_MUX
+    \IN_MUX_bfv_2_7_0_\ : ICE_CARRY_IN_MUX
     generic map (
             C_INIT => "10"
         )
     port map (
-            carryinitin => n2528,
-            carryinitout => \bfn_1_7_0_\
+            carryinitin => n2954,
+            carryinitout => \bfn_2_7_0_\
         );
 
-    \IN_MUX_bfv_1_4_0_\ : ICE_CARRY_IN_MUX
+    \IN_MUX_bfv_0_5_0_\ : ICE_CARRY_IN_MUX
     generic map (
             C_INIT => "01"
         )
     port map (
             carryinitin => '0',
-            carryinitout => \bfn_1_4_0_\
+            carryinitout => \bfn_0_5_0_\
         );
 
     \VCC\ : VCC
@@ -7217,9 +7829,9 @@ begin
             CLKHF_DIV => "0b00"
         )
     port map (
-            CLKHFPU => \N__2212\,
-            CLKHFEN => \N__2211\,
-            CLKHF => n2981
+            CLKHFPU => \N__2433\,
+            CLKHFEN => \N__2432\,
+            CLKHF => n3456
         );
 
     \RGB_DRV\ : SB_RGBA_DRV
@@ -7230,13 +7842,13 @@ begin
             RGB1_CURRENT => "0b000111"
         )
     port map (
-            RGBLEDEN => \N__2210\,
-            RGB2PWM => \N__2133\,
+            RGBLEDEN => \N__2438\,
+            RGB2PWM => \N__2751\,
             RGB1 => \LED_G_wire\,
-            CURREN => \N__2220\,
+            CURREN => \N__2445\,
             RGB2 => \LED_B_wire\,
-            RGB1PWM => \N__2274\,
-            RGB0PWM => \N__2262\,
+            RGB1PWM => \N__2244\,
+            RGB0PWM => \N__2256\,
             RGB0 => \LED_R_wire\
         );
 
@@ -7247,55 +7859,55 @@ begin
     port map (
             MRDCMPL => OPEN,
             DATO4 => \hard0_SBDATo_4\,
-            WEI => \N__3564\,
+            WEI => \N__3489\,
             DATI3 => '0',
             TXFIFOAEMPTY => OPEN,
             DATO6 => \hard0_SBDATo_6\,
             DATO1 => \hard0_SBDATo_1\,
             DATI1 => '0',
             SDAOE => sdaoe_i,
-            SDAI => \N__2118\,
+            SDAI => \N__2151\,
             SCLOE => OPEN,
             DATO8 => OPEN,
             DATO0 => \hard0_SBDATo_0\,
             DATI8 => '0',
             DATI0 => '0',
-            ADRI2 => \N__3522\,
+            ADRI2 => \N__4233\,
             TXFIFOFULL => OPEN,
             TXFIFOEMPTY => OPEN,
-            STBI => \N__3765\,
+            STBI => \N__3699\,
             RXFIFOFULL => OPEN,
             DATO3 => \hard0_SBDATo_3\,
-            DATI7 => \N__3804\,
-            ADRI1 => \N__3840\,
+            DATI7 => \N__2472\,
+            ADRI1 => \N__3924\,
             ACKO => \hard0_SBACKo\,
             SDAO => sdaout_i,
             I2CWKUP => OPEN,
             I2CIRQ => OPEN,
             DATO2 => \hard0_SBDATo_2\,
             DATI6 => '0',
-            CLKI => \N__3596\,
-            ADRI0 => \N__3546\,
+            CLKI => \N__3464\,
+            ADRI0 => \N__3663\,
             RXFIFOAFULL => OPEN,
             FIFORST => '0',
             DATO5 => \hard0_SBDATo_5\,
             DATI5 => '0',
-            SCLI => \N__2100\,
-            DATI4 => \N__3687\,
+            SCLI => \N__2133\,
+            DATI4 => \N__3432\,
             DATO7 => \hard0_SBDATo_7\,
             SCLO => OPEN,
-            DATI2 => \N__3657\,
+            DATI2 => \N__3735\,
             SRWO => OPEN,
             RXFIFOEMPTY => OPEN,
             DATO9 => OPEN,
             DATI9 => '0',
-            CSI => \N__2213\,
-            ADRI3 => \N__3621\
+            CSI => \N__2434\,
+            ADRI3 => \N__3513\
         );
 
     \sysclk_GB\ : ICE_GB
     port map (
-            USERSIGNALTOGLOBALBUFFER => \N__3579\,
+            USERSIGNALTOGLOBALBUFFER => \N__3447\,
             GLOBALBUFFEROUTPUT => sysclk
         );
 
@@ -7304,19 +7916,19 @@ begin
             Y => \_gnd_net_\
         );
 
-    \PWM_cnt_7__I_0_i9_2_lut_rep_47_LC_0_4_0\ : LogicCell40
+    \i2356_4_lut_LC_0_4_0\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0011001111001100"
+            LUT_INIT => "0011001100110001"
         )
     port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2700\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2719\,
-            lcout => OPEN,
-            ltout => \n2965_cascade_\,
+            in0 => \N__2352\,
+            in1 => \N__2265\,
+            in2 => \N__2391\,
+            in3 => \N__2451\,
+            lcout => n3355,
+            ltout => \n3355_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -7324,78 +7936,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1882_4_lut_LC_0_4_1\ : LogicCell40
+    \i2343_2_lut_3_lut_LC_0_4_1\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0000000000001001"
+            LUT_INIT => "1010000001010000"
         )
     port map (
-            in0 => \N__2777\,
-            in1 => \N__2421\,
-            in2 => \N__2079\,
-            in3 => \N__2154\,
-            lcout => OPEN,
-            ltout => \n2870_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1893_4_lut_LC_0_4_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0000000000000001"
-        )
-    port map (
-            in0 => \N__2148\,
-            in1 => \N__3015\,
-            in2 => \N__2076\,
-            in3 => \N__3384\,
-            lcout => n2881,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \PWM_cnt_7__I_0_i6_3_lut_3_lut_LC_0_4_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1010111100001010"
-        )
-    port map (
-            in0 => \N__2735\,
+            in0 => \N__2581\,
             in1 => \_gnd_net_\,
-            in2 => \N__2760\,
-            in3 => \N__2420\,
-            lcout => OPEN,
-            ltout => \n6_adj_16_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \PWM_cnt_7__I_0_i8_3_lut_3_lut_LC_0_4_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100000011111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2720\,
-            in2 => \N__2073\,
-            in3 => \N__2701\,
-            lcout => n8,
+            in2 => \N__2112\,
+            in3 => \N__2556\,
+            lcout => n3342,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -7404,267 +7956,447 @@ begin
             sr => \_gnd_net_\
         );
 
-    \PWM_cnt_7__I_0_i4_4_lut_4_lut_LC_0_4_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0000100011001110"
-        )
-    port map (
-            in0 => \N__2994\,
-            in1 => \N__2940\,
-            in2 => \N__2963\,
-            in3 => \N__2981\,
-            lcout => n4_adj_15,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \LessThan_8_i7_2_lut_rep_49_LC_0_4_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0011001111001100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2734\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2754\,
-            lcout => n2967,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \PWM_cnt_7__I_0_i11_2_lut_rep_48_LC_0_4_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0011001111001100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3032\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2876\,
-            lcout => n2966,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \drv_cnt_i0_i1_LC_0_5_0\ : LogicCell40
+    \PWM_duty_i0_i6_LC_0_4_2\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "1000",
-            LUT_INIT => "0100010001100110"
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2703\,
+            lcout => \PWM_duty_6\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4991\,
+            ce => \N__4019\,
+            sr => \_gnd_net_\
+        );
+
+    \LessThan_8_i10_3_lut_3_lut_LC_0_4_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1101110101000100"
         )
     port map (
             in0 => \N__2580\,
-            in1 => \N__2543\,
+            in1 => \N__2555\,
             in2 => \_gnd_net_\,
-            in3 => \N__2514\,
-            lcout => drv_cnt_1,
+            in3 => \N__2648\,
+            lcout => OPEN,
+            ltout => \n10_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \LessThan_8_i12_3_lut_3_lut_LC_0_4_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111010101010000"
+        )
+    port map (
+            in0 => \N__3238\,
+            in1 => \_gnd_net_\,
+            in2 => \N__2232\,
+            in3 => \N__3196\,
+            lcout => OPEN,
+            ltout => \n12_adj_7_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \LessThan_8_i14_4_lut_LC_0_4_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111001011010000"
+        )
+    port map (
+            in0 => \N__2274\,
+            in1 => \N__2483\,
+            in2 => \N__2229\,
+            in3 => \N__2490\,
+            lcout => OPEN,
+            ltout => \n14_adj_8_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \LessThan_8_i16_4_lut_LC_0_4_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111010010110000"
+        )
+    port map (
+            in0 => \N__2484\,
+            in1 => \N__2226\,
+            in2 => \N__2220\,
+            in3 => \N__2379\,
+            lcout => OPEN,
+            ltout => \n104_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_3_lut_LC_0_4_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0111001101110011"
+        )
+    port map (
+            in0 => \N__2682\,
+            in1 => \N__3819\,
+            in2 => \N__2217\,
+            in3 => \_gnd_net_\,
+            lcout => n2810,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
-            clk => \N__4256\,
-            ce => \N__2598\,
-            sr => \_gnd_net_\
-        );
-
-    \i1_2_lut_3_lut_adj_11_LC_0_6_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1000100000000000"
-        )
-    port map (
-            in0 => \N__3346\,
-            in1 => \N__3145\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3127\,
-            lcout => OPEN,
-            ltout => \n2811_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
             clk => \_gnd_net_\,
             ce => 'H',
             sr => \_gnd_net_\
         );
 
-    \i2_4_lut_adj_6_LC_0_6_1\ : LogicCell40
+    \PWM_cnt__i0_LC_0_5_0\ : LogicCell40
     generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100100000000000"
-        )
-    port map (
-            in0 => \N__3364\,
-            in1 => \N__3295\,
-            in2 => \N__2142\,
-            in3 => \N__3272\,
-            lcout => OPEN,
-            ltout => \n2821_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1846_4_lut_LC_0_6_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111010101010"
-        )
-    port map (
-            in0 => \N__3210\,
-            in1 => \N__3313\,
-            in2 => \N__2139\,
-            in3 => \N__3184\,
-            lcout => n105,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_2_lut_LC_0_6_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100110000000000"
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
         )
     port map (
             in0 => \_gnd_net_\,
-            in1 => \N__2672\,
+            in1 => \N__2505\,
             in2 => \_gnd_net_\,
-            in3 => \N__2657\,
-            lcout => n2819,
+            in3 => \N__2214\,
+            lcout => \PWM_cnt_0\,
+            ltout => OPEN,
+            carryin => \bfn_0_5_0_\,
+            carryout => n2940,
+            clk => \N__4993\,
+            ce => \N__2526\,
+            sr => \N__2283\
+        );
+
+    \PWM_cnt__i1_LC_0_5_1\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2520\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2211\,
+            lcout => \PWM_cnt_1\,
+            ltout => OPEN,
+            carryin => n2940,
+            carryout => n2941,
+            clk => \N__4993\,
+            ce => \N__2526\,
+            sr => \N__2283\
+        );
+
+    \PWM_cnt__i2_LC_0_5_2\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2372\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2208\,
+            lcout => \PWM_cnt_2\,
+            ltout => OPEN,
+            carryin => n2941,
+            carryout => n2942,
+            clk => \N__4993\,
+            ce => \N__2526\,
+            sr => \N__2283\
+        );
+
+    \PWM_cnt__i3_LC_0_5_3\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2340\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2205\,
+            lcout => \PWM_cnt_3\,
+            ltout => OPEN,
+            carryin => n2942,
+            carryout => n2943,
+            clk => \N__4993\,
+            ce => \N__2526\,
+            sr => \N__2283\
+        );
+
+    \PWM_cnt__i4_LC_0_5_4\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2314\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2202\,
+            lcout => \PWM_cnt_4\,
+            ltout => OPEN,
+            carryin => n2943,
+            carryout => n2944,
+            clk => \N__4993\,
+            ce => \N__2526\,
+            sr => \N__2283\
+        );
+
+    \PWM_cnt__i5_LC_0_5_5\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2649\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2292\,
+            lcout => \PWM_cnt_5\,
+            ltout => OPEN,
+            carryin => n2944,
+            carryout => n2945,
+            clk => \N__4993\,
+            ce => \N__2526\,
+            sr => \N__2283\
+        );
+
+    \PWM_cnt__i6_LC_0_5_6\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2559\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2289\,
+            lcout => \PWM_cnt_6\,
+            ltout => OPEN,
+            carryin => n2945,
+            carryout => n2946,
+            clk => \N__4993\,
+            ce => \N__2526\,
+            sr => \N__2283\
+        );
+
+    \PWM_cnt__i7_LC_0_5_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3197\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2286\,
+            lcout => \PWM_cnt_7\,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
+            clk => \N__4993\,
+            ce => \N__2526\,
+            sr => \N__2283\
         );
 
-    \i1926_2_lut_LC_0_6_4\ : LogicCell40
+    \i2345_2_lut_2_lut_3_lut_4_lut_LC_0_6_0\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1111111101010101"
+            LUT_INIT => "1000010000100001"
         )
     port map (
-            in0 => \N__3258\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3461\,
-            lcout => n1_adj_12,
-            ltout => \n1_adj_12_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \PWM_B_142_LC_0_6_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0000011100000000"
-        )
-    port map (
-            in0 => \N__2574\,
-            in1 => \N__2551\,
-            in2 => \N__2136\,
-            in3 => \N__2515\,
-            lcout => \PWM_B\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4258\,
-            ce => \N__2250\,
-            sr => \_gnd_net_\
-        );
-
-    \i2_3_lut_adj_8_LC_0_6_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111110111011"
-        )
-    port map (
-            in0 => \N__3460\,
-            in1 => \N__3257\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2615\,
-            lcout => n1815,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \PWM_G_143_LC_0_7_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0001000111001100"
-        )
-    port map (
-            in0 => \N__2552\,
-            in1 => \N__2584\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2516\,
-            lcout => \PWM_G\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4260\,
-            ce => \N__2246\,
-            sr => \N__2226\
-        );
-
-    \PWM_R_144_LC_0_7_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0000010111110000"
-        )
-    port map (
-            in0 => \N__2517\,
-            in1 => \_gnd_net_\,
+            in0 => \N__2558\,
+            in1 => \N__2618\,
             in2 => \N__2589\,
-            in3 => \N__2553\,
+            in3 => \N__2646\,
+            lcout => n3344,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \PWM_duty_i0_i5_LC_0_6_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2715\,
+            lcout => \PWM_duty_5\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4995\,
+            ce => \N__4023\,
+            sr => \_gnd_net_\
+        );
+
+    \PWM_cnt_7__I_0_i11_2_lut_rep_52_LC_0_6_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0011001111001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2617\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2645\,
+            lcout => n3442,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \PWM_R_158_LC_0_7_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "0011001100001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3018\,
+            in2 => \N__3135\,
+            in3 => \N__2967\,
             lcout => \PWM_R\,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
-            clk => \N__4260\,
-            ce => \N__2246\,
-            sr => \N__2226\
+            clk => \N__4997\,
+            ce => \N__2736\,
+            sr => \N__3078\
         );
 
-    \CONSTANT_ONE_LUT4_LC_0_10_3\ : LogicCell40
+    \PWM_G_157_LC_0_7_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "0010001001100110"
+        )
+    port map (
+            in0 => \N__2966\,
+            in1 => \N__3130\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3023\,
+            lcout => \PWM_G\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4997\,
+            ce => \N__2736\,
+            sr => \N__3078\
+        );
+
+    \i25_3_lut_4_lut_LC_1_2_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0001000111110000"
+        )
+    port map (
+            in0 => \N__4849\,
+            in1 => \N__5295\,
+            in2 => \N__2471\,
+            in3 => \N__5148\,
+            lcout => OPEN,
+            ltout => \n12_adj_16_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \hard_SBDATi_i7_LC_1_2_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1000100011111000"
+        )
+    port map (
+            in0 => \N__5296\,
+            in1 => \N__2467\,
+            in2 => \N__2475\,
+            in3 => \N__3711\,
+            lcout => \hard_SBDATi_7\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4986\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \PWM_cnt_7__I_0_i9_2_lut_rep_58_LC_1_3_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0011001111001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2800\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2315\,
+            lcout => n3448,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \CONSTANT_ONE_LUT4_LC_1_3_2\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
@@ -7684,727 +8416,7 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i2c_cmd_0___i10_LC_1_1_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2348\,
-            lcout => i2c_cmd_1_1,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4248\,
-            ce => \N__4353\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i11_LC_1_1_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4156\,
-            lcout => i2c_cmd_1_2,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4248\,
-            ce => \N__4353\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i12_LC_1_1_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2333\,
-            lcout => i2c_cmd_1_3,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4248\,
-            ce => \N__4353\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i13_LC_1_1_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2318\,
-            lcout => i2c_cmd_1_4,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4248\,
-            ce => \N__4353\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i14_LC_1_1_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2303\,
-            lcout => i2c_cmd_1_5,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4248\,
-            ce => \N__4353\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i15_LC_1_1_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4009\,
-            lcout => i2c_cmd_1_6,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4248\,
-            ce => \N__4353\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i16_LC_1_1_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2288\,
-            lcout => i2c_cmd_1_7,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4248\,
-            ce => \N__4353\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i9_LC_1_1_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2363\,
-            lcout => i2c_cmd_1_0,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4248\,
-            ce => \N__4353\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i1_LC_1_2_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2364\,
-            lcout => i2c_cmd_0_0,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4251\,
-            ce => \N__3885\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i2_LC_1_2_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2349\,
-            lcout => i2c_cmd_0_1,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4251\,
-            ce => \N__3885\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i4_LC_1_2_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2334\,
-            lcout => i2c_cmd_0_3,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4251\,
-            ce => \N__3885\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i5_LC_1_2_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2319\,
-            lcout => i2c_cmd_0_4,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4251\,
-            ce => \N__3885\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i6_LC_1_2_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2304\,
-            lcout => i2c_cmd_0_5,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4251\,
-            ce => \N__3885\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i7_LC_1_2_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4010\,
-            lcout => i2c_cmd_0_6,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4251\,
-            ce => \N__3885\,
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i8_LC_1_2_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2289\,
-            lcout => i2c_cmd_0_7,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4251\,
-            ce => \N__3885\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_duty_i0_LC_1_3_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2448\,
-            lcout => \PWM_duty_0\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4253\,
-            ce => \N__3042\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_duty_i1_LC_1_3_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100110011001100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2439\,
-            in2 => \_gnd_net_\,
-            in3 => \_gnd_net_\,
-            lcout => \PWM_duty_1\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4253\,
-            ce => \N__3042\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_duty_i2_LC_1_3_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2430\,
-            lcout => \PWM_duty_2\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4253\,
-            ce => \N__3042\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_duty_i5_LC_1_3_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2412\,
-            lcout => \PWM_duty_5\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4253\,
-            ce => \N__3042\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_duty_i6_LC_1_3_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1010101010101010"
-        )
-    port map (
-            in0 => \N__2403\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \_gnd_net_\,
-            lcout => \PWM_duty_6\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4253\,
-            ce => \N__3042\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_duty_i7_LC_1_3_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2394\,
-            lcout => \PWM_duty_7\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4253\,
-            ce => \N__3042\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_duty_i4_LC_1_3_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2385\,
-            lcout => \PWM_duty_4\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4253\,
-            ce => \N__3042\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_duty_i3_LC_1_3_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2376\,
-            lcout => \PWM_duty_3\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4253\,
-            ce => \N__3042\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_cnt__i0_LC_1_4_0\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2962\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2367\,
-            lcout => \PWM_cnt_0\,
-            ltout => OPEN,
-            carryin => \bfn_1_4_0_\,
-            carryout => n2514,
-            clk => \N__4254\,
-            ce => \N__2457\,
-            sr => \N__3435\
-        );
-
-    \PWM_cnt__i1_LC_1_4_1\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2982\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2478\,
-            lcout => \PWM_cnt_1\,
-            ltout => OPEN,
-            carryin => n2514,
-            carryout => n2515,
-            clk => \N__4254\,
-            ce => \N__2457\,
-            sr => \N__3435\
-        );
-
-    \PWM_cnt__i2_LC_1_4_2\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2778\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2475\,
-            lcout => \PWM_cnt_2\,
-            ltout => OPEN,
-            carryin => n2515,
-            carryout => n2516,
-            clk => \N__4254\,
-            ce => \N__2457\,
-            sr => \N__3435\
-        );
-
-    \PWM_cnt__i3_LC_1_4_3\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2759\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2472\,
-            lcout => \PWM_cnt_3\,
-            ltout => OPEN,
-            carryin => n2516,
-            carryout => n2517,
-            clk => \N__4254\,
-            ce => \N__2457\,
-            sr => \N__3435\
-        );
-
-    \PWM_cnt__i4_LC_1_4_4\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2703\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2469\,
-            lcout => \PWM_cnt_4\,
-            ltout => OPEN,
-            carryin => n2517,
-            carryout => n2518,
-            clk => \N__4254\,
-            ce => \N__2457\,
-            sr => \N__3435\
-        );
-
-    \PWM_cnt__i5_LC_1_4_5\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2877\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2466\,
-            lcout => \PWM_cnt_5\,
-            ltout => OPEN,
-            carryin => n2518,
-            carryout => n2519,
-            clk => \N__4254\,
-            ce => \N__2457\,
-            sr => \N__3435\
-        );
-
-    \PWM_cnt__i6_LC_1_4_6\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2901\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2463\,
-            lcout => \PWM_cnt_6\,
-            ltout => OPEN,
-            carryin => n2519,
-            carryout => n2520,
-            clk => \N__4254\,
-            ce => \N__2457\,
-            sr => \N__3435\
-        );
-
-    \PWM_cnt__i7_LC_1_4_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3408\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2460\,
-            lcout => \PWM_cnt_7\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4254\,
-            ce => \N__2457\,
-            sr => \N__3435\
-        );
-
-    \i1921_2_lut_LC_1_5_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0101010111111111"
-        )
-    port map (
-            in0 => \N__3463\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3260\,
-            lcout => n1831,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \drv_cnt_i0_i0_LC_1_5_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100110001101100"
-        )
-    port map (
-            in0 => \N__3261\,
-            in1 => \N__2545\,
-            in2 => \N__2616\,
-            in3 => \N__3464\,
-            lcout => drv_cnt_0,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4255\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \PWM_cnt_7__I_0_i12_3_lut_3_lut_LC_1_5_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111001100110000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3407\,
-            in2 => \N__2793\,
-            in3 => \N__3426\,
-            lcout => OPEN,
-            ltout => \n12_adj_11_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \PWM_cnt_7__I_0_i14_3_lut_LC_1_5_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111110000110000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3003\,
-            in2 => \N__2634\,
-            in3 => \N__2631\,
-            lcout => OPEN,
-            ltout => \n14_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1049_3_lut_LC_1_5_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100110011110000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2625\,
-            in2 => \N__2619\,
-            in3 => \N__3488\,
-            lcout => n2012,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \LessThan_8_i13_2_lut_rep_50_LC_1_5_5\ : LogicCell40
+    \LessThan_8_i7_2_lut_rep_51_LC_1_3_4\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
@@ -8412,10 +8424,10 @@ begin
         )
     port map (
             in0 => \_gnd_net_\,
-            in1 => \N__2922\,
+            in1 => \N__2821\,
             in2 => \_gnd_net_\,
-            in3 => \N__2898\,
-            lcout => n2968,
+            in3 => \N__2341\,
+            lcout => n3441,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -8424,399 +8436,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i2_3_lut_rep_37_LC_1_5_6\ : LogicCell40
+    \LessThan_8_i6_3_lut_3_lut_LC_1_3_5\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0100010000000000"
+            LUT_INIT => "1111010101010000"
         )
     port map (
-            in0 => \N__3462\,
-            in1 => \N__3259\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2611\,
-            lcout => n2955,
-            ltout => \n2955_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \drv_cnt_i0_i2_LC_1_5_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0101111110000000"
-        )
-    port map (
-            in0 => \N__2588\,
-            in1 => \N__2544\,
-            in2 => \N__2520\,
-            in3 => \N__2508\,
-            lcout => drv_cnt_2,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4255\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \drv_clk_counter_526__i0_LC_1_6_0\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3329\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2487\,
-            lcout => drv_clk_counter_0,
-            ltout => OPEN,
-            carryin => \bfn_1_6_0_\,
-            carryout => n2521,
-            clk => \N__4257\,
-            ce => 'H',
-            sr => \N__3164\
-        );
-
-    \drv_clk_counter_526__i1_LC_1_6_1\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3348\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2484\,
-            lcout => drv_clk_counter_1,
-            ltout => OPEN,
-            carryin => n2521,
-            carryout => n2522,
-            clk => \N__4257\,
-            ce => 'H',
-            sr => \N__3164\
-        );
-
-    \drv_clk_counter_526__i2_LC_1_6_2\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3147\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2481\,
-            lcout => drv_clk_counter_2,
-            ltout => OPEN,
-            carryin => n2522,
-            carryout => n2523,
-            clk => \N__4257\,
-            ce => 'H',
-            sr => \N__3164\
-        );
-
-    \drv_clk_counter_526__i3_LC_1_6_3\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3129\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2682\,
-            lcout => drv_clk_counter_3,
-            ltout => OPEN,
-            carryin => n2523,
-            carryout => n2524,
-            clk => \N__4257\,
-            ce => 'H',
-            sr => \N__3164\
-        );
-
-    \drv_clk_counter_526__i4_LC_1_6_4\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3366\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2679\,
-            lcout => drv_clk_counter_4,
-            ltout => OPEN,
-            carryin => n2524,
-            carryout => n2525,
-            clk => \N__4257\,
-            ce => 'H',
-            sr => \N__3164\
-        );
-
-    \drv_clk_counter_526__i5_LC_1_6_5\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3297\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2676\,
-            lcout => drv_clk_counter_5,
-            ltout => OPEN,
-            carryin => n2525,
-            carryout => n2526,
-            clk => \N__4257\,
-            ce => 'H',
-            sr => \N__3164\
-        );
-
-    \drv_clk_counter_526__i6_LC_1_6_6\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2673\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2661\,
-            lcout => drv_clk_counter_6,
-            ltout => OPEN,
-            carryin => n2526,
-            carryout => n2527,
-            clk => \N__4257\,
-            ce => 'H',
-            sr => \N__3164\
-        );
-
-    \drv_clk_counter_526__i7_LC_1_6_7\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2658\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2646\,
-            lcout => drv_clk_counter_7,
-            ltout => OPEN,
-            carryin => n2527,
-            carryout => n2528,
-            clk => \N__4257\,
-            ce => 'H',
-            sr => \N__3164\
-        );
-
-    \drv_clk_counter_526__i8_LC_1_7_0\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3315\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2643\,
-            lcout => drv_clk_counter_8,
-            ltout => OPEN,
-            carryin => \bfn_1_7_0_\,
-            carryout => n2529,
-            clk => \N__4259\,
-            ce => 'H',
-            sr => \N__3168\
-        );
-
-    \drv_clk_counter_526__i9_LC_1_7_1\ : LogicCell40
-    generic map (
-            C_ON => '1',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3186\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2640\,
-            lcout => drv_clk_counter_9,
-            ltout => OPEN,
-            carryin => n2529,
-            carryout => n2530,
-            clk => \N__4259\,
-            ce => 'H',
-            sr => \N__3168\
-        );
-
-    \drv_clk_counter_526__i10_LC_1_7_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1100001100111100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3209\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2637\,
-            lcout => drv_clk_counter_10,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4259\,
-            ce => 'H',
-            sr => \N__3168\
-        );
-
-    \i1852_2_lut_LC_2_2_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111001100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2822\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2810\,
-            lcout => OPEN,
-            ltout => \n2838_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1871_4_lut_LC_2_2_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111111110"
-        )
-    port map (
-            in0 => \N__2835\,
-            in1 => \N__2844\,
-            in2 => \N__2847\,
-            in3 => \N__2802\,
-            lcout => n2858,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_2_lut_adj_21_LC_2_2_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111001100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2843\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2801\,
-            lcout => OPEN,
-            ltout => \n6_adj_8_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i4_4_lut_LC_2_2_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111111110"
-        )
-    port map (
-            in0 => \N__2834\,
-            in1 => \N__2823\,
-            in2 => \N__2814\,
-            in3 => \N__2811\,
-            lcout => n2247,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_0___i3_LC_2_2_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
+            in0 => \N__2822\,
             in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4160\,
-            lcout => i2c_cmd_0_2,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4249\,
-            ce => \N__3881\,
-            sr => \_gnd_net_\
-        );
-
-    \PWM_cnt_7__I_0_i10_3_lut_3_lut_LC_2_3_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1101110101000100"
-        )
-    port map (
-            in0 => \N__2899\,
-            in1 => \N__2920\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3031\,
-            lcout => n10_adj_2,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i30_4_lut_3_lut_LC_2_3_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0001000101100110"
-        )
-    port map (
-            in0 => \N__3058\,
-            in1 => \N__3091\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3077\,
+            in2 => \N__2346\,
+            in3 => \N__2373\,
             lcout => OPEN,
-            ltout => \n17_adj_18_cascade_\,
+            ltout => \n6_adj_1_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -8824,47 +8456,7 @@ begin
             sr => \_gnd_net_\
         );
 
-    \cmd_decoded_156_LC_2_3_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1101110000010000"
-        )
-    port map (
-            in0 => \N__3105\,
-            in1 => \N__4073\,
-            in2 => \N__2781\,
-            in3 => \N__4338\,
-            lcout => cmd_decoded,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4252\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \LessThan_8_i6_3_lut_3_lut_LC_2_3_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1000100011101110"
-        )
-    port map (
-            in0 => \N__2776\,
-            in1 => \N__2758\,
-            in2 => \_gnd_net_\,
-            in3 => \N__2736\,
-            lcout => OPEN,
-            ltout => \n6_adj_5_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \LessThan_8_i8_3_lut_3_lut_LC_2_3_4\ : LogicCell40
+    \LessThan_8_i8_3_lut_3_lut_LC_1_3_6\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
@@ -8872,9 +8464,69 @@ begin
         )
     port map (
             in0 => \_gnd_net_\,
-            in1 => \N__2721\,
-            in2 => \N__2706\,
-            in3 => \N__2702\,
+            in1 => \N__2801\,
+            in2 => \N__2382\,
+            in3 => \N__2316\,
+            lcout => n8,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2333_2_lut_LC_1_4_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1100110000110011"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2840\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2368\,
+            lcout => n3332,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \PWM_cnt_7__I_0_i6_3_lut_3_lut_LC_1_4_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1101110101000100"
+        )
+    port map (
+            in0 => \N__2345\,
+            in1 => \N__2826\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2841\,
+            lcout => OPEN,
+            ltout => \n6_adj_9_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \PWM_cnt_7__I_0_i8_3_lut_3_lut_LC_1_4_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1100000011111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2802\,
+            in2 => \N__2319\,
+            in3 => \N__2313\,
             lcout => n8_adj_10,
             ltout => OPEN,
             carryin => \_gnd_net_\,
@@ -8884,139 +8536,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1286_2_lut_LC_2_3_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111001100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3076\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3104\,
-            lcout => OPEN,
-            ltout => \n2250_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \motor_on_158_LC_2_3_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1010101110100010"
-        )
-    port map (
-            in0 => \N__3243\,
-            in1 => \N__3062\,
-            in2 => \N__3096\,
-            in3 => \N__3093\,
-            lcout => motor_on,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4252\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i3_4_lut_LC_2_3_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0000000000000100"
-        )
-    port map (
-            in0 => \N__3092\,
-            in1 => \N__3078\,
-            in2 => \N__3063\,
-            in3 => \N__3048\,
-            lcout => n1778,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1895_3_lut_3_lut_4_lut_LC_2_4_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0000000000001001"
-        )
-    port map (
-            in0 => \N__2875\,
-            in1 => \N__3033\,
-            in2 => \N__3383\,
-            in3 => \N__3014\,
-            lcout => n2883,
-            ltout => \n2883_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \LessThan_8_i14_3_lut_LC_2_4_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100111111000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__2928\,
-            in2 => \N__2997\,
-            in3 => \N__2853\,
-            lcout => n14_adj_14,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \LessThan_8_i4_4_lut_4_lut_LC_2_4_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0100000011011100"
-        )
-    port map (
-            in0 => \N__2993\,
-            in1 => \N__2980\,
-            in2 => \N__2964\,
-            in3 => \N__2939\,
-            lcout => n4_adj_17,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \LessThan_8_i10_3_lut_3_lut_LC_2_4_3\ : LogicCell40
+    \PWM_cnt_7__I_0_i10_3_lut_3_lut_LC_1_4_5\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
             LUT_INIT => "1101110101000100"
         )
     port map (
-            in0 => \N__2921\,
-            in1 => \N__2900\,
+            in0 => \N__2647\,
+            in1 => \N__2622\,
             in2 => \_gnd_net_\,
-            in3 => \N__2874\,
+            in3 => \N__2532\,
             lcout => OPEN,
-            ltout => \n10_cascade_\,
+            ltout => \n10_adj_6_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -9024,59 +8556,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \LessThan_8_i12_3_lut_3_lut_LC_2_4_4\ : LogicCell40
+    \PWM_cnt_7__I_0_i12_3_lut_LC_1_4_6\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1111010101010000"
-        )
-    port map (
-            in0 => \N__3422\,
-            in1 => \_gnd_net_\,
-            in2 => \N__2856\,
-            in3 => \N__3406\,
-            lcout => n12_adj_13,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \LessThan_8_i16_3_lut_LC_2_4_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1011101110001000"
-        )
-    port map (
-            in0 => \N__3498\,
-            in1 => \N__3492\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3477\,
-            lcout => OPEN,
-            ltout => \n104_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_3_lut_adj_20_LC_2_4_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0011001111110011"
+            LUT_INIT => "1100110011110000"
         )
     port map (
             in0 => \_gnd_net_\,
-            in1 => \N__3242\,
-            in2 => \N__3471\,
-            in3 => \N__3468\,
-            lcout => n1921,
-            ltout => OPEN,
+            in1 => \N__2604\,
+            in2 => \N__2598\,
+            in3 => \N__2595\,
+            lcout => OPEN,
+            ltout => \n12_adj_11_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -9084,18 +8576,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \LessThan_8_i15_2_lut_rep_51_LC_2_4_7\ : LogicCell40
+    \i1851_3_lut_3_lut_LC_1_4_7\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0011001111001100"
+            LUT_INIT => "0011111100000011"
         )
     port map (
             in0 => \_gnd_net_\,
-            in1 => \N__3421\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3405\,
-            lcout => n2969,
+            in1 => \N__2582\,
+            in2 => \N__2562\,
+            in3 => \N__2557\,
+            lcout => n2828,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -9104,58 +8596,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i2_4_lut_adj_9_LC_2_6_0\ : LogicCell40
+    \i1_2_lut_rep_38_2_lut_4_lut_4_lut_LC_1_5_0\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1010100000000000"
+            LUT_INIT => "0001000000110001"
         )
     port map (
-            in0 => \N__3365\,
-            in1 => \N__3347\,
-            in2 => \N__3330\,
-            in3 => \N__3111\,
-            lcout => OPEN,
-            ltout => \n2810_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2_4_lut_adj_10_LC_2_6_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1010100000000000"
-        )
-    port map (
-            in0 => \N__3314\,
-            in1 => \N__3296\,
-            in2 => \N__3279\,
-            in3 => \N__3276\,
-            lcout => OPEN,
-            ltout => \n2820_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i248_4_lut_LC_2_6_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1101110111010101"
-        )
-    port map (
-            in0 => \N__3249\,
-            in1 => \N__3208\,
-            in2 => \N__3189\,
-            in3 => \N__3185\,
-            lcout => n953,
+            in0 => \N__3202\,
+            in1 => \N__3065\,
+            in2 => \N__3240\,
+            in3 => \N__3164\,
+            lcout => n3428,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -9164,18 +8616,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1_2_lut_rep_45_LC_2_6_3\ : LogicCell40
+    \PWM_cnt_7__I_0_i4_4_lut_4_lut_LC_1_5_1\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1100110000000000"
+            LUT_INIT => "0111010100010000"
         )
     port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3146\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3128\,
-            lcout => n2963,
+            in0 => \N__2518\,
+            in1 => \N__2503\,
+            in2 => \N__2861\,
+            in3 => \N__2774\,
+            lcout => n4_adj_12,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -9184,58 +8636,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1_2_lut_3_lut_adj_12_LC_4_1_0\ : LogicCell40
+    \i2369_2_lut_LC_1_5_2\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1111111111011101"
+            LUT_INIT => "0101010111111111"
         )
     port map (
-            in0 => \N__4703\,
-            in1 => \N__4932\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4482\,
-            lcout => OPEN,
-            ltout => \n2824_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \soft_SBADRi_i3_LC_4_1_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1010111100101111"
-        )
-    port map (
-            in0 => \N__3614\,
-            in1 => \N__3734\,
-            in2 => \N__3624\,
-            in3 => \N__4484\,
-            lcout => \hard_SBADRi_3\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4243\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \GB_BUFFER_n2981_THRU_LUT4_0_LC_4_1_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111100000000"
-        )
-    port map (
-            in0 => \_gnd_net_\,
+            in0 => \N__3822\,
             in1 => \_gnd_net_\,
             in2 => \_gnd_net_\,
-            in3 => \N__3600\,
-            lcout => \GB_BUFFER_n2981_THRU_CO\,
+            in3 => \N__2681\,
+            lcout => n1933,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -9244,557 +8656,17 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i745_2_lut_rep_42_4_lut_LC_4_1_6\ : LogicCell40
+    \LessThan_8_i4_4_lut_4_lut_LC_1_5_3\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0101010101010100"
+            LUT_INIT => "0000100010101110"
         )
     port map (
-            in0 => \N__4483\,
-            in1 => \N__4830\,
-            in2 => \N__4719\,
-            in3 => \N__4596\,
-            lcout => OPEN,
-            ltout => \n2960_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \hard_SBWRi_147_LC_4_1_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0000110001011100"
-        )
-    port map (
-            in0 => \N__4933\,
-            in1 => \N__3560\,
-            in2 => \N__3567\,
-            in3 => \N__4707\,
-            lcout => \hard_SBWRi\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4243\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \soft_SBADRi_i0_LC_4_2_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1010000011101100"
-        )
-    port map (
-            in0 => \N__3630\,
-            in1 => \N__3701\,
-            in2 => \N__3545\,
-            in3 => \N__3866\,
-            lcout => \hard_SBADRi_0\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4246\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1256_2_lut_rep_53_LC_4_2_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111001100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__4700\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4583\,
-            lcout => n2971,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i28_4_lut_LC_4_2_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0011001101010000"
-        )
-    port map (
-            in0 => \N__4585\,
-            in1 => \N__3865\,
-            in2 => \N__3518\,
-            in3 => \N__4832\,
-            lcout => OPEN,
-            ltout => \n12_adj_7_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \soft_SBADRi_i2_LC_4_2_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1000100011111000"
-        )
-    port map (
-            in0 => \N__4481\,
-            in1 => \N__3514\,
-            in2 => \N__3525\,
-            in3 => \N__4702\,
-            lcout => \hard_SBADRi_2\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4246\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i29_3_lut_4_lut_LC_4_2_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0001000111110000"
-        )
-    port map (
-            in0 => \N__4931\,
-            in1 => \N__4478\,
-            in2 => \N__3680\,
-            in3 => \N__4831\,
-            lcout => OPEN,
-            ltout => \n13_adj_6_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \hard_SBDATi_i4_LC_4_2_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1011101000110000"
-        )
-    port map (
-            in0 => \N__4480\,
-            in1 => \N__3702\,
-            in2 => \N__3690\,
-            in3 => \N__3676\,
-            lcout => \hard_SBDATi_4\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4246\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i28_4_lut_4_lut_LC_4_2_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0010001001010000"
-        )
-    port map (
-            in0 => \N__4584\,
-            in1 => \N__3864\,
-            in2 => \N__3650\,
-            in3 => \N__4833\,
-            lcout => OPEN,
-            ltout => \n12_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \hard_SBDATi_i2_LC_4_2_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1000100011111000"
-        )
-    port map (
-            in0 => \N__4479\,
-            in1 => \N__3646\,
-            in2 => \N__3660\,
-            in3 => \N__4701\,
-            lcout => \hard_SBDATi_2\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4246\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1923_2_lut_rep_41_4_lut_LC_4_3_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0000000000000010"
-        )
-    port map (
-            in0 => \N__4426\,
-            in1 => \N__4815\,
-            in2 => \N__4716\,
-            in3 => \N__4594\,
-            lcout => n2959,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_3_lut_4_lut_LC_4_3_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1010101010101011"
-        )
-    port map (
-            in0 => \N__4425\,
-            in1 => \N__4816\,
-            in2 => \N__4717\,
-            in3 => \N__4595\,
-            lcout => n15,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1241_2_lut_rep_54_LC_4_3_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111001100"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__4405\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4879\,
-            lcout => n2972,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_steps_i3_LC_4_4_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1110111011001100"
-        )
-    port map (
-            in0 => \N__4051\,
-            in1 => \N__4470\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4841\,
-            lcout => i2c_steps_3,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4250\,
-            ce => 'H',
-            sr => \N__3924\
-        );
-
-    \i2c_cnt_523_524__i2_LC_5_1_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0000101011110000"
-        )
-    port map (
-            in0 => \N__3944\,
-            in1 => \_gnd_net_\,
-            in2 => \N__3966\,
-            in3 => \N__3894\,
-            lcout => i2c_cnt_1,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4242\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \equal_587_i3_2_lut_rep_56_LC_5_1_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111100110011"
-        )
-    port map (
-            in0 => \_gnd_net_\,
-            in1 => \N__3960\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3942\,
-            lcout => OPEN,
-            ltout => \n2974_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i36_4_lut_LC_5_1_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0001110100001100"
-        )
-    port map (
-            in0 => \N__4808\,
-            in1 => \N__4550\,
-            in2 => \N__3771\,
-            in3 => \N__3981\,
-            lcout => n31,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cnt_523_524__i1_LC_5_1_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0101010100100010"
-        )
-    port map (
-            in0 => \N__3893\,
-            in1 => \N__3961\,
-            in2 => \_gnd_net_\,
-            in3 => \N__3943\,
-            lcout => i2c_cnt_0,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4242\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1279_2_lut_3_lut_LC_5_1_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111101110"
-        )
-    port map (
-            in0 => \N__4809\,
-            in1 => \N__4671\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4552\,
-            lcout => n2243,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2_3_lut_rep_52_LC_5_1_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111101110"
-        )
-    port map (
-            in0 => \N__4810\,
-            in1 => \N__4672\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4551\,
-            lcout => n2970,
-            ltout => \n2970_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \hard_SBSTBi_148_LC_5_1_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1010101000111010"
-        )
-    port map (
-            in0 => \N__3761\,
-            in1 => \N__4934\,
-            in2 => \N__3768\,
-            in3 => \N__4471\,
-            lcout => \hard_SBSTBi\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4242\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_4_lut_adj_13_LC_5_2_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1010101010001010"
-        )
-    port map (
-            in0 => \N__4930\,
-            in1 => \N__3708\,
-            in2 => \N__4718\,
-            in3 => \N__3747\,
-            lcout => OPEN,
-            ltout => \n17_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_4_lut_4_lut_LC_5_2_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0101010111110011"
-        )
-    port map (
-            in0 => \N__3741\,
-            in1 => \N__3735\,
-            in2 => \N__3720\,
-            in3 => \N__4475\,
-            lcout => n1887,
-            ltout => \n1887_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_steps_i2_LC_5_2_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1011110011101100"
-        )
-    port map (
-            in0 => \N__3920\,
-            in1 => \N__4708\,
-            in2 => \N__3717\,
-            in3 => \N__3714\,
-            lcout => i2c_steps_2,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4244\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1240_2_lut_LC_5_2_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1010000010100000"
-        )
-    port map (
-            in0 => \N__4554\,
-            in1 => \_gnd_net_\,
-            in2 => \N__4834\,
-            in3 => \_gnd_net_\,
-            lcout => n1852,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_3_lut_LC_5_2_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100110010001000"
-        )
-    port map (
-            in0 => \N__4959\,
-            in1 => \N__4799\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4553\,
-            lcout => n22_adj_9,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_steps_i1_LC_5_2_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1101111011110000"
-        )
-    port map (
-            in0 => \N__4555\,
-            in1 => \N__3919\,
-            in2 => \N__4835\,
-            in3 => \N__3900\,
-            lcout => i2c_steps_1,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4244\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2_3_lut_adj_17_LC_5_2_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0000000001000100"
-        )
-    port map (
-            in0 => \N__4476\,
-            in1 => \N__4052\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4800\,
+            in0 => \N__2519\,
+            in1 => \N__2504\,
+            in2 => \N__2862\,
+            in3 => \N__2775\,
             lcout => n4,
             ltout => OPEN,
             carryin => \_gnd_net_\,
@@ -9804,18 +8676,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1_2_lut_3_lut_4_lut_LC_5_2_7\ : LogicCell40
+    \PWM_cnt_7__I_0_i15_2_lut_rep_57_LC_1_5_4\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0000000000100000"
+            LUT_INIT => "0011001111001100"
         )
     port map (
-            in0 => \N__4801\,
-            in1 => \N__4941\,
-            in2 => \N__4056\,
-            in3 => \N__4477\,
-            lcout => n1779,
+            in0 => \_gnd_net_\,
+            in1 => \N__3227\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3198\,
+            lcout => n3447,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -9824,19 +8696,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i29_4_lut_4_lut_LC_5_3_0\ : LogicCell40
+    \i2_4_lut_adj_19_LC_1_5_5\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0010001001010000"
+            LUT_INIT => "1010100000000000"
         )
     port map (
-            in0 => \N__4827\,
-            in1 => \N__3867\,
-            in2 => \N__3830\,
-            in3 => \N__4561\,
+            in0 => \N__3303\,
+            in1 => \N__3353\,
+            in2 => \N__2763\,
+            in3 => \N__2661\,
             lcout => OPEN,
-            ltout => \n13_cascade_\,
+            ltout => \n6_adj_13_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -9844,58 +8716,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1_4_lut_adj_14_LC_5_3_1\ : LogicCell40
+    \i1_4_lut_adj_20_LC_1_5_6\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1011101000110000"
+            LUT_INIT => "1101110111010101"
         )
     port map (
-            in0 => \N__3826\,
-            in1 => \N__4670\,
-            in2 => \N__3846\,
-            in3 => \N__4409\,
-            lcout => OPEN,
-            ltout => \n4_adj_19_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \soft_SBADRi_i1_LC_5_3_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111000011110001"
-        )
-    port map (
-            in0 => \N__4023\,
-            in1 => \N__4883\,
-            in2 => \N__3843\,
-            in3 => \N__4563\,
-            lcout => \hard_SBADRi_1\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4247\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_4_lut_LC_5_3_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100110111011100"
-        )
-    port map (
-            in0 => \N__4881\,
-            in1 => \N__4406\,
-            in2 => \N__4842\,
-            in3 => \N__4669\,
-            lcout => n4_adj_1,
+            in0 => \N__3821\,
+            in1 => \N__3561\,
+            in2 => \N__2691\,
+            in3 => \N__3279\,
+            lcout => n985,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -9904,19 +8736,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i29_3_lut_4_lut_adj_1_LC_5_3_4\ : LogicCell40
+    \i2371_2_lut_2_lut_4_lut_4_lut_LC_1_5_7\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0001000111110000"
+            LUT_INIT => "1111010011111101"
         )
     port map (
-            in0 => \N__4407\,
-            in1 => \N__4882\,
-            in2 => \N__3794\,
-            in3 => \N__4562\,
-            lcout => OPEN,
-            ltout => \n13_adj_4_cascade_\,
+            in0 => \N__3165\,
+            in1 => \N__3237\,
+            in2 => \N__3074\,
+            in3 => \N__3203\,
+            lcout => n1968,
+            ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -9924,39 +8756,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \hard_SBDATi_i7_LC_5_3_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1011101000110000"
-        )
-    port map (
-            in0 => \N__3790\,
-            in1 => \N__4029\,
-            in2 => \N__3807\,
-            in3 => \N__4410\,
-            lcout => \hard_SBDATi_7\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4247\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2_3_lut_rep_43_LC_5_3_6\ : LogicCell40
+    \i1_2_lut_3_lut_adj_14_LC_1_6_0\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
             LUT_INIT => "1000100000000000"
         )
     port map (
-            in0 => \N__4668\,
-            in1 => \N__4880\,
+            in0 => \N__2884\,
+            in1 => \N__3388\,
             in2 => \_gnd_net_\,
-            in3 => \N__4560\,
-            lcout => n2961,
-            ltout => \n2961_cascade_\,
+            in3 => \N__3406\,
+            lcout => OPEN,
+            ltout => \n3288_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -9964,19 +8776,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1_2_lut_3_lut_4_lut_adj_4_LC_5_3_7\ : LogicCell40
+    \i2_4_lut_adj_25_LC_1_6_1\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0010000000000000"
+            LUT_INIT => "1010100000000000"
         )
     port map (
-            in0 => \N__4074\,
-            in1 => \N__4408\,
-            in2 => \N__4059\,
-            in3 => \N__4826\,
-            lcout => n2016,
-            ltout => OPEN,
+            in0 => \N__3352\,
+            in1 => \N__3370\,
+            in2 => \N__2688\,
+            in3 => \N__2660\,
+            lcout => OPEN,
+            ltout => \n5_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -9984,19 +8796,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1_2_lut_rep_38_3_lut_LC_5_4_0\ : LogicCell40
+    \i1591_4_lut_LC_1_6_2\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0100010000000000"
+            LUT_INIT => "1111111010101010"
         )
     port map (
-            in0 => \N__4424\,
-            in1 => \N__4050\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4839\,
-            lcout => n2956,
-            ltout => OPEN,
+            in0 => \N__3556\,
+            in1 => \N__3298\,
+            in2 => \N__2685\,
+            in3 => \N__3274\,
+            lcout => n2570,
+            ltout => \n2570_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -10004,138 +8816,38 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1844_2_lut_rep_55_LC_5_4_4\ : LogicCell40
+    \i2366_2_lut_rep_40_LC_1_6_3\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1111111110101010"
-        )
-    port map (
-            in0 => \N__4715\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4840\,
-            lcout => n2973,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_2_lut_rep_44_LC_5_4_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100110011111111"
+            LUT_INIT => "1111000011111111"
         )
     port map (
             in0 => \_gnd_net_\,
-            in1 => \N__4423\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4714\,
-            lcout => n2962,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \mux_55_i7_3_lut_LC_6_1_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100110010101010"
-        )
-    port map (
-            in0 => \N__3983\,
-            in1 => \N__4017\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4929\,
-            lcout => OPEN,
-            ltout => \i2c_stat_7_N_205_6_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_stat_i6_LC_6_1_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0111010100110000"
-        )
-    port map (
-            in0 => \N__4086\,
-            in1 => \N__4101\,
-            in2 => \N__3987\,
-            in3 => \N__3984\,
-            lcout => i2c_stat_6,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4240\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1293_3_lut_4_lut_LC_6_1_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0000101011001010"
-        )
-    port map (
-            in0 => \N__3982\,
-            in1 => \N__3965\,
-            in2 => \N__4582\,
-            in3 => \N__3945\,
-            lcout => n2534,
-            ltout => \n2534_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i58_4_lut_LC_6_1_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1101110110100000"
-        )
-    port map (
-            in0 => \N__4696\,
-            in1 => \N__4960\,
-            in2 => \N__3927\,
-            in3 => \N__4825\,
-            lcout => OPEN,
-            ltout => \n25_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2_3_lut_LC_6_1_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0101000000000000"
-        )
-    port map (
-            in0 => \N__4559\,
             in1 => \_gnd_net_\,
-            in2 => \N__4164\,
-            in3 => \N__4928\,
-            lcout => n26,
+            in2 => \N__2667\,
+            in3 => \N__3820\,
+            lcout => n3430,
+            ltout => \n3430_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_3_lut_rep_37_4_lut_4_lut_LC_1_6_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0011001100110111"
+        )
+    port map (
+            in0 => \N__3115\,
+            in1 => \N__3029\,
+            in2 => \N__2664\,
+            in3 => \N__3150\,
+            lcout => n3427,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -10144,178 +8856,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \mux_55_i3_3_lut_LC_6_2_0\ : LogicCell40
+    \i1_2_lut_adj_24_LC_1_6_5\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1011101110001000"
-        )
-    port map (
-            in0 => \N__4161\,
-            in1 => \N__4926\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4961\,
-            lcout => \i2c_stat_7_N_205_2\,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1863_4_lut_LC_6_2_1\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111101100"
-        )
-    port map (
-            in0 => \N__4580\,
-            in1 => \N__4712\,
-            in2 => \N__4935\,
-            in3 => \N__4828\,
-            lcout => n2850,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2_3_lut_adj_7_LC_6_2_2\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "0000000000100010"
-        )
-    port map (
-            in0 => \N__4710\,
-            in1 => \N__4473\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4579\,
-            lcout => n20,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i60_3_lut_LC_6_2_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1010101011001100"
-        )
-    port map (
-            in0 => \N__4922\,
-            in1 => \N__4134\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4829\,
-            lcout => OPEN,
-            ltout => \n2840_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_4_lut_adj_2_LC_6_2_4\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1100111000000000"
-        )
-    port map (
-            in0 => \N__4713\,
-            in1 => \N__4128\,
-            in2 => \N__4119\,
-            in3 => \N__4581\,
-            lcout => OPEN,
-            ltout => \n29_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_steps_i0_LC_6_2_5\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "1111010111110001"
-        )
-    port map (
-            in0 => \N__4474\,
-            in1 => \N__4116\,
-            in2 => \N__4110\,
-            in3 => \N__4107\,
-            lcout => i2c_steps_0,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4241\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_2_lut_rep_40_3_lut_LC_6_2_6\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111011101"
-        )
-    port map (
-            in0 => \N__4711\,
-            in1 => \N__4472\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4578\,
-            lcout => n2958,
-            ltout => \n2958_cascade_\,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_stat_i2_LC_6_2_7\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "1000",
-            LUT_INIT => "0000110010101110"
-        )
-    port map (
-            in0 => \N__4962\,
-            in1 => \N__4095\,
-            in2 => \N__4089\,
-            in3 => \N__4085\,
-            lcout => i2c_stat_2,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \N__4241\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i1_2_lut_rep_46_LC_6_3_0\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111001100"
+            LUT_INIT => "1100110000000000"
         )
     port map (
             in0 => \_gnd_net_\,
-            in1 => \N__4319\,
+            in1 => \N__3317\,
             in2 => \_gnd_net_\,
-            in3 => \N__4294\,
-            lcout => n2964,
+            in3 => \N__3332\,
+            lcout => n42,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -10324,19 +8876,19 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1_2_lut_rep_39_4_lut_LC_6_3_1\ : LogicCell40
+    \i1_2_lut_rep_55_LC_1_6_6\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "1000000000000000"
+            LUT_INIT => "1100110000000000"
         )
     port map (
-            in0 => \N__4927\,
-            in1 => \N__4811\,
-            in2 => \N__4709\,
-            in3 => \N__4564\,
+            in0 => \_gnd_net_\,
+            in1 => \N__3389\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3407\,
             lcout => OPEN,
-            ltout => \n2957_cascade_\,
+            ltout => \n3445_cascade_\,
             carryin => \_gnd_net_\,
             carryout => OPEN,
             clk => \_gnd_net_\,
@@ -10344,18 +8896,18 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i1_3_lut_4_lut_adj_5_LC_6_3_2\ : LogicCell40
+    \i2_4_lut_adj_18_LC_1_6_7\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0000000001000000"
+            LUT_INIT => "1100000010000000"
         )
     port map (
-            in0 => \N__4323\,
-            in1 => \N__4296\,
-            in2 => \N__4488\,
-            in3 => \N__4485\,
-            lcout => n1780,
+            in0 => \N__2903\,
+            in1 => \N__3371\,
+            in2 => \N__2766\,
+            in3 => \N__2885\,
+            lcout => n3287,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
@@ -10364,47 +8916,27 @@ begin
             sr => \_gnd_net_\
         );
 
-    \i2_2_lut_3_lut_LC_6_3_3\ : LogicCell40
-    generic map (
-            C_ON => '0',
-            SEQ_MODE => "0000",
-            LUT_INIT => "1111111111111010"
-        )
-    port map (
-            in0 => \N__4295\,
-            in1 => \_gnd_net_\,
-            in2 => \N__4326\,
-            in3 => \N__4275\,
-            lcout => n1730,
-            ltout => OPEN,
-            carryin => \_gnd_net_\,
-            carryout => OPEN,
-            clk => \_gnd_net_\,
-            ce => 'H',
-            sr => \_gnd_net_\
-        );
-
-    \i2c_cmd_cnt_525__i1_LC_6_4_2\ : LogicCell40
+    \PWM_B_156_LC_1_7_2\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "1000",
-            LUT_INIT => "0101010110101010"
+            LUT_INIT => "0000000000101010"
         )
     port map (
-            in0 => \N__4298\,
-            in1 => \_gnd_net_\,
-            in2 => \_gnd_net_\,
-            in3 => \N__4324\,
-            lcout => i2c_cmd_cnt_1,
+            in0 => \N__3134\,
+            in1 => \N__2960\,
+            in2 => \N__3030\,
+            in3 => \N__3069\,
+            lcout => \PWM_B\,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
-            clk => \N__4245\,
-            ce => \N__4191\,
-            sr => \N__4176\
+            clk => \N__4996\,
+            ce => \N__2732\,
+            sr => \_gnd_net_\
         );
 
-    \i2c_cmd_cnt_525__i0_LC_6_4_3\ : LogicCell40
+    \drv_cnt_i0_i0_LC_1_8_0\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "1000",
@@ -10414,33 +8946,2253 @@ begin
             in0 => \_gnd_net_\,
             in1 => \_gnd_net_\,
             in2 => \_gnd_net_\,
-            in3 => \N__4297\,
+            in3 => \N__3022\,
+            lcout => drv_cnt_0,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4998\,
+            ce => \N__2922\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i10_LC_2_3_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3635\,
+            lcout => i2c_cmd_1_1,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4987\,
+            ce => \N__4356\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i11_LC_2_3_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1010101010101010"
+        )
+    port map (
+            in0 => \N__3980\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \_gnd_net_\,
+            lcout => i2c_cmd_1_2,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4987\,
+            ce => \N__4356\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i12_LC_2_3_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3614\,
+            lcout => i2c_cmd_1_3,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4987\,
+            ce => \N__4356\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i13_LC_2_3_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3590\,
+            lcout => i2c_cmd_1_4,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4987\,
+            ce => \N__4356\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i14_LC_2_3_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3848\,
+            lcout => i2c_cmd_1_5,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4987\,
+            ce => \N__4356\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i15_LC_2_3_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4304\,
+            lcout => i2c_cmd_1_6,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4987\,
+            ce => \N__4356\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i16_LC_2_3_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3872\,
+            lcout => i2c_cmd_1_7,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4987\,
+            ce => \N__4356\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i9_LC_2_3_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3896\,
+            lcout => i2c_cmd_1_0,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4987\,
+            ce => \N__4356\,
+            sr => \_gnd_net_\
+        );
+
+    \PWM_duty_i0_i0_LC_2_4_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2868\,
+            lcout => \PWM_duty_0\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4989\,
+            ce => \N__4012\,
+            sr => \_gnd_net_\
+        );
+
+    \PWM_duty_i0_i2_LC_2_4_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2847\,
+            lcout => \PWM_duty_2\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4989\,
+            ce => \N__4012\,
+            sr => \_gnd_net_\
+        );
+
+    \PWM_duty_i0_i3_LC_2_4_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2832\,
+            lcout => \PWM_duty_3\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4989\,
+            ce => \N__4012\,
+            sr => \_gnd_net_\
+        );
+
+    \PWM_duty_i0_i4_LC_2_4_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1010101010101010"
+        )
+    port map (
+            in0 => \N__2808\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \_gnd_net_\,
+            lcout => \PWM_duty_4\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4989\,
+            ce => \N__4012\,
+            sr => \_gnd_net_\
+        );
+
+    \PWM_duty_i0_i7_LC_2_4_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2787\,
+            lcout => \PWM_duty_7\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4989\,
+            ce => \N__4012\,
+            sr => \_gnd_net_\
+        );
+
+    \PWM_duty_i0_i1_LC_2_4_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100110011001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2781\,
+            in2 => \_gnd_net_\,
+            in3 => \_gnd_net_\,
+            lcout => \PWM_duty_1\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4989\,
+            ce => \N__4012\,
+            sr => \_gnd_net_\
+        );
+
+    \motor_dir_bdd_4_lut_LC_2_5_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1110101001001010"
+        )
+    port map (
+            in0 => \N__3764\,
+            in1 => \N__3112\,
+            in2 => \N__2959\,
+            in3 => \N__3246\,
+            lcout => OPEN,
+            ltout => \n3380_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \drv_cnt_i0_i2_LC_2_5_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1110010111100000"
+        )
+    port map (
+            in0 => \N__2958\,
+            in1 => \N__3114\,
+            in2 => \N__3255\,
+            in3 => \N__3252\,
+            lcout => drv_cnt_2,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4990\,
+            ce => \N__2921\,
+            sr => \_gnd_net_\
+        );
+
+    \i1456_3_lut_3_lut_4_lut_4_lut_LC_2_5_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1100110100110011"
+        )
+    port map (
+            in0 => \N__3149\,
+            in1 => \N__3111\,
+            in2 => \N__3073\,
+            in3 => \N__3025\,
+            lcout => n2420,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1461_4_lut_LC_2_5_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0101101001001010"
+        )
+    port map (
+            in0 => \N__3024\,
+            in1 => \N__3061\,
+            in2 => \N__3121\,
+            in3 => \N__3148\,
+            lcout => n2425,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i12_3_lut_rep_39_3_lut_LC_2_5_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1101110101000100"
+        )
+    port map (
+            in0 => \N__3239\,
+            in1 => \N__3204\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3163\,
+            lcout => n3429,
+            ltout => \n3429_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i9_3_lut_4_lut_4_lut_LC_2_5_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0101010101010001"
+        )
+    port map (
+            in0 => \N__3026\,
+            in1 => \N__3113\,
+            in2 => \N__3081\,
+            in3 => \N__3060\,
+            lcout => OPEN,
+            ltout => \n6_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \motor_dir_bdd_4_lut_2380_LC_2_5_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1110011011000100"
+        )
+    port map (
+            in0 => \N__2947\,
+            in1 => \N__3763\,
+            in2 => \N__3033\,
+            in3 => \N__3027\,
+            lcout => OPEN,
+            ltout => \n3374_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \drv_cnt_i0_i1_LC_2_5_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1110001111100000"
+        )
+    port map (
+            in0 => \N__3028\,
+            in1 => \N__2951\,
+            in2 => \N__2976\,
+            in3 => \N__2973\,
+            lcout => drv_cnt_1,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4990\,
+            ce => \N__2921\,
+            sr => \_gnd_net_\
+        );
+
+    \drv_clk_counter_602__i0_LC_2_6_0\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2904\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2889\,
+            lcout => drv_clk_counter_0,
+            ltout => OPEN,
+            carryin => \bfn_2_6_0_\,
+            carryout => n2947,
+            clk => \N__4992\,
+            ce => 'H',
+            sr => \N__3540\
+        );
+
+    \drv_clk_counter_602__i1_LC_2_6_1\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__2886\,
+            in2 => \_gnd_net_\,
+            in3 => \N__2871\,
+            lcout => drv_clk_counter_1,
+            ltout => OPEN,
+            carryin => n2947,
+            carryout => n2948,
+            clk => \N__4992\,
+            ce => 'H',
+            sr => \N__3540\
+        );
+
+    \drv_clk_counter_602__i2_LC_2_6_2\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3408\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3393\,
+            lcout => drv_clk_counter_2,
+            ltout => OPEN,
+            carryin => n2948,
+            carryout => n2949,
+            clk => \N__4992\,
+            ce => 'H',
+            sr => \N__3540\
+        );
+
+    \drv_clk_counter_602__i3_LC_2_6_3\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3390\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3375\,
+            lcout => drv_clk_counter_3,
+            ltout => OPEN,
+            carryin => n2949,
+            carryout => n2950,
+            clk => \N__4992\,
+            ce => 'H',
+            sr => \N__3540\
+        );
+
+    \drv_clk_counter_602__i4_LC_2_6_4\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3372\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3357\,
+            lcout => drv_clk_counter_4,
+            ltout => OPEN,
+            carryin => n2950,
+            carryout => n2951,
+            clk => \N__4992\,
+            ce => 'H',
+            sr => \N__3540\
+        );
+
+    \drv_clk_counter_602__i5_LC_2_6_5\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3354\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3336\,
+            lcout => drv_clk_counter_5,
+            ltout => OPEN,
+            carryin => n2951,
+            carryout => n2952,
+            clk => \N__4992\,
+            ce => 'H',
+            sr => \N__3540\
+        );
+
+    \drv_clk_counter_602__i6_LC_2_6_6\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3333\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3321\,
+            lcout => drv_clk_counter_6,
+            ltout => OPEN,
+            carryin => n2952,
+            carryout => n2953,
+            clk => \N__4992\,
+            ce => 'H',
+            sr => \N__3540\
+        );
+
+    \drv_clk_counter_602__i7_LC_2_6_7\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3318\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3306\,
+            lcout => drv_clk_counter_7,
+            ltout => OPEN,
+            carryin => n2953,
+            carryout => n2954,
+            clk => \N__4992\,
+            ce => 'H',
+            sr => \N__3540\
+        );
+
+    \drv_clk_counter_602__i8_LC_2_7_0\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3302\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3282\,
+            lcout => drv_clk_counter_8,
+            ltout => OPEN,
+            carryin => \bfn_2_7_0_\,
+            carryout => n2955,
+            clk => \N__4994\,
+            ce => 'H',
+            sr => \N__3539\
+        );
+
+    \drv_clk_counter_602__i9_LC_2_7_1\ : LogicCell40
+    generic map (
+            C_ON => '1',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3278\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3258\,
+            lcout => drv_clk_counter_9,
+            ltout => OPEN,
+            carryin => n2955,
+            carryout => n2956,
+            clk => \N__4994\,
+            ce => 'H',
+            sr => \N__3539\
+        );
+
+    \drv_clk_counter_602__i10_LC_2_7_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100001100111100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3560\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3564\,
+            lcout => drv_clk_counter_10,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4994\,
+            ce => 'H',
+            sr => \N__3539\
+        );
+
+    \i1_2_lut_LC_4_1_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__4783\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5133\,
+            lcout => n98,
+            ltout => \n98_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_4_lut_adj_15_LC_4_1_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1000100010001100"
+        )
+    port map (
+            in0 => \N__5261\,
+            in1 => \N__3503\,
+            in2 => \N__3519\,
+            in3 => \N__4673\,
+            lcout => OPEN,
+            ltout => \n11_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \soft_SBADRi_i3_LC_4_1_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111000111110000"
+        )
+    port map (
+            in0 => \N__4903\,
+            in1 => \N__5267\,
+            in2 => \N__3516\,
+            in3 => \N__4785\,
+            lcout => \hard_SBADRi_3\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4976\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1684_4_lut_LC_4_1_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1100000011000101"
+        )
+    port map (
+            in0 => \N__4784\,
+            in1 => \N__3481\,
+            in2 => \N__5292\,
+            in3 => \N__4902\,
+            lcout => OPEN,
+            ltout => \n2662_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \hard_SBWRi_161_LC_4_1_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1110001011000000"
+        )
+    port map (
+            in0 => \N__3482\,
+            in1 => \N__3942\,
+            in2 => \N__3492\,
+            in3 => \N__3645\,
+            lcout => \hard_SBWRi\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4976\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \GB_BUFFER_n3456_THRU_LUT4_0_LC_4_1_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1010101010101010"
+        )
+    port map (
+            in0 => \N__3468\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \_gnd_net_\,
+            lcout => \GB_BUFFER_n3456_THRU_CO\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i29_3_lut_4_lut_LC_4_1_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0101000001110010"
+        )
+    port map (
+            in0 => \N__4672\,
+            in1 => \N__4901\,
+            in2 => \N__3428\,
+            in3 => \N__5265\,
+            lcout => OPEN,
+            ltout => \n13_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \hard_SBDATi_i4_LC_4_1_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1000100011111000"
+        )
+    port map (
+            in0 => \N__5266\,
+            in1 => \N__3424\,
+            in2 => \N__3435\,
+            in3 => \N__3678\,
+            lcout => \hard_SBDATi_4\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4976\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2320_2_lut_LC_4_2_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__4780\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4644\,
+            lcout => n3318,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2318_2_lut_rep_45_3_lut_LC_4_2_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111101110"
+        )
+    port map (
+            in0 => \N__4786\,
+            in1 => \N__4645\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5134\,
+            lcout => OPEN,
+            ltout => \n3435_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \hard_SBSTBi_162_LC_4_2_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1000110011011100"
+        )
+    port map (
+            in0 => \N__5256\,
+            in1 => \N__3692\,
+            in2 => \N__3702\,
+            in3 => \N__4904\,
+            lcout => \hard_SBSTBi\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4979\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_rep_41_3_lut_4_lut_LC_4_2_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111000011110001"
+        )
+    port map (
+            in0 => \N__4674\,
+            in1 => \N__5135\,
+            in2 => \N__5293\,
+            in3 => \N__4782\,
+            lcout => OPEN,
+            ltout => \n3431_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \soft_SBADRi_i0_LC_4_2_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1010000011101100"
+        )
+    port map (
+            in0 => \N__3659\,
+            in1 => \N__3677\,
+            in2 => \N__3666\,
+            in3 => \N__4260\,
+            lcout => \hard_SBADRi_0\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4979\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_rep_48_LC_4_2_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111100110011"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__4781\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5255\,
+            lcout => n3438,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i2_LC_4_3_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3639\,
+            lcout => i2c_cmd_0_1,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4983\,
+            ce => \N__4206\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i4_LC_4_3_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3615\,
+            lcout => i2c_cmd_0_3,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4983\,
+            ce => \N__4206\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i5_LC_4_3_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3591\,
+            lcout => i2c_cmd_0_4,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4983\,
+            ce => \N__4206\,
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_3_lut_adj_7_LC_4_4_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111101110"
+        )
+    port map (
+            in0 => \N__4126\,
+            in1 => \N__4044\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4147\,
+            lcout => OPEN,
+            ltout => \n3293_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \motor_on_172_LC_4_4_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111110100000100"
+        )
+    port map (
+            in0 => \N__4073\,
+            in1 => \N__4099\,
+            in2 => \N__3825\,
+            in3 => \N__3810\,
+            lcout => motor_on,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4985\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_3_lut_adj_1_LC_4_4_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111011101"
+        )
+    port map (
+            in0 => \N__4125\,
+            in1 => \N__4042\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4146\,
+            lcout => n86,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2_2_lut_3_lut_LC_4_4_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000000100010"
+        )
+    port map (
+            in0 => \N__4124\,
+            in1 => \N__4043\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4145\,
+            lcout => n2999,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1872_4_lut_LC_4_5_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1110101011100000"
+        )
+    port map (
+            in0 => \N__4074\,
+            in1 => \N__3780\,
+            in2 => \N__3765\,
+            in3 => \N__3774\,
+            lcout => OPEN,
+            ltout => \n2849_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \motor_dir_173_LC_4_5_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111000011001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3762\,
+            in2 => \N__3768\,
+            in3 => \N__4104\,
+            lcout => motor_dir,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4988\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1726_4_lut_LC_5_1_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000010010100100"
+        )
+    port map (
+            in0 => \N__4671\,
+            in1 => \N__3727\,
+            in2 => \N__5147\,
+            in3 => \N__4255\,
+            lcout => OPEN,
+            ltout => \n12_adj_4_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \hard_SBDATi_i2_LC_5_1_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1011101000110000"
+        )
+    port map (
+            in0 => \N__5272\,
+            in1 => \N__4779\,
+            in2 => \N__3738\,
+            in3 => \N__3731\,
+            lcout => \hard_SBDATi_2\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4974\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i38_3_lut_LC_5_1_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000111110100000"
+        )
+    port map (
+            in0 => \N__4670\,
+            in1 => \_gnd_net_\,
+            in2 => \N__5146\,
+            in3 => \N__4787\,
+            lcout => n21_adj_14,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1533_2_lut_rep_49_LC_5_1_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__5136\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4669\,
+            lcout => n3439,
+            ltout => \n3439_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_4_lut_adj_10_LC_5_1_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1100110111001111"
+        )
+    port map (
+            in0 => \N__4913\,
+            in1 => \N__5271\,
+            in2 => \N__3936\,
+            in3 => \N__4788\,
+            lcout => OPEN,
+            ltout => \n24_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \soft_SBADRi_i1_LC_5_1_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1101010111000000"
+        )
+    port map (
+            in0 => \N__4256\,
+            in1 => \N__3914\,
+            in2 => \N__3933\,
+            in3 => \N__3930\,
+            lcout => \hard_SBADRi_1\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4974\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_steps_i3_LC_5_2_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1110111010101010"
+        )
+    port map (
+            in0 => \N__5273\,
+            in1 => \N__4341\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4667\,
+            lcout => i2c_steps_3,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4977\,
+            ce => 'H',
+            sr => \N__4269\
+        );
+
+    \i2c_cmd_0___i3_LC_5_3_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3984\,
+            lcout => i2c_cmd_0_2,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4980\,
+            ce => \N__4205\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i1_LC_5_3_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3900\,
+            lcout => i2c_cmd_0_0,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4980\,
+            ce => \N__4205\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i8_LC_5_3_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3876\,
+            lcout => i2c_cmd_0_7,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4980\,
+            ce => \N__4205\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i7_LC_5_3_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4308\,
+            lcout => i2c_cmd_0_6,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4980\,
+            ce => \N__4205\,
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_0___i6_LC_5_3_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111111100000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__3852\,
+            lcout => i2c_cmd_0_5,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4980\,
+            ce => \N__4205\,
+            sr => \_gnd_net_\
+        );
+
+    \i2302_4_lut_4_lut_LC_5_4_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000001000001"
+        )
+    port map (
+            in0 => \N__4149\,
+            in1 => \N__4128\,
+            in2 => \N__4103\,
+            in3 => \N__4046\,
+            lcout => OPEN,
+            ltout => \n3300_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i36_4_lut_LC_5_4_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1010000011100100"
+        )
+    port map (
+            in0 => \N__4069\,
+            in1 => \N__4098\,
+            in2 => \N__4188\,
+            in3 => \N__4182\,
+            lcout => OPEN,
+            ltout => \n31_adj_2_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \cmd_decoded_170_LC_5_4_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1101110111011000"
+        )
+    port map (
+            in0 => \N__4383\,
+            in1 => \N__4365\,
+            in2 => \N__4185\,
+            in3 => \N__4002\,
+            lcout => cmd_decoded,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4984\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_rep_44_LC_5_4_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111110101010"
+        )
+    port map (
+            in0 => \N__4045\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4148\,
+            lcout => n3434,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i3_4_lut_LC_5_4_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111111110"
+        )
+    port map (
+            in0 => \N__4176\,
+            in1 => \N__4170\,
+            in2 => \N__4164\,
+            in3 => \N__4155\,
+            lcout => n3,
+            ltout => \n3_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2311_2_lut_LC_5_4_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111101011111010"
+        )
+    port map (
+            in0 => \N__4127\,
+            in1 => \_gnd_net_\,
+            in2 => \N__4107\,
+            in3 => \_gnd_net_\,
+            lcout => OPEN,
+            ltout => \n3309_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i3_4_lut_adj_23_LC_5_4_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000100000000"
+        )
+    port map (
+            in0 => \N__4097\,
+            in1 => \N__4068\,
+            in2 => \N__4050\,
+            in3 => \N__4047\,
+            lcout => n1914,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2316_3_lut_4_lut_LC_6_2_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000001000000"
+        )
+    port map (
+            in0 => \N__5251\,
+            in1 => \N__4750\,
+            in2 => \N__4912\,
+            in3 => \N__5111\,
+            lcout => n3314,
+            ltout => \n3314_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_stat_i2_LC_6_2_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1100111111000000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__3979\,
+            in2 => \N__3945\,
+            in3 => \N__4806\,
+            lcout => i2c_stat_2,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4973\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_stat_i6_LC_6_2_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1011101110001000"
+        )
+    port map (
+            in0 => \N__4297\,
+            in1 => \N__4275\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4435\,
+            lcout => i2c_stat_6,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4973\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1555_2_lut_rep_50_LC_6_2_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__4894\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5250\,
+            lcout => n3440,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_2_lut_3_lut_4_lut_LC_6_2_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000000010000"
+        )
+    port map (
+            in0 => \N__4749\,
+            in1 => \N__5110\,
+            in2 => \N__5286\,
+            in3 => \N__4633\,
+            lcout => n3280,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_rep_42_3_lut_LC_6_3_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000000100010"
+        )
+    port map (
+            in0 => \N__4335\,
+            in1 => \N__5246\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4629\,
+            lcout => n3432,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i28_4_lut_LC_6_3_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0010001001110010"
+        )
+    port map (
+            in0 => \N__4631\,
+            in1 => \N__4254\,
+            in2 => \N__4226\,
+            in3 => \N__5112\,
+            lcout => OPEN,
+            ltout => \n12_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \soft_SBADRi_i2_LC_6_3_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1101110001010000"
+        )
+    port map (
+            in0 => \N__4755\,
+            in1 => \N__4222\,
+            in2 => \N__4236\,
+            in3 => \N__5249\,
+            lcout => \hard_SBADRi_2\,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4975\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_adj_8_LC_6_3_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000011001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__5247\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4628\,
+            lcout => n45,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_3_lut_4_lut_LC_6_3_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000000001000"
+        )
+    port map (
+            in0 => \N__4630\,
+            in1 => \N__4336\,
+            in2 => \N__4317\,
+            in3 => \N__5257\,
+            lcout => n1913,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1968_4_lut_LC_6_3_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1001101010101010"
+        )
+    port map (
+            in0 => \N__4754\,
+            in1 => \N__5248\,
+            in2 => \N__4668\,
+            in3 => \N__4413\,
+            lcout => OPEN,
+            ltout => \n2710_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_steps_i2_LC_6_3_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111000011101110"
+        )
+    port map (
+            in0 => \N__4392\,
+            in1 => \N__4756\,
+            in2 => \N__4386\,
+            in3 => \N__5113\,
+            lcout => i2c_steps_2,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4975\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2_3_lut_rep_54_LC_6_4_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1000100000000000"
+        )
+    port map (
+            in0 => \N__4880\,
+            in1 => \N__4732\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5091\,
+            lcout => n3444,
+            ltout => \n3444_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1116_2_lut_3_lut_4_lut_LC_6_4_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0010000000000000"
+        )
+    port map (
+            in0 => \N__4382\,
+            in1 => \N__5275\,
+            in2 => \N__4368\,
+            in3 => \N__4646\,
+            lcout => n2081,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_3_lut_LC_6_4_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111111010"
+        )
+    port map (
+            in0 => \N__4526\,
+            in1 => \_gnd_net_\,
+            in2 => \N__4506\,
+            in3 => \N__4478\,
+            lcout => n14,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_rep_46_4_lut_LC_6_4_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0100000000000000"
+        )
+    port map (
+            in0 => \N__5274\,
+            in1 => \N__4733\,
+            in2 => \N__4905\,
+            in3 => \N__5092\,
+            lcout => n3436,
+            ltout => \n3436_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2_3_lut_4_lut_LC_6_4_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0100000000000000"
+        )
+    port map (
+            in0 => \N__4503\,
+            in1 => \N__4527\,
+            in2 => \N__4359\,
+            in3 => \N__4647\,
+            lcout => n1962,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_rep_43_3_lut_LC_6_4_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000101000000000"
+        )
+    port map (
+            in0 => \N__4648\,
+            in1 => \_gnd_net_\,
+            in2 => \N__5294\,
+            in3 => \N__4337\,
+            lcout => n3433,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_rep_59_LC_6_4_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111111111001100"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__4499\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4525\,
+            lcout => n3449,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cmd_cnt_601__i1_LC_6_5_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "0101010110101010"
+        )
+    port map (
+            in0 => \N__4529\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4504\,
+            lcout => i2c_cmd_cnt_1,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4982\,
+            ce => \N__4467\,
+            sr => \N__4458\
+        );
+
+    \i2c_cmd_cnt_601__i0_LC_6_5_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "0000000011111111"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4528\,
             lcout => i2c_cmd_cnt_0,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
-            clk => \N__4245\,
-            ce => \N__4191\,
-            sr => \N__4176\
+            clk => \N__4982\,
+            ce => \N__4467\,
+            sr => \N__4458\
         );
 
-    \i2c_cmd_cnt_525__i2_LC_6_4_5\ : LogicCell40
+    \i2c_cmd_cnt_601__i2_LC_6_5_4\ : LogicCell40
     generic map (
             C_ON => '0',
             SEQ_MODE => "1000",
             LUT_INIT => "0110011011001100"
         )
     port map (
-            in0 => \N__4325\,
-            in1 => \N__4274\,
+            in0 => \N__4530\,
+            in1 => \N__4479\,
             in2 => \_gnd_net_\,
-            in3 => \N__4299\,
+            in3 => \N__4505\,
             lcout => i2c_cmd_cnt_2,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,
-            clk => \N__4245\,
-            ce => \N__4191\,
-            sr => \N__4176\
+            clk => \N__4982\,
+            ce => \N__4467\,
+            sr => \N__4458\
+        );
+
+    \i2c_steps_i1_LC_7_2_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "0111011010111010"
+        )
+    port map (
+            in0 => \N__4609\,
+            in1 => \N__5095\,
+            in2 => \N__4446\,
+            in3 => \N__4404\,
+            lcout => i2c_steps_1,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4978\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i277_2_lut_LC_7_2_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1010000010100000"
+        )
+    port map (
+            in0 => \N__4437\,
+            in1 => \_gnd_net_\,
+            in2 => \N__4914\,
+            in3 => \_gnd_net_\,
+            lcout => n990,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_rep_53_LC_7_2_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0101010100000000"
+        )
+    port map (
+            in0 => \N__4748\,
+            in1 => \_gnd_net_\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5279\,
+            lcout => n3443,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \equal_669_i3_2_lut_rep_56_LC_7_2_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1100110011111111"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \N__5034\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5013\,
+            lcout => OPEN,
+            ltout => \n3446_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i36_4_lut_adj_5_LC_7_2_4\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000111101000100"
+        )
+    port map (
+            in0 => \N__4608\,
+            in1 => \N__4436\,
+            in2 => \N__4419\,
+            in3 => \N__5094\,
+            lcout => OPEN,
+            ltout => \n31_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_4_lut_adj_6_LC_7_2_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1010101010100010"
+        )
+    port map (
+            in0 => \N__4906\,
+            in1 => \N__4747\,
+            in2 => \N__4416\,
+            in3 => \N__4398\,
+            lcout => n16,
+            ltout => \n16_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_adj_2_LC_7_2_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0000000011110000"
+        )
+    port map (
+            in0 => \_gnd_net_\,
+            in1 => \_gnd_net_\,
+            in2 => \N__4407\,
+            in3 => \N__5280\,
+            lcout => n56_adj_5,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_3_lut_adj_4_LC_7_2_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1110111000000000"
+        )
+    port map (
+            in0 => \N__5093\,
+            in1 => \N__4804\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4607\,
+            lcout => n22,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cnt_599_600__i1_LC_7_3_0\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1010101000100110"
+        )
+    port map (
+            in0 => \N__5037\,
+            in1 => \N__5307\,
+            in2 => \N__5019\,
+            in3 => \N__4643\,
+            lcout => i2c_cnt_0,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4981\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1_2_lut_3_lut_adj_13_LC_7_3_1\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "0101010100010001"
+        )
+    port map (
+            in0 => \N__4642\,
+            in1 => \N__5014\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5035\,
+            lcout => OPEN,
+            ltout => \n4_adj_15_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2_4_lut_adj_3_LC_7_3_2\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111110111011101"
+        )
+    port map (
+            in0 => \N__4911\,
+            in1 => \N__5297\,
+            in2 => \N__5301\,
+            in3 => \N__4743\,
+            lcout => OPEN,
+            ltout => \n2988_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_steps_i0_LC_7_3_3\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "1111000001000100"
+        )
+    port map (
+            in0 => \N__5298\,
+            in1 => \N__4536\,
+            in2 => \N__5151\,
+            in3 => \N__5132\,
+            lcout => i2c_steps_0,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4981\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2c_cnt_599_600__i2_LC_7_3_5\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "1000",
+            LUT_INIT => "0110011001000100"
+        )
+    port map (
+            in0 => \N__5046\,
+            in1 => \N__5015\,
+            in2 => \_gnd_net_\,
+            in3 => \N__5036\,
+            lcout => i2c_cnt_1,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \N__4981\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i2323_3_lut_LC_7_3_6\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1010101000100010"
+        )
+    port map (
+            in0 => \N__4910\,
+            in1 => \N__4741\,
+            in2 => \_gnd_net_\,
+            in3 => \N__4805\,
+            lcout => OPEN,
+            ltout => \n3321_cascade_\,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
+        );
+
+    \i1669_4_lut_LC_7_3_7\ : LogicCell40
+    generic map (
+            C_ON => '0',
+            SEQ_MODE => "0000",
+            LUT_INIT => "1111001111010001"
+        )
+    port map (
+            in0 => \N__4742\,
+            in1 => \N__4632\,
+            in2 => \N__4545\,
+            in3 => \N__4542\,
+            lcout => n1,
+            ltout => OPEN,
+            carryin => \_gnd_net_\,
+            carryout => OPEN,
+            clk => \_gnd_net_\,
+            ce => 'H',
+            sr => \_gnd_net_\
         );
 end \INTERFACE\;

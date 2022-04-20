@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Bui
 ProjectName=UltraLite_BLDC_DRV
 Vendor=SiliconBlue
 Synthesis=lse
-ProjectVFiles=top.v
+ProjectVFiles=top.v=work
 ProjectCFiles=
 CurImplementation=UltraLite_BLDC_DRV_Implmnt
 Implementations=UltraLite_BLDC_DRV_Implmnt

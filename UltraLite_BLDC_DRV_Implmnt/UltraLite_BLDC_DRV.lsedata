@@ -31,7 +31,7 @@
     </pins>
 
     <!--
-        Instances in netlist: 119
+        Instances in netlist: 129
     -->
 
     <instance  name = "osc"  library = "work"  arch = ""  type = "comb">
@@ -430,7 +430,7 @@
         <nitem  name = "drv_clk_counter[1]"  />
         <nitem  name = "drv_clk_counter[0]"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "PWM_R_N_252"  />
+        <nitem  name = "PWM_R_N_254"  />
         </nets>
     </instance>
 
@@ -668,11 +668,88 @@
         <nitem  name = "PWM_duty[2]"  />
         <nitem  name = "PWM_duty[1]"  />
         <nitem  name = "PWM_duty[0]"  />
-        <nitem  name = "PWM_R_N_251"  />
+        <nitem  name = "PWM_R_N_253"  />
         </nets>
     </instance>
 
-    <instance  name = "add_11"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "equal_11"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a[31]"  direction = "in"  />
+        <pitem  name = "a[30]"  direction = "in"  />
+        <pitem  name = "a[29]"  direction = "in"  />
+        <pitem  name = "a[28]"  direction = "in"  />
+        <pitem  name = "a[27]"  direction = "in"  />
+        <pitem  name = "a[26]"  direction = "in"  />
+        <pitem  name = "a[25]"  direction = "in"  />
+        <pitem  name = "a[24]"  direction = "in"  />
+        <pitem  name = "a[23]"  direction = "in"  />
+        <pitem  name = "a[22]"  direction = "in"  />
+        <pitem  name = "a[21]"  direction = "in"  />
+        <pitem  name = "a[20]"  direction = "in"  />
+        <pitem  name = "a[19]"  direction = "in"  />
+        <pitem  name = "a[18]"  direction = "in"  />
+        <pitem  name = "a[17]"  direction = "in"  />
+        <pitem  name = "a[16]"  direction = "in"  />
+        <pitem  name = "a[15]"  direction = "in"  />
+        <pitem  name = "a[14]"  direction = "in"  />
+        <pitem  name = "a[13]"  direction = "in"  />
+        <pitem  name = "a[12]"  direction = "in"  />
+        <pitem  name = "a[11]"  direction = "in"  />
+        <pitem  name = "a[10]"  direction = "in"  />
+        <pitem  name = "a[9]"  direction = "in"  />
+        <pitem  name = "a[8]"  direction = "in"  />
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "b[31]"  direction = "in"  />
+        <pitem  name = "b[30]"  direction = "in"  />
+        <pitem  name = "b[29]"  direction = "in"  />
+        <pitem  name = "b[28]"  direction = "in"  />
+        <pitem  name = "b[27]"  direction = "in"  />
+        <pitem  name = "b[26]"  direction = "in"  />
+        <pitem  name = "b[25]"  direction = "in"  />
+        <pitem  name = "b[24]"  direction = "in"  />
+        <pitem  name = "b[23]"  direction = "in"  />
+        <pitem  name = "b[22]"  direction = "in"  />
+        <pitem  name = "b[21]"  direction = "in"  />
+        <pitem  name = "b[20]"  direction = "in"  />
+        <pitem  name = "b[19]"  direction = "in"  />
+        <pitem  name = "b[18]"  direction = "in"  />
+        <pitem  name = "b[17]"  direction = "in"  />
+        <pitem  name = "b[16]"  direction = "in"  />
+        <pitem  name = "b[15]"  direction = "in"  />
+        <pitem  name = "b[14]"  direction = "in"  />
+        <pitem  name = "b[13]"  direction = "in"  />
+        <pitem  name = "b[12]"  direction = "in"  />
+        <pitem  name = "b[11]"  direction = "in"  />
+        <pitem  name = "b[10]"  direction = "in"  />
+        <pitem  name = "b[9]"  direction = "in"  />
+        <pitem  name = "b[8]"  direction = "in"  />
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "gnd"  />
+        <nitem  name = "motor_dir"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "n115"  />
+        </nets>
+    </instance>
+
+    <instance  name = "add_12"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "cin"  direction = "in"  />
         <pitem  name = "a[31]"  direction = "in"  />
@@ -750,13 +827,13 @@
         <nitem  name = "drv_cnt[1]"  />
         <nitem  name = "drv_cnt[0]"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n146"  />
         <nitem  name = "n147"  />
         <nitem  name = "n148"  />
+        <nitem  name = "n149"  />
         </nets>
     </instance>
 
-    <instance  name = "equal_12"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "equal_13"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[31]"  direction = "in"  />
         <pitem  name = "a[30]"  direction = "in"  />
@@ -831,11 +908,11 @@
         <nitem  name = "drv_cnt[1]"  />
         <nitem  name = "drv_cnt[0]"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n149"  />
+        <nitem  name = "n150"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_13"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_14"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[2]"  direction = "in"  />
         <pitem  name = "d0[1]"  direction = "in"  />
@@ -850,19 +927,180 @@
         </pins>
 
         <nets>
-        <nitem  name = "n146"  />
         <nitem  name = "n147"  />
         <nitem  name = "n148"  />
+        <nitem  name = "n149"  />
         <nitem  name = "gnd"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n149"  />
-        <nitem  name = "n151"  />
+        <nitem  name = "n150"  />
         <nitem  name = "n152"  />
         <nitem  name = "n153"  />
+        <nitem  name = "n154"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_14"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "sub_15"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "o[2]"  direction = "out"  />
+        <pitem  name = "o[1]"  direction = "out"  />
+        <pitem  name = "o[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "gnd"  />
+        <nitem  name = "drv_cnt[2]"  />
+        <nitem  name = "drv_cnt[1]"  />
+        <nitem  name = "drv_cnt[0]"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "n157"  />
+        <nitem  name = "n158"  />
+        <nitem  name = "n159"  />
+        </nets>
+    </instance>
+
+    <instance  name = "equal_16"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a[31]"  direction = "in"  />
+        <pitem  name = "a[30]"  direction = "in"  />
+        <pitem  name = "a[29]"  direction = "in"  />
+        <pitem  name = "a[28]"  direction = "in"  />
+        <pitem  name = "a[27]"  direction = "in"  />
+        <pitem  name = "a[26]"  direction = "in"  />
+        <pitem  name = "a[25]"  direction = "in"  />
+        <pitem  name = "a[24]"  direction = "in"  />
+        <pitem  name = "a[23]"  direction = "in"  />
+        <pitem  name = "a[22]"  direction = "in"  />
+        <pitem  name = "a[21]"  direction = "in"  />
+        <pitem  name = "a[20]"  direction = "in"  />
+        <pitem  name = "a[19]"  direction = "in"  />
+        <pitem  name = "a[18]"  direction = "in"  />
+        <pitem  name = "a[17]"  direction = "in"  />
+        <pitem  name = "a[16]"  direction = "in"  />
+        <pitem  name = "a[15]"  direction = "in"  />
+        <pitem  name = "a[14]"  direction = "in"  />
+        <pitem  name = "a[13]"  direction = "in"  />
+        <pitem  name = "a[12]"  direction = "in"  />
+        <pitem  name = "a[11]"  direction = "in"  />
+        <pitem  name = "a[10]"  direction = "in"  />
+        <pitem  name = "a[9]"  direction = "in"  />
+        <pitem  name = "a[8]"  direction = "in"  />
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "b[31]"  direction = "in"  />
+        <pitem  name = "b[30]"  direction = "in"  />
+        <pitem  name = "b[29]"  direction = "in"  />
+        <pitem  name = "b[28]"  direction = "in"  />
+        <pitem  name = "b[27]"  direction = "in"  />
+        <pitem  name = "b[26]"  direction = "in"  />
+        <pitem  name = "b[25]"  direction = "in"  />
+        <pitem  name = "b[24]"  direction = "in"  />
+        <pitem  name = "b[23]"  direction = "in"  />
+        <pitem  name = "b[22]"  direction = "in"  />
+        <pitem  name = "b[21]"  direction = "in"  />
+        <pitem  name = "b[20]"  direction = "in"  />
+        <pitem  name = "b[19]"  direction = "in"  />
+        <pitem  name = "b[18]"  direction = "in"  />
+        <pitem  name = "b[17]"  direction = "in"  />
+        <pitem  name = "b[16]"  direction = "in"  />
+        <pitem  name = "b[15]"  direction = "in"  />
+        <pitem  name = "b[14]"  direction = "in"  />
+        <pitem  name = "b[13]"  direction = "in"  />
+        <pitem  name = "b[12]"  direction = "in"  />
+        <pitem  name = "b[11]"  direction = "in"  />
+        <pitem  name = "b[10]"  direction = "in"  />
+        <pitem  name = "b[9]"  direction = "in"  />
+        <pitem  name = "b[8]"  direction = "in"  />
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "gnd"  />
+        <nitem  name = "drv_cnt[2]"  />
+        <nitem  name = "drv_cnt[1]"  />
+        <nitem  name = "drv_cnt[0]"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "n160"  />
+        </nets>
+    </instance>
+
+    <instance  name = "mux_17"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "d0[2]"  direction = "in"  />
+        <pitem  name = "d0[1]"  direction = "in"  />
+        <pitem  name = "d0[0]"  direction = "in"  />
+        <pitem  name = "d1[2]"  direction = "in"  />
+        <pitem  name = "d1[1]"  direction = "in"  />
+        <pitem  name = "d1[0]"  direction = "in"  />
+        <pitem  name = "cond"  direction = "in"  />
+        <pitem  name = "o[2]"  direction = "out"  />
+        <pitem  name = "o[1]"  direction = "out"  />
+        <pitem  name = "o[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "n157"  />
+        <nitem  name = "n158"  />
+        <nitem  name = "n159"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "n160"  />
+        <nitem  name = "n162"  />
+        <nitem  name = "n163"  />
+        <nitem  name = "n164"  />
+        </nets>
+    </instance>
+
+    <instance  name = "mux_18"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "d0[2]"  direction = "in"  />
+        <pitem  name = "d0[1]"  direction = "in"  />
+        <pitem  name = "d0[0]"  direction = "in"  />
+        <pitem  name = "d1[2]"  direction = "in"  />
+        <pitem  name = "d1[1]"  direction = "in"  />
+        <pitem  name = "d1[0]"  direction = "in"  />
+        <pitem  name = "cond"  direction = "in"  />
+        <pitem  name = "o[2]"  direction = "out"  />
+        <pitem  name = "o[1]"  direction = "out"  />
+        <pitem  name = "o[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "n162"  />
+        <nitem  name = "n163"  />
+        <nitem  name = "n164"  />
+        <nitem  name = "n152"  />
+        <nitem  name = "n153"  />
+        <nitem  name = "n154"  />
+        <nitem  name = "n115"  />
+        <nitem  name = "n166"  />
+        <nitem  name = "n167"  />
+        <nitem  name = "n168"  />
+        </nets>
+    </instance>
+
+    <instance  name = "mux_19"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[2]"  direction = "in"  />
         <pitem  name = "sel[1]"  direction = "in"  />
@@ -903,13 +1141,13 @@
         <nitem  name = "n1"  />
         <nitem  name = "pwr"  />
         <nitem  name = "gnd"  />
-        <nitem  name = "PWM_R_N_250[2]"  />
-        <nitem  name = "PWM_R_N_250[1]"  />
-        <nitem  name = "PWM_R_N_250[0]"  />
+        <nitem  name = "PWM_R_N_252[2]"  />
+        <nitem  name = "PWM_R_N_252[1]"  />
+        <nitem  name = "PWM_R_N_252[0]"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_15"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_20"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[2]"  direction = "in"  />
         <pitem  name = "d0[1]"  direction = "in"  />
@@ -927,13 +1165,13 @@
         <nitem  name = "drv_cnt[2]"  />
         <nitem  name = "drv_cnt[1]"  />
         <nitem  name = "drv_cnt[0]"  />
-        <nitem  name = "n151"  />
-        <nitem  name = "n152"  />
-        <nitem  name = "n153"  />
-        <nitem  name = "PWM_R_N_251"  />
-        <nitem  name = "n159"  />
-        <nitem  name = "n160"  />
-        <nitem  name = "n161"  />
+        <nitem  name = "n166"  />
+        <nitem  name = "n167"  />
+        <nitem  name = "n168"  />
+        <nitem  name = "PWM_R_N_253"  />
+        <nitem  name = "n174"  />
+        <nitem  name = "n175"  />
+        <nitem  name = "n176"  />
         </nets>
     </instance>
 
@@ -947,9 +1185,9 @@
 
         <nets>
         <nitem  name = "PWM_B"  />
-        <nitem  name = "PWM_R_N_250[0]"  />
-        <nitem  name = "PWM_R_N_251"  />
-        <nitem  name = "PWM_B_N_259"  />
+        <nitem  name = "PWM_R_N_252[0]"  />
+        <nitem  name = "PWM_R_N_253"  />
+        <nitem  name = "PWM_B_N_261"  />
         </nets>
     </instance>
 
@@ -963,9 +1201,9 @@
 
         <nets>
         <nitem  name = "PWM_G"  />
-        <nitem  name = "PWM_R_N_250[1]"  />
-        <nitem  name = "PWM_R_N_251"  />
-        <nitem  name = "PWM_G_N_255"  />
+        <nitem  name = "PWM_R_N_252[1]"  />
+        <nitem  name = "PWM_R_N_253"  />
+        <nitem  name = "PWM_G_N_257"  />
         </nets>
     </instance>
 
@@ -979,13 +1217,13 @@
 
         <nets>
         <nitem  name = "PWM_R"  />
-        <nitem  name = "PWM_R_N_250[2]"  />
+        <nitem  name = "PWM_R_N_252[2]"  />
+        <nitem  name = "PWM_R_N_253"  />
         <nitem  name = "PWM_R_N_251"  />
-        <nitem  name = "PWM_R_N_249"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_19"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_24"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[7]"  direction = "in"  />
         <pitem  name = "d0[6]"  direction = "in"  />
@@ -1031,7 +1269,7 @@
         <nitem  name = "n111"  />
         <nitem  name = "n112"  />
         <nitem  name = "n113"  />
-        <nitem  name = "PWM_R_N_252"  />
+        <nitem  name = "PWM_R_N_254"  />
         <nitem  name = "PWM_cnt_7__N_99[7]"  />
         <nitem  name = "PWM_cnt_7__N_99[6]"  />
         <nitem  name = "PWM_cnt_7__N_99[5]"  />
@@ -1043,7 +1281,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_20"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_25"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[2]"  direction = "in"  />
         <pitem  name = "d0[1]"  direction = "in"  />
@@ -1061,10 +1299,10 @@
         <nitem  name = "drv_cnt[2]"  />
         <nitem  name = "drv_cnt[1]"  />
         <nitem  name = "drv_cnt[0]"  />
-        <nitem  name = "n159"  />
-        <nitem  name = "n160"  />
-        <nitem  name = "n161"  />
-        <nitem  name = "PWM_R_N_252"  />
+        <nitem  name = "n174"  />
+        <nitem  name = "n175"  />
+        <nitem  name = "n176"  />
+        <nitem  name = "PWM_R_N_254"  />
         <nitem  name = "drv_cnt_2__N_107[2]"  />
         <nitem  name = "drv_cnt_2__N_107[1]"  />
         <nitem  name = "drv_cnt_2__N_107[0]"  />
@@ -1081,9 +1319,9 @@
 
         <nets>
         <nitem  name = "gnd"  />
-        <nitem  name = "PWM_B_N_259"  />
-        <nitem  name = "PWM_R_N_252"  />
-        <nitem  name = "PWM_B_N_258"  />
+        <nitem  name = "PWM_B_N_261"  />
+        <nitem  name = "PWM_R_N_254"  />
+        <nitem  name = "PWM_B_N_260"  />
         </nets>
     </instance>
 
@@ -1097,9 +1335,9 @@
 
         <nets>
         <nitem  name = "gnd"  />
-        <nitem  name = "PWM_G_N_255"  />
-        <nitem  name = "PWM_R_N_252"  />
-        <nitem  name = "PWM_G_N_254"  />
+        <nitem  name = "PWM_G_N_257"  />
+        <nitem  name = "PWM_R_N_254"  />
+        <nitem  name = "PWM_G_N_256"  />
         </nets>
     </instance>
 
@@ -1113,13 +1351,13 @@
 
         <nets>
         <nitem  name = "gnd"  />
-        <nitem  name = "PWM_R_N_249"  />
-        <nitem  name = "PWM_R_N_252"  />
-        <nitem  name = "PWM_R_N_248"  />
+        <nitem  name = "PWM_R_N_251"  />
+        <nitem  name = "PWM_R_N_254"  />
+        <nitem  name = "PWM_R_N_250"  />
         </nets>
     </instance>
 
-    <instance  name = "drv_clk_counter_10__I_0_178"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "drv_clk_counter_10__I_0_195"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[10]"  direction = "in"  />
         <pitem  name = "d0[9]"  direction = "in"  />
@@ -1185,7 +1423,7 @@
         </nets>
     </instance>
 
-    <instance  name = "PWM_cnt_7__I_0_177"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "PWM_cnt_7__I_0_194"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[7]"  direction = "in"  />
         <pitem  name = "d0[6]"  direction = "in"  />
@@ -1264,7 +1502,7 @@
         </nets>
     </instance>
 
-    <instance  name = "PWM_B_I_0_180"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "PWM_B_I_0_197"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1274,13 +1512,13 @@
 
         <nets>
         <nitem  name = "gnd"  />
-        <nitem  name = "PWM_B_N_258"  />
+        <nitem  name = "PWM_B_N_260"  />
         <nitem  name = "motor_on"  />
-        <nitem  name = "PWM_B_N_257"  />
+        <nitem  name = "PWM_B_N_259"  />
         </nets>
     </instance>
 
-    <instance  name = "PWM_G_I_0_179"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "PWM_G_I_0_196"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1290,13 +1528,13 @@
 
         <nets>
         <nitem  name = "gnd"  />
-        <nitem  name = "PWM_G_N_254"  />
+        <nitem  name = "PWM_G_N_256"  />
         <nitem  name = "motor_on"  />
-        <nitem  name = "PWM_G_N_253"  />
+        <nitem  name = "PWM_G_N_255"  />
         </nets>
     </instance>
 
-    <instance  name = "PWM_R_I_0_176"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "PWM_R_I_0_193"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -1306,9 +1544,9 @@
 
         <nets>
         <nitem  name = "gnd"  />
-        <nitem  name = "PWM_R_N_248"  />
+        <nitem  name = "PWM_R_N_250"  />
         <nitem  name = "motor_on"  />
-        <nitem  name = "PWM_R_N_247"  />
+        <nitem  name = "PWM_R_N_249"  />
         </nets>
     </instance>
 
@@ -1400,7 +1638,7 @@
         </nets>
     </instance>
 
-    <instance  name = "PWM_B_142"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "PWM_B_156"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "d"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -1410,14 +1648,14 @@
         </pins>
 
         <nets>
-        <nitem  name = "PWM_B_N_257"  />
+        <nitem  name = "PWM_B_N_259"  />
         <nitem  name = "sysclk"  />
         <nitem  name = "gnd"  />
         <nitem  name = "PWM_B"  />
         </nets>
     </instance>
 
-    <instance  name = "PWM_G_143"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "PWM_G_157"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "d"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -1427,14 +1665,14 @@
         </pins>
 
         <nets>
-        <nitem  name = "PWM_G_N_253"  />
+        <nitem  name = "PWM_G_N_255"  />
         <nitem  name = "sysclk"  />
         <nitem  name = "gnd"  />
         <nitem  name = "PWM_G"  />
         </nets>
     </instance>
 
-    <instance  name = "PWM_R_144"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "PWM_R_158"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "d"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -1444,14 +1682,14 @@
         </pins>
 
         <nets>
-        <nitem  name = "PWM_R_N_247"  />
+        <nitem  name = "PWM_R_N_249"  />
         <nitem  name = "sysclk"  />
         <nitem  name = "gnd"  />
         <nitem  name = "PWM_R"  />
         </nets>
     </instance>
 
-    <instance  name = "hard_SBCSi_145"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "hard_SBCSi_159"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "d"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -1461,7 +1699,7 @@
         </pins>
 
         <nets>
-        <nitem  name = "hard_SBCSi_N_261"  />
+        <nitem  name = "hard_SBCSi_N_263"  />
         <nitem  name = "sysclk"  />
         <nitem  name = "gnd"  />
         <nitem  name = "hard_SBCSi"  />
@@ -1476,11 +1714,11 @@
 
         <nets>
         <nitem  name = "hard0_SBACKo"  />
-        <nitem  name = "hard0_SBACKo_N_265"  />
+        <nitem  name = "hard0_SBACKo_N_267"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_38"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_43"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[3]"  direction = "in"  />
         <pitem  name = "d0[2]"  direction = "in"  />
@@ -1508,7 +1746,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_39"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_44"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[9]"  direction = "in"  />
         <pitem  name = "d0[8]"  direction = "in"  />
@@ -1560,7 +1798,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_40"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_45"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[4]"  direction = "in"  />
         <pitem  name = "d0[3]"  direction = "in"  />
@@ -1597,7 +1835,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_43"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_48"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[3]"  direction = "in"  />
         <pitem  name = "d0[2]"  direction = "in"  />
@@ -1625,7 +1863,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_44"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_49"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[9]"  direction = "in"  />
         <pitem  name = "d0[8]"  direction = "in"  />
@@ -1677,7 +1915,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_45"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_50"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[4]"  direction = "in"  />
         <pitem  name = "d0[3]"  direction = "in"  />
@@ -1714,7 +1952,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_48"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_53"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[3]"  direction = "in"  />
         <pitem  name = "d0[2]"  direction = "in"  />
@@ -1742,7 +1980,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_49"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_54"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[9]"  direction = "in"  />
         <pitem  name = "d0[8]"  direction = "in"  />
@@ -1794,7 +2032,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_50"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_55"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[4]"  direction = "in"  />
         <pitem  name = "d0[3]"  direction = "in"  />
@@ -1831,7 +2069,7 @@
         </nets>
     </instance>
 
-    <instance  name = "equal_51"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "equal_56"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[31]"  direction = "in"  />
         <pitem  name = "a[30]"  direction = "in"  />
@@ -1904,11 +2142,11 @@
         <nitem  name = "gnd"  />
         <nitem  name = "i2c_stat[6]"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n309"  />
+        <nitem  name = "n324"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_52"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_57"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[4]"  direction = "in"  />
         <pitem  name = "d0[3]"  direction = "in"  />
@@ -1936,16 +2174,16 @@
         <nitem  name = "i2c_steps[0]"  />
         <nitem  name = "gnd"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n309"  />
-        <nitem  name = "n311"  />
-        <nitem  name = "n312"  />
-        <nitem  name = "n313"  />
-        <nitem  name = "n314"  />
-        <nitem  name = "n315"  />
+        <nitem  name = "n324"  />
+        <nitem  name = "n326"  />
+        <nitem  name = "n327"  />
+        <nitem  name = "n328"  />
+        <nitem  name = "n329"  />
+        <nitem  name = "n330"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_54"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_59"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[3]"  direction = "in"  />
         <pitem  name = "d0[2]"  direction = "in"  />
@@ -1973,7 +2211,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_55"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_60"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[7]"  direction = "in"  />
         <pitem  name = "d0[6]"  direction = "in"  />
@@ -2031,7 +2269,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_56"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_61"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[4]"  direction = "in"  />
         <pitem  name = "d0[3]"  direction = "in"  />
@@ -2057,11 +2295,11 @@
         <nitem  name = "i2c_steps[2]"  />
         <nitem  name = "i2c_steps[1]"  />
         <nitem  name = "i2c_steps[0]"  />
-        <nitem  name = "n311"  />
-        <nitem  name = "n312"  />
-        <nitem  name = "n313"  />
-        <nitem  name = "n314"  />
-        <nitem  name = "n315"  />
+        <nitem  name = "n326"  />
+        <nitem  name = "n327"  />
+        <nitem  name = "n328"  />
+        <nitem  name = "n329"  />
+        <nitem  name = "n330"  />
         <nitem  name = "hard0_SBACKo"  />
         <nitem  name = "i2c_steps_4__N_135[4]"  />
         <nitem  name = "i2c_steps_4__N_135[3]"  />
@@ -2071,7 +2309,7 @@
         </nets>
     </instance>
 
-    <instance  name = "add_57"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "add_62"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "cin"  direction = "in"  />
         <pitem  name = "a[31]"  direction = "in"  />
@@ -2149,13 +2387,13 @@
         <nitem  name = "i2c_cnt[1]"  />
         <nitem  name = "i2c_cnt[0]"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n368"  />
-        <nitem  name = "n369"  />
-        <nitem  name = "n370"  />
+        <nitem  name = "n383"  />
+        <nitem  name = "n384"  />
+        <nitem  name = "n385"  />
         </nets>
     </instance>
 
-    <instance  name = "equal_58"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "equal_63"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[31]"  direction = "in"  />
         <pitem  name = "a[30]"  direction = "in"  />
@@ -2230,98 +2468,7 @@
         <nitem  name = "i2c_cnt[1]"  />
         <nitem  name = "i2c_cnt[0]"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n371"  />
-        </nets>
-    </instance>
-
-    <instance  name = "mux_59"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "d0[2]"  direction = "in"  />
-        <pitem  name = "d0[1]"  direction = "in"  />
-        <pitem  name = "d0[0]"  direction = "in"  />
-        <pitem  name = "d1[2]"  direction = "in"  />
-        <pitem  name = "d1[1]"  direction = "in"  />
-        <pitem  name = "d1[0]"  direction = "in"  />
-        <pitem  name = "cond"  direction = "in"  />
-        <pitem  name = "o[2]"  direction = "out"  />
-        <pitem  name = "o[1]"  direction = "out"  />
-        <pitem  name = "o[0]"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "n368"  />
-        <nitem  name = "n369"  />
-        <nitem  name = "n370"  />
-        <nitem  name = "gnd"  />
-        <nitem  name = "n371"  />
-        <nitem  name = "n373"  />
-        <nitem  name = "n374"  />
-        <nitem  name = "n375"  />
-        </nets>
-    </instance>
-
-    <instance  name = "mux_60"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "d0[4]"  direction = "in"  />
-        <pitem  name = "d0[3]"  direction = "in"  />
-        <pitem  name = "d0[2]"  direction = "in"  />
-        <pitem  name = "d0[1]"  direction = "in"  />
-        <pitem  name = "d0[0]"  direction = "in"  />
-        <pitem  name = "d1[4]"  direction = "in"  />
-        <pitem  name = "d1[3]"  direction = "in"  />
-        <pitem  name = "d1[2]"  direction = "in"  />
-        <pitem  name = "d1[1]"  direction = "in"  />
-        <pitem  name = "d1[0]"  direction = "in"  />
-        <pitem  name = "cond"  direction = "in"  />
-        <pitem  name = "o[4]"  direction = "out"  />
-        <pitem  name = "o[3]"  direction = "out"  />
-        <pitem  name = "o[2]"  direction = "out"  />
-        <pitem  name = "o[1]"  direction = "out"  />
-        <pitem  name = "o[0]"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "i2c_steps[4]"  />
-        <nitem  name = "i2c_steps[3]"  />
-        <nitem  name = "i2c_steps[2]"  />
-        <nitem  name = "i2c_steps[1]"  />
-        <nitem  name = "i2c_steps[0]"  />
-        <nitem  name = "gnd"  />
-        <nitem  name = "pwr"  />
-        <nitem  name = "n371"  />
-        <nitem  name = "n377"  />
-        <nitem  name = "n378"  />
-        <nitem  name = "n379"  />
-        <nitem  name = "n380"  />
-        <nitem  name = "n381"  />
-        </nets>
-    </instance>
-
-    <instance  name = "mux_62"  library = "work"  arch = ""  type = "comb">
-        <pins>
-        <pitem  name = "d0[3]"  direction = "in"  />
-        <pitem  name = "d0[2]"  direction = "in"  />
-        <pitem  name = "d0[1]"  direction = "in"  />
-        <pitem  name = "d0[0]"  direction = "in"  />
-        <pitem  name = "d1[3]"  direction = "in"  />
-        <pitem  name = "d1[2]"  direction = "in"  />
-        <pitem  name = "d1[1]"  direction = "in"  />
-        <pitem  name = "d1[0]"  direction = "in"  />
-        <pitem  name = "cond"  direction = "in"  />
-        <pitem  name = "o[3]"  direction = "out"  />
-        <pitem  name = "o[2]"  direction = "out"  />
-        <pitem  name = "o[1]"  direction = "out"  />
-        <pitem  name = "o[0]"  direction = "out"  />
-        </pins>
-
-        <nets>
-        <nitem  name = "pwr"  />
-        <nitem  name = "gnd"  />
-        <nitem  name = "hard0_SBACKo"  />
-        <nitem  name = "hard_SBADRi_3__N_171[3]"  />
-        <nitem  name = "hard_SBADRi_3__N_171[2]"  />
-        <nitem  name = "hard_SBADRi_3__N_171[1]"  />
-        <nitem  name = "hard_SBADRi_3__N_171[0]"  />
+        <nitem  name = "n386"  />
         </nets>
     </instance>
 
@@ -2340,16 +2487,14 @@
         </pins>
 
         <nets>
-        <nitem  name = "i2c_cnt[2]"  />
-        <nitem  name = "i2c_cnt[1]"  />
-        <nitem  name = "i2c_cnt[0]"  />
-        <nitem  name = "n373"  />
-        <nitem  name = "n374"  />
-        <nitem  name = "n375"  />
-        <nitem  name = "hard0_SBACKo"  />
-        <nitem  name = "i2c_cnt_2__N_213[2]"  />
-        <nitem  name = "i2c_cnt_2__N_213[1]"  />
-        <nitem  name = "i2c_cnt_2__N_213[0]"  />
+        <nitem  name = "n383"  />
+        <nitem  name = "n384"  />
+        <nitem  name = "n385"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "n386"  />
+        <nitem  name = "n388"  />
+        <nitem  name = "n389"  />
+        <nitem  name = "n390"  />
         </nets>
     </instance>
 
@@ -2379,11 +2524,104 @@
         <nitem  name = "i2c_steps[2]"  />
         <nitem  name = "i2c_steps[1]"  />
         <nitem  name = "i2c_steps[0]"  />
-        <nitem  name = "n377"  />
-        <nitem  name = "n378"  />
-        <nitem  name = "n379"  />
-        <nitem  name = "n380"  />
-        <nitem  name = "n381"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "n386"  />
+        <nitem  name = "n392"  />
+        <nitem  name = "n393"  />
+        <nitem  name = "n394"  />
+        <nitem  name = "n395"  />
+        <nitem  name = "n396"  />
+        </nets>
+    </instance>
+
+    <instance  name = "mux_67"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "d0[3]"  direction = "in"  />
+        <pitem  name = "d0[2]"  direction = "in"  />
+        <pitem  name = "d0[1]"  direction = "in"  />
+        <pitem  name = "d0[0]"  direction = "in"  />
+        <pitem  name = "d1[3]"  direction = "in"  />
+        <pitem  name = "d1[2]"  direction = "in"  />
+        <pitem  name = "d1[1]"  direction = "in"  />
+        <pitem  name = "d1[0]"  direction = "in"  />
+        <pitem  name = "cond"  direction = "in"  />
+        <pitem  name = "o[3]"  direction = "out"  />
+        <pitem  name = "o[2]"  direction = "out"  />
+        <pitem  name = "o[1]"  direction = "out"  />
+        <pitem  name = "o[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "pwr"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "hard0_SBACKo"  />
+        <nitem  name = "hard_SBADRi_3__N_171[3]"  />
+        <nitem  name = "hard_SBADRi_3__N_171[2]"  />
+        <nitem  name = "hard_SBADRi_3__N_171[1]"  />
+        <nitem  name = "hard_SBADRi_3__N_171[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "mux_69"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "d0[2]"  direction = "in"  />
+        <pitem  name = "d0[1]"  direction = "in"  />
+        <pitem  name = "d0[0]"  direction = "in"  />
+        <pitem  name = "d1[2]"  direction = "in"  />
+        <pitem  name = "d1[1]"  direction = "in"  />
+        <pitem  name = "d1[0]"  direction = "in"  />
+        <pitem  name = "cond"  direction = "in"  />
+        <pitem  name = "o[2]"  direction = "out"  />
+        <pitem  name = "o[1]"  direction = "out"  />
+        <pitem  name = "o[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "i2c_cnt[2]"  />
+        <nitem  name = "i2c_cnt[1]"  />
+        <nitem  name = "i2c_cnt[0]"  />
+        <nitem  name = "n388"  />
+        <nitem  name = "n389"  />
+        <nitem  name = "n390"  />
+        <nitem  name = "hard0_SBACKo"  />
+        <nitem  name = "i2c_cnt_2__N_213[2]"  />
+        <nitem  name = "i2c_cnt_2__N_213[1]"  />
+        <nitem  name = "i2c_cnt_2__N_213[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "mux_70"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "d0[4]"  direction = "in"  />
+        <pitem  name = "d0[3]"  direction = "in"  />
+        <pitem  name = "d0[2]"  direction = "in"  />
+        <pitem  name = "d0[1]"  direction = "in"  />
+        <pitem  name = "d0[0]"  direction = "in"  />
+        <pitem  name = "d1[4]"  direction = "in"  />
+        <pitem  name = "d1[3]"  direction = "in"  />
+        <pitem  name = "d1[2]"  direction = "in"  />
+        <pitem  name = "d1[1]"  direction = "in"  />
+        <pitem  name = "d1[0]"  direction = "in"  />
+        <pitem  name = "cond"  direction = "in"  />
+        <pitem  name = "o[4]"  direction = "out"  />
+        <pitem  name = "o[3]"  direction = "out"  />
+        <pitem  name = "o[2]"  direction = "out"  />
+        <pitem  name = "o[1]"  direction = "out"  />
+        <pitem  name = "o[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "i2c_steps[4]"  />
+        <nitem  name = "i2c_steps[3]"  />
+        <nitem  name = "i2c_steps[2]"  />
+        <nitem  name = "i2c_steps[1]"  />
+        <nitem  name = "i2c_steps[0]"  />
+        <nitem  name = "n392"  />
+        <nitem  name = "n393"  />
+        <nitem  name = "n394"  />
+        <nitem  name = "n395"  />
+        <nitem  name = "n396"  />
         <nitem  name = "hard0_SBACKo"  />
         <nitem  name = "i2c_steps_4__N_140[4]"  />
         <nitem  name = "i2c_steps_4__N_140[3]"  />
@@ -2393,7 +2631,7 @@
         </nets>
     </instance>
 
-    <instance  name = "equal_66"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "equal_71"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[31]"  direction = "in"  />
         <pitem  name = "a[30]"  direction = "in"  />
@@ -2466,11 +2704,11 @@
         <nitem  name = "gnd"  />
         <nitem  name = "i2c_stat[2]"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n407"  />
+        <nitem  name = "n422"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_67"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_72"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[4]"  direction = "in"  />
         <pitem  name = "d0[3]"  direction = "in"  />
@@ -2498,16 +2736,16 @@
         <nitem  name = "i2c_steps[0]"  />
         <nitem  name = "gnd"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n407"  />
-        <nitem  name = "n409"  />
-        <nitem  name = "n410"  />
-        <nitem  name = "n411"  />
-        <nitem  name = "n412"  />
-        <nitem  name = "n413"  />
+        <nitem  name = "n422"  />
+        <nitem  name = "n424"  />
+        <nitem  name = "n425"  />
+        <nitem  name = "n426"  />
+        <nitem  name = "n427"  />
+        <nitem  name = "n428"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_71"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_76"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[4]"  direction = "in"  />
         <pitem  name = "d0[3]"  direction = "in"  />
@@ -2533,11 +2771,11 @@
         <nitem  name = "i2c_steps[2]"  />
         <nitem  name = "i2c_steps[1]"  />
         <nitem  name = "i2c_steps[0]"  />
-        <nitem  name = "n409"  />
-        <nitem  name = "n410"  />
-        <nitem  name = "n411"  />
-        <nitem  name = "n412"  />
-        <nitem  name = "n413"  />
+        <nitem  name = "n424"  />
+        <nitem  name = "n425"  />
+        <nitem  name = "n426"  />
+        <nitem  name = "n427"  />
+        <nitem  name = "n428"  />
         <nitem  name = "hard0_SBACKo"  />
         <nitem  name = "i2c_steps_4__N_145[4]"  />
         <nitem  name = "i2c_steps_4__N_145[3]"  />
@@ -2547,7 +2785,7 @@
         </nets>
     </instance>
 
-    <instance  name = "Decoder_72"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "Decoder_77"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "i[1]"  direction = "in"  />
         <pitem  name = "i[0]"  direction = "in"  />
@@ -2559,13 +2797,13 @@
         <nets>
         <nitem  name = "i2c_cmd_cnt[1]"  />
         <nitem  name = "i2c_cmd_cnt[0]"  />
-        <nitem  name = "n437"  />
-        <nitem  name = "n438"  />
-        <nitem  name = "n439"  />
+        <nitem  name = "n452"  />
+        <nitem  name = "n453"  />
+        <nitem  name = "n454"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_73"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_78"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[7]"  direction = "in"  />
         <pitem  name = "d0[6]"  direction = "in"  />
@@ -2611,19 +2849,19 @@
         <nitem  name = "hard0_SBDATo[2]"  />
         <nitem  name = "hard0_SBDATo[1]"  />
         <nitem  name = "hard0_SBDATo[0]"  />
-        <nitem  name = "n437"  />
-        <nitem  name = "n441"  />
-        <nitem  name = "n442"  />
-        <nitem  name = "n443"  />
-        <nitem  name = "n444"  />
-        <nitem  name = "n445"  />
-        <nitem  name = "n446"  />
-        <nitem  name = "n447"  />
-        <nitem  name = "n448"  />
+        <nitem  name = "n452"  />
+        <nitem  name = "n456"  />
+        <nitem  name = "n457"  />
+        <nitem  name = "n458"  />
+        <nitem  name = "n459"  />
+        <nitem  name = "n460"  />
+        <nitem  name = "n461"  />
+        <nitem  name = "n462"  />
+        <nitem  name = "n463"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_74"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_79"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[7]"  direction = "in"  />
         <pitem  name = "d0[6]"  direction = "in"  />
@@ -2669,19 +2907,19 @@
         <nitem  name = "hard0_SBDATo[2]"  />
         <nitem  name = "hard0_SBDATo[1]"  />
         <nitem  name = "hard0_SBDATo[0]"  />
-        <nitem  name = "n438"  />
-        <nitem  name = "n450"  />
-        <nitem  name = "n451"  />
-        <nitem  name = "n452"  />
         <nitem  name = "n453"  />
-        <nitem  name = "n454"  />
-        <nitem  name = "n455"  />
-        <nitem  name = "n456"  />
-        <nitem  name = "n457"  />
+        <nitem  name = "n465"  />
+        <nitem  name = "n466"  />
+        <nitem  name = "n467"  />
+        <nitem  name = "n468"  />
+        <nitem  name = "n469"  />
+        <nitem  name = "n470"  />
+        <nitem  name = "n471"  />
+        <nitem  name = "n472"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_75"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_80"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[7]"  direction = "in"  />
         <pitem  name = "d0[6]"  direction = "in"  />
@@ -2727,19 +2965,19 @@
         <nitem  name = "hard0_SBDATo[2]"  />
         <nitem  name = "hard0_SBDATo[1]"  />
         <nitem  name = "hard0_SBDATo[0]"  />
-        <nitem  name = "n439"  />
-        <nitem  name = "n459"  />
-        <nitem  name = "n460"  />
-        <nitem  name = "n461"  />
-        <nitem  name = "n462"  />
-        <nitem  name = "n463"  />
-        <nitem  name = "n464"  />
-        <nitem  name = "n465"  />
-        <nitem  name = "n466"  />
+        <nitem  name = "n454"  />
+        <nitem  name = "n474"  />
+        <nitem  name = "n475"  />
+        <nitem  name = "n476"  />
+        <nitem  name = "n477"  />
+        <nitem  name = "n478"  />
+        <nitem  name = "n479"  />
+        <nitem  name = "n480"  />
+        <nitem  name = "n481"  />
         </nets>
     </instance>
 
-    <instance  name = "add_76"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "add_81"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "cin"  direction = "in"  />
         <pitem  name = "a[31]"  direction = "in"  />
@@ -2817,13 +3055,13 @@
         <nitem  name = "i2c_cmd_cnt[1]"  />
         <nitem  name = "i2c_cmd_cnt[0]"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "n498"  />
-        <nitem  name = "n499"  />
-        <nitem  name = "n500"  />
+        <nitem  name = "n513"  />
+        <nitem  name = "n514"  />
+        <nitem  name = "n515"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_77"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_82"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[2]"  direction = "in"  />
         <pitem  name = "d0[1]"  direction = "in"  />
@@ -2838,18 +3076,18 @@
         </pins>
 
         <nets>
-        <nitem  name = "n498"  />
-        <nitem  name = "n499"  />
-        <nitem  name = "n500"  />
+        <nitem  name = "n513"  />
+        <nitem  name = "n514"  />
+        <nitem  name = "n515"  />
         <nitem  name = "gnd"  />
         <nitem  name = "cmd_decoded"  />
-        <nitem  name = "n502"  />
-        <nitem  name = "n503"  />
-        <nitem  name = "n504"  />
+        <nitem  name = "n517"  />
+        <nitem  name = "n518"  />
+        <nitem  name = "n519"  />
         </nets>
     </instance>
 
-    <instance  name = "mux_80"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_85"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[23]"  direction = "in"  />
         <pitem  name = "d0[22]"  direction = "in"  />
@@ -2951,30 +3189,30 @@
         <nitem  name = "i2c_cmd[0][2]"  />
         <nitem  name = "i2c_cmd[0][1]"  />
         <nitem  name = "i2c_cmd[0][0]"  />
-        <nitem  name = "n441"  />
-        <nitem  name = "n442"  />
-        <nitem  name = "n443"  />
-        <nitem  name = "n444"  />
-        <nitem  name = "n445"  />
-        <nitem  name = "n446"  />
-        <nitem  name = "n447"  />
-        <nitem  name = "n448"  />
-        <nitem  name = "n450"  />
-        <nitem  name = "n451"  />
-        <nitem  name = "n452"  />
-        <nitem  name = "n453"  />
-        <nitem  name = "n454"  />
-        <nitem  name = "n455"  />
         <nitem  name = "n456"  />
         <nitem  name = "n457"  />
+        <nitem  name = "n458"  />
         <nitem  name = "n459"  />
         <nitem  name = "n460"  />
         <nitem  name = "n461"  />
         <nitem  name = "n462"  />
         <nitem  name = "n463"  />
-        <nitem  name = "n464"  />
         <nitem  name = "n465"  />
         <nitem  name = "n466"  />
+        <nitem  name = "n467"  />
+        <nitem  name = "n468"  />
+        <nitem  name = "n469"  />
+        <nitem  name = "n470"  />
+        <nitem  name = "n471"  />
+        <nitem  name = "n472"  />
+        <nitem  name = "n474"  />
+        <nitem  name = "n475"  />
+        <nitem  name = "n476"  />
+        <nitem  name = "n477"  />
+        <nitem  name = "n478"  />
+        <nitem  name = "n479"  />
+        <nitem  name = "n480"  />
+        <nitem  name = "n481"  />
         <nitem  name = "hard0_SBACKo"  />
         <nitem  name = "i2c_cmd_2__7__N_216[23]"  />
         <nitem  name = "i2c_cmd_2__7__N_216[22]"  />
@@ -3003,7 +3241,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_81"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_86"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[2]"  direction = "in"  />
         <pitem  name = "d0[1]"  direction = "in"  />
@@ -3021,9 +3259,9 @@
         <nitem  name = "i2c_cmd_cnt[2]"  />
         <nitem  name = "i2c_cmd_cnt[1]"  />
         <nitem  name = "i2c_cmd_cnt[0]"  />
-        <nitem  name = "n502"  />
-        <nitem  name = "n503"  />
-        <nitem  name = "n504"  />
+        <nitem  name = "n517"  />
+        <nitem  name = "n518"  />
+        <nitem  name = "n519"  />
         <nitem  name = "hard0_SBACKo"  />
         <nitem  name = "i2c_cmd_cnt_2__N_240[2]"  />
         <nitem  name = "i2c_cmd_cnt_2__N_240[1]"  />
@@ -3031,7 +3269,7 @@
         </nets>
     </instance>
 
-    <instance  name = "mux_82"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "mux_87"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "d0[4]"  direction = "in"  />
         <pitem  name = "d0[3]"  direction = "in"  />
@@ -3068,7 +3306,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_160"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_175"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -3094,7 +3332,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_161"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_176"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -3121,7 +3359,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_162"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_177"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -3148,7 +3386,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_163"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_178"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -3175,7 +3413,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_164"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_179"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -3202,7 +3440,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_165"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_180"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -3229,7 +3467,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_166"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_181"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -3256,7 +3494,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_167"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_182"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[4]"  direction = "in"  />
         <pitem  name = "a[3]"  direction = "in"  />
@@ -3310,7 +3548,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__N_110_I_0_168"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__N_110_I_0_183"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[8]"  direction = "in"  />
         <pitem  name = "a[7]"  direction = "in"  />
@@ -3350,11 +3588,11 @@
         <nitem  name = "hard_SBCSi"  />
         <nitem  name = "pwr"  />
         <nitem  name = "i2c_steps_4__N_110"  />
-        <nitem  name = "hard_SBCSi_N_261"  />
+        <nitem  name = "hard_SBCSi_N_263"  />
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__I_0_159"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__I_0_174"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[9]"  direction = "in"  />
         <pitem  name = "sel[8]"  direction = "in"  />
@@ -3496,7 +3734,7 @@
         <nitem  name = "i2c_steps_4__N_110"  />
         <nitem  name = "i2c_steps_4__N_118"  />
         <nitem  name = "i2c_steps_4__N_119"  />
-        <nitem  name = "hard_SBSTBi_N_263"  />
+        <nitem  name = "hard_SBSTBi_N_265"  />
         </nets>
     </instance>
 
@@ -3514,11 +3752,11 @@
         <nitem  name = "i2c_steps_4__N_115"  />
         <nitem  name = "i2c_steps_4__N_116"  />
         <nitem  name = "i2c_steps_4__N_117"  />
-        <nitem  name = "hard_SBWRi_N_267"  />
+        <nitem  name = "hard_SBWRi_N_269"  />
         </nets>
     </instance>
 
-    <instance  name = "hard_SBSTBi_N_263_I_0"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "hard_SBSTBi_N_265_I_0"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[4]"  direction = "in"  />
         <pitem  name = "sel[3]"  direction = "in"  />
@@ -3534,15 +3772,15 @@
         </pins>
 
         <nets>
-        <nitem  name = "hard_SBSTBi_N_263"  />
+        <nitem  name = "hard_SBSTBi_N_265"  />
         <nitem  name = "i2c_steps_4__N_111"  />
         <nitem  name = "i2c_steps_4__N_112"  />
         <nitem  name = "i2c_steps_4__N_113"  />
-        <nitem  name = "hard_SBWRi_N_267"  />
+        <nitem  name = "hard_SBWRi_N_269"  />
         <nitem  name = "hard_SBWRi"  />
-        <nitem  name = "hard0_SBACKo_N_265"  />
+        <nitem  name = "hard0_SBACKo_N_267"  />
         <nitem  name = "gnd"  />
-        <nitem  name = "hard_SBWRi_N_266"  />
+        <nitem  name = "hard_SBWRi_N_268"  />
         </nets>
     </instance>
 
@@ -3568,7 +3806,7 @@
         </pins>
 
         <nets>
-        <nitem  name = "hard_SBSTBi_N_263"  />
+        <nitem  name = "hard_SBSTBi_N_265"  />
         <nitem  name = "i2c_steps_4__N_111"  />
         <nitem  name = "i2c_steps_4__N_112"  />
         <nitem  name = "i2c_steps_4__N_113"  />
@@ -3577,12 +3815,12 @@
         <nitem  name = "i2c_steps_4__N_116"  />
         <nitem  name = "i2c_steps_4__N_117"  />
         <nitem  name = "hard_SBSTBi"  />
-        <nitem  name = "hard0_SBACKo_N_265"  />
-        <nitem  name = "hard_SBSTBi_N_262"  />
+        <nitem  name = "hard0_SBACKo_N_267"  />
+        <nitem  name = "hard_SBSTBi_N_264"  />
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__N_110_I_0_169"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__N_110_I_0_184"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[9]"  direction = "in"  />
         <pitem  name = "sel[8]"  direction = "in"  />
@@ -3682,7 +3920,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__N_110_I_0_170"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__N_110_I_0_185"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[9]"  direction = "in"  />
         <pitem  name = "sel[8]"  direction = "in"  />
@@ -3871,7 +4109,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__N_110_I_0_171"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__N_110_I_0_186"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[9]"  direction = "in"  />
         <pitem  name = "sel[8]"  direction = "in"  />
@@ -4011,7 +4249,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__N_110_I_0_172"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__N_110_I_0_187"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[9]"  direction = "in"  />
         <pitem  name = "sel[8]"  direction = "in"  />
@@ -4081,7 +4319,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__N_110_I_0_173"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__N_110_I_0_188"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[9]"  direction = "in"  />
         <pitem  name = "sel[8]"  direction = "in"  />
@@ -4445,7 +4683,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_steps_4__N_110_I_0_181"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_steps_4__N_110_I_0_198"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "sel[9]"  direction = "in"  />
         <pitem  name = "sel[8]"  direction = "in"  />
@@ -4556,7 +4794,7 @@
         </nets>
     </instance>
 
-    <instance  name = "hard_SBWRi_147"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "hard_SBWRi_161"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "d"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -4566,14 +4804,14 @@
         </pins>
 
         <nets>
-        <nitem  name = "hard_SBWRi_N_266"  />
+        <nitem  name = "hard_SBWRi_N_268"  />
         <nitem  name = "sysclk"  />
         <nitem  name = "gnd"  />
         <nitem  name = "hard_SBWRi"  />
         </nets>
     </instance>
 
-    <instance  name = "hard_SBSTBi_148"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "hard_SBSTBi_162"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "d"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -4583,7 +4821,7 @@
         </pins>
 
         <nets>
-        <nitem  name = "hard_SBSTBi_N_262"  />
+        <nitem  name = "hard_SBSTBi_N_264"  />
         <nitem  name = "sysclk"  />
         <nitem  name = "gnd"  />
         <nitem  name = "hard_SBSTBi"  />
@@ -4968,7 +5206,7 @@
         </nets>
     </instance>
 
-    <instance  name = "cmd_decoded_156"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "cmd_decoded_170"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "d"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -4978,7 +5216,7 @@
         </pins>
 
         <nets>
-        <nitem  name = "cmd_decoded_N_268"  />
+        <nitem  name = "cmd_decoded_N_270"  />
         <nitem  name = "sysclk"  />
         <nitem  name = "gnd"  />
         <nitem  name = "cmd_decoded"  />
@@ -5059,11 +5297,11 @@
         <nitem  name = "i2c_cmd_cnt[2]"  />
         <nitem  name = "i2c_cmd_cnt[1]"  />
         <nitem  name = "i2c_cmd_cnt[0]"  />
-        <nitem  name = "cmd_decoded_N_271"  />
+        <nitem  name = "cmd_decoded_N_273"  />
         </nets>
     </instance>
 
-    <instance  name = "cmd_decoded_I_0_184"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "cmd_decoded_I_0_201"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -5074,8 +5312,8 @@
         <nets>
         <nitem  name = "cmd_decoded"  />
         <nitem  name = "gnd"  />
-        <nitem  name = "cmd_decoded_N_271"  />
-        <nitem  name = "cmd_decoded_N_270"  />
+        <nitem  name = "cmd_decoded_N_273"  />
+        <nitem  name = "cmd_decoded_N_272"  />
         </nets>
     </instance>
 
@@ -5151,11 +5389,11 @@
         <nets>
         <nitem  name = "gnd"  />
         <nitem  name = "cmd_decoded"  />
-        <nitem  name = "cmd_decoded_N_272"  />
+        <nitem  name = "cmd_decoded_N_274"  />
         </nets>
     </instance>
 
-    <instance  name = "cmd_decoded_I_0_183"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "cmd_decoded_I_0_200"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a0"  direction = "in"  />
         <pitem  name = "a1"  direction = "in"  />
@@ -5164,14 +5402,14 @@
         </pins>
 
         <nets>
-        <nitem  name = "cmd_decoded_N_270"  />
-        <nitem  name = "pwr"  />
         <nitem  name = "cmd_decoded_N_272"  />
-        <nitem  name = "cmd_decoded_N_269"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "cmd_decoded_N_274"  />
+        <nitem  name = "cmd_decoded_N_271"  />
         </nets>
     </instance>
 
-    <instance  name = "i2c_cmd_0__7__I_0_174"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_cmd_0__7__I_0_189"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[7]"  direction = "in"  />
         <pitem  name = "a[6]"  direction = "in"  />
@@ -5207,7 +5445,7 @@
         </nets>
     </instance>
 
-    <instance  name = "i2c_cmd_0__7__I_0_175"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "i2c_cmd_0__7__I_0_190"  library = "work"  arch = ""  type = "comb">
         <pins>
         <pitem  name = "a[7]"  direction = "in"  />
         <pitem  name = "a[6]"  direction = "in"  />
@@ -5240,6 +5478,78 @@
         <nitem  name = "gnd"  />
         <nitem  name = "pwr"  />
         <nitem  name = "PWM_duty_7__N_244"  />
+        </nets>
+    </instance>
+
+    <instance  name = "i2c_cmd_0__7__I_0_191"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "i2c_cmd[0][7]"  />
+        <nitem  name = "i2c_cmd[0][6]"  />
+        <nitem  name = "i2c_cmd[0][5]"  />
+        <nitem  name = "i2c_cmd[0][4]"  />
+        <nitem  name = "i2c_cmd[0][3]"  />
+        <nitem  name = "i2c_cmd[0][2]"  />
+        <nitem  name = "i2c_cmd[0][1]"  />
+        <nitem  name = "i2c_cmd[0][0]"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "PWM_duty_7__N_245"  />
+        </nets>
+    </instance>
+
+    <instance  name = "i2c_cmd_0__7__I_0_192"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a[7]"  direction = "in"  />
+        <pitem  name = "a[6]"  direction = "in"  />
+        <pitem  name = "a[5]"  direction = "in"  />
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[5]"  direction = "in"  />
+        <pitem  name = "b[4]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "i2c_cmd[0][7]"  />
+        <nitem  name = "i2c_cmd[0][6]"  />
+        <nitem  name = "i2c_cmd[0][5]"  />
+        <nitem  name = "i2c_cmd[0][4]"  />
+        <nitem  name = "i2c_cmd[0][3]"  />
+        <nitem  name = "i2c_cmd[0][2]"  />
+        <nitem  name = "i2c_cmd[0][1]"  />
+        <nitem  name = "i2c_cmd[0][0]"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "PWM_duty_7__N_246"  />
         </nets>
     </instance>
 
@@ -5275,12 +5585,14 @@
         <nitem  name = "i2c_cmd[0][0]"  />
         <nitem  name = "gnd"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "PWM_duty_7__N_245"  />
+        <nitem  name = "PWM_duty_7__N_247"  />
         </nets>
     </instance>
 
-    <instance  name = "PWM_duty_7__N_243_I_0_182"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "PWM_duty_7__N_243_I_0_199"  library = "work"  arch = ""  type = "comb">
         <pins>
+        <pitem  name = "a[4]"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
         <pitem  name = "a[2]"  direction = "in"  />
         <pitem  name = "a[1]"  direction = "in"  />
         <pitem  name = "a[0]"  direction = "in"  />
@@ -5292,15 +5604,35 @@
         <nitem  name = "PWM_duty_7__N_244"  />
         <nitem  name = "PWM_duty_7__N_245"  />
         <nitem  name = "PWM_duty_7__N_246"  />
+        <nitem  name = "PWM_duty_7__N_247"  />
+        <nitem  name = "PWM_duty_7__N_248"  />
         </nets>
     </instance>
 
     <instance  name = "PWM_duty_7__I_0"  library = "work"  arch = ""  type = "comb">
         <pins>
+        <pitem  name = "sel[5]"  direction = "in"  />
+        <pitem  name = "sel[4]"  direction = "in"  />
         <pitem  name = "sel[3]"  direction = "in"  />
         <pitem  name = "sel[2]"  direction = "in"  />
         <pitem  name = "sel[1]"  direction = "in"  />
         <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[47]"  direction = "in"  />
+        <pitem  name = "data[46]"  direction = "in"  />
+        <pitem  name = "data[45]"  direction = "in"  />
+        <pitem  name = "data[44]"  direction = "in"  />
+        <pitem  name = "data[43]"  direction = "in"  />
+        <pitem  name = "data[42]"  direction = "in"  />
+        <pitem  name = "data[41]"  direction = "in"  />
+        <pitem  name = "data[40]"  direction = "in"  />
+        <pitem  name = "data[39]"  direction = "in"  />
+        <pitem  name = "data[38]"  direction = "in"  />
+        <pitem  name = "data[37]"  direction = "in"  />
+        <pitem  name = "data[36]"  direction = "in"  />
+        <pitem  name = "data[35]"  direction = "in"  />
+        <pitem  name = "data[34]"  direction = "in"  />
+        <pitem  name = "data[33]"  direction = "in"  />
+        <pitem  name = "data[32]"  direction = "in"  />
         <pitem  name = "data[31]"  direction = "in"  />
         <pitem  name = "data[30]"  direction = "in"  />
         <pitem  name = "data[29]"  direction = "in"  />
@@ -5348,6 +5680,8 @@
         <nitem  name = "PWM_duty_7__N_244"  />
         <nitem  name = "PWM_duty_7__N_245"  />
         <nitem  name = "PWM_duty_7__N_246"  />
+        <nitem  name = "PWM_duty_7__N_247"  />
+        <nitem  name = "PWM_duty_7__N_248"  />
         <nitem  name = "i2c_cmd[1][7]"  />
         <nitem  name = "i2c_cmd[1][6]"  />
         <nitem  name = "i2c_cmd[1][5]"  />
@@ -5375,12 +5709,16 @@
         </nets>
     </instance>
 
-    <instance  name = "PWM_duty_7__N_243_I_0_185"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "PWM_duty_7__N_243_I_0_202"  library = "work"  arch = ""  type = "comb">
         <pins>
+        <pitem  name = "sel[5]"  direction = "in"  />
+        <pitem  name = "sel[4]"  direction = "in"  />
         <pitem  name = "sel[3]"  direction = "in"  />
         <pitem  name = "sel[2]"  direction = "in"  />
         <pitem  name = "sel[1]"  direction = "in"  />
         <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[5]"  direction = "in"  />
+        <pitem  name = "data[4]"  direction = "in"  />
         <pitem  name = "data[3]"  direction = "in"  />
         <pitem  name = "data[2]"  direction = "in"  />
         <pitem  name = "data[1]"  direction = "in"  />
@@ -5393,23 +5731,29 @@
         <nitem  name = "PWM_duty_7__N_244"  />
         <nitem  name = "PWM_duty_7__N_245"  />
         <nitem  name = "PWM_duty_7__N_246"  />
-        <nitem  name = "cmd_decoded_N_269"  />
+        <nitem  name = "PWM_duty_7__N_247"  />
+        <nitem  name = "PWM_duty_7__N_248"  />
+        <nitem  name = "cmd_decoded_N_271"  />
+        <nitem  name = "cmd_decoded_N_272"  />
         <nitem  name = "cmd_decoded_N_270"  />
-        <nitem  name = "cmd_decoded_N_268"  />
         </nets>
     </instance>
 
-    <instance  name = "PWM_duty_7__N_243_I_0"  library = "work"  arch = ""  type = "comb">
+    <instance  name = "PWM_duty_7__N_243_I_0_203"  library = "work"  arch = ""  type = "comb">
         <pins>
-        <pitem  name = "a0"  direction = "in"  />
-        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
         <pitem  name = "o"  direction = "out"  />
         </pins>
 
         <nets>
         <nitem  name = "PWM_duty_7__N_243"  />
         <nitem  name = "PWM_duty_7__N_246"  />
-        <nitem  name = "motor_on_N_274"  />
+        <nitem  name = "PWM_duty_7__N_247"  />
+        <nitem  name = "PWM_duty_7__N_248"  />
+        <nitem  name = "motor_on_N_276"  />
         </nets>
     </instance>
 
@@ -5425,13 +5769,53 @@
         </pins>
 
         <nets>
-        <nitem  name = "motor_on_N_274"  />
+        <nitem  name = "motor_on_N_276"  />
         <nitem  name = "PWM_duty_7__N_244"  />
         <nitem  name = "PWM_duty_7__N_245"  />
         <nitem  name = "motor_on"  />
         <nitem  name = "gnd"  />
         <nitem  name = "pwr"  />
-        <nitem  name = "motor_on_N_273"  />
+        <nitem  name = "motor_on_N_275"  />
+        </nets>
+    </instance>
+
+    <instance  name = "PWM_duty_7__N_243_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "PWM_duty_7__N_243"  />
+        <nitem  name = "PWM_duty_7__N_244"  />
+        <nitem  name = "PWM_duty_7__N_245"  />
+        <nitem  name = "PWM_duty_7__N_248"  />
+        <nitem  name = "motor_dir_N_278"  />
+        </nets>
+    </instance>
+
+    <instance  name = "motor_dir_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "sel[2]"  direction = "in"  />
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "motor_dir_N_278"  />
+        <nitem  name = "PWM_duty_7__N_246"  />
+        <nitem  name = "PWM_duty_7__N_247"  />
+        <nitem  name = "motor_dir"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "motor_dir_N_277"  />
         </nets>
     </instance>
 
@@ -5494,7 +5878,7 @@
         </nets>
     </instance>
 
-    <instance  name = "motor_on_158"  library = "work"  arch = ""  type = "reg">
+    <instance  name = "motor_on_172"  library = "work"  arch = ""  type = "reg">
         <pins>
         <pitem  name = "d"  direction = "in"  />
         <pitem  name = "clk"  direction = "in"  />
@@ -5504,10 +5888,27 @@
         </pins>
 
         <nets>
-        <nitem  name = "motor_on_N_273"  />
+        <nitem  name = "motor_on_N_275"  />
         <nitem  name = "sysclk"  />
         <nitem  name = "gnd"  />
         <nitem  name = "motor_on"  />
+        </nets>
+    </instance>
+
+    <instance  name = "motor_dir_173"  library = "work"  arch = ""  type = "reg">
+        <pins>
+        <pitem  name = "d"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "motor_dir_N_277"  />
+        <nitem  name = "sysclk"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "motor_dir"  />
         </nets>
     </instance>
 
@@ -5589,28 +5990,29 @@
     </instance>
 
     <!--
-        REG instances in netlist: 19
+        REG instances in netlist: 20
     -->
 
     <regs>
         <reg  name = "PWM_cnt"  />
         <reg  name = "drv_cnt"  />
-        <reg  name = "PWM_B_142"  />
-        <reg  name = "PWM_G_143"  />
-        <reg  name = "PWM_R_144"  />
-        <reg  name = "hard_SBCSi_145"  />
+        <reg  name = "PWM_B_156"  />
+        <reg  name = "PWM_G_157"  />
+        <reg  name = "PWM_R_158"  />
+        <reg  name = "hard_SBCSi_159"  />
         <reg  name = "i2c_steps"  />
-        <reg  name = "hard_SBWRi_147"  />
-        <reg  name = "hard_SBSTBi_148"  />
+        <reg  name = "hard_SBWRi_161"  />
+        <reg  name = "hard_SBSTBi_162"  />
         <reg  name = "soft_SBADRi"  />
         <reg  name = "hard_SBDATi"  />
         <reg  name = "i2c_stat"  />
         <reg  name = "i2c_cnt"  />
         <reg  name = "i2c_cmd[0]"  />
         <reg  name = "i2c_cmd_cnt"  />
-        <reg  name = "cmd_decoded_156"  />
+        <reg  name = "cmd_decoded_170"  />
         <reg  name = "PWM_duty"  />
-        <reg  name = "motor_on_158"  />
+        <reg  name = "motor_on_172"  />
+        <reg  name = "motor_dir_173"  />
         <reg  name = "drv_clk_counter"  />
     </regs>
 
